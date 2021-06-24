@@ -1,0 +1,15 @@
+*.o
+*.d
+*.a
+*~
+*#
+.DS*
+*.swp
+*.bin
+*.log
+*.sbatch
+*.err
+*.out
+build
+data
+log

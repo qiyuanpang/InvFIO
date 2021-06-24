@@ -1,0 +1,17 @@
+
+
+------------------------------------------
+N:         16 
+------------------------------------------
+N                 :   16
+Max Rank          :    8
+Tolerance         : 1.000e-06
+Relative Error_2  : 5.191e-16
+Direct Time       : 1.539e-03 s
+Running Time      : 6.394e-03 mins
+Factorization Time: 6.359e-03 mins
+Applying Time     : 2.083e-03 s
+------------------------------------------
+
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
