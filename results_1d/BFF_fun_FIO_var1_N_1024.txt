@@ -1,0 +1,44 @@
+
+
+------------------------------------------
+N:       1024 
+------------------------------------------
+N                 : 1024
+Max Rank          :    8
+Tolerance         : 1.000e-06
+Relative Error_2  : 3.205e-07
+Direct Time       : 1.744e-01 s
+Running Time      : 8.862e-02 mins
+Factorization Time: 8.857e-02 mins
+Applying Time     : 2.804e-03 s
+------------------------------------------
+
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     10 |   20 |   2.14e-01 (s)
+  2 |      4 |   32 |   3.27e-01 (s)
+  3 |      5 |   32 |   3.57e-01 (s)
+  4 |      5 |   32 |   3.30e-01 (s)
+  5 |      5 |   30 |   3.21e-01 (s)
+time H_matrix construction 10e-6: 1.6489e+00 )
+mv: 1.4422e-05 
+--------------RSS contruction 1D------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  5 |   1024 |      652 |      372 |     0.64 |     0.36 |   2.68e-02 (s)
+  4 |    372 |      195 |      177 |     0.52 |     0.48 |   4.02e-03 (s)
+  3 |    177 |       94 |       83 |     0.53 |     0.47 |   1.44e-03 (s)
+  2 |     83 |       43 |       40 |     0.52 |     0.48 |   6.62e-04 (s)
+  1 |     40 |       20 |       20 |     0.50 |     0.50 |   6.98e-04 (s)
+-------------End RSS contruction 1D -----------
+time HIF construction 3.5713e-02 
+mv: 4.3003e-05  time 4.2680e-03
+sv: 7.8936e-04 time 2.2780e-03
+time/rank HODLR-QR construction 1.7797e-01/17 
+mv: 3.6314e-04 time 3.9130e-03
+sv: 6.8048e-03 time 3.4230e-03
+CG with A* preconditioning: tol   1.00e-04,   time/#iter 6.6379e-01 /  180, relerr 3.9118e-02 
+CG with HIF preconditioning: tol   1.00e-04,   time/#iter 1.2592e-02 /    1, relerr 2.6035e-03 
+CG with HQR preconditioning: tol   1.00e-04,   time/#iter 2.1715e-02 /    2, relerr 3.4847e-03 
+CG with A* preconditioning: tol   1.00e-08,   time/#iter 3.6666e+00 / 1024, relerr 5.6497e-06 
+CG with HIF preconditioning: tol   1.00e-08,   time/#iter 2.9574e-02 /    3, relerr 9.2326e-08 
+CG with HQR preconditioning: tol   1.00e-08,   time/#iter 4.7676e-02 /    5, relerr 1.5839e-07 
