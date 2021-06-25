@@ -15,10 +15,10 @@ mR = 8;
 occ = 32;
 tol_bf = 1E-6;
 tol_peel = 1E-4;
-tol_RSS = 1E-3;
+tol_RSS = 1E-2;
 maxit = 100;
 
-dims = 2.^[8 9 10 11 12 13 14 15 16]
+dims = 2.^[8 9 10 11 12 13 14]
 cases = length(dims);
 bftime = zeros(cases, 1);
 bferr = zeros(cases, 1);
@@ -119,7 +119,7 @@ for i = 1:cases
 
     % Construct HODLR-QR factorization of HODLR matrix
     tStart_HQR = tic;
-    [Y, YB, YC, T, R, rk] = hodlrqr(HODLR, [], [], [], lvls, 1, tol_RSS);
+    [Y, YB, YC, T, R, rk] = hodlrqr(HODLR, [], [], [], lvls, 1, tol_RSS/10);
     t = toc(tStart_HQR);
     factime_hqr(i) = t;
     ranks_hqr(i) = rk;
