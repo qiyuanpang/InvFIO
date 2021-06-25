@@ -187,6 +187,29 @@ logN = log2(N);
 NlogN = logN + log2(logN);
 N2logN = logN + 2*log2(logN);
 
+
+bftime = bftime(2:end);
+bferr = bferr(2:end);
+factime_hodlr = factime_hodlr(2:end);
+facerr_hodlr = facerr_hodlr(2:end);
+factime_hif = factime_hif(2:end);
+factime_hqr = factime_hqr(2:end);
+apptime_hif = apptime_hif(2:end);
+apptime_hqr = apptime_hqr(2:end);
+soltime_hif = soltime_hif(2:end);
+soltime_hqr = soltime_hqr(2:end);
+apperr_hif = apperr_hif(2:end);
+apperr_hqr = apperr_hqr(2:end);
+solerr_hif = solerr_hif(2:end);
+solerr_hqr = solerr_hqr(2:end);
+
+ranks_hif = ranks_hif(2:end);
+ranks_hqr = ranks_hqr(2:end);
+solerrpcg = solerrpcg(2:end);
+solerrpcg_hif = solerrpcg_hif(2:end);
+solerrpcg_hqr = solerrpcg_hqr(2:end);
+
+
 fig = figure(1);
 hold on;
 h(1) = plot(logN, log2(bftime));
@@ -281,8 +304,8 @@ hold off;
 
 fig = figure(8);
 hold on;
-h(1) = plot(logN, log2(apperr_hif));
-h(2) = plot(logN, log2(apperr_hqr));
+h(1) = plot(logN, log10(apperr_hif));
+h(2) = plot(logN, log10(apperr_hqr));
 xlabel('Log(N)');
 ylabel('Log10(Error)'); 
 title('App error');
@@ -293,8 +316,8 @@ hold off;
 
 fig = figure(9);
 hold on;
-h(1) = plot(logN, log2(solerr_hif));
-h(2) = plot(logN, log2(solerr_hqr));
+h(1) = plot(logN, log10(solerr_hif));
+h(2) = plot(logN, log10(solerr_hqr));
 xlabel('Log(N)');
 ylabel('Log10(Error)'); 
 title('App error');
