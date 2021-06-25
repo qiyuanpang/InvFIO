@@ -15,10 +15,11 @@ mR = 8;
 occ = 32;
 tol_bf = 1E-6;
 tol_peel = 1E-4;
-tol_RSS = 1E-2;
-maxit = 100;
+tol_RSS = 1E-3;
+maxit = 200;
+repeat_num = 5;
 
-dims = 2.^[8 9 10 11 12 13 14]
+dims = 2.^[8 9 10 11 12 13 14 15 16 17]
 cases = length(dims);
 bftime = zeros(cases, 1);
 bferr = zeros(cases, 1);
@@ -68,8 +69,10 @@ for i = 1:cases
 
     %% Construct HODLR factorization using peeling algorithm
     tStart=tic;
-    [F,HODLR] = HODLR_construction( N, @(x) apply_bf(Factor,x), @(x) apply_bf_adj(Factor,x), tol_peel, fileID, occ, 20,32);
-    t = toc(tStart);
+    for j = 1:repeat_num
+      [F,HODLR] = HODLR_construction( N, @(x) apply_bf(Factor,x), @(x) apply_bf_adj(Factor,x), tol_peel, fileID, occ, 20,32);
+    end
+    t = toc(tStart)/repeat_num;
     factime_hodlr(i) = t;
     fprintf(fileID,'time H_matrix construction 10e-6: %10.4e )\n',t);
     lvls = floor(log2(length(HODLR))-1);
@@ -85,16 +88,20 @@ for i = 1:cases
     
     % Construct RSS factorization of HODLR matrix
     tStart_HIF = tic;
-    [G] = RSS(F,tol_RSS,fileID);
-    t = toc(tStart_HIF);
+    for j = 1:repeat_num
+      [G] = RSS(F,tol_RSS,fileID);
+    end
+    t = toc(tStart_HIF)/repeat_num;
     factime_hif(i) = t;
     fprintf(fileID,'time HIF construction %10.4e \n',t);
     fprintf(OutPutFile, 'RSS Fac time: %10.4e \n', t);
 
     f = randn(N,1) + 1i*randn(N,1);
-    tic
-    RSS_apply(G,f);
-    t=toc;
+    tic;
+    for j = 1:repeat_num
+      RSS_apply(G,f);
+    end
+    t=toc/repeat_num;
     % [e,niter] = snorm(N,@(x)(apply_bf_adj(Factor,apply_bf(Factor,x)) - RSS_apply(G,x)),[],[],32);
     % e = e/snorm(N,@(x)(apply_bf_adj(Factor,apply_bf(Factor,x))),[],[],1);
     e = norm(apply_bf_adj(Factor,apply_bf(Factor,f)) - RSS_apply(G,f))/norm(apply_bf_adj(Factor,apply_bf(Factor,f)));
@@ -103,8 +110,10 @@ for i = 1:cases
     apperr_hif(i) = e;
     fprintf(OutPutFile, 'RSS mv err/time: %10.4e/%10.4e \n', e, t);
 
-    tic
-    RSS_inv(G,f);
+    tic;
+    for j = 1:repeat_num
+      RSS_inv(G,f);
+    end
     t=toc;
     % NORM(INV(A) - INV(F))/NORM(INV(A)) <= NORM(I - A*INV(F))
     %[e,niter] = snorm(N,@(x)(x-RSS_inv(G,apply_bf_adj(Factor,apply_bf(Factor,x)))),[],[],1);
@@ -119,16 +128,20 @@ for i = 1:cases
 
     % Construct HODLR-QR factorization of HODLR matrix
     tStart_HQR = tic;
-    [Y, YB, YC, T, R, rk] = hodlrqr(HODLR, [], [], [], lvls, 1, tol_RSS/10);
-    t = toc(tStart_HQR);
+    for j = 1:repeat_num
+      [Y, YB, YC, T, R, rk] = hodlrqr(HODLR, [], [], [], lvls, 1, tol_RSS);
+    end
+    t = toc(tStart_HQR)/repeat_num;
     factime_hqr(i) = t;
     ranks_hqr(i) = rk;
     fprintf(fileID,'time/rank HODLR-QR construction %10.4e/%d \n',t, rk);
     fprintf(OutPutFile, 'HQR Fac time/rank: %10.4e/%d \n', t, rk);
     
-    tic
-    y = hodlrqr_apply(Y, T, R, f);
-    t=toc;
+    tic;
+    for j = 1:repeat_num
+      y = hodlrqr_apply(Y, T, R, f);
+    end
+    t=toc/repeat_num;
     % [e,niter] = snorm(N,@(x)(apply_bf_adj(Factor,apply_bf(Factor,x)) - hodlrqr_apply(Y, T, R, x)),[],[],32);
     % e = e/snorm(N,@(x)(apply_bf_adj(Factor,apply_bf(Factor,x))),[],[],1);
     e = norm(apply_bf_adj(Factor,apply_bf(Factor,f)) - hodlrqr_apply(Y, T, R, f))/norm(apply_bf_adj(Factor,apply_bf(Factor,f)));
@@ -137,9 +150,11 @@ for i = 1:cases
     apperr_hqr(i) = e;
     fprintf(OutPutFile, 'HQR mv err/time: %10.4e/%10.4e \n', e, t);
 
-    tic
-    hodlrqr_inv(Y, T, R, f);
-    t=toc;
+    tic;
+    for j = 1:repeat_num
+      hodlrqr_inv(Y, T, R, f);
+    end
+    t=toc/repeat_num;
     % [e,niter] = snorm(N,@(x)(x-apply_bf(Factor,hodlrqr_inv(Y, T, R, apply_bf_adj(Factor,x)))),[],[],32);
     e = norm(f-apply_bf(Factor,hodlrqr_inv(Y, T, R, apply_bf_adj(Factor,f))))/norm(f);
     fprintf(fileID,'sv: %10.4e time %10.4e\n',e,t);
@@ -186,7 +201,7 @@ N = dims(2:end);
 logN = log2(N);
 NlogN = logN + log2(logN);
 N2logN = logN + 2*log2(logN);
-
+N4logN = logN + 4*log2(logN);
 
 bftime = bftime(2:end);
 bferr = bferr(2:end);
@@ -241,17 +256,18 @@ hold on;
 h(1) = plot(logN, log2(factime_hodlr));
 h(2) = plot(logN, NlogN-NlogN(1)+log2(factime_hodlr(1)));
 h(3) = plot(logN, N2logN-N2logN(1)+log2(factime_hodlr(1)));
+h(4) = plot(logN, N4logN-N4logN(1)+log2(factime_hodlr(1)));
 xlabel('Log(N)');
 ylabel('Log(Time)/s'); 
 title('Peeling (HODLR) time scaling');
-legend({'Peeling', 'N log N', 'N log^2 N'}, 'Location', 'northwest');
+legend({'Peeling', 'N log N', 'N log^2 N', 'N log^4 N'}, 'Location', 'northwest');
 axis square;
 saveas(fig, "./comp/1D/hodlrtime_" + func_name + ".png");
 hold off;
 
 fig = figure(4);
 hold on;
-h(1) = plot(logN, log2(facerr_hodlr));
+h(1) = plot(logN, log10(facerr_hodlr));
 xlabel('Log(N)');
 ylabel('Log10(Error)'); 
 title('Peeling (HODLR) error');
@@ -320,7 +336,7 @@ h(1) = plot(logN, log10(solerr_hif));
 h(2) = plot(logN, log10(solerr_hqr));
 xlabel('Log(N)');
 ylabel('Log10(Error)'); 
-title('App error');
+title('Sol error');
 legend({'HIF', 'HQR'}, 'Location', 'northwest');
 axis square;
 saveas(fig, "./comp/1D/solerr_" + func_name + ".png");
