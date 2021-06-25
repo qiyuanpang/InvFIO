@@ -16,6 +16,7 @@ occ = 32;
 tol_bf = 1E-6;
 tol_peel = 1E-4;
 tol_RSS = 1E-3;
+maxit = 100;
 
 dims = 2.^[8 9 10 11 12 13 14 15 16]
 cases = length(dims);
@@ -151,7 +152,7 @@ for i = 1:cases
         b = apply_bf_adj(Factor,apply_bf(Factor,f));
 
         tic
-        [x,flag,relres,iter] = pcg(@(x) apply_bf_adj(Factor,apply_bf(Factor,x)),b,tol,N);
+        [x,flag,relres,iter] = pcg(@(x) apply_bf_adj(Factor,apply_bf(Factor,x)),b,tol,maxit);
         t1 = toc;
         relerr = norm(f-x)/norm(f);
         fprintf(fileID,'CG with A* preconditioning: tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t1,iter, relerr);
@@ -160,7 +161,7 @@ for i = 1:cases
         iters(i) = iter;
 
         tic
-        [x,flag,relres,iter] = pcg(@(x) apply_bf_adj(Factor,apply_bf(Factor,x)),b,tol,N,@(x) RSS_inv(G,x)); 
+        [x,flag,relres,iter] = pcg(@(x) apply_bf_adj(Factor,apply_bf(Factor,x)),b,tol,maxit,@(x) RSS_inv(G,x)); 
         t = toc;
         relerr = norm(f-x)/norm(f);
         fprintf(fileID,'CG with HIF preconditioning: tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t,iter, relerr);
@@ -169,7 +170,7 @@ for i = 1:cases
         iters_hif(i) = iter;
 
         tic
-        [x,flag,relres,iter] = pcg(@(x) apply_bf_adj(Factor,apply_bf(Factor,x)),b,tol,N,@(x) hodlrqr_inv(Y, T, R, x)); 
+        [x,flag,relres,iter] = pcg(@(x) apply_bf_adj(Factor,apply_bf(Factor,x)),b,tol,maxit,@(x) hodlrqr_inv(Y, T, R, x)); 
         t = toc;
         relerr = norm(f-x)/norm(f);
         fprintf(fileID,'CG with HQR preconditioning: tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t,iter, relerr);
