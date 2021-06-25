@@ -28,6 +28,10 @@ switch func_name
         fun = @(x,k)funF(N,x,k);
     case 'funH'
         fun = @(x,k)funH(N,x,k);
+    case 'fun_FIO_5'
+        fun = @(x,k)fun5(N,x,k);
+    case 'fun_FIO_var4'
+        fun = @(x,k)fun0var4(N,x,k);
 end
 
 f = randn(N,1) + 1i*randn(N,1);
