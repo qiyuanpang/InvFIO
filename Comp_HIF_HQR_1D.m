@@ -17,7 +17,7 @@ tol_bf = 1E-6;
 tol_peel = 1E-4;
 tol_RSS = 1E-3;
 
-dims = [256 512 1024]
+dims = 2.^[8 9 10 11 12 13 14 15 16]
 cases = length(dims);
 bftime = zeros(cases, 1);
 bferr = zeros(cases, 1);
@@ -132,8 +132,8 @@ for i = 1:cases
     % e = e/snorm(N,@(x)(apply_bf_adj(Factor,apply_bf(Factor,x))),[],[],1);
     e = norm(apply_bf_adj(Factor,apply_bf(Factor,f)) - hodlrqr_apply(Y, T, R, f))/norm(apply_bf_adj(Factor,apply_bf(Factor,f)));
     fprintf(fileID,'mv: %10.4e time %10.4e\n',e,t);
-    apptime_hif(i) = t;
-    apperr_hif(i) = e;
+    apptime_hqr(i) = t;
+    apperr_hqr(i) = e;
     fprintf(OutPutFile, 'HQR mv err/time: %10.4e/%10.4e \n', e, t);
 
     tic
@@ -194,14 +194,15 @@ h(3) = plot(logN, N2logN-N2logN(1)+log2(bftime(1)));
 xlabel('Log(N)');
 ylabel('Log(Time)/s'); 
 title('BF time scaling');
-legend({'BF time', 'N log N', 'N log^2 N'}, 'Location', 'northwest');
+legend(h, 'BF time', 'N log N', 'N log^2 N');
+% legend({'BF time', 'N log N', 'N log^2 N'}, 'Location', 'northwest');
 axis square;
 saveas(fig, "./comp/1D/bftime_" + func_name + ".png");
 hold off;
 
 fig = figure(2);
 hold on;
-h(1) = plot(logN, log2(bferr));
+h(1) = plot(logN, log10(bferr));
 xlabel('Log(N)');
 ylabel('Log10(error)'); 
 title('BF error');
@@ -301,6 +302,6 @@ axis square;
 saveas(fig, "./comp/1D/solerr_" + func_name + ".png");
 hold off;
 
-
+exit;
 
 
