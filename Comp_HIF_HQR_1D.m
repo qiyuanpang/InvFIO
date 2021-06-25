@@ -182,7 +182,7 @@ for i = 1:cases
 end
 
 
-N = dims;
+N = dims(2:end);
 logN = log2(N);
 NlogN = logN + log2(logN);
 N2logN = logN + 2*log2(logN);
