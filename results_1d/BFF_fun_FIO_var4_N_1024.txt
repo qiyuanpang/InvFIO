@@ -2,3 +2,43 @@
 
 ------------------------------------------
 N:       1024 
+------------------------------------------
+N                 : 1024
+Max Rank          :    8
+Tolerance         : 1.000e-08
+Relative Error_2  : 3.888e-09
+Direct Time       : 1.830e-01 s
+Running Time      : 9.244e-02 mins
+Factorization Time: 9.224e-02 mins
+Applying Time     : 1.209e-02 s
+------------------------------------------
+
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     14 |   20 |   2.62e-01 (s)
+  2 |      6 |   32 |   3.89e-01 (s)
+  3 |      6 |   32 |   3.93e-01 (s)
+  4 |      5 |   32 |   4.02e-01 (s)
+  5 |      5 |   30 |   4.73e-01 (s)
+time H_matrix construction 10e-6: 2.1331e+00 )
+mv: 2.8094e-05 
+--------------RSS contruction 1D------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  5 |   1024 |      669 |      355 |     0.65 |     0.35 |   2.77e-02 (s)
+  4 |    355 |      158 |      197 |     0.45 |     0.55 |   4.11e-03 (s)
+  3 |    197 |       93 |      104 |     0.47 |     0.53 |   2.11e-03 (s)
+  2 |    104 |       50 |       54 |     0.48 |     0.52 |   1.07e-03 (s)
+  1 |     54 |       26 |       28 |     0.48 |     0.52 |   9.89e-04 (s)
+-------------End RSS contruction 1D -----------
+time HIF construction 3.7810e-02 
+mv: 1.8929e-04  time 4.4520e-03
+sv: 3.8270e-03 time 2.5120e-03
+time/rank HODLR-QR construction 1.6943e-01/20 
+mv: 6.0295e-04 time 5.0870e-03
+sv: 3.4410e-03 time 4.1840e-03
+CG with A* preconditioning: tol   1.00e-04,   time/#iter 7.9739e-01 /  182, relerr 5.3834e-02 
+CG with HIF preconditioning: tol   1.00e-04,   time/#iter 2.1494e-02 /    2, relerr 1.9001e-04 
+CG with HQR preconditioning: tol   1.00e-04,   time/#iter 3.4374e-02 /    3, relerr 3.3391e-02 
+CG with A* preconditioning: tol   1.00e-08,   time/#iter 8.4717e-01 /  200, relerr 4.8541e-02 
+CG with HIF preconditioning: tol   1.00e-08,   time/#iter 3.4114e-02 /    4, relerr 3.6090e-07 
+CG with HQR preconditioning: tol   1.00e-08,   time/#iter 2.7436e-01 /   31, relerr 5.2669e-06 

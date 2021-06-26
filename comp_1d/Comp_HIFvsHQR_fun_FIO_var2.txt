@@ -201,3 +201,16 @@ CG with HQR preconditioning: tol   1.00e-08,   time/#iter 3.6082e+01 /    3, rel
 ------------------------------------------
 N:     524288 
 BF Fac err/time: 1.3971e-08/2.1261e+04 (s) 
+HODLR Fac err/time: 1.8471e-05/1.4813e+04 (s) 
+RSS Fac time: 3.3241e+01 
+RSS mv err/time: 2.7281e-04/1.6342e+00 
+RSS sv err/time: 5.0683e-04/1.4284e+00 
+HQR Fac time/rank: 4.1428e+02/35 
+HQR mv err/time: 4.7887e-04/3.1739e+00 
+HQR sv err/time: 5.3927e-04/3.7139e+00 
+CG with A* preconditioning : tol   1.00e-04,   time/#iter 5.0008e+02 /   68, relerr 1.2690e-03 
+CG with HIF preconditioning: tol   1.00e-04,   time/#iter 2.9704e+01 /    2, relerr 9.4986e-06 
+CG with HQR preconditioning: tol   1.00e-04,   time/#iter 3.5170e+01 /    2, relerr 1.1224e-06 
+CG with A* preconditioning : tol   1.00e-08,   time/#iter 1.3765e+03 /  172, relerr 1.2152e-07 
+CG with HIF preconditioning: tol   1.00e-08,   time/#iter 5.3353e+01 /    4, relerr 4.9339e-09 
+CG with HQR preconditioning: tol   1.00e-08,   time/#iter 5.0598e+01 /    3, relerr 3.3730e-09 

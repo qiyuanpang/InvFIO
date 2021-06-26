@@ -8,14 +8,14 @@ for s = dirs
 end
 
 
-func_name = 'fun_FIO_var4';%'fun_FIO_var2';'fun_FIO';'fun_FIO_5';'fun_FIO_var4';
-OutPutFile = fopen(['comp_1d/Comp_HIFvsHQR_',func_name,'.txt'],'w');
+func_name = 'fun_FIO_5';%'fun_FIO_var2';'fun_FIO';'fun_FIO_5';'fun_FIO_var4';
+OutPutFile = fopen(['comp_1d/Comp_HIFvsHQR_',func_name,'_4.txt'],'w');
 
 mR = 8;
 occ = 32;
 tol_bf = 1E-8;
-tol_peel = 1E-4;
-tol_RSS = 1E-2;
+tol_peel = 1E-5;
+tol_RSS = 1E-4;
 maxit = 200;
 repeat_num = 1;
 
@@ -53,7 +53,7 @@ iters_hqr = zeros(cases, 1);
 for i = 1:cases
     N = dims(i);
 
-    fileID = fopen(['results_1d/BFF_',func_name,'_N_',num2str(N),'.txt'],'w');
+    fileID = fopen(['results_1d/BFF_',func_name,'_N_',num2str(N),'_4.txt'],'w');
     fprintf(fileID,'\n');
     fprintf(fileID,'\n');
     fprintf(fileID,'------------------------------------------\n');
@@ -130,7 +130,7 @@ for i = 1:cases
     % Construct HODLR-QR factorization of HODLR matrix
     tStart_HQR = tic;
     for j = 1:repeat_num
-      [Y, YB, YC, T, R, rk] = hodlrqr(HODLR, [], [], [], lvls, 1, tol_RSS/10);
+      [Y, YB, YC, T, R, rk] = hodlrqr(HODLR, [], [], [], lvls, 1, tol_RSS);
     end
     t = toc(tStart_HQR)/repeat_num;
     factime_hqr(i) = t;
@@ -163,10 +163,10 @@ for i = 1:cases
     solerr_hqr(i) = e;
     fprintf(OutPutFile, 'HQR sv err/time: %10.4e/%10.4e \n', e, t);
 
-    cond(RSS_inv(G, eye(N)))
-    cond(hodlrqr_inv(Y, T, R, eye(N)))
-    Q = eye(N) - hodlr_apply(Y, hodlr_apply(T, hodlr_adj_apply(Y, eye(N))));
-    norm(Q'*Q-eye(N))/norm(eye(N))    
+    %cond(RSS_inv(G, eye(N)))
+    %cond(hodlrqr_inv(Y, T, R, eye(N)))
+    %Q = eye(N) - hodlr_apply(Y, hodlr_apply(T, hodlr_adj_apply(Y, eye(N))));
+    %norm(Q'*Q-eye(N))/norm(eye(N))    
 
     % run CG 
     for tol=[1E-4,1E-8]
