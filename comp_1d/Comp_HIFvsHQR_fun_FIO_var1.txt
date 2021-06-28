@@ -212,3 +212,5 @@ CG with A* preconditioning : tol   1.00e-04,   time/#iter 1.5174e+03 /  200, rel
 CG with HIF preconditioning: tol   1.00e-04,   time/#iter 3.0757e+01 /    2, relerr 3.1038e-04 
 CG with HQR preconditioning: tol   1.00e-04,   time/#iter 3.7586e+01 /    2, relerr 1.1742e-03 
 CG with A* preconditioning : tol   1.00e-08,   time/#iter 1.4953e+03 /  200, relerr 5.7771e-02 
+CG with HIF preconditioning: tol   1.00e-08,   time/#iter 6.2618e+01 /    4, relerr 2.3539e-06 
+CG with HQR preconditioning: tol   1.00e-08,   time/#iter 8.9403e+01 /    5, relerr 2.0359e-06 

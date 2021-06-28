@@ -8,7 +8,7 @@ for s = dirs
 end
 
 
-func_name = 'fun_FIO_5';%'fun_FIO_var2';'fun_FIO';'fun_FIO_5';'fun_FIO_var4';
+func_name = 'fun_FIO_var4';%'fun_FIO_var2';'fun_FIO';'fun_FIO_5';'fun_FIO_var4';
 OutPutFile = fopen(['comp_1d/Comp_HIFvsHQR_',func_name,'_4.txt'],'w');
 
 mR = 8;
