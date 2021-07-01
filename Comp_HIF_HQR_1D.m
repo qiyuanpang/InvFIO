@@ -9,13 +9,13 @@ end
 
 
 func_name = 'fun_FIO_var4';%'fun_FIO_var2';'fun_FIO';'fun_FIO_5';'fun_FIO_var4';
-OutPutFile = fopen(['comp_1d/Comp_HIFvsHQR_',func_name,'_4.txt'],'w');
+OutPutFile = fopen(['comp_1d/Comp_HIFvsHQR_',func_name,'.txt'],'w');
 
 mR = 8;
-occ = 32;
-tol_bf = 1E-8;
-tol_peel = 1E-5;
-tol_RSS = 1E-4;
+occ = 64;
+tol_bf = 1E-13;
+tol_peel = 1E-10;
+tol_RSS = 1E-9;
 maxit = 200;
 repeat_num = 1;
 
@@ -53,7 +53,7 @@ iters_hqr = zeros(cases, 1);
 for i = 1:cases
     N = dims(i);
 
-    fileID = fopen(['results_1d/BFF_',func_name,'_N_',num2str(N),'_4.txt'],'w');
+    fileID = fopen(['results_1d/BFF_',func_name,'_N_',num2str(N),'.txt'],'w');
     fprintf(fileID,'\n');
     fprintf(fileID,'\n');
     fprintf(fileID,'------------------------------------------\n');
@@ -86,6 +86,7 @@ for i = 1:cases
     fprintf(OutPutFile, 'HODLR Fac err/time: %10.4e/%10.4e (s) \n', e, t);
     facerr_hodlr(i) = e;
 
+    f = randn(N,1) + 1i*randn(N,1);
     
     % Construct RSS factorization of HODLR matrix
     tStart_HIF = tic;
@@ -96,8 +97,7 @@ for i = 1:cases
     factime_hif(i) = t;
     fprintf(fileID,'time HIF construction %10.4e \n',t);
     fprintf(OutPutFile, 'RSS Fac time: %10.4e \n', t);
-
-    f = randn(N,1) + 1i*randn(N,1);
+   
     tic;
     for j = 1:repeat_num
       RSS_apply(G,f);
@@ -169,7 +169,7 @@ for i = 1:cases
     %norm(Q'*Q-eye(N))/norm(eye(N))    
 
     % run CG 
-    for tol=[1E-4,1E-8]
+    for tol=[1E-8,1E-13]
         b = apply_bf_adj(Factor,apply_bf(Factor,f));
 
         tic

@@ -10,10 +10,14 @@ end
 kbox = [1,N+1];
 k = 1:N;
 kk = k(:);
+noise = rand(N,1)*1;
+kk = kk + noise;
 
 xbox = [1,N+1];
 x = 1:N;
 xx = x(:);
+% noise = rand(N,1)*0.2;
+% xx = xx + noise;
 
 switch func_name
     case 'fun_FIO'
