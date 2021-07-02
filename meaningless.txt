@@ -2,43 +2,131 @@
 N                 :  256
 Max Rank          :    8
 Tolerance         : 1.000e-08
-Relative Error_2  : 9.576e-16
-Direct Time       : 7.526e-02 s
-Running Time      : 1.783e-02 mins
-Factorization Time: 1.778e-02 mins
-Applying Time     : 3.237e-03 s
+Relative Error_2  : 9.058e-16
+Direct Time       : 4.434e-02 s
+Running Time      : 1.689e-02 mins
+Factorization Time: 1.685e-02 mins
+Applying Time     : 2.242e-03 s
 ------------------------------------------
 
 ------------------------------------------
 N                 :  512
 Max Rank          :    8
 Tolerance         : 1.000e-08
-Relative Error_2  : 3.741e-09
-Direct Time       : 6.714e-02 s
-Running Time      : 2.729e-02 mins
-Factorization Time: 2.726e-02 mins
-Applying Time     : 1.942e-03 s
+Relative Error_2  : 3.069e-09
+Direct Time       : 1.707e-01 s
+Running Time      : 2.918e-02 mins
+Factorization Time: 2.914e-02 mins
+Applying Time     : 2.378e-03 s
 ------------------------------------------
 
 ------------------------------------------
 N                 : 1024
 Max Rank          :    8
 Tolerance         : 1.000e-08
-Relative Error_2  : 3.737e-09
-Direct Time       : 1.988e-01 s
-Running Time      : 1.010e-01 mins
-Factorization Time: 1.009e-01 mins
-Applying Time     : 4.494e-03 s
+Relative Error_2  : 2.461e-09
+Direct Time       : 2.139e-01 s
+Running Time      : 8.400e-02 mins
+Factorization Time: 8.391e-02 mins
+Applying Time     : 5.312e-03 s
 ------------------------------------------
 
 ------------------------------------------
-N                 : 2048
+N                 :  256
 Max Rank          :    8
 Tolerance         : 1.000e-08
-Relative Error_2  : 6.896e-09
-Direct Time       : 7.365e-01 s
-Running Time      : 1.922e-01 mins
-Factorization Time: 1.921e-01 mins
-Applying Time     : 9.513e-03 s
+Relative Error_2  : 1.014e-15
+Direct Time       : 1.059e-02 s
+Running Time      : 8.959e-03 mins
+Factorization Time: 8.945e-03 mins
+Applying Time     : 8.050e-04 s
+------------------------------------------
+
+------------------------------------------
+N                 :  512
+Max Rank          :    8
+Tolerance         : 1.000e-08
+Relative Error_2  : 4.202e-09
+Direct Time       : 2.632e-02 s
+Running Time      : 1.845e-02 mins
+Factorization Time: 1.841e-02 mins
+Applying Time     : 2.231e-03 s
+------------------------------------------
+
+------------------------------------------
+N                 : 1024
+Max Rank          :    8
+Tolerance         : 1.000e-08
+Relative Error_2  : 3.044e-09
+Direct Time       : 5.458e-02 s
+Running Time      : 6.369e-02 mins
+Factorization Time: 6.364e-02 mins
+Applying Time     : 2.697e-03 s
+------------------------------------------
+
+------------------------------------------
+N                 :  256
+Max Rank          :    8
+Tolerance         : 1.000e-08
+Relative Error_2  : 9.987e-16
+Direct Time       : 2.982e-02 s
+Running Time      : 1.424e-02 mins
+Factorization Time: 1.423e-02 mins
+Applying Time     : 6.860e-04 s
+------------------------------------------
+
+------------------------------------------
+N                 :  512
+Max Rank          :    8
+Tolerance         : 1.000e-08
+Relative Error_2  : 2.624e-09
+Direct Time       : 6.152e-02 s
+Running Time      : 2.557e-02 mins
+Factorization Time: 2.556e-02 mins
+Applying Time     : 9.070e-04 s
+------------------------------------------
+
+------------------------------------------
+N                 : 1024
+Max Rank          :    8
+Tolerance         : 1.000e-08
+Relative Error_2  : 3.110e-09
+Direct Time       : 1.805e-01 s
+Running Time      : 8.636e-02 mins
+Factorization Time: 8.630e-02 mins
+Applying Time     : 3.434e-03 s
+------------------------------------------
+
+------------------------------------------
+N                 :  256
+Max Rank          :    8
+Tolerance         : 1.000e-08
+Relative Error_2  : 1.004e-15
+Direct Time       : 2.479e-02 s
+Running Time      : 1.307e-02 mins
+Factorization Time: 1.306e-02 mins
+Applying Time     : 7.330e-04 s
+------------------------------------------
+
+------------------------------------------
+N                 :  512
+Max Rank          :    8
+Tolerance         : 1.000e-08
+Relative Error_2  : 3.712e-09
+Direct Time       : 8.089e-02 s
+Running Time      : 2.680e-02 mins
+Factorization Time: 2.678e-02 mins
+Applying Time     : 9.700e-04 s
+------------------------------------------
+
+------------------------------------------
+N                 : 1024
+Max Rank          :    8
+Tolerance         : 1.000e-08
+Relative Error_2  : 3.111e-09
+Direct Time       : 2.160e-01 s
+Running Time      : 9.102e-02 mins
+Factorization Time: 9.097e-02 mins
+Applying Time     : 2.983e-03 s
 ------------------------------------------
 
