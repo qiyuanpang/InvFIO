@@ -1,7 +1,7 @@
 function [F] = RSS_ldl(H,tol,fID)
 %HIF Summary of this function goes here
 %   Detailed explanation goes here
-fprintf(fID,'--------------HIF contruction------------\n');
+fprintf(fID,'--------------RSS contruction------------\n');
 fprintf(fID,'lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)\n')
 N = H.N;
 n_b = 2^(H.nlvl-1); 
@@ -93,8 +93,7 @@ for lvl=H.nlvl-1:-1:1
         sk_i = DOFS(xi);
         sk_j = DOFS(xj);
         V_ij = H.factors(blk).V(DOFS(xi),1:pos_i);
-        U_ij = H.factors(blk+1).V(DOFS(xj),1:pos_j);
-        %save('c_HIF2','A_ii_sk','V_ij','U_ij','A_jj_sk')
+        U_ij = H.factors(blk).U(DOFS(xj),1:pos_j);
         A_ij = [A_ii_sk, V_ij*U_ij'; U_ij*V_ij' A_jj_sk];
         %A_off2 = U_ij*V_ij';
         %save('check_HIF','A_ii','A_jj','A_jj_sk','A_ii_sk','A_ij','U_ij','V_ij','lvl','blk','n_f','sk_j','sk_i','H','A_ir','DOFS','xi','xj','F')
@@ -105,7 +104,6 @@ for lvl=H.nlvl-1:-1:1
         H.factors(blk_merge).A_blkdiag = A_ij;
         H.factors(blk_merge).slf = [H.factors(blk).slf,H.factors(blk+1).slf];
         if lvl~=1
-            %save('c_HIF3','pos_i','pos_j','blk','blk_merge','H')
             H.factors(blk_merge).V = [H.factors(blk).V(:,pos_i+1:end);H.factors(blk+1).V(:,pos_j+1:end)];
             H.factors(blk_merge).U = [H.factors(blk).U(:,pos_i+1:end);H.factors(blk+1).U(:,pos_j+1:end)];
             H.factors(blk_merge).pos = H.factors(blk).pos(2:end)-H.factors(blk).pos(2);
@@ -126,7 +124,7 @@ for lvl=H.nlvl-1:-1:1
                     lvl,nDOFS,nDOFS-nDOFS_rem,nDOFS_rem,(nDOFS-nDOFS_rem)/nDOFS,nDOFS_rem/nDOFS,toc);
 end
 F.nblocks = n_f;
-fprintf(fID,'-------------End HIF contruction-----------\n');
+fprintf(fID,'-------------End RSS contruction-----------\n');
 end
 
 %H_aux = H;

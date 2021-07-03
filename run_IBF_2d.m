@@ -2,8 +2,8 @@ clear all
 startup; 
 
 curpath = pwd;
-addpath(sprintf('%s/%s',curpath,'BF/2D/MBF/src'))
-dirs = {'BF/2D/MBF'};
+addpath(sprintf('%s/%s',curpath,'BF/2D/GBF/src'))
+dirs = {'BF/2D/GBF'};
 for s = dirs
   addpath(sprintf('%s/%s/src',curpath,s{:}))
   addpath(sprintf('%s/%s/test',curpath,s{:}))

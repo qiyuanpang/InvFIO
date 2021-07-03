@@ -12,10 +12,10 @@ func_name = 'fun_FIO_var4';%'fun_FIO_var2';'fun_FIO';'fun_FIO_5';'fun_FIO_var4';
 OutPutFile = fopen(['comp_1d/Comp_HIFvsHQR_',func_name,'.txt'],'w');
 
 mR = 8;
-occ = 64;
-tol_bf = 1E-13;
-tol_peel = 1E-12;
-tol_RSS = 1E-12;
+occ = 32;
+tol_bf = 1E-10;
+tol_peel = 1E-10;
+tol_RSS = 1E-6;
 maxit = 120;
 repeat_num = 1;
 
@@ -71,7 +71,7 @@ for i = 1:cases
     %% Construct HODLR factorization using peeling algorithm
     tStart=tic;
     for j = 1:repeat_num
-      [F,HODLR] = HODLR_construction( N, @(x) apply_bf(Factor,x), @(x) apply_bf_adj(Factor,x), tol_peel, fileID, occ, 20,32);
+      [F,HODLR] = HODLR_construction_v1( N, @(x) apply_bf(Factor,x), @(x) apply_bf_adj(Factor,x), tol_peel, fileID, occ, 20,32);
     end
     t = toc(tStart)/repeat_num;
     factime_hodlr(i) = t;

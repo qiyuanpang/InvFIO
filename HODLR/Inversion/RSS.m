@@ -38,9 +38,7 @@ for lvl=H.nlvl-1:-1:1
 
             A_ii(rd_i,:) = A_ii(rd_i,:) - T_i'*A_ii(sk_i,:);
             A_ii(:,rd_i) = A_ii(:,rd_i) - A_ii(:,sk_i)*T_i;
-            % disp(real(eig(A_ii(rd_i,rd_i)- 1i*diag(imag(diag(A_ii(rd_i,rd_i))))))')
             L_i = chol(A_ii(rd_i,rd_i)- 1i*diag(imag(diag(A_ii(rd_i,rd_i)))),'lower');
-            % L_i = chol(A_ii(rd_i,rd_i),'lower');
             C_i = A_ii(sk_i,rd_i)/L_i';
             A_ii_sk = A_ii(sk_i,sk_i) - C_i*C_i';
             DOFS(xi_rem(rd_i))=0;
@@ -66,9 +64,7 @@ for lvl=H.nlvl-1:-1:1
             
             A_jj(rd_j,:) = A_jj(rd_j,:) - T_j'*A_jj(sk_j,:);
             A_jj(:,rd_j) = A_jj(:,rd_j) - A_jj(:,sk_j)*T_j;
-            % disp(real(eig(A_jj(rd_j,rd_j)-1i*diag(imag(diag(A_jj(rd_j,rd_j))))))')
             L_j = chol(A_jj(rd_j,rd_j)-1i*diag(imag(diag(A_jj(rd_j,rd_j)))),'lower');
-            % L_j = chol(A_jj(rd_j,rd_j),'lower'); 
 
             C_j = A_jj(sk_j,rd_j)/L_j';        
             A_jj_sk = A_jj(sk_j,sk_j) - C_j*C_j';
