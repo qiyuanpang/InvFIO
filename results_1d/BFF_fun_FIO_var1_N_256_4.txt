@@ -1,0 +1,40 @@
+
+
+------------------------------------------
+N:        256 
+------------------------------------------
+N                 :  256
+Max Rank          :    8
+Tolerance         : 1.000e-08
+Relative Error_2  : 9.658e-16
+Direct Time       : 5.142e-02 s
+Running Time      : 2.207e-02 mins
+Factorization Time: 2.200e-02 mins
+Applying Time     : 4.160e-03 s
+------------------------------------------
+
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     20 |   20 |   3.25e-01 (s)
+  2 |     20 |   32 |   2.26e-01 (s)
+  3 |     16 |   30 |   1.91e-01 (s)
+time H_matrix construction 10e-6: 8.2407e-01 )
+mv: 4.8865e-06 
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  3 |    256 |       15 |      241 |     0.06 |     0.94 |   4.17e-02 (s)
+  2 |    241 |      107 |      134 |     0.44 |     0.56 |   3.33e-02 (s)
+  1 |    134 |       94 |       40 |     0.70 |     0.30 |   2.09e-02 (s)
+-------------End RSS contruction-----------
+time HIF construction 1.1032e-01 
+mv: 4.0387e-06  time 2.3921e-02
+sv: 2.8312e-03 time 1.9021e-02
+time/rank HODLR-QR construction 3.2294e-01/40 
+mv: 3.9443e-05 time 1.0530e-02
+sv: 2.9679e-03 time 1.8740e-02
+CG with A* preconditioning: tol   1.00e-08,   time/#iter 2.6950e-01 /  118, relerr 9.7438e-02 
+CG with HIF preconditioning: tol   1.00e-08,   time/#iter 3.1980e-02 /    3, relerr 2.4027e-06 
+CG with HQR preconditioning: tol   1.00e-08,   time/#iter 3.1479e-02 /    4, relerr 1.1329e-07 
+CG with A* preconditioning: tol   1.00e-13,   time/#iter 1.7265e-01 /  118, relerr 9.7438e-02 
+CG with HIF preconditioning: tol   1.00e-13,   time/#iter 3.2267e-02 /    6, relerr 7.3207e-13 
+CG with HQR preconditioning: tol   1.00e-13,   time/#iter 2.3282e-02 /    6, relerr 2.9004e-11 

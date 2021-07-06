@@ -1,0 +1,44 @@
+
+
+------------------------------------------
+N:       1024 
+------------------------------------------
+N                 : 1024
+Max Rank          :   16
+Tolerance         : 1.000e-10
+Relative Error_2  : 1.498e-15
+Direct Time       : 1.503e-01 s
+Running Time      : 9.477e-02 mins
+Factorization Time: 9.458e-02 mins
+Applying Time     : 1.139e-02 s
+------------------------------------------
+
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     40 |   64 |   3.67e+00 (s)
+  2 |     31 |   64 |   3.75e+00 (s)
+  3 |     25 |   64 |   3.99e+00 (s)
+  4 |     22 |   62 |   4.23e+00 (s)
+  5 |     19 |   30 |   1.70e+00 (s)
+time H_matrix construction 10e-6: 1.7896e+01 )
+mv: 2.4873e-09 
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  5 |   1024 |       73 |      951 |     0.07 |     0.93 |   8.28e-02 (s)
+  4 |    951 |      348 |      603 |     0.37 |     0.63 |   6.75e-02 (s)
+  3 |    603 |      262 |      341 |     0.43 |     0.57 |   4.29e-02 (s)
+  2 |    341 |      156 |      185 |     0.46 |     0.54 |   1.82e-02 (s)
+  1 |    185 |      105 |       80 |     0.57 |     0.43 |   9.96e-03 (s)
+-------------End RSS contruction-----------
+time HIF construction 2.2482e-01 
+mv: 7.8691e-06  time 7.5920e-03
+sv: 7.5636e-04 time 5.3830e-03
+time/rank HODLR-QR construction 1.1495e+00/58 
+mv: 7.5234e-05 time 1.0101e-02
+sv: 1.2583e-03 time 9.4340e-03
+CG with A* preconditioning: tol   1.00e-08,   time/#iter 1.7825e+00 /  120, relerr 1.2729e-01 
+CG with HIF preconditioning: tol   1.00e-08,   time/#iter 7.3427e-02 /    3, relerr 9.4169e-07 
+CG with HQR preconditioning: tol   1.00e-08,   time/#iter 1.1969e-01 /    4, relerr 1.2121e-05 
+CG with A* preconditioning: tol   1.00e-13,   time/#iter 1.8605e+00 /  120, relerr 1.2729e-01 
+CG with HIF preconditioning: tol   1.00e-13,   time/#iter 1.0484e-01 /    5, relerr 4.0735e-11 
+CG with HQR preconditioning: tol   1.00e-13,   time/#iter 2.7649e-01 /   10, relerr 2.7216e-10 

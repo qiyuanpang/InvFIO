@@ -1,0 +1,44 @@
+
+
+------------------------------------------
+N:       1024 
+------------------------------------------
+N                 : 1024
+Max Rank          :   16
+Tolerance         : 1.000e-08
+Relative Error_2  : 1.406e-15
+Direct Time       : 2.353e-01 s
+Running Time      : 1.268e-01 mins
+Factorization Time: 1.265e-01 mins
+Applying Time     : 1.932e-02 s
+------------------------------------------
+
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     32 |   32 |   3.12e+00 (s)
+  2 |     32 |   32 |   3.23e+00 (s)
+  3 |     30 |   32 |   3.25e+00 (s)
+  4 |     26 |   32 |   3.40e+00 (s)
+  5 |     21 |   30 |   2.59e+00 (s)
+time H_matrix construction 10e-6: 1.6390e+01 )
+mv: 1.8002e-07 
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  5 |   1024 |        0 |     1024 |     0.00 |     1.00 |   2.36e-01 (s)
+  4 |   1024 |       43 |      981 |     0.04 |     0.96 |   6.79e-01 (s)
+  3 |    981 |      494 |      487 |     0.50 |     0.50 |   4.28e-01 (s)
+  2 |    487 |      270 |      217 |     0.55 |     0.45 |   1.15e-01 (s)
+  1 |    217 |      153 |       64 |     0.71 |     0.29 |   3.22e-02 (s)
+-------------End RSS contruction-----------
+time HIF construction 1.4979e+00 
+mv: 2.0241e-07  time 1.1965e-02
+sv: 7.3879e-05 time 9.6740e-03
+time/rank HODLR-QR construction 2.5711e+01/84 
+mv: 2.0256e-07 time 1.5047e-01
+sv: 7.3897e-05 time 1.1154e-01
+CG with A* preconditioning: tol   1.00e-08,   time/#iter 3.1017e+00 /  116, relerr 1.2124e-01 
+CG with HIF preconditioning: tol   1.00e-08,   time/#iter 9.6164e-02 /    2, relerr 2.6174e-07 
+CG with HQR preconditioning: tol   1.00e-08,   time/#iter 2.5119e-01 /    2, relerr 2.5979e-07 
+CG with A* preconditioning: tol   1.00e-13,   time/#iter 3.1288e+00 /  116, relerr 1.2124e-01 
+CG with HIF preconditioning: tol   1.00e-13,   time/#iter 1.1158e-01 /    3, relerr 8.9003e-11 
+CG with HQR preconditioning: tol   1.00e-13,   time/#iter 3.4225e-01 /    3, relerr 8.7715e-11 

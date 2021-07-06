@@ -13,14 +13,14 @@ OutPutFile = fopen(["condnum.txt"],'w');
 
 mR = 8;
 occ = 32;
-tol_bf = 1E-8;
+tol_bf = 1E-12;
 tol_peel = 1E-5;
 tol_RSS = 1E-4;
 maxit = 200;
 repeat_num = 1;
 
 %dims = 2.^[8 9 10]
-dims = 2.^[8 9 10]
+dims = 2.^[8 9 10 11 12]
 cases = length(dims);
 
 fileID = fopen('meaningless.txt','w');

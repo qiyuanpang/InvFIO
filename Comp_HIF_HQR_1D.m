@@ -9,13 +9,13 @@ end
 
 
 func_name = 'fun_FIO_var4';%'fun_FIO_var2';'fun_FIO';'fun_FIO_5';'fun_FIO_var4';
-OutPutFile = fopen(['comp_1d/Comp_HIFvsHQR_',func_name,'.txt'],'w');
+OutPutFile = fopen(['comp_1d/Comp_HIFvsHQR_',func_name,'_v12.txt'],'w');
 
-mR = 8;
+mR = 16;
 occ = 32;
-tol_bf = 1E-10;
-tol_peel = 1E-10;
-tol_RSS = 1E-6;
+tol_bf = 1E-13;
+tol_peel = 1E-12;
+tol_RSS = 1E-12;
 maxit = 120;
 repeat_num = 1;
 
@@ -53,7 +53,7 @@ iters_hqr = zeros(cases, 1);
 for i = 1:cases
     N = dims(i);
 
-    fileID = fopen(['results_1d/BFF_',func_name,'_N_',num2str(N),'.txt'],'w');
+    fileID = fopen(['results_1d/BFF_',func_name,'_N_',num2str(N),'_v12.txt'],'w');
     fprintf(fileID,'\n');
     fprintf(fileID,'\n');
     fprintf(fileID,'------------------------------------------\n');
@@ -71,7 +71,7 @@ for i = 1:cases
     %% Construct HODLR factorization using peeling algorithm
     tStart=tic;
     for j = 1:repeat_num
-      [F,HODLR] = HODLR_construction_v1( N, @(x) apply_bf(Factor,x), @(x) apply_bf_adj(Factor,x), tol_peel, fileID, occ, 20,32);
+      [F,HODLR] = HODLR_construction( N, @(x) apply_bf(Factor,x), @(x) apply_bf_adj(Factor,x), tol_peel, fileID, occ, 64,64);
     end
     t = toc(tStart)/repeat_num;
     factime_hodlr(i) = t;
@@ -91,7 +91,7 @@ for i = 1:cases
     % Construct RSS factorization of HODLR matrix
     tStart_HIF = tic;
     for j = 1:repeat_num
-      [G] = RSS_ldl(F,tol_RSS/100,fileID);
+      [G] = RSS_ldl(F,tol_RSS,fileID);
     end
     t = toc(tStart_HIF)/repeat_num;
     factime_hif(i) = t;
@@ -169,7 +169,7 @@ for i = 1:cases
     %norm(Q'*Q-eye(N))/norm(eye(N))    
 
     % run CG 
-    for tol=[1E-8,1E-13]
+    for tol=[1E-10,1E-14]
         b = apply_bf_adj(Factor,apply_bf(Factor,f));
 
         tic

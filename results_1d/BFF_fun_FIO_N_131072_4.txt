@@ -1,0 +1,58 @@
+
+
+------------------------------------------
+N:     131072 
+------------------------------------------
+N                 : 131072
+Max Rank          :    8
+Tolerance         : 1.000e-08
+Relative Error_2  : 1.153e-08
+Direct Time       : 4.556e+02 s
+Running Time      : 6.152e+01 mins
+Factorization Time: 6.149e+01 mins
+Applying Time     : 1.919e+00 s
+------------------------------------------
+
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     20 |   20 |   2.43e+02 (s)
+  2 |     32 |   32 |   3.45e+02 (s)
+  3 |     32 |   32 |   3.23e+02 (s)
+  4 |     32 |   32 |   3.23e+02 (s)
+  5 |     32 |   32 |   3.29e+02 (s)
+  6 |     32 |   32 |   3.18e+02 (s)
+  7 |     32 |   32 |   3.57e+02 (s)
+  8 |     32 |   32 |   3.98e+02 (s)
+  9 |     32 |   32 |   4.15e+02 (s)
+ 10 |     30 |   32 |   4.33e+02 (s)
+ 11 |     27 |   32 |   4.53e+02 (s)
+ 12 |     22 |   30 |   4.15e+02 (s)
+time H_matrix construction 10e-6: 4.4848e+03 )
+mv: 2.5960e-03 
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+ 12 | 131072 |        0 |   131072 |     0.00 |     1.00 |   1.52e+01 (s)
+ 11 | 131072 |        0 |   131072 |     0.00 |     1.00 |   2.82e+01 (s)
+ 10 | 131072 |      512 |   130560 |     0.00 |     1.00 |   4.01e+01 (s)
+  9 | 130560 |    42054 |    88506 |     0.32 |     0.68 |   6.73e+01 (s)
+  8 |  88506 |    47774 |    40732 |     0.54 |     0.46 |   4.42e+01 (s)
+  7 |  40732 |    22719 |    18013 |     0.56 |     0.44 |   2.24e+01 (s)
+  6 |  18013 |    10230 |     7783 |     0.57 |     0.43 |   1.40e+01 (s)
+  5 |   7783 |     4483 |     3300 |     0.58 |     0.42 |   3.73e+00 (s)
+  4 |   3300 |     1952 |     1348 |     0.59 |     0.41 |   1.44e+00 (s)
+  3 |   1348 |      819 |      529 |     0.61 |     0.39 |   6.04e-01 (s)
+  2 |    529 |      322 |      207 |     0.61 |     0.39 |   1.83e-01 (s)
+  1 |    207 |      167 |       40 |     0.81 |     0.19 |   2.35e-02 (s)
+-------------End RSS contruction-----------
+time HIF construction 2.3757e+02 
+mv: 2.7118e-03  time 4.6911e+00
+sv: 1.1460e-02 time 3.1015e+00
+time/rank HODLR-QR construction 7.9003e+03/111 
+mv: 2.7139e-03 time 8.8713e+00
+sv: 1.1413e-02 time 5.0753e+00
+CG with A* preconditioning: tol   1.00e-08,   time/#iter 2.9339e+02 /  120, relerr 1.8579e-03 
+CG with HIF preconditioning: tol   1.00e-08,   time/#iter 1.4809e+02 /   15, relerr 1.4576e-07 
+CG with HQR preconditioning: tol   1.00e-08,   time/#iter 4.2031e+02 /   37, relerr 5.6914e-07 
+CG with A* preconditioning: tol   1.00e-13,   time/#iter 2.9727e+02 /  120, relerr 1.8579e-03 
+CG with HIF preconditioning: tol   1.00e-13,   time/#iter 2.9780e+02 /   23, relerr 8.4519e-13 
+CG with HQR preconditioning: tol   1.00e-13,   time/#iter 1.2730e+03 /  120, relerr 3.0474e-11 

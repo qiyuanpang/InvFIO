@@ -1,0 +1,48 @@
+
+
+------------------------------------------
+N:       4096 
+------------------------------------------
+N                 : 4096
+Max Rank          :   16
+Tolerance         : 1.000e-10
+Relative Error_2  : 4.050e-11
+Direct Time       : 3.374e+00 s
+Running Time      : 1.212e+00 mins
+Factorization Time: 1.211e+00 mins
+Applying Time     : 5.046e-02 s
+------------------------------------------
+
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     51 |   64 |   1.23e+01 (s)
+  2 |     36 |   64 |   1.34e+01 (s)
+  3 |     30 |   64 |   1.37e+01 (s)
+  4 |     26 |   64 |   1.36e+01 (s)
+  5 |     24 |   64 |   1.47e+01 (s)
+  6 |     21 |   62 |   1.76e+01 (s)
+  7 |     18 |   30 |   9.15e+00 (s)
+time H_matrix construction 10e-6: 9.7723e+01 )
+mv: 2.7822e-09 
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  7 |   4096 |       21 |     4075 |     0.01 |     0.99 |   6.95e-01 (s)
+  6 |   4075 |      899 |     3176 |     0.22 |     0.78 |   2.33e+00 (s)
+  5 |   3176 |     1290 |     1886 |     0.41 |     0.59 |   3.31e+00 (s)
+  4 |   1886 |      914 |      972 |     0.48 |     0.52 |   1.62e+00 (s)
+  3 |    972 |      487 |      485 |     0.50 |     0.50 |   5.99e-01 (s)
+  2 |    485 |      248 |      237 |     0.51 |     0.49 |   2.66e-01 (s)
+  1 |    237 |      135 |      102 |     0.57 |     0.43 |   1.04e-01 (s)
+-------------End RSS contruction-----------
+time HIF construction 8.9469e+00 
+mv: 2.3608e-05  time 1.9849e-02
+sv: 2.0900e-03 time 2.0131e-02
+time/rank HODLR-QR construction 9.4643e+01/80 
+mv: 8.8768e-05 time 3.5990e-01
+sv: 2.4718e-03 time 3.7232e-01
+CG with A* preconditioning: tol   1.00e-08,   time/#iter 8.5237e+00 /  118, relerr 1.1995e-01 
+CG with HIF preconditioning: tol   1.00e-08,   time/#iter 3.7928e-01 /    3, relerr 8.7214e-06 
+CG with HQR preconditioning: tol   1.00e-08,   time/#iter 1.9410e+00 /    4, relerr 9.0703e-06 
+CG with A* preconditioning: tol   1.00e-13,   time/#iter 8.5307e+00 /  118, relerr 1.1995e-01 
+CG with HIF preconditioning: tol   1.00e-13,   time/#iter 8.1492e-01 /    7, relerr 3.9846e-12 
+CG with HQR preconditioning: tol   1.00e-13,   time/#iter 3.7207e+00 /    9, relerr 1.1725e-10 
