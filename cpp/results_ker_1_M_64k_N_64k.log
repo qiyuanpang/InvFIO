@@ -1,0 +1,974 @@
+ButterflyPACK Version: 1.2.1
+M 64000 N 64000
+  
+ ***************************
+ Printing Solver Options:
+         Nmin_leaf      64
+            n_iter    1000
+       level_check   10000
+            precon       1
+           xyzsort       0
+             lnoBP   40000
+         bp_cnt_lr       0
+      TwoLayerOnly       1
+       schulzorder       3
+   schulzhardstart       0
+  schulzsplitlevel       1
+       schulzlevel    3000
+           LRlevel     100
+        BACA_Batch     100
+        RecLR_leaf       5
+             nogeo       1
+        LR_BLK_NUM       1
+             rank0      32
+           itermax      10
+           powiter       0
+               ILU       0
+           Nbundle       1
+         verbosity       2
+              rmax    3000
+    forwardN15flag       0
+          pat_comp       3
+      elem_extract       0
+               cpp       1
+               knn       0
+       ErrFillFull       0
+            ErrSol       0
+        less_adapt       1
+          rankrate 1.5000000E+00
+          tol_comp 1.0000000E-09
+       tol_Rdetect 3.0000000E-09
+            tol_LS 1.0000000E-12
+       tol_itersol 1.0000000E-06
+          tol_rand 1.0000000E-08
+        touch_para 0.0000000E+00
+         near_para 1.0000000E-14
+     knn_near_para 2.0000000E+01
+      scale_factor 1.0000000E+00
+       sample_para 2.0000000E+00
+ sample_para_outer 2.0000000E+00
+ ***************************
+  
+ NUMBER_MPI=           4
+ OMP_NUM_THREADS=           1
+ HODLR_BUTTERFLY_SOLVER
+    
+ User-supplied kernel:
+     
+ Hierarchical format......
+ 
+ Maxlevel_for_blocks:          10
+ N_leaf:          62
+ 
+ Constructing basis groups...
+ Hierarchical format finished
+     
+ NUMBER_MPI=           4
+ OMP_NUM_THREADS=           1
+ HODLR_BUTTERFLY_SOLVER
+    
+ User-supplied kernel:
+     
+ Hierarchical format......
+ 
+ Maxlevel_for_blocks:          10
+ N_leaf:          62
+ 
+ Constructing basis groups...
+ Hierarchical format finished
+     
+ NUMBER_MPI=           4
+ OMP_NUM_THREADS=           1
+  
+ EntryExtraction-based BF construction......
+    BF_CheckError: fnorm: 2.0000000E+02 2.0000000E+02 acc:  3.38E-08 time:  7.92E-01
+ EntryExtraction-based BF construction finished
+
+Printing stats of the first BF: 
+         Constr time:      8.68E+01 Seconds
+      EntryEval time:      1.15E+01 Seconds
+      traversal time:      7.45E-06 Seconds
+     BF compute time:      7.91E-01 Seconds
+    communicate time:      1.01E-03 Seconds
+      Tot constr mem:      2.50E+03 MB
+        Constr flops:      1.37E+12
+  Rank before factor:           136
+         Factor time:      0.00E+00 Seconds
+      Tot factor mem:      0.00E+00 MB
+        Factor flops:      0.00E+00
+          Solve time:      0.00E+00 Seconds
+         Solve flops:      0.00E+00
+         C_mult time:      0.00E+00 Seconds
+        C_mult flops:      0.00E+00
+      C_extract time:      0.00E+00 Seconds
+     C_extract flops:      0.00E+00
+            Peak mem:      6.26E+02 MB
+ NUMBER_MPI=           4
+ OMP_NUM_THREADS=           1
+ HODLR_BUTTERFLY_SOLVER
+    
+ User-supplied kernel:
+     
+ Hierarchical format......
+ 
+ Maxlevel_for_blocks:          10
+ N_leaf:          62
+ 
+ Constructing basis groups...
+ Hierarchical format finished
+     
+ FastMATVEC-based Matrix construction......
+    Level     1 rank:   23 Ntrial:  1 L_butt:  0 error: 4.5991149E-06 #sample:   33
+    Level     2 rank:   11 Ntrial:  1 L_butt:  0 error: 2.9587128E-06 #sample:   24
+    Level     3 rank:   10 Ntrial:  1 L_butt:  0 error: 2.7568941E-06 #sample:   12
+    Level     4 rank:   10 Ntrial:  1 L_butt:  0 error: 3.5164716E-06 #sample:   11
+    Level     5 rank:   10 Ntrial:  1 L_butt:  0 error: 3.6791585E-06 #sample:   11
+    Level     6 rank:   11 Ntrial:  1 L_butt:  0 error: 3.3715595E-06 #sample:   11
+    Level     6 rank:   11 Ntrial:  2 L_butt:  0 error: 2.6135911E-06 #sample:   16
+    Level     7 rank:   10 Ntrial:  1 L_butt:  0 error: 2.5753144E-06 #sample:   12
+    Level     8 rank:   10 Ntrial:  1 L_butt:  0 error: 2.5637196E-06 #sample:   11
+    Level     9 rank:   10 Ntrial:  1 L_butt:  0 error: 2.1234823E-06 #sample:   11
+    Level    10 rank:   10 Ntrial:  1 L_butt:  0 error: 1.8011497E-06 #sample:   11
+    Level    11 fullmat done
+ rankmax_of_level:           0          23          11          10          10          10          11          10          10          10          10
+ FastMATVEC-based Matrix construction finished   111.41215028800070      secnds. Error:    3.0194884649169286E-007
+ 
+ Computing block inverse at level Maxlevel+1...
+ Computing block inverse at higher levels...
+ update forward blocks at level:          10
+ OneL No.     1 rank:  7 L_butt:  0     error: 0.0000000E+00
+ OneL No.     2 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     3 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     4 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     5 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     6 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     7 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     8 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     9 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    10 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    11 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    12 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    13 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    14 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    15 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    16 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    17 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    18 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    19 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    20 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    21 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    22 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    23 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    24 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    25 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    26 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    27 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    28 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    29 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    30 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    31 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    32 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    33 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    34 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    35 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    36 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    37 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    38 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    39 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    40 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    41 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    42 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    43 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    44 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    45 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    46 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    47 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    48 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    49 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    50 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    51 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    52 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    53 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    54 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    55 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    56 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    57 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    58 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    59 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    60 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    61 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    62 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    63 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    64 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    65 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    66 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    67 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    68 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    69 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    70 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    71 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    72 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    73 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    74 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    75 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    76 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    77 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    78 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    79 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    80 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    81 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    82 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    83 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    84 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    85 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    86 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    87 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    88 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    89 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    90 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    91 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    92 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    93 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    94 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    95 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    96 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    97 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    98 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    99 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   100 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   101 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   102 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   103 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   104 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   105 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   106 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   107 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   108 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   109 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   110 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   111 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   112 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   113 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   114 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   115 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   116 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   117 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   118 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   119 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   120 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   121 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   122 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   123 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   124 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   125 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   126 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   127 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.   128 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   129 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   130 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   131 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   132 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   133 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   134 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   135 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   136 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   137 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   138 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   139 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   140 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   141 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   142 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   143 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   144 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   145 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   146 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   147 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   148 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   149 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   150 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   151 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   152 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   153 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   154 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   155 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.   156 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   157 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   158 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   159 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.   160 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   161 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   162 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   163 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   164 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   165 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   166 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   167 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   168 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   169 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   170 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.   171 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   172 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   173 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   174 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   175 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   176 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   177 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   178 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   179 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   180 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   181 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   182 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   183 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   184 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   185 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   186 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   187 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   188 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   189 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   190 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   191 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.   192 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   193 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   194 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.   195 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   196 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   197 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   198 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   199 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   200 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   201 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   202 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   203 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   204 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   205 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   206 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   207 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   208 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   209 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   210 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   211 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   212 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   213 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   214 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   215 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   216 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   217 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   218 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   219 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   220 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   221 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   222 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   223 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   224 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   225 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   226 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   227 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   228 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   229 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   230 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   231 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   232 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   233 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   234 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   235 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   236 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   237 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   238 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   239 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   240 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   241 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   242 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   243 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   244 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   245 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   246 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   247 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   248 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   249 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   250 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   251 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   252 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   253 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   254 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   255 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   256 rank:  8 L_butt:  0     error: 0.0000000E+00
+ compute block inverse at level:          10
+ OneL No.     1 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     2 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     3 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     4 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     5 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     6 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     7 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     8 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     9 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    10 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    11 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    12 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    13 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    14 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    15 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    16 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    17 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    18 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    19 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    20 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    21 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    22 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    23 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    24 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    25 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    26 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    27 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    28 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    29 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    30 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    31 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    32 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    33 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    34 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    35 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    36 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    37 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    38 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    39 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    40 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    41 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    42 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    43 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    44 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    45 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    46 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    47 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    48 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    49 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    50 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    51 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    52 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    53 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    54 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    55 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    56 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    57 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    58 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    59 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    60 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    61 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    62 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    63 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    64 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    65 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    66 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    67 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    68 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    69 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    70 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    71 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    72 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    73 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    74 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    75 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    76 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    77 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    78 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    79 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    80 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    81 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    82 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    83 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    84 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    85 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    86 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    87 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    88 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    89 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    90 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    91 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    92 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    93 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    94 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    95 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    96 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    97 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    98 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    99 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   100 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   101 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   102 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   103 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   104 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   105 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   106 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   107 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   108 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   109 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   110 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   111 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   112 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   113 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   114 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   115 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   116 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   117 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   118 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   119 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   120 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   121 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   122 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   123 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   124 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   125 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   126 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   127 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   128 rank:  8 L_butt:  0     error: 0.0000000E+00
+ update forward blocks at level:           9
+ OneL No.     1 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     2 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     3 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     4 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     5 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     6 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     7 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     8 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     9 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    10 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    11 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    12 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    13 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    14 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    15 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    16 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    17 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    18 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    19 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    20 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    21 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    22 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    23 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    24 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    25 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    26 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    27 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    28 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    29 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    30 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    31 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    32 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    33 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    34 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    35 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    36 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    37 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    38 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    39 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    40 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    41 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    42 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    43 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    44 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    45 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    46 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    47 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    48 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    49 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    50 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    51 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    52 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    53 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    54 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    55 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    56 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    57 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    58 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    59 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    60 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    61 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    62 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    63 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    64 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    65 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    66 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    67 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    68 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    69 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    70 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    71 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    72 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    73 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    74 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    75 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    76 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    77 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    78 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    79 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    80 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    81 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    82 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    83 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    84 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    85 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    86 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    87 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    88 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    89 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    90 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    91 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    92 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    93 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    94 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    95 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    96 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    97 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    98 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    99 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.   100 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   101 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   102 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   103 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   104 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   105 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   106 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   107 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.   108 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   109 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   110 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   111 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   112 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.   113 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   114 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.   115 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   116 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   117 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   118 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.   119 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   120 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   121 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   122 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   123 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   124 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   125 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   126 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   127 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.   128 rank:  9 L_butt:  0     error: 0.0000000E+00
+ compute block inverse at level:           9
+ OneL No.     1 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     2 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     3 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     4 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     5 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     6 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     7 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     8 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     9 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    10 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    11 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    12 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    13 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    14 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    15 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    16 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    17 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    18 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    19 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    20 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    21 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    22 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    23 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    24 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    25 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    26 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    27 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    28 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    29 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    30 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    31 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    32 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    33 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    34 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    35 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    36 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    37 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    38 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    39 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    40 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    41 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    42 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    43 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    44 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    45 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    46 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    47 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    48 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    49 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    50 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    51 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    52 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    53 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    54 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    55 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    56 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    57 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    58 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    59 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    60 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    61 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    62 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    63 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    64 rank:  9 L_butt:  0     error: 0.0000000E+00
+ update forward blocks at level:           8
+ OneL No.     1 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     2 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     3 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     4 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     5 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     6 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     7 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     8 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     9 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    10 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    11 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    12 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    13 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    14 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    15 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    16 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    17 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    18 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    19 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    20 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    21 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    22 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    23 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    24 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    25 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    26 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    27 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    28 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    29 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    30 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    31 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    32 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    33 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    34 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    35 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    36 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    37 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    38 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    39 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    40 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    41 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    42 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    43 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    44 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    45 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    46 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    47 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    48 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    49 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    50 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    51 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    52 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    53 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    54 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    55 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    56 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    57 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    58 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    59 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    60 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    61 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    62 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    63 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    64 rank:  9 L_butt:  0     error: 0.0000000E+00
+ compute block inverse at level:           8
+ OneL No.     1 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     2 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     3 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     4 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     5 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     6 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     7 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     8 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     9 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    10 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    11 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    12 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    13 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    14 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    15 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    16 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    17 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    18 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    19 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    20 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    21 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    22 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    23 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    24 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    25 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    26 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    27 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    28 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    29 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    30 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    31 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    32 rank:  9 L_butt:  0     error: 0.0000000E+00
+ update forward blocks at level:           7
+ OneL No.     1 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.     2 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     3 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     4 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     5 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     6 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     7 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     8 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     9 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    10 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    11 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    12 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    13 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    14 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    15 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    16 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    17 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    18 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    19 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    20 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    21 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    22 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    23 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    24 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    25 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    26 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    27 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    28 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    29 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    30 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    31 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    32 rank:  9 L_butt:  0     error: 0.0000000E+00
+ compute block inverse at level:           7
+ OneL No.     1 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     2 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     3 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     4 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     5 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     6 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     7 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     8 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     9 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    10 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    11 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.    12 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    13 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    14 rank:  8 L_butt:  0     error: 0.0000000E+00
+ OneL No.    15 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    16 rank:  9 L_butt:  0     error: 0.0000000E+00
+ update forward blocks at level:           6
+ OneL No.     1 rank: 11 L_butt:  0     error: 0.0000000E+00
+ OneL No.     2 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     3 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     4 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     5 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     6 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     7 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     8 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     9 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    10 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    11 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    12 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    13 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    14 rank: 11 L_butt:  0     error: 0.0000000E+00
+ OneL No.    15 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.    16 rank: 10 L_butt:  0     error: 0.0000000E+00
+ compute block inverse at level:           6
+ OneL No.     1 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     2 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     3 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     4 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     5 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     6 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     7 rank: 11 L_butt:  0     error: 0.0000000E+00
+ OneL No.     8 rank: 10 L_butt:  0     error: 0.0000000E+00
+ update forward blocks at level:           5
+ OneL No.     1 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     2 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     3 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     4 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     5 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     6 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     7 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     8 rank: 10 L_butt:  0     error: 0.0000000E+00
+ compute block inverse at level:           5
+ OneL No.     1 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     2 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     3 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     4 rank: 10 L_butt:  0     error: 0.0000000E+00
+ update forward blocks at level:           4
+ OneL No.     1 rank: 10 L_butt:  0     error: 0.0000000E+00
+ OneL No.     2 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     3 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     4 rank: 10 L_butt:  0     error: 0.0000000E+00
+ compute block inverse at level:           4
+ OneL No.     1 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     2 rank: 10 L_butt:  0     error: 0.0000000E+00
+ update forward blocks at level:           3
+ OneL No.     1 rank:  9 L_butt:  0     error: 0.0000000E+00
+ OneL No.     2 rank: 10 L_butt:  0     error: 0.0000000E+00
+ compute block inverse at level:           3
+ OneL No.     1 rank: 10 L_butt:  0     error: 0.0000000E+00
+ update forward blocks at level:           2
+ OneL No.     1 rank: 10 L_butt:  0     error: 0.0000000E+00
+ compute block inverse at level:           2
+ OneL No.     1 rank: 11 L_butt:  0     error: 0.0000000E+00
+ update forward blocks at level:           1
+ OneL No.     1 rank: 23 L_butt:  0     error: 0.0000000E+00
+ compute block inverse at level:           1
+ OneL No.     1 rank: 23 L_butt:  0     error: 0.0000000E+00
+ computing updated forward block time:   1.2253089603036642      Seconds
+ computing inverse block time:  0.17944128997623920      Seconds
+      Time_Init:   1.1751074343919754E-003
+      Time_MVP:   0.0000000000000000     
+      Time_Reconstruct:   0.0000000000000000     
+      Time_Onesub:   0.0000000000000000     
+      Time_OneBlock_XX:   0.0000000000000000     
+      Time_SMW:   8.0562496557831764E-002
+      Time_PartialUpdate:   0.0000000000000000     
+      Time_RedistB:   2.5090740993618965E-002
+      Time_RedistV:   4.3035558238625526     
+ time_tmp   0.0000000000000000     
+ time_tmp1   103.00509968772531     
+ time_tmp2   108.08591380715370     
+ time_tmp3   0.0000000000000000     
+ time_tmp4   0.0000000000000000     
+ time_tmp5   0.0000000000000000     
+ Factorization flops:      1.19E+10
+ 
+   107.40440624999999      MB costed for butterfly inverse blocks
+   213.64453125000000      MB costed for butterfly Sblocks
+   62.504000000000353      MB costed for direct inverse blocks
+   0.0000000000000000      MB costed for storing intermidiate vectors
+ 
+ Solve ......
+ Solve finished
+     
+|x-xtrue|/|xtrue| for inverse FIO: 3.98736e-08
+Printing stats of the second HODLR: 
+         Constr time:      1.11E+02 Seconds
+      EntryEval time:      0.00E+00 Seconds
+      traversal time:      0.00E+00 Seconds
+     BF compute time:      0.00E+00 Seconds
+    communicate time:      0.00E+00 Seconds
+      Tot constr mem:      2.76E+02 MB
+        Constr flops:      5.21E+10
+  Rank before factor:            23
+         Factor time:      1.62E+00 Seconds
+      Tot factor mem:      3.84E+02 MB
+        Factor flops:      1.19E+10
+   Rank after factor:            23
+          Solve time:      5.49E-02 Seconds
+         Solve flops:      1.96E+08
+         C_mult time:      0.00E+00 Seconds
+        C_mult flops:      0.00E+00
+      C_extract time:      0.00E+00 Seconds
+     C_extract flops:      0.00E+00
+            Peak mem:      1.67E+02 MB

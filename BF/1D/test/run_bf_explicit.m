@@ -10,16 +10,16 @@ end
 kbox = [1,N+1];
 k = 1:N;
 kk = k(:);
-noise = rand(N,1)*0.9;
-kk = kk + noise;
+% noise = rand(N,1)*0.9;
+% kk = kk + noise;
 
 xbox = [1,N+1];
 x = 1:N;
 xx = x(:);
 % noise = rand(N,1)*0.5;
 % xx = xx + noise;
-xx(2) = xx(1) + 0.1;
-xx(N-1) = xx(N) - 0.1;
+% xx(2) = xx(1) + 0.1;
+% xx(N-1) = xx(N) - 0.1;
 % xx(N/2+1) = xx(N/2) + 0.05;
 
 switch func_name
@@ -43,20 +43,36 @@ end
 
 f = randn(N,1) + 1i*randn(N,1);
 
+nps = max(3,ceil(log2(mR)));
+% nps = mR;
+lsz = (2^nps)^2;
+
+Afun = @(x,k)fun(xx(x), kk(k));
+
+% fprintf('HSSBF error: %10.4e \n', norm(HSSBF_apply(Fac, f) - fun(xx,kk)*f)/norm(fun(xx,kk)*f));
+
+% norm(HSSBF_apply(Fac,f) - HSSBF_apply(ZL, f) - HSSBF_apply(ZU,f)+f)
+% norm(fun(xx,kk)*f-Afun((1:N)', (1:N)')*f)/norm(fun(xx,kk)*f)
+
 tic;
 Factor = bf_explicit(fun, xx, xbox, kk, kbox, mR, tol, 1);
+% [Factor,ZL,ZU] = HSSBF_RS_fwd(Afun,(1:N)',(1:N)',mR,tol,lsz,1);
 FactorT = toc;
 
 tic;
-yy = apply_bf(Factor,f);
+% yy = HSSBF_apply(Factor,f);
+yy = apply_bf(Factor, f);
 ApplyT = toc;
 RunT = FactorT + ApplyT;
+
+% norm(yy-fun(xx,kk)*f)/norm(fun(xx,kk)*f)
 
 NC = 256;
 tic;
 relerr = bf_explicit_check(N,fun,f,xx,kk,yy,NC);
 Td = toc;
 Td = Td*N/NC;
+
 
 fprintf(fid,'------------------------------------------\n');
 fprintf(fid,'N                 : %4d\n', N);

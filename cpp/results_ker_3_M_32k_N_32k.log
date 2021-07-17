@@ -1,0 +1,157 @@
+ButterflyPACK Version: 1.2.1
+M 32000 N 32000
+  
+ ***************************
+ Printing Solver Options:
+         Nmin_leaf      64
+            n_iter    1000
+       level_check   10000
+            precon       1
+           xyzsort       0
+             lnoBP   40000
+         bp_cnt_lr       0
+      TwoLayerOnly       1
+       schulzorder       3
+   schulzhardstart       0
+  schulzsplitlevel       1
+       schulzlevel    3000
+           LRlevel     100
+        BACA_Batch     100
+        RecLR_leaf       5
+             nogeo       1
+        LR_BLK_NUM       1
+             rank0      32
+           itermax      10
+           powiter       0
+               ILU       0
+           Nbundle       1
+         verbosity       2
+              rmax    3000
+    forwardN15flag       0
+          pat_comp       3
+      elem_extract       0
+               cpp       1
+               knn       0
+       ErrFillFull       0
+            ErrSol       0
+        less_adapt       1
+          rankrate 1.5000000E+00
+          tol_comp 1.0000000E-09
+       tol_Rdetect 3.0000000E-09
+            tol_LS 1.0000000E-12
+       tol_itersol 1.0000000E-06
+          tol_rand 1.0000000E-08
+        touch_para 0.0000000E+00
+         near_para 1.0000000E-14
+     knn_near_para 2.0000000E+01
+      scale_factor 1.0000000E+00
+       sample_para 2.0000000E+00
+ sample_para_outer 2.0000000E+00
+ ***************************
+  
+ NUMBER_MPI=           4
+ OMP_NUM_THREADS=           1
+ HODLR_BUTTERFLY_SOLVER
+    
+ User-supplied kernel:
+     
+ Hierarchical format......
+ 
+ Maxlevel_for_blocks:           9
+ N_leaf:          62
+ 
+ Constructing basis groups...
+ Hierarchical format finished
+     
+ NUMBER_MPI=           4
+ OMP_NUM_THREADS=           1
+ HODLR_BUTTERFLY_SOLVER
+    
+ User-supplied kernel:
+     
+ Hierarchical format......
+ 
+ Maxlevel_for_blocks:           9
+ N_leaf:          62
+ 
+ Constructing basis groups...
+ Hierarchical format finished
+     
+ NUMBER_MPI=           4
+ OMP_NUM_THREADS=           1
+  
+ EntryExtraction-based BF construction......
+    BF_CheckError: fnorm: 2.0000000E+02 2.0000000E+02 acc:  1.02E-07 time:  3.84E-01
+ EntryExtraction-based BF construction finished
+
+Printing stats of the first BF: 
+         Constr time:      1.43E+01 Seconds
+      EntryEval time:      2.24E+00 Seconds
+      traversal time:      1.20E-05 Seconds
+     BF compute time:      3.82E-01 Seconds
+    communicate time:      1.42E-03 Seconds
+      Tot constr mem:      3.60E+02 MB
+        Constr flops:      1.01E+11
+  Rank before factor:            70
+         Factor time:      0.00E+00 Seconds
+      Tot factor mem:      0.00E+00 MB
+        Factor flops:      0.00E+00
+          Solve time:      0.00E+00 Seconds
+         Solve flops:      0.00E+00
+         C_mult time:      0.00E+00 Seconds
+        C_mult flops:      0.00E+00
+      C_extract time:      0.00E+00 Seconds
+     C_extract flops:      0.00E+00
+            Peak mem:      9.00E+01 MB
+ NUMBER_MPI=           4
+ OMP_NUM_THREADS=           1
+ HODLR_BUTTERFLY_SOLVER
+    
+ User-supplied kernel:
+     
+ Hierarchical format......
+ 
+ Maxlevel_for_blocks:           9
+ N_leaf:          62
+ 
+ Constructing basis groups...
+ Hierarchical format finished
+     
+ FastMATVEC-based Matrix construction......
+    Level     1 rank:   33 Ntrial:  1 L_butt:  0 error: 8.2169098E-01 #sample:   33
+    Level     1 rank:   49 Ntrial:  2 L_butt:  0 error: 8.3963212E-01 #sample:   49
+    Level     1 rank:   73 Ntrial:  3 L_butt:  0 error: 7.1375202E-01 #sample:   73
+    Level     1 rank:  109 Ntrial:  4 L_butt:  0 error: 7.8667824E-01 #sample:  109
+    Level     1 rank:  163 Ntrial:  5 L_butt:  0 error: 7.3765250E-01 #sample:  163
+    Level     1 rank:  244 Ntrial:  6 L_butt:  0 error: 6.7534474E-01 #sample:  244
+    Level     1 rank:  366 Ntrial:  7 L_butt:  0 error: 6.0736821E-01 #sample:  366
+    Level     1 rank:  548 Ntrial:  8 L_butt:  0 error: 5.6545651E-01 #sample:  548
+    Level     1 rank:  822 Ntrial:  9 L_butt:  0 error: 5.8856069E-01 #sample:  822
+    Level     1 rank: 1232 Ntrial: 10 L_butt:  0 error: 4.8604919E-01 #sample: 1232
+ randomized scheme not converged. level:            1  rank:        1232  L_butt:           0  error:  0.48604919043428618     
+ randomized scheme not converged. level:            1  rank:        1232  L_butt:           0  error:  0.48604919043428618     
+ randomized scheme not converged. level:            1  rank:        1232  L_butt:           0  error:  0.48604919043428618     
+ randomized scheme not converged. level:            1  rank:        1232  L_butt:           0  error:  0.48604919043428618     
+--------------------------------------------------------------------------
+mpirun has exited due to process rank 0 with PID 0 on
+node zinc exiting improperly. There are three reasons this could occur:
+
+1. this process did not call "init" before exiting, but others in
+the job did. This can cause a job to hang indefinitely while it waits
+for all processes to call "init". By rule, if one process calls "init",
+then ALL processes must call "init" prior to termination.
+
+2. this process called "init", but exited without calling "finalize".
+By rule, all processes that call "init" MUST call "finalize" prior to
+exiting or it will be considered an "abnormal termination"
+
+3. this process called "MPI_Abort" or "orte_abort" and the mca parameter
+orte_create_session_dirs is set to false. In this case, the run-time cannot
+detect that the abort call was an abnormal termination. Hence, the only
+error message you will receive is this one.
+
+This may have caused other processes in the application to be
+terminated by signals sent by mpirun (as reported here).
+
+You can avoid this message by specifying -quiet on the mpirun command line.
+--------------------------------------------------------------------------

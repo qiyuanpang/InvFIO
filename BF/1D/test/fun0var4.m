@@ -3,7 +3,7 @@ function res = fun0var4(N,x,k)
     x = (x-1)/N;
     k = k-1-N/2;
     xk = x*k';
-    sx = (2 + sin(2*pi*x))/7;
+    sx = (2 + sin(2*pi*x))/6.8;
     tmp = (2*pi)* (xk + sx*abs(k'));
     [K,X] = meshgrid(k,x);
     

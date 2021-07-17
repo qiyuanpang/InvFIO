@@ -1,0 +1,220 @@
+ButterflyPACK Version: 1.2.1
+M 2000 N 2000
+  
+ ***************************
+ Printing Solver Options:
+         Nmin_leaf      64
+            n_iter    1000
+       level_check   10000
+            precon       1
+           xyzsort       0
+             lnoBP   40000
+         bp_cnt_lr       0
+      TwoLayerOnly       1
+       schulzorder       3
+   schulzhardstart       0
+  schulzsplitlevel       1
+       schulzlevel    3000
+           LRlevel     100
+        BACA_Batch     100
+        RecLR_leaf       5
+             nogeo       1
+        LR_BLK_NUM       1
+             rank0      32
+           itermax      10
+           powiter       0
+               ILU       0
+           Nbundle       1
+         verbosity       2
+              rmax    3000
+    forwardN15flag       0
+          pat_comp       3
+      elem_extract       0
+               cpp       1
+               knn       0
+       ErrFillFull       0
+            ErrSol       0
+        less_adapt       1
+          rankrate 1.5000000E+00
+          tol_comp 1.0000000E-09
+       tol_Rdetect 3.0000000E-09
+            tol_LS 1.0000000E-12
+       tol_itersol 1.0000000E-06
+          tol_rand 1.0000000E-08
+        touch_para 0.0000000E+00
+         near_para 1.0000000E-14
+     knn_near_para 2.0000000E+01
+      scale_factor 1.0000000E+00
+       sample_para 2.0000000E+00
+ sample_para_outer 2.0000000E+00
+ ***************************
+  
+ NUMBER_MPI=           4
+ OMP_NUM_THREADS=           1
+ HODLR_BUTTERFLY_SOLVER
+    
+ User-supplied kernel:
+     
+ Hierarchical format......
+ 
+ Maxlevel_for_blocks:           5
+ N_leaf:          62
+ 
+ Constructing basis groups...
+ Hierarchical format finished
+     
+ NUMBER_MPI=           4
+ OMP_NUM_THREADS=           1
+ HODLR_BUTTERFLY_SOLVER
+    
+ User-supplied kernel:
+     
+ Hierarchical format......
+ 
+ Maxlevel_for_blocks:           5
+ N_leaf:          62
+ 
+ Constructing basis groups...
+ Hierarchical format finished
+     
+ NUMBER_MPI=           4
+ OMP_NUM_THREADS=           1
+  
+ EntryExtraction-based BF construction......
+    BF_CheckError: fnorm: 2.0000000E+02 2.0000000E+02 acc:  2.66E-07 time:  4.36E-02
+ EntryExtraction-based BF construction finished
+
+Printing stats of the first BF: 
+         Constr time:      3.68E-01 Seconds
+      EntryEval time:      6.24E-02 Seconds
+      traversal time:      1.22E-05 Seconds
+     BF compute time:      4.21E-02 Seconds
+    communicate time:      1.56E-03 Seconds
+      Tot constr mem:      1.14E+01 MB
+        Constr flops:      2.23E+09
+  Rank before factor:            67
+         Factor time:      0.00E+00 Seconds
+      Tot factor mem:      0.00E+00 MB
+        Factor flops:      0.00E+00
+          Solve time:      0.00E+00 Seconds
+         Solve flops:      0.00E+00
+         C_mult time:      0.00E+00 Seconds
+        C_mult flops:      0.00E+00
+      C_extract time:      0.00E+00 Seconds
+     C_extract flops:      0.00E+00
+            Peak mem:      2.84E+00 MB
+ NUMBER_MPI=           4
+ OMP_NUM_THREADS=           1
+ HODLR_BUTTERFLY_SOLVER
+    
+ User-supplied kernel:
+     
+ Hierarchical format......
+ 
+ Maxlevel_for_blocks:           5
+ N_leaf:          62
+ 
+ Constructing basis groups...
+ Hierarchical format finished
+     
+ FastMATVEC-based Matrix construction......
+    Level     1 rank:   33 Ntrial:  1 L_butt:  0 error: 6.8930678E-01 #sample:   33
+    Level     1 rank:   49 Ntrial:  2 L_butt:  0 error: 6.1662592E-01 #sample:   49
+    Level     1 rank:   73 Ntrial:  3 L_butt:  0 error: 5.4462470E-01 #sample:   73
+    Level     1 rank:  109 Ntrial:  4 L_butt:  0 error: 4.5157785E-01 #sample:  109
+    Level     1 rank:  163 Ntrial:  5 L_butt:  0 error: 4.2276010E-01 #sample:  163
+    Level     1 rank:  244 Ntrial:  6 L_butt:  0 error: 9.4798945E-02 #sample:  244
+    Level     1 rank:  264 Ntrial:  7 L_butt:  0 error: 2.5554794E-10 #sample:  366
+    Level     2 rank:   29 Ntrial:  1 L_butt:  0 error: 5.3164431E-07 #sample:  265
+    Level     3 rank:   24 Ntrial:  1 L_butt:  0 error: 8.2228046E-07 #sample:   30
+    Level     4 rank:   20 Ntrial:  1 L_butt:  0 error: 1.3145009E-06 #sample:   25
+    Level     5 rank:   18 Ntrial:  1 L_butt:  0 error: 1.1153077E-06 #sample:   21
+    Level     6 fullmat done
+ rankmax_of_level:           0         264          29          24          20          18
+ FastMATVEC-based Matrix construction finished   11.302035799250007      secnds. Error:    3.8262868172815760E-007
+ 
+ Computing block inverse at level Maxlevel+1...
+ Computing block inverse at higher levels...
+ update forward blocks at level:           5
+ OneL No.     1 rank: 16 L_butt:  0     error: 0.0000000E+00
+ OneL No.     2 rank: 17 L_butt:  0     error: 0.0000000E+00
+ OneL No.     3 rank: 17 L_butt:  0     error: 0.0000000E+00
+ OneL No.     4 rank: 17 L_butt:  0     error: 0.0000000E+00
+ OneL No.     5 rank: 16 L_butt:  0     error: 0.0000000E+00
+ OneL No.     6 rank: 16 L_butt:  0     error: 0.0000000E+00
+ OneL No.     7 rank: 16 L_butt:  0     error: 0.0000000E+00
+ OneL No.     8 rank: 16 L_butt:  0     error: 0.0000000E+00
+ compute block inverse at level:           5
+ OneL No.     1 rank: 17 L_butt:  0     error: 0.0000000E+00
+ OneL No.     2 rank: 17 L_butt:  0     error: 0.0000000E+00
+ OneL No.     3 rank: 16 L_butt:  0     error: 0.0000000E+00
+ OneL No.     4 rank: 16 L_butt:  0     error: 0.0000000E+00
+ update forward blocks at level:           4
+ OneL No.     1 rank: 20 L_butt:  0     error: 0.0000000E+00
+ OneL No.     2 rank: 20 L_butt:  0     error: 0.0000000E+00
+ OneL No.     3 rank: 19 L_butt:  0     error: 0.0000000E+00
+ OneL No.     4 rank: 20 L_butt:  0     error: 0.0000000E+00
+ compute block inverse at level:           4
+ OneL No.     1 rank: 20 L_butt:  0     error: 0.0000000E+00
+ OneL No.     2 rank: 20 L_butt:  0     error: 0.0000000E+00
+ update forward blocks at level:           3
+ OneL No.     1 rank: 23 L_butt:  0     error: 0.0000000E+00
+ OneL No.     2 rank: 23 L_butt:  0     error: 0.0000000E+00
+ compute block inverse at level:           3
+ OneL No.     1 rank: 23 L_butt:  0     error: 0.0000000E+00
+ update forward blocks at level:           2
+ OneL No.     1 rank: 28 L_butt:  0     error: 0.0000000E+00
+ compute block inverse at level:           2
+ OneL No.     1 rank: 27 L_butt:  0     error: 0.0000000E+00
+ update forward blocks at level:           1
+ OneL No.     1 rank:264 L_butt:  0     error: 0.0000000E+00
+ compute block inverse at level:           1
+ OneL No.     1 rank:264 L_butt:  0     error: 0.0000000E+00
+ computing updated forward block time:  0.15825524367392063      Seconds
+ computing inverse block time:  0.36244981922209263      Seconds
+      Time_Init:   1.0158121585845947E-004
+      Time_MVP:   0.0000000000000000     
+      Time_Reconstruct:   0.0000000000000000     
+      Time_Onesub:   0.0000000000000000     
+      Time_OneBlock_XX:   0.0000000000000000     
+      Time_SMW:  0.27614942379295826     
+      Time_PartialUpdate:   0.0000000000000000     
+      Time_RedistB:   5.8427955955266953E-003
+      Time_RedistV:  0.45813352428376675     
+ time_tmp   0.0000000000000000     
+ time_tmp1   5.8381997961550951     
+ time_tmp2   7.4620512817054987     
+ time_tmp3   0.0000000000000000     
+ time_tmp4   0.0000000000000000     
+ time_tmp5   0.0000000000000000     
+ Factorization flops:      4.97E+09
+ 
+   10.988468749999999      MB costed for butterfly inverse blocks
+   21.941406250000000      MB costed for butterfly Sblocks
+   1.9532500000000002      MB costed for direct inverse blocks
+   0.0000000000000000      MB costed for storing intermidiate vectors
+ 
+ Solve ......
+ Solve finished
+     
+|x-xtrue|/|xtrue| for inverse FIO: inf
+Printing stats of the second HODLR: 
+         Constr time:      1.13E+01 Seconds
+      EntryEval time:      0.00E+00 Seconds
+      traversal time:      0.00E+00 Seconds
+     BF compute time:      0.00E+00 Seconds
+    communicate time:      0.00E+00 Seconds
+      Tot constr mem:      2.39E+01 MB
+        Constr flops:      4.64E+10
+  Rank before factor:           264
+         Factor time:      5.28E-01 Seconds
+      Tot factor mem:      3.49E+01 MB
+        Factor flops:      4.97E+09
+   Rank after factor:           264
+          Solve time:      2.10E-03 Seconds
+         Solve flops:      1.79E+07
+         C_mult time:      0.00E+00 Seconds
+        C_mult flops:      0.00E+00
+      C_extract time:      0.00E+00 Seconds
+     C_extract flops:      0.00E+00
+            Peak mem:      1.48E+01 MB
