@@ -18,7 +18,7 @@ function [u, iter] = SplitBregman(regm, mu, lambda, h, funAT, H, f, opR, maxit1,
         HODLR_laplacian_modA11(L1, U1, -lambda/mu/h/h);
         HODLR_laplacian_modA22(L1, U1, -lambda/mu/h/h);
         for iter = 1:maxit1
-            % [u, iter1] = GaussSeidel(@(x)1/mu*hodlr_tri2_sol(L,L1,x), @(x)mu*hodlr_apply(U,x)+mu*hodlr_apply(U1,x), mu*funAT(f)+lambda*opR(d0-b0), u0, maxit2, tol);
+            %[u, iter1] = GaussSeidel(@(x)1/mu*hodlr_tri2_sol(L,L1,x), @(x)mu*hodlr_apply(U,x)+mu*hodlr_apply(U1,x), mu*funAT(f)+lambda*opR(d0-b0), u0, maxit2, tol);
             [u, flag, relres, iter1] = pcg(@(x)mu*(hodlr_apply(H,x)+hodlr_apply(L1,x)+hodlr_apply(U1,x)), mu*funAT(f)+lambda*opR(d0-b0), tol, maxit2, @(x)funM(x), @(x)x, u0);
             if norm(u-u0) < tol
                 break

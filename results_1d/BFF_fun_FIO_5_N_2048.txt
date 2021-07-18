@@ -1,0 +1,44 @@
+
+
+------------------------------------------
+N:       2048 
+------------------------------------------
+N                 : 2048
+Max Rank          :   20
+Tolerance         : 1.000e-09
+Relative Error_2  : 3.888e-10
+Direct Time       : 4.155e-01 s
+Running Time      : 2.910e-01 mins
+Factorization Time: 2.908e-01 mins
+Applying Time     : 1.513e-02 s
+------------------------------------------
+
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     64 |   64 |   4.64e+00 (s)
+  2 |     41 |   64 |   4.54e+00 (s)
+  3 |     30 |   64 |   4.63e+00 (s)
+  4 |     29 |   64 |   4.46e+00 (s)
+  5 |     24 |   62 |   4.69e+00 (s)
+  6 |     20 |   30 |   2.40e+00 (s)
+time H_matrix construction 10e-6: 2.6148e+01 )
+mv: 5.7551e-07 
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.64e-01 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.94e-01 (s)
+  4 |   2048 |      176 |     1872 |     0.09 |     0.91 |   3.58e-01 (s)
+  3 |   1872 |     1029 |      843 |     0.55 |     0.45 |   3.63e-01 (s)
+  2 |    843 |      483 |      360 |     0.57 |     0.43 |   1.53e-01 (s)
+  1 |    360 |      232 |      128 |     0.64 |     0.36 |   5.81e-02 (s)
+-------------End RSS contruction-----------
+time HIF construction 1.2936e+00 
+mv: 9.9211e-07  time 4.7762e-02
+sv: 1.1089e-01 time 2.8603e-02
+time/rank HODLR-QR construction 2.8190e+01/125 
+mv: 9.9085e-07 time 9.4818e-02
+sv: 1.1241e-01 time 8.3777e-02
+Linearized Bregman with HIF guess           : tol   1.00e-08,   time/#iter 4.5456e-01 /    1, relerr 8.3105e+00 
+Linearized Bregman with HQR guess           : tol   1.00e-08,   time/#iter 5.2095e-01 /    1, relerr 8.6111e+00 
+Linearized Bregman with HIF guess           : tol   1.00e-10,   time/#iter 2.2066e-01 /    1, relerr 8.3105e+00 
+Linearized Bregman with HQR guess           : tol   1.00e-10,   time/#iter 3.3736e-01 /    1, relerr 8.6111e+00 

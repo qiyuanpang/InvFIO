@@ -8,16 +8,17 @@ for s = dirs
 end
 
 
-func_name = '4';%'fun_FIO_var2';'fun_FIO';'fun_FIO_5';'fun_FIO_var4';
-OutPutFile = fopen(['comp_1d/Comp_HIFvsHQR_MOD_',func_name,'.txt'],'w');
+func_name = '2';%'fun_FIO_var2';'fun_FIO';'fun_FIO_5';'fun_FIO_var4';
+OutPutFile = fopen(['comp_1d/Comp_HIFvsHQR_ATA_',func_name,'.txt'],'w');
 
 mR = 24;
 occ = 32;
-tol_bf = 1E-12;
-tol_peel = 1E-12;
-tol_RSS = 1E-12;
-maxit = 10;
-restart = 10;
+tol_bf = 1E-8;
+tol_peel = 1E-8;
+tol_RSS = 1E-8;
+maxit = 120;
+restart1 = 10;
+maxit1 = 12;
 repeat_num = 1;
 
 % dims = 2.^[8 9 10]
@@ -54,17 +55,17 @@ iters_hqr = zeros(cases, 1);
 for i = 1:cases
     N = dims(i)+1;
 
-    fileID = fopen(['results_1d/BFF_MOD_',func_name,'_N_',num2str(N),'_v12.txt'],'w');
+    fileID = fopen(['results_1d/BFF_ATA_',func_name,'_N_',num2str(N),'_v12.txt'],'w');
     fprintf(fileID,'\n');
     fprintf(fileID,'\n');
     fprintf(fileID,'------------------------------------------\n');
-    fprintf(fileID,'N: %10d \n',N);
+    fprintf(fileID,'N: %10d \n',N-1);
     
     fprintf(OutPutFile, '\n');
     fprintf(OutPutFile, '\n');
     fprintf(OutPutFile, '------------------------------------------\n');
-    fprintf(OutPutFile, 'N: %10d \n',N);
-    
+    fprintf(OutPutFile, 'N: %10d \n',N-1);
+
     rk = mR;
     num = str2double(func_name);
     generate_Z;
@@ -72,19 +73,14 @@ for i = 1:cases
     %% COnstruct BF factorization
     [bftime(i), Factor, bferr(i), FL, FU] = run_bf_explicit_mod(N, Afunc, mR, tol_bf, fileID);
     fprintf(OutPutFile, 'BF Fac err/time: %10.4e/%10.4e (s) \n', bferr(i), bftime(i));
-
-
-    Afun = @(x) LUBF_sol(FL, HSSBF_apply(Factor,LUBF_sol(FU, x, 'U')), 'L');
-    % ATfun = @(x) LUBF_adj_sol(FU, HSSBF_adj_apply(Factor,LUBF_adj_sol(FL, x, 'L')), 'U');
     
-    fprintf('condition number: \n')
-    cond(Afunc((1:N)', (1:N)'))
-    cond(Afun(eye(N)))
+    Afun = @(x) LUBF_sol(FL, HSSBF_apply(Factor,LUBF_sol(FU, x, 'U')), 'L');
+    ATfun = @(x) LUBF_adj_sol(FU, HSSBF_adj_apply(Factor,LUBF_adj_sol(FL, x, 'L')), 'U');
 
     %% Construct HODLR factorization using peeling algorithm
     tStart=tic;
     for j = 1:repeat_num
-      [F,HODLR] = HODLR_construction_gen( N, @(x)Afun(x), tol_peel, fileID, occ, 64,64);
+      [F,HODLR] = HODLR_construction( N, Afun, ATfun, tol_peel, fileID, occ, 64,64);
     end
     t = toc(tStart)/repeat_num;
     factime_hodlr(i) = t;
@@ -94,7 +90,7 @@ for i = 1:cases
     % [e,niter] = snorm(N,@(x)(HSSBF_adj_apply(Factor,HSSBF_apply(Factor,x)) - hodlr_apply(HODLR,x)),[],[],32);
     % e = e/snorm(N,@(x)(HSSBF_adj_apply(Factor,HSSBF_apply(Factor,x))),[],[],1);
     v = randn(N,1) + 1i*randn(N,1);
-    e = norm( Afun(v) - hodlr_apply(HODLR,v))/norm(Afun(v));
+    e = norm( ATfun(Afun(v)) - hodlr_apply(HODLR,v))/norm(ATfun(Afun(v)));
     fprintf(fileID,'mv: %10.4e \n',e);
     fprintf(OutPutFile, 'HODLR Fac err/time: %10.4e/%10.4e (s) \n', e, t);
     facerr_hodlr(i) = e;
@@ -118,7 +114,7 @@ for i = 1:cases
     t=toc/repeat_num;
     % [e,niter] = snorm(N,@(x)(HSSBF_adj_apply(Factor,HSSBF_apply(Factor,x)) - RSS_apply(G,x)),[],[],32);
     % e = e/snorm(N,@(x)(HSSBF_adj_apply(Factor,HSSBF_apply(Factor,x))),[],[],1);
-    e = norm(Afun(f) - RSS_apply_lu(G,f))/norm(Afun(f));
+    e = norm(ATfun(Afun(f)) - RSS_apply_lu(G,f))/norm(ATfun(Afun(f)));
     fprintf(fileID,'mv: %10.4e  time %10.4e\n',e,t);
     apptime_hif(i) = t;
     apperr_hif(i) = e;
@@ -134,7 +130,7 @@ for i = 1:cases
     %fprintf(fileID,'sv: %10.4e / (%4d) time %10.4e\n',e,niter,t);
     %NORM(INV(L*L') - INV(F))/NORM(INV(L*L')) <= NORM(I - L*INV(F)*L')
     % [e,niter] = snorm(N,@(x)(x-HSSBF_apply(Factor,RSS_inv(G,HSSBF_adj_apply(Factor,x)))),[],[],32);
-    e = norm(f-RSS_inv_lu(G,Afun(f)))/norm(f);
+    e = norm(f-Afun(RSS_inv_lu(G,ATfun(f))))/norm(f);
     fprintf(fileID,'sv: %10.4e time %10.4e\n',e,t);
     soltime_hif(i) = t;
     solerr_hif(i) = e;
@@ -158,7 +154,7 @@ for i = 1:cases
     t=toc/repeat_num;
     % [e,niter] = snorm(N,@(x)(HSSBF_adj_apply(Factor,HSSBF_apply(Factor,x)) - hodlrqr_apply(Y, T, R, x)),[],[],32);
     % e = e/snorm(N,@(x)(HSSBF_adj_apply(Factor,HSSBF_apply(Factor,x))),[],[],1);
-    e = norm(Afun(f) - hodlrqr_apply(Y, T, R, f))/norm(Afun(f));
+    e = norm(ATfun(Afun(f)) - hodlrqr_apply(Y, T, R, f))/norm(ATfun(Afun(f)));
     fprintf(fileID,'mv: %10.4e time %10.4e\n',e,t);
     apptime_hqr(i) = t;
     apperr_hqr(i) = e;
@@ -170,7 +166,7 @@ for i = 1:cases
     end
     t=toc/repeat_num;
     % [e,niter] = snorm(N,@(x)(x-HSSBF_apply(Factor,hodlrqr_inv(Y, T, R, HSSBF_adj_apply(Factor,x)))),[],[],32);
-    e = norm(f-hodlrqr_inv(Y, T, R, Afun(f)))/norm(f);
+    e = norm(f-Afun(hodlrqr_inv(Y, T, R, ATfun(f))))/norm(f);
     fprintf(fileID,'sv: %10.4e time %10.4e\n',e,t);
     soltime_hqr(i) = t;
     solerr_hqr(i) = e;
@@ -183,36 +179,45 @@ for i = 1:cases
 
     % run CG 
     for tol=[1E-10,1E-14]
-        b = Afun(f);
-
         tic
-        [x,flag,relres,iter] = gmres(@(x) Afun(x),b,restart,tol,maxit);
+        [x,flag,relres,iter] = gmres(@(x) Afun(x),LUBF_sol(FL,HSSBF_apply(Factor,f),'L'),restart1,tol,maxit1);
         t1 = toc;
-        relerr = norm(f-x)/norm(f);
-        fprintf(fileID,'CG with A* preconditioning: tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t1,iter(1)*iter(2), relerr);
-        fprintf(OutPutFile, 'CG with A* preconditioning : tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t1,iter(1)*iter(2), relerr);
+        relerr = norm(f-LUBF_sol(FU, x, 'U'))/norm(f);
+        fprintf(fileID,'GMRES without preconditioning: tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t1,iter(1)*iter(2), relerr);
+        fprintf(OutPutFile, 'GMRES with no preconditioning: tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t1,iter(1)*iter(2), relerr);
         solerrpcg(i) = relerr;
         iters(i) = iter(1)*iter(2);
 
-        tic
-        [x,flag,relres,iter] = gmres(@(x) Afun(x),b,restart,tol,maxit,@(x) RSS_inv_lu(G,x)); 
-        t = toc;
-        relerr = norm(f-x)/norm(f);
-        fprintf(fileID,'CG with HIF preconditioning: tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t,iter(1)*iter(2), relerr);
-        fprintf(OutPutFile, 'CG with HIF preconditioning: tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t,iter(1)*iter(2), relerr);
-        solerrpcg_hif(i) = relerr;
-        iters_hif(i) = iter(1)*iter(2);
+
+        y = HSSBF_apply(Factor,f);
+        b = ATfun(LUBF_sol(FL, y, 'L'));
 
         tic
-        [x,flag,relres,iter] = gmres(@(x) Afun(x),b,restart,tol,maxit,@(x) hodlrqr_inv(Y, T, R, x)); 
+        [x,flag,relres,iter] = pcg(@(x) ATfun(Afun(x)),b,tol,maxit);
+        t1 = toc;
+        relerr = norm(f-LUBF_sol(FU, x, 'U'))/norm(f);
+        fprintf(fileID,'CG with A* preconditioning: tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t1,iter, relerr);
+        fprintf(OutPutFile, 'CG with A*    preconditioning: tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t1,iter, relerr);
+        solerrpcg(i) = relerr;
+        iters(i) = iter;
+
+        tic
+        [x,flag,relres,iter] = pcg(@(x) ATfun(Afun(x)),b,tol,maxit,@(x) RSS_inv_lu(G,x)); 
         t = toc;
-        relerr = norm(f-x)/norm(f);
-        fprintf(fileID,'CG with HQR preconditioning: tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t,iter(1)*iter(2), relerr);
-        fprintf(OutPutFile, 'CG with HQR preconditioning: tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t,iter(1)*iter(2), relerr);
+        relerr = norm(f-LUBF_sol(FU, x, 'U'))/norm(f);
+        fprintf(fileID,'CG with HIF preconditioning: tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t,iter, relerr);
+        fprintf(OutPutFile, 'CG with HIF   preconditioning: tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t,iter, relerr);
+        solerrpcg_hif(i) = relerr;
+        iters_hif(i) = iter;
+
+        tic
+        [x,flag,relres,iter] = pcg(@(x) ATfun(Afun(x)),b,tol,maxit,@(x) hodlrqr_inv(Y, T, R, x)); 
+        t = toc;
+        relerr = norm(f-LUBF_sol(FU, x, 'U'))/norm(f);
+        fprintf(fileID,'CG with HQR preconditioning: tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t,iter, relerr);
+        fprintf(OutPutFile, 'CG with HQR   preconditioning: tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t,iter, relerr);
         solerrpcg_hqr(i) = relerr;
-        iters_hqr(i) = iter(1)*iter(2);
+        iters_hqr(i) = iter;
     end
 
 end
-
-exit;

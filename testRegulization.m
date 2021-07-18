@@ -8,20 +8,20 @@ for s = dirs
 end
 
 
-func_name = 'fun_FIO_5';%'fun_FIO_var2';'fun_FIO';'fun_FIO_5';'fun_FIO_var4';
-OutPutFile = fopen(['comp_1d/Regularization_',func_name,'.txt'],'w');
+func_name = 'fun_FIO_var4';%'fun_FIO_var2';'fun_FIO';'fun_FIO_5';'fun_FIO_var4';
+OutPutFile = fopen(['comp_1d/Regularization_',func_name,'_TV-L1.txt'],'w');
 
 mR = 20;
 occ = 32;
-tol_bf = 1E-10;
-tol_peel = 1E-10;
-tol_RSS = 1E-10;
-maxit1 = 20;
+tol_bf = 1E-9;
+tol_peel = 1E-7;
+tol_RSS = 1E-7;
+maxit1 = 80;
 maxit2 = 20;
 repeat_num = 1;
 delta = 10;
 mu = 2;
-lambda = 0;
+lambda = 1E-8;
 regm = 'TV-L1';
 
 
@@ -205,7 +205,7 @@ for i = 1:cases
     %norm(Q'*Q-eye(N))/norm(eye(N))    
 
     % run CG 
-    for tol=[1E-12,1E-14]
+    for tol=[1E-8,1E-10]
         if strcmp(regm,'TV-L1')
           b = apply_bf(Factor,fft(f));
         elseif  strcmp(regm,'L1')

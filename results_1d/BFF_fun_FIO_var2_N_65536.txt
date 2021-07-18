@@ -1,0 +1,54 @@
+
+
+------------------------------------------
+N:      65536 
+------------------------------------------
+N                 : 65536
+Max Rank          :   20
+Tolerance         : 1.000e-08
+Relative Error_2  : 5.144e-09
+Direct Time       : 4.520e+02 s
+Running Time      : 4.644e+02 mins
+Factorization Time: 4.643e+02 mins
+Applying Time     : 3.253e+00 s
+------------------------------------------
+
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     44 |   64 |   1.05e+03 (s)
+  2 |     27 |   64 |   1.07e+03 (s)
+  3 |     25 |   64 |   1.10e+03 (s)
+  4 |     27 |   64 |   1.07e+03 (s)
+  5 |     28 |   64 |   1.08e+03 (s)
+  6 |     30 |   64 |   1.09e+03 (s)
+  7 |     30 |   64 |   1.10e+03 (s)
+  8 |     28 |   64 |   1.13e+03 (s)
+  9 |     27 |   64 |   1.14e+03 (s)
+ 10 |     24 |   62 |   1.13e+03 (s)
+ 11 |     19 |   30 |   5.66e+02 (s)
+time H_matrix construction 10e-6: 1.1723e+04 )
+mv: 2.8150e-08 
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+ 11 |  65536 |        0 |    65536 |     0.00 |     1.00 |   1.03e+01 (s)
+ 10 |  65536 |        0 |    65536 |     0.00 |     1.00 |   2.74e+01 (s)
+  9 |  65536 |        0 |    65536 |     0.00 |     1.00 |   4.77e+01 (s)
+  8 |  65536 |     2933 |    62603 |     0.04 |     0.96 |   1.19e+02 (s)
+  7 |  62603 |    30750 |    31853 |     0.49 |     0.51 |   1.07e+02 (s)
+  6 |  31853 |    17995 |    13858 |     0.56 |     0.44 |   4.76e+01 (s)
+  5 |  13858 |     8013 |     5845 |     0.58 |     0.42 |   1.94e+01 (s)
+  4 |   5845 |     3481 |     2364 |     0.60 |     0.40 |   8.33e+00 (s)
+  3 |   2364 |     1465 |      899 |     0.62 |     0.38 |   2.58e+00 (s)
+  2 |    899 |      587 |      312 |     0.65 |     0.35 |   7.25e-01 (s)
+  1 |    312 |      224 |       88 |     0.72 |     0.28 |   6.91e-02 (s)
+-------------End RSS contruction-----------
+time HIF construction 3.9082e+02 
+mv: 2.3594e-08  time 6.6986e+00
+sv: 7.6053e-08 time 6.6848e+00
+time/rank HODLR-QR construction 7.7751e+03/112 
+mv: 2.4399e-08 time 6.7371e+00
+sv: 7.5749e-08 time 6.1002e+00
+Linearized Bregman with HIF guess           : tol   1.00e-08,   time/#iter 2.1826e+01 /    1, relerr 6.2913e-08 
+Linearized Bregman with HQR guess           : tol   1.00e-08,   time/#iter 2.2652e+01 /    1, relerr 6.2353e-08 
+Linearized Bregman with HIF guess           : tol   1.00e-10,   time/#iter 3.3851e+01 /    2, relerr 6.1669e-08 
+Linearized Bregman with HQR guess           : tol   1.00e-10,   time/#iter 3.8377e+01 /    2, relerr 6.1669e-08 
