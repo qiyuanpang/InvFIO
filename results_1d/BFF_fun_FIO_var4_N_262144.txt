@@ -1,0 +1,18 @@
+
+
+------------------------------------------
+N:     262144 
+------------------------------------------
+N                 : 262144
+Max Rank          :   20
+Tolerance         : 1.000e-09
+Relative Error_2  : 5.025e-10
+Direct Time       : 2.227e+03 s
+Running Time      : 1.242e+03 mins
+Factorization Time: 1.242e+03 mins
+Applying Time     : 1.656e+01 s
+------------------------------------------
+
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     25 |   64 |   5.88e+03 (s)

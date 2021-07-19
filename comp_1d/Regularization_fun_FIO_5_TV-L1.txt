@@ -87,3 +87,67 @@ HODLR Fac err/time: 7.7599e-04/3.6630e+02 (s)
 RSS Fac time: 9.7584e+00 
 RSS mv err/time: 2.3538e-03/1.6761e-01 
 RSS sv err/time: 3.9398e-02/2.6446e-01 
+HQR Fac time/rank: 6.0377e+02/221 
+HQR mv err/time: 2.3538e-03/6.4995e-01 
+HQR sv err/time: 3.9398e-02/3.9791e-01 
+Linearized Bregman with HIF guess      : tol   1.00e-08,   time/#iter 3.1081e+00 /    1, relerr 9.1763e-01 
+Linearized Bregman with HQR guess      : tol   1.00e-08,   time/#iter 3.2710e+00 /    1, relerr 9.1761e-01 
+Linearized Bregman with HIF guess      : tol   1.00e-10,   time/#iter 3.0460e+00 /    1, relerr 9.1763e-01 
+Linearized Bregman with HQR guess      : tol   1.00e-10,   time/#iter 3.2463e+00 /    1, relerr 9.1761e-01 
+
+
+------------------------------------------
+N:      16384 
+BF Fac err/time: 2.2951e-10/1.3469e+03 (s) 
+HODLR Fac err/time: 3.9209e-01/1.1291e+03 (s) 
+RSS Fac time: 1.5723e+01 
+RSS mv err/time: 1.4582e+00/2.5108e-01 
+RSS sv err/time: 6.4774e+00/5.3767e-01 
+HQR Fac time/rank: 1.8534e+03/710 
+HQR mv err/time: 1.4582e+00/1.2537e+00 
+HQR sv err/time: 6.4775e+00/8.3109e-01 
+Linearized Bregman with HIF guess      : tol   1.00e-08,   time/#iter 4.1822e+00 /    1, relerr 7.2823e+00 
+Linearized Bregman with HQR guess      : tol   1.00e-08,   time/#iter 4.1724e+00 /    1, relerr 7.2823e+00 
+Linearized Bregman with HIF guess      : tol   1.00e-10,   time/#iter 2.8520e+00 /    1, relerr 7.2823e+00 
+Linearized Bregman with HQR guess      : tol   1.00e-10,   time/#iter 3.8895e+00 /    1, relerr 7.2823e+00 
+
+
+------------------------------------------
+N:      32768 
+BF Fac err/time: 5.0033e-10/1.0262e+03 (s) 
+HODLR Fac err/time: 9.2477e-01/2.3022e+03 (s) 
+RSS Fac time: 6.1370e+01 
+RSS mv err/time: 1.2983e+00/1.4290e+00 
+RSS sv err/time: 5.6368e+01/2.5411e+00 
+HQR Fac time/rank: 9.4581e+03/1021 
+HQR mv err/time: 1.2983e+00/2.1556e+00 
+HQR sv err/time: 5.6420e+01/5.5812e-01 
+Linearized Bregman with HIF guess      : tol   1.00e-08,   time/#iter 3.7966e+00 /    1, relerr 2.0774e+01 
+Linearized Bregman with HQR guess      : tol   1.00e-08,   time/#iter 3.9668e+00 /    1, relerr 2.0778e+01 
+Linearized Bregman with HIF guess      : tol   1.00e-10,   time/#iter 3.0685e+00 /    1, relerr 2.0774e+01 
+Linearized Bregman with HQR guess      : tol   1.00e-10,   time/#iter 3.8645e+00 /    1, relerr 2.0778e+01 
+
+
+------------------------------------------
+N:      65536 
+BF Fac err/time: 3.8823e-10/2.5774e+03 (s) 
+HODLR Fac err/time: 8.2308e-01/8.3498e+03 (s) 
+RSS Fac time: 9.4660e+01 
+RSS mv err/time: 3.6402e+00/1.8587e+00 
+RSS sv err/time: 2.2989e+01/3.0351e+00 
+HQR Fac time/rank: 2.0613e+04/1969 
+HQR mv err/time: 3.6402e+00/5.3377e+00 
+HQR sv err/time: 2.2699e+01/1.2696e+00 
+Linearized Bregman with HIF guess      : tol   1.00e-08,   time/#iter 4.4432e+02 /   80, relerr 4.9090e+01 
+Linearized Bregman with HQR guess      : tol   1.00e-08,   time/#iter 3.3123e+02 /   80, relerr 4.9090e+01 
+Linearized Bregman with HIF guess      : tol   1.00e-10,   time/#iter 5.0254e+02 /   80, relerr 4.9090e+01 
+Linearized Bregman with HQR guess      : tol   1.00e-10,   time/#iter 4.3978e+02 /   80, relerr 4.9090e+01 
+
+
+------------------------------------------
+N:     131072 
+BF Fac err/time: 5.5449e-10/5.3671e+03 (s) 
+HODLR Fac err/time: 6.2888e-01/1.7792e+04 (s) 
+RSS Fac time: 2.1733e+02 
+RSS mv err/time: 2.1304e+00/2.8236e+00 
+RSS sv err/time: 4.6045e+01/6.1825e+00 

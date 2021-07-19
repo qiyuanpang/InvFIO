@@ -39,10 +39,10 @@ lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
 time HIF construction 1.2697e+01 
 mv: 4.9312e-08  time 7.0910e-01
 sv: 1.9747e-04 time 6.9938e-01
-time/rank HODLR-QR construction 5.2477e+00/42 
-mv: 7.3330e-08 time 5.0595e-02
-sv: 8.7222e-06 time 6.2559e-02
-Linearized Bregman with HIF guess           : tol   1.00e-08,   time/#iter 3.7337e-01 /    2, relerr 2.5460e-05 
-Linearized Bregman with HQR guess           : tol   1.00e-08,   time/#iter 5.1793e-01 /    2, relerr 2.5461e-05 
-Linearized Bregman with HIF guess           : tol   1.00e-10,   time/#iter 3.9124e-01 /    2, relerr 2.5460e-05 
-Linearized Bregman with HQR guess           : tol   1.00e-10,   time/#iter 4.6025e-01 /    2, relerr 2.5461e-05 
+time/rank HODLR-QR construction 3.4432e+02/141 
+mv: 7.5458e-08 time 5.8359e-01
+sv: 1.8001e-04 time 5.1916e-01
+Linearized Bregman with HIF guess           : tol   1.00e-08,   time/#iter 2.3846e+00 /    2, relerr 1.7306e-03 
+Linearized Bregman with HQR guess           : tol   1.00e-08,   time/#iter 3.4872e+00 /    2, relerr 1.7295e-03 
+Linearized Bregman with HIF guess           : tol   1.00e-10,   time/#iter 8.8158e+01 /   80, relerr 1.7857e-03 
+Linearized Bregman with HQR guess           : tol   1.00e-10,   time/#iter 9.4342e+01 /   80, relerr 1.7857e-03 
