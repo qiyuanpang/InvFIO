@@ -9,20 +9,20 @@ end
 
 
 func_name = 'fun_FIO_var4';%'fun_FIO_var2';'fun_FIO';'fun_FIO_5';'fun_FIO_var4';
-OutPutFile = fopen(['comp_1d/Regularization_',func_name,'_TV-L1.txt'],'w');
+OutPutFile = fopen(['comp_1d/Regularization_',func_name,'_L1.txt'],'w');
 
 mR = 20;
 occ = 32;
-tol_bf = 1E-9;
-tol_peel = 1E-7;
-tol_RSS = 1E-7;
-maxit1 = 80;
+tol_bf = 1E-8;
+tol_peel = 1E-5;
+tol_RSS = 1E-5;
+maxit1 = 40;
 maxit2 = 20;
 repeat_num = 1;
 delta = 10;
 mu = 2;
-lambda = 1E-8;
-regm = 'TV-L1';
+lambda = 2;
+regm = 'L1';
 
 
 %dims = 2.^[8 9 10]
@@ -100,12 +100,16 @@ for i = 1:cases
     fprintf(OutPutFile, 'HODLR Fac err/time: %10.4e/%10.4e (s) \n', e, t);
     facerr_hodlr(i) = e;
     
-    sp = zeros(N,1);
-    for i = ceil(rand(20,1)*N)
-      sp(i) = 1;
+    if strcmp(regm, 'L1')
+      sp = zeros(N,1);
+      for i = ceil(rand(1,1)*N)
+        sp(i) = 1;
+      end
+      f = randn(N,1) + 1i*randn(N,1);
+      f = f.*sp;
+    elseif strcmp(regm, 'TV-L1')
+      f = ones(N,1);
     end
-    f = randn(N,1) + 1i*randn(N,1);
-    f = f.*sp;
     % sum(abs(f) ~= 0)/N
     
     % Construct RSS factorization of HODLR matrix
@@ -205,12 +209,26 @@ for i = 1:cases
     %norm(Q'*Q-eye(N))/norm(eye(N))    
 
     % run CG 
-    for tol=[1E-8,1E-10]
-        if strcmp(regm,'TV-L1')
-          b = apply_bf(Factor,fft(f));
-        elseif  strcmp(regm,'L1')
-          b = apply_bf(Factor, f);
-        end
+    if strcmp(regm,'TV-L1')
+      Afun = @(x) mu*N*ifft(apply_bf_adj(Factor,apply_bf(Factor,fft(x)))) - lambda*laplacianp(x,1/N);
+      fprintf(fileID, 'Information for TV-L1 \n')
+      [F_A,HODLR_A] = HODLR_construction_hmt( N, Afun, tol_peel, fileID, occ, 64,64);
+      [G_A] = RSS_ldl(F_A,tol_RSS,fileID);
+      HODLR_A = HODLR_transfer(HODLR_A, lvls, lvls, 1);
+      fprintf('TV-L1: %10.4e / %10.4e \n', norm(Afun(f)-RSS_apply_lu(G_A,f))/norm(Afun(f)), norm(Afun(f)-hodlr_apply(HODLR_A,f))/norm(Afun(f)))
+      [Y_A, YB_A, YC_A, T_A, R_A, rk_A] = hodlrqr(HODLR_A, [], [], [], lvls, 1, tol_RSS);
+      b = apply_bf(Factor,fft(f));
+    elseif  strcmp(regm,'L1')
+      Afun = @(x) mu*apply_bf_adj(Factor, apply_bf(Factor, x)) + lambda*x;
+      fprintf(fileID, 'Information for L1 \n')
+      [F_A,HODLR_A] = HODLR_construction_hmt( N, Afun, tol_peel, fileID, occ, 64,64);
+      [G_A] = RSS_ldl(F_A,tol_RSS,fileID);
+      HODLR_A = HODLR_transfer(HODLR_A, lvls, lvls, 1);
+      fprintf('L1: %10.4e / %10.4e \n', norm(Afun(f)-RSS_apply_lu(G_A,f))/norm(Afun(f)), norm(Afun(f)-hodlr_apply(HODLR_A,f))/norm(Afun(f)))
+      [Y_A, YB_A, YC_A, T_A, R_A, rk_A] = hodlrqr(HODLR_A, [], [], [], lvls, 1, tol_RSS);
+      b = apply_bf(Factor, f);
+    end
+    for tol=[1E-10,1E-12]
 
         % tic
         % % [x,flag,relres,iter] = pcg(@(x) apply_bf_adj(Factor,apply_bf(Factor,x)),b,tol,maxit);
@@ -228,14 +246,14 @@ for i = 1:cases
         % [x, iter] = LinearizedBregman(@(x)apply_bf_adj(Factor, x), @(x)apply_bf(Factor, x), b, delta, mu, tol, maxit, apply_bf(Factor, RSS_inv_lu(G, b)));
         % norm(apply_bf_adj(Factor, apply_bf(Factor, RSS_inv_lu(G, b)))-b)^2/norm(b)^2
         if strcmp(regm,'TV-L1')
-          [x, iter] = SplitBregman(regm, mu, lambda, 1/N, @(x)N*ifft(apply_bf_adj(Factor,x)), HODLR, b, @(x)gradientx(x, 1/N), maxit1, maxit2, tol, @(x)1/mu*RSS_inv_lu(G, x), RSS_inv_lu(G, N*ifft(apply_bf_adj(Factor, b))), RSS_inv_lu(G, N*ifft(apply_bf_adj(Factor, b))), zeros(N,1));
+          [x, iter] = SplitBregman(regm, mu, lambda, 1/N, @(x)N*ifft(apply_bf_adj(Factor,x)), @(x)hodlr_apply(HODLR_A, x), b, @(x)gradientx(x, 1/N), maxit1, maxit2, tol, @(x)RSS_inv_lu(G_A, x), RSS_inv_lu(G, N*ifft(apply_bf_adj(Factor, b))), RSS_inv_lu(G, N*ifft(apply_bf_adj(Factor, b))), zeros(N,1));
         elseif strcmp(regm,'L1')
-          [x, iter] = SplitBregman(regm, mu, lambda, 1/N, @(x)apply_bf_adj(Factor,x), HODLR, b, @(x)x, maxit1, maxit2, tol, @(x)RSS_inv_lu(G,x), RSS_inv_lu(G, apply_bf_adj(Factor, b)), RSS_inv_lu(G, apply_bf_adj(Factor, b)), zeros(N,1));
+          [x, iter] = SplitBregman(regm, mu, lambda, 1/N, @(x)apply_bf_adj(Factor,x), @(x)hodlr_apply(HODLR_A, x), b, @(x)x, maxit1, maxit2, tol, @(x)RSS_inv_lu(G_A,x), RSS_inv_lu(G, apply_bf_adj(Factor, b)), RSS_inv_lu(G, apply_bf_adj(Factor, b)), zeros(N,1));
         end
         t = toc;
         relerr = norm(f-x)/norm(f);
-        fprintf(fileID,'Linearized Bregman with HIF guess           : tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t,iter, relerr);
-        fprintf(OutPutFile, 'Linearized Bregman with HIF guess      : tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t,iter, relerr);
+        fprintf(fileID,'Split Bregman with HIF guess           : tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t,iter, relerr);
+        fprintf(OutPutFile, 'Split Bregman with HIF guess      : tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t,iter, relerr);
         solerrpcg_hif(i) = relerr;
         iters_hif(i) = iter;
 
@@ -244,14 +262,14 @@ for i = 1:cases
         % [x, iter] = LinearizedBregman(@(x)apply_bf_adj(Factor, x), @(x)apply_bf(Factor, x), b, delta, mu, tol, maxit, apply_bf(Factor, hodlrqr_inv(Y, T, R, b)));
         % [x, iter] = SplitBregman(@(x)apply_bf_adj(Factor, x), @(x)apply_bf(Factor, x), b, @(x)x, @(x)eye(N), lambda, tol, maxit, apply_bf(Factor, hodlrqr_inv(Y, T, R, b)), apply_bf(Factor, hodlrqr_inv(Y, T, R, b)));
         if strcmp(regm,'TV-L1')
-          [x, iter] = SplitBregman(regm, mu, lambda, 1/N, @(x)N*ifft(apply_bf_adj(Factor,x)), HODLR, b, @(x)gradientx(x, 1/N), maxit1, maxit2, tol, @(x)1/mu*hodlrqr_inv(Y, T, R, x), hodlrqr_inv(Y, T, R, N*ifft(apply_bf_adj(Factor, b))), hodlrqr_inv(Y, T, R, N*ifft(apply_bf_adj(Factor, b))), zeros(N,1));
+          [x, iter] = SplitBregman(regm, mu, lambda, 1/N, @(x)N*ifft(apply_bf_adj(Factor,x)), @(x)hodlr_apply(HODLR_A, x), b, @(x)gradientx(x, 1/N), maxit1, maxit2, tol, @(x)hodlrqr_inv(Y_A, T_A, R_A, x), hodlrqr_inv(Y, T, R, N*ifft(apply_bf_adj(Factor, b))), hodlrqr_inv(Y, T, R, N*ifft(apply_bf_adj(Factor, b))), zeros(N,1));
         elseif strcmp(regm,'L1')
-          [x, iter] = SplitBregman(regm, mu, lambda, 1/N, @(x)apply_bf_adj(Factor,x), HODLR, b, @(x)x, maxit1, maxit2, tol, @(x)hodlrqr_inv(Y, T, R,x), hodlrqr_inv(Y, T, R, apply_bf_adj(Factor, b)), hodlrqr_inv(Y, T, R, apply_bf_adj(Factor, b)), zeros(N,1));
+          [x, iter] = SplitBregman(regm, mu, lambda, 1/N, @(x)apply_bf_adj(Factor,x), @(x)hodlr_apply(HODLR_A, x), b, @(x)x, maxit1, maxit2, tol, @(x)hodlrqr_inv(Y_A, T_A, R_A, x), hodlrqr_inv(Y, T, R, apply_bf_adj(Factor, b)), hodlrqr_inv(Y, T, R, apply_bf_adj(Factor, b)), zeros(N,1));
         end
         t = toc;
         relerr = norm(f-x)/norm(f);
-        fprintf(fileID,'Linearized Bregman with HQR guess           : tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t,iter, relerr);
-        fprintf(OutPutFile, 'Linearized Bregman with HQR guess      : tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t,iter, relerr);
+        fprintf(fileID,'Split Bregman with HQR guess           : tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t,iter, relerr);
+        fprintf(OutPutFile, 'Split Bregman with HQR guess      : tol %10.2e,   time/#iter %10.4e / %4d, relerr %10.4e \n',tol,t,iter, relerr);
         solerrpcg_hqr(i) = relerr;
         iters_hqr(i) = iter;
     end

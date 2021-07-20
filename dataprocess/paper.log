@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.8.24)  6 JUL 2021 14:41
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.8.24)  19 JUL 2021 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -941,63 +941,25 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 )
 [1
 
-]
-File: ../../scaling/fio/factime_fun_FIO.png Graphic file (type bmp)
-<../../scaling/fio/factime_fun_FIO.png>
-File: ../../scaling/fio/hodlrtime_fun_FIO.png Graphic file (type bmp)
-<../../scaling/fio/hodlrtime_fun_FIO.png>
-File: ../../scaling/fio/apptime_fun_FIO.png Graphic file (type bmp)
-<../../scaling/fio/apptime_fun_FIO.png>
-File: ../../scaling/fio/soltime_fun_FIO.png Graphic file (type bmp)
-<../../scaling/fio/soltime_fun_FIO.png>
-
-Overfull \hbox (74.731pt too wide) in paragraph at lines 164--170
- [] 
- []
-
-
-Overfull \hbox (37.59265pt too wide) in paragraph at lines 210--261
- [][] 
- []
-
-
-Overfull \hbox (74.8734pt too wide) in paragraph at lines 269--317
- [][] 
- []
-
-
-Overfull \hbox (44.05113pt too wide) in paragraph at lines 325--376
- [][] 
- []
-
-
-Overfull \hbox (37.59265pt too wide) in paragraph at lines 384--435
- [][] 
- []
-
-
-Overfull \hbox (55.38237pt too wide) in paragraph at lines 444--499
- [][] 
- []
-
+] [2]
 No file paper.bbl.
-[2] [3] [4] [5] [6] [7] [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 509.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 509.
+[3] [4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 351.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 351.
  (./paper.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 509.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 509.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 351.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 351.
 Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 509.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 351.
  ) 
 Here is how much of TeX's memory you used:
- 25320 strings out of 479819
- 477225 string characters out of 5895846
- 899285 words of memory out of 5000000
- 41968 multiletter control sequences out of 15000+600000
+ 25289 strings out of 479819
+ 476287 string characters out of 5895846
+ 774939 words of memory out of 5000000
+ 41944 multiletter control sequences out of 15000+600000
  542613 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,11n,67p,453b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,67p,551b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.pdf (8 pages).
+Output written on paper.pdf (4 pages).

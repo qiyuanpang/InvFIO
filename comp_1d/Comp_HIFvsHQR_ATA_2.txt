@@ -1,0 +1,200 @@
+
+
+------------------------------------------
+N:        256 
+BF Fac err/time: 3.7157e-16/5.4016e-02 (s) 
+HODLR Fac err/time: 1.2722e-11/3.0730e-01 (s) 
+RSS Fac time: 7.9332e-02 
+RSS mv err/time: 1.3714e-09/1.3189e-02 
+RSS sv err/time: 1.2118e-08/1.1922e-02 
+HQR Fac time/rank: 1.6999e-01/38 
+HQR mv err/time: 2.7423e-09/6.2490e-03 
+HQR sv err/time: 1.2021e-08/1.1321e-02 
+GMRES with no preconditioning: tol   1.00e-10,   time/#iter 1.4280e-01 /   30, relerr 1.7664e-10 
+CG with A*    preconditioning: tol   1.00e-10,   time/#iter 1.0789e-01 /  114, relerr 2.2638e-10 
+CG with HIF   preconditioning: tol   1.00e-10,   time/#iter 1.2462e-02 /    2, relerr 7.6432e-15 
+CG with HQR   preconditioning: tol   1.00e-10,   time/#iter 1.1919e-02 /    2, relerr 6.6390e-15 
+GMRES with no preconditioning: tol   1.00e-14,   time/#iter 8.3555e-02 /  120, relerr 8.6555e-14 
+CG with A*    preconditioning: tol   1.00e-14,   time/#iter 8.4226e-02 /  120, relerr 2.6486e-11 
+CG with HIF   preconditioning: tol   1.00e-14,   time/#iter 1.3608e-02 /    2, relerr 7.6432e-15 
+CG with HQR   preconditioning: tol   1.00e-14,   time/#iter 8.8190e-03 /    2, relerr 6.6390e-15 
+
+
+------------------------------------------
+N:        512 
+BF Fac err/time: 5.9320e-16/4.4273e-02 (s) 
+HODLR Fac err/time: 3.3703e-11/1.1694e-01 (s) 
+RSS Fac time: 3.7213e-02 
+RSS mv err/time: 9.2461e-10/8.9800e-04 
+RSS sv err/time: 1.0584e-08/1.0070e-03 
+HQR Fac time/rank: 2.3434e-01/57 
+HQR mv err/time: 3.1088e-09/1.8170e-03 
+HQR sv err/time: 1.1573e-08/2.1690e-03 
+GMRES with no preconditioning: tol   1.00e-10,   time/#iter 1.0397e-01 /  100, relerr 1.0535e-10 
+CG with A*    preconditioning: tol   1.00e-10,   time/#iter 1.7116e-01 /  117, relerr 1.9502e-03 
+CG with HIF   preconditioning: tol   1.00e-10,   time/#iter 1.0276e-02 /    2, relerr 2.2970e-14 
+CG with HQR   preconditioning: tol   1.00e-10,   time/#iter 1.2081e-02 /    2, relerr 2.0441e-14 
+GMRES with no preconditioning: tol   1.00e-14,   time/#iter 1.2265e-01 /  120, relerr 3.4210e-13 
+CG with A*    preconditioning: tol   1.00e-14,   time/#iter 1.6059e-01 /  117, relerr 1.9502e-03 
+CG with HIF   preconditioning: tol   1.00e-14,   time/#iter 7.9050e-03 /    2, relerr 2.2970e-14 
+CG with HQR   preconditioning: tol   1.00e-14,   time/#iter 9.9300e-03 /    2, relerr 2.0441e-14 
+
+
+------------------------------------------
+N:       1024 
+BF Fac err/time: 8.2125e-16/1.4218e-01 (s) 
+HODLR Fac err/time: 1.3369e-08/4.7741e-01 (s) 
+RSS Fac time: 1.2701e-01 
+RSS mv err/time: 1.4547e-08/4.1040e-03 
+RSS sv err/time: 2.3577e-07/3.0070e-03 
+HQR Fac time/rank: 1.1851e+00/93 
+HQR mv err/time: 1.4831e-08/7.2040e-03 
+HQR sv err/time: 2.4359e-07/7.6390e-03 
+GMRES with no preconditioning: tol   1.00e-10,   time/#iter 3.3090e-01 /   20, relerr 1.5208e-10 
+CG with A*    preconditioning: tol   1.00e-10,   time/#iter 5.1946e-01 /  107, relerr 2.1311e-02 
+CG with HIF   preconditioning: tol   1.00e-10,   time/#iter 3.0614e-02 /    2, relerr 1.6742e-12 
+CG with HQR   preconditioning: tol   1.00e-10,   time/#iter 3.1867e-02 /    2, relerr 1.8013e-12 
+GMRES with no preconditioning: tol   1.00e-14,   time/#iter 3.4143e-01 /  120, relerr 2.7689e-14 
+CG with A*    preconditioning: tol   1.00e-14,   time/#iter 5.5521e-01 /  107, relerr 2.1311e-02 
+CG with HIF   preconditioning: tol   1.00e-14,   time/#iter 3.3876e-02 /    3, relerr 5.4320e-14 
+CG with HQR   preconditioning: tol   1.00e-14,   time/#iter 3.9486e-02 /    3, relerr 4.6350e-14 
+
+
+------------------------------------------
+N:       2048 
+BF Fac err/time: 3.4371e-05/1.2072e+00 (s) 
+HODLR Fac err/time: 7.1824e-02/4.5720e+00 (s) 
+RSS Fac time: 2.5020e-01 
+RSS mv err/time: 5.9801e-02/5.1390e-03 
+RSS sv err/time: 2.2541e+00/7.8060e-03 
+HQR Fac time/rank: 6.3232e+00/178 
+HQR mv err/time: 5.9801e-02/2.1763e-02 
+HQR sv err/time: 2.2541e+00/2.1076e-02 
+GMRES with no preconditioning: tol   1.00e-10,   time/#iter 1.2643e+00 /   20, relerr 1.7329e-10 
+CG with A*    preconditioning: tol   1.00e-10,   time/#iter 2.6580e+00 /  120, relerr 4.2972e-02 
+CG with HIF   preconditioning: tol   1.00e-10,   time/#iter 3.7396e+00 /  118, relerr 4.9960e-01 
+CG with HQR   preconditioning: tol   1.00e-10,   time/#iter 5.3259e+00 /  120, relerr 4.9580e-01 
+GMRES with no preconditioning: tol   1.00e-14,   time/#iter 1.8648e+00 /  120, relerr 3.5425e-14 
+CG with A*    preconditioning: tol   1.00e-14,   time/#iter 3.4521e+00 /  120, relerr 4.2972e-02 
+CG with HIF   preconditioning: tol   1.00e-14,   time/#iter 4.2189e+00 /  118, relerr 4.9960e-01 
+CG with HQR   preconditioning: tol   1.00e-14,   time/#iter 7.9209e+00 /  120, relerr 4.9580e-01 
+
+
+------------------------------------------
+N:       4096 
+BF Fac err/time: 3.8887e-05/7.1941e+00 (s) 
+HODLR Fac err/time: 2.2748e-01/4.2403e+01 (s) 
+RSS Fac time: 2.9653e+00 
+RSS mv err/time: 2.1585e-01/1.5229e-02 
+RSS sv err/time: 3.4696e+00/6.0249e-02 
+HQR Fac time/rank: 1.2488e+02/313 
+HQR mv err/time: 2.1585e-01/1.0240e-01 
+HQR sv err/time: 3.4696e+00/9.6500e-02 
+GMRES with no preconditioning: tol   1.00e-10,   time/#iter 7.7245e+00 /  100, relerr 2.4861e-10 
+CG with A*    preconditioning: tol   1.00e-10,   time/#iter 1.6130e+01 /  105, relerr 4.2657e-02 
+CG with HIF   preconditioning: tol   1.00e-10,   time/#iter 3.1439e+01 /  120, relerr 6.7256e-01 
+CG with HQR   preconditioning: tol   1.00e-10,   time/#iter 2.6720e+01 /  120, relerr 7.2944e-01 
+GMRES with no preconditioning: tol   1.00e-14,   time/#iter 9.0490e+00 /  120, relerr 9.5864e-13 
+CG with A*    preconditioning: tol   1.00e-14,   time/#iter 1.9894e+01 /  105, relerr 4.2657e-02 
+CG with HIF   preconditioning: tol   1.00e-14,   time/#iter 3.7938e+01 /  120, relerr 6.7256e-01 
+CG with HQR   preconditioning: tol   1.00e-14,   time/#iter 5.1861e+01 /  120, relerr 7.2944e-01 
+
+
+------------------------------------------
+N:       8192 
+BF Fac err/time: 6.7094e-05/2.7125e+01 (s) 
+HODLR Fac err/time: 3.5174e-01/1.3365e+02 (s) 
+RSS Fac time: 7.7725e+00 
+RSS mv err/time: 3.2923e-01/8.3206e-02 
+RSS sv err/time: 9.3229e+00/2.9249e-01 
+HQR Fac time/rank: 3.5872e+02/363 
+HQR mv err/time: 3.2923e-01/4.3833e-01 
+HQR sv err/time: 9.3229e+00/3.5679e-01 
+GMRES with no preconditioning: tol   1.00e-10,   time/#iter 2.4655e+01 /   11, relerr 1.8617e-10 
+CG with A*    preconditioning: tol   1.00e-10,   time/#iter 5.8995e+01 /  116, relerr 5.6951e-02 
+CG with HIF   preconditioning: tol   1.00e-10,   time/#iter 1.0855e+02 /  119, relerr 8.0036e-01 
+CG with HQR   preconditioning: tol   1.00e-10,   time/#iter 1.1564e+02 /  120, relerr 8.7091e-01 
+GMRES with no preconditioning: tol   1.00e-14,   time/#iter 3.6711e+01 /  120, relerr 7.8185e-13 
+CG with A*    preconditioning: tol   1.00e-14,   time/#iter 5.4974e+01 /  116, relerr 5.6951e-02 
+CG with HIF   preconditioning: tol   1.00e-14,   time/#iter 7.8747e+01 /  119, relerr 8.0036e-01 
+CG with HQR   preconditioning: tol   1.00e-14,   time/#iter 8.2470e+01 /  120, relerr 8.7091e-01 
+
+
+------------------------------------------
+N:      16384 
+BF Fac err/time: 1.3844e-03/7.4354e+01 (s) 
+HODLR Fac err/time: 4.8784e-01/3.8279e+02 (s) 
+RSS Fac time: 1.1165e+01 
+RSS mv err/time: 4.6362e-01/9.6081e-02 
+RSS sv err/time: 6.8506e+00/4.5461e-01 
+HQR Fac time/rank: 1.3429e+03/480 
+HQR mv err/time: 4.6362e-01/9.9323e-01 
+HQR sv err/time: 6.8506e+00/8.0844e-01 
+GMRES with no preconditioning: tol   1.00e-10,   time/#iter 8.7250e+01 /  120, relerr 1.2228e-09 
+CG with A*    preconditioning: tol   1.00e-10,   time/#iter 1.5695e+02 /  116, relerr 3.5963e-02 
+CG with HIF   preconditioning: tol   1.00e-10,   time/#iter 2.1804e+02 /  120, relerr 1.2372e+00 
+CG with HQR   preconditioning: tol   1.00e-10,   time/#iter 1.8999e+02 /  120, relerr 1.1575e+00 
+GMRES with no preconditioning: tol   1.00e-14,   time/#iter 6.6407e+01 /  120, relerr 1.2228e-09 
+CG with A*    preconditioning: tol   1.00e-14,   time/#iter 1.0755e+02 /  116, relerr 3.5963e-02 
+CG with HIF   preconditioning: tol   1.00e-14,   time/#iter 1.5888e+02 /  120, relerr 1.2372e+00 
+CG with HQR   preconditioning: tol   1.00e-14,   time/#iter 1.8371e+02 /  120, relerr 1.1575e+00 
+
+
+------------------------------------------
+N:      32768 
+BF Fac err/time: 2.1967e-04/1.7457e+02 (s) 
+HODLR Fac err/time: 5.5243e-01/9.5227e+02 (s) 
+RSS Fac time: 2.6302e+01 
+RSS mv err/time: 5.5562e-01/1.3872e-01 
+RSS sv err/time: 2.9187e+01/5.0077e-01 
+HQR Fac time/rank: 4.4857e+03/639 
+HQR mv err/time: 5.5562e-01/1.8479e+00 
+HQR sv err/time: 2.9180e+01/1.8695e+00 
+GMRES with no preconditioning: tol   1.00e-10,   time/#iter 1.9393e+02 /  120, relerr 2.0628e-07 
+CG with A*    preconditioning: tol   1.00e-10,   time/#iter 2.5010e+02 /  116, relerr 5.9110e-02 
+CG with HIF   preconditioning: tol   1.00e-10,   time/#iter 3.5720e+02 /  120, relerr 1.2710e+00 
+CG with HQR   preconditioning: tol   1.00e-10,   time/#iter 3.7971e+02 /  120, relerr 1.2913e+00 
+GMRES with no preconditioning: tol   1.00e-14,   time/#iter 1.2900e+02 /  120, relerr 2.0628e-07 
+CG with A*    preconditioning: tol   1.00e-14,   time/#iter 2.2635e+02 /  116, relerr 5.9110e-02 
+CG with HIF   preconditioning: tol   1.00e-14,   time/#iter 3.2650e+02 /  120, relerr 1.2710e+00 
+CG with HQR   preconditioning: tol   1.00e-14,   time/#iter 3.8491e+02 /  120, relerr 1.2913e+00 
+
+
+------------------------------------------
+N:      65536 
+BF Fac err/time: 2.0044e-03/5.6509e+02 (s) 
+HODLR Fac err/time: 6.9413e-01/2.7391e+03 (s) 
+RSS Fac time: 5.5456e+01 
+RSS mv err/time: 6.9310e-01/3.9599e-01 
+RSS sv err/time: 3.4807e+03/1.1470e+00 
+HQR Fac time/rank: 7.1239e+03/735 
+HQR mv err/time: 6.9314e-01/3.2746e+00 
+HQR sv err/time: 1.1825e+02/2.1927e+00 
+GMRES with no preconditioning: tol   1.00e-10,   time/#iter 2.2761e+02 /  120, relerr 3.3551e-05 
+CG with A*    preconditioning: tol   1.00e-10,   time/#iter 3.6379e+02 /  116, relerr 7.6982e-02 
+CG with HIF   preconditioning: tol   1.00e-10,   time/#iter 5.3622e+02 /  120, relerr 1.0169e+00 
+CG with HQR   preconditioning: tol   1.00e-10,   time/#iter 6.5668e+02 /  120, relerr 1.5067e+00 
+GMRES with no preconditioning: tol   1.00e-14,   time/#iter 2.2790e+02 /  120, relerr 3.3551e-05 
+CG with A*    preconditioning: tol   1.00e-14,   time/#iter 3.8490e+02 /  116, relerr 7.6982e-02 
+CG with HIF   preconditioning: tol   1.00e-14,   time/#iter 5.2899e+02 /  120, relerr 1.0169e+00 
+CG with HQR   preconditioning: tol   1.00e-14,   time/#iter 6.4903e+02 /  120, relerr 1.5067e+00 
+
+
+------------------------------------------
+N:     131072 
+BF Fac err/time: 9.6808e-06/8.0550e+02 (s) 
+HODLR Fac err/time: 8.9244e-01/5.0221e+03 (s) 
+RSS Fac time: 6.3700e+01 
+RSS mv err/time: 1.7162e+00/3.5492e-01 
+RSS sv err/time: 3.3541e+01/8.5274e-01 
+HQR Fac time/rank: 8.8120e+03/800 
+HQR mv err/time: 8.4587e-01/4.7926e+00 
+HQR sv err/time: 5.5546e+01/1.7702e+00 
+GMRES with no preconditioning: tol   1.00e-10,   time/#iter 1.8565e+02 /  120, relerr 8.1247e-05 
+CG with A*    preconditioning: tol   1.00e-10,   time/#iter 2.9075e+02 /  114, relerr 9.4883e-02 
+CG with HIF   preconditioning: tol   1.00e-10,   time/#iter 3.5430e+02 /    5, relerr 1.0015e+00 
+CG with HQR   preconditioning: tol   1.00e-10,   time/#iter 4.6928e+02 /  120, relerr 1.4881e+00 
+GMRES with no preconditioning: tol   1.00e-14,   time/#iter 1.8045e+02 /  120, relerr 8.1247e-05 
+CG with A*    preconditioning: tol   1.00e-14,   time/#iter 2.7510e+02 /  114, relerr 9.4883e-02 
+CG with HIF   preconditioning: tol   1.00e-14,   time/#iter 3.5147e+02 /    5, relerr 1.0015e+00 
+CG with HQR   preconditioning: tol   1.00e-14,   time/#iter 4.3574e+02 /  120, relerr 1.4881e+00 

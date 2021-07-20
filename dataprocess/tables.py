@@ -1,5 +1,5 @@
 def tc(str):
-    return str[0]+str[6:]
+    return str[0:3]+str[6:]
 
 def findrk(filename):
     f = open(filename, mode='r')
@@ -111,7 +111,41 @@ def cond():
         print('~'+' & '+line[7]+' & '+line[8]+' & '+line[9]+' & '+line[10]+' & '+line[11]+' & '+line[12]+'\\\\')
 
 
+def sb1d(kernel):
+    filename1 = "../comp_1d/Regularization_" + kernel + "_L1.txt"
+    filename2 = "../comp_1d/Regularization_" + kernel + "_TV-L1.txt"
+    filename3 = "../comp_1d/Regularization_" + kernel + "_GS-TV-L1.txt"
+    data1 = []
+    data2 = []
+    data3 = []
+    f1 = open(filename1, mode='r')
+    f2 = open(filename2, mode='r')
+    f3 = open(filename3, mode='r')
+    for line in f1:
+        line = line.split()
+        data1.append(line)
+    for line in f2:
+        line = line.split()
+        data2.append(line)
+    for line in f3:
+        line = line.split()
+        data3.append(line)
+    ind = [3, 4, 5, 7, 8, 14]
+    lines = []
+    for i in range(8,17):
+        lines.append(['$2^{'+str(i)+'}$', tc(data1[ind[1]][3][0:10]), tc(data1[ind[2]][3][0:10]), '1e-7',
+                tc(data1[ind[3]][3][0:10]), tc(data1[ind[4]][3][0:10]), data1[ind[5]][11][0:2-1], tc(data1[ind[5]][13]),
+                data2[ind[5]][11][0:-1], tc(data2[ind[5]][13]), data3[ind[5]][11][0:-1], tc(data3[ind[5]][13])])
+        for i in range(len(ind)): ind[i] += 16 
+    
+    for i in range(8,17):
+        line = lines[i-8]
+        print('\hline')
+        print(line[0]+' & '+line[1]+' & '+line[2]+' & '+line[3]+' & '+line[4]
+              +' & '+line[5]+' & '+line[6]+' & '+line[7]+' & '+line[8]+' & '+line[9]+' & '+line[10]+' & '+line[11]+'\\\\')
+
 
 if __name__ == '__main__':
-    oneD('fun_FIO_5')      
+    # oneD('fun_FIO_5')      
     # cond()
+    sb1d('fun_FIO_5')

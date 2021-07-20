@@ -5,36 +5,50 @@ N:        512
 ------------------------------------------
 N                 :  512
 Max Rank          :   20
-Tolerance         : 1.000e-09
-Relative Error_2  : 1.202e-15
-Direct Time       : 7.012e-02 s
-Running Time      : 2.585e-02 mins
-Factorization Time: 2.582e-02 mins
-Applying Time     : 1.961e-03 s
+Tolerance         : 1.000e-10
+Relative Error_2  : 1.364e-15
+Direct Time       : 5.755e-02 s
+Running Time      : 2.177e-02 mins
+Factorization Time: 2.173e-02 mins
+Applying Time     : 1.911e-03 s
 ------------------------------------------
 
 ------------------HODLR construction-----------------
 level |  rank  | maxrank | time (s)
-  1 |     43 |   64 |   1.09e+00 (s)
-  2 |     24 |   64 |   9.55e-01 (s)
-  3 |     19 |   62 |   8.85e-01 (s)
-  4 |     15 |   30 |   4.76e-01 (s)
-time H_matrix construction 10e-6: 3.5523e+00 )
-mv: 1.9405e-08 
+  1 |     18 |   64 |   6.04e-01 (s)
+  2 |      7 |   64 |   5.85e-01 (s)
+  3 |      6 |   62 |   5.95e-01 (s)
+  4 |      6 |   30 |   2.76e-01 (s)
+time H_matrix construction 10e-6: 2.1497e+00 )
+mv: 6.4898e-06 
 --------------RSS contruction------------
 lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
-  4 |    512 |        1 |      511 |     0.00 |     1.00 |   4.46e-02 (s)
-  3 |    511 |      157 |      354 |     0.31 |     0.69 |   5.03e-02 (s)
-  2 |    354 |      156 |      198 |     0.44 |     0.56 |   2.27e-02 (s)
-  1 |    198 |      112 |       86 |     0.57 |     0.43 |   1.26e-02 (s)
+  4 |    512 |      263 |      249 |     0.51 |     0.49 |   1.86e-02 (s)
+  3 |    249 |      110 |      139 |     0.44 |     0.56 |   5.02e-03 (s)
+  2 |    139 |       62 |       77 |     0.45 |     0.55 |   2.34e-03 (s)
+  1 |     77 |       41 |       36 |     0.53 |     0.47 |   1.43e-03 (s)
 -------------End RSS contruction-----------
-time HIF construction 1.3276e-01 
-mv: 3.2407e-08  time 7.2960e-03
-sv: 7.2016e-05 time 6.6280e-03
-time/rank HODLR-QR construction 7.3298e-01/80 
-mv: 6.1375e-08 time 1.6775e-02
-sv: 4.3127e-05 time 1.2546e-02
-Linearized Bregman with HIF guess           : tol   1.00e-08,   time/#iter 6.0035e-02 /    3, relerr 1.5581e-03 
-Linearized Bregman with HQR guess           : tol   1.00e-08,   time/#iter 5.6844e-02 /    3, relerr 1.5581e-03 
-Linearized Bregman with HIF guess           : tol   1.00e-10,   time/#iter 1.8836e+00 /   80, relerr 2.0863e-03 
-Linearized Bregman with HQR guess           : tol   1.00e-10,   time/#iter 1.8987e+00 /   80, relerr 2.0863e-03 
+time HIF construction 2.9887e-02 
+mv: 4.5074e-06  time 2.7010e-03
+sv: 2.2075e-04 time 2.8630e-03
+time/rank HODLR-QR construction 9.6873e-02/27 
+mv: 5.7454e-06 time 2.0700e-03
+sv: 2.5650e-04 time 2.3700e-03
+Information for L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     18 |   64 |   5.97e-01 (s)
+  2 |      7 |   64 |   6.03e-01 (s)
+  3 |      6 |   62 |   5.66e-01 (s)
+  4 |      6 |   30 |   3.08e-01 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  4 |    512 |      260 |      252 |     0.51 |     0.49 |   8.70e-03 (s)
+  3 |    252 |      111 |      141 |     0.44 |     0.56 |   4.78e-03 (s)
+  2 |    141 |       64 |       77 |     0.45 |     0.55 |   1.86e-03 (s)
+  1 |     77 |       41 |       36 |     0.53 |     0.47 |   1.63e-03 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter 2.7774e-01 /   40, relerr 1.2871e-02 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter 2.3790e-01 /   40, relerr 1.2871e-02 
+Split Bregman with HIF guess           : tol   1.00e-12,   time/#iter 2.6656e-01 /   40, relerr 1.2871e-02 
+Split Bregman with HQR guess           : tol   1.00e-12,   time/#iter 3.3538e-01 /   40, relerr 1.2871e-02 
