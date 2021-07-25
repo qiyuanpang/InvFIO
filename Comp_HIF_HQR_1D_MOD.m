@@ -8,14 +8,14 @@ for s = dirs
 end
 
 
-func_name = '8';%'fun_FIO_var2';'fun_FIO';'fun_FIO_5';'fun_FIO_var4';
+func_name = '4';%'fun_FIO_var2';'fun_FIO';'fun_FIO_5';'fun_FIO_var4';
 OutPutFile = fopen(['comp_1d/Comp_HIFvsHQR_MOD_',func_name,'.txt'],'w');
 
-mR = 24;
-occ = 32;
-tol_bf = 1E-8;
-tol_peel = 1E-8;
-tol_RSS = 1E-8;
+mR = 32;
+occ = 16;
+tol_bf = 1E-13;
+tol_peel = 1E-10;
+tol_RSS = 1E-10;
 maxit = 12;
 restart = 10;
 repeat_num = 1;
@@ -104,6 +104,10 @@ for i = 1:cases
     fprintf(fileID,'mv: %10.4e \n',e);
     fprintf(OutPutFile, 'HODLR Fac err/time: %10.4e/%10.4e (s) \n', e, t);
     facerr_hodlr(i) = e;
+
+    e_hmt = norm(Afun_hmt(v) - hodlr_apply(HODLR_hmt,v))/norm(Afun_hmt(v));
+    e_skew = norm(Afun_skew(v) - hodlr_apply(HODLR_skew,v))/norm(Afun_skew(v));
+    fprintf('hmt & skew: %10.4e & %10.4e \n', e_hmt, e_skew)
 
     f = randn(N,1) + 1i*randn(N,1);
     

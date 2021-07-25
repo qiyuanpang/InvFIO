@@ -4,31 +4,33 @@
 N:        257 
 ------------------------------------------
 N                 :  256
-Max Rank          :   24
-Tolerance         : 1.000e-08
-Relative Error_2  : 4.377e-16
-Direct Time       : 3.681e-02 s
-Running Time      : 5.554e-04 mins
-Factorization Time: 5.224e-04 mins
-Applying Time     : 1.979e-03 s
+Max Rank          :   32
+Tolerance         : 1.000e-13
+Relative Error_2  : 3.716e-16
+Direct Time       : 4.996e-02 s
+Running Time      : 3.711e-03 mins
+Factorization Time: 1.077e-03 mins
+Applying Time     : 1.581e-01 s
 ------------------------------------------
 
 ------------------HODLR construction-----------------
 level |  rank  | maxrank | time (s)
-  1 |     33 |   64 |   4.11e-02 (s)
-  2 |     21 |   62 |   6.96e-02 (s)
-  3 |     16 |   30 |   4.17e-02 (s)
+  1 |     37 |   64 |   2.17e-01 (s)
+  2 |     23 |   62 |   6.34e-02 (s)
+  3 |     17 |   30 |   3.71e-02 (s)
+  4 |     12 |   14 |   1.25e-02 (s)
 ------------------HODLR construction-----------------
 level |  rank  | maxrank | time (s)
-  1 |     33 |   64 |   2.02e-02 (s)
-  2 |     21 |   62 |   2.59e-02 (s)
-  3 |     15 |   30 |   2.37e-02 (s)
-time H_matrix construction 10e-6: 2.5053e-01 )
-mv: 2.4971e-09 
-time/rank HODLR-QR construction 1.4216e-01/34 
-mv: 4.7344e-09 time 5.5760e-03
-sv: 1.1430e-08 time 9.6780e-03
-CG with A* preconditioning: tol   1.00e-10,   time/#iter 1.0375e-01 /   90, relerr 2.0769e-10 
-CG with HQR preconditioning: tol   1.00e-10,   time/#iter 1.8508e-02 /    2, relerr 3.8528e-15 
-CG with A* preconditioning: tol   1.00e-14,   time/#iter 4.3834e-02 /  100, relerr 1.7079e-10 
-CG with HQR preconditioning: tol   1.00e-14,   time/#iter 1.3939e-02 /    2, relerr 3.8528e-15 
+  1 |     37 |   64 |   2.91e-02 (s)
+  2 |     24 |   62 |   3.51e-02 (s)
+  3 |     17 |   30 |   2.66e-02 (s)
+  4 |     12 |   14 |   9.14e-03 (s)
+time H_matrix construction 10e-6: 4.7912e-01 )
+mv: 1.3722e-11 
+time/rank HODLR-QR construction 2.3302e-01/39 
+mv: 5.2813e-11 time 7.2950e-03
+sv: 1.4790e-10 time 1.2338e-02
+CG with A* preconditioning: tol   1.00e-10,   time/#iter 1.6550e-01 /   90, relerr 1.6523e-10 
+CG with HQR preconditioning: tol   1.00e-10,   time/#iter 1.6502e-02 /    1, relerr 1.2939e-10 
+CG with A* preconditioning: tol   1.00e-14,   time/#iter 1.2757e-01 /  120, relerr 3.4776e-14 
+CG with HQR preconditioning: tol   1.00e-14,   time/#iter 1.7960e-02 /    2, relerr 3.5259e-15 

@@ -1,0 +1,17 @@
+
+
+------------------------------------------
+N:       4097 
+------------------------------------------
+N                 : 4096
+Max Rank          :   32
+Tolerance         : 1.000e-13
+Relative Error_2  : 1.493e-07
+Direct Time       : 2.740e+00 s
+Running Time      : 1.118e-01 mins
+Factorization Time: 1.116e-01 mins
+Applying Time     : 1.396e-02 s
+------------------------------------------
+
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
