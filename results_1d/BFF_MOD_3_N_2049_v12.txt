@@ -1,0 +1,26 @@
+
+
+------------------------------------------
+N:       2049 
+------------------------------------------
+N                 : 2048
+Max Rank          :   24
+Tolerance         : 1.000e-08
+Relative Error_2  : 1.877e-04
+Direct Time       : 1.216e+00 s
+Running Time      : 2.266e-02 mins
+Factorization Time: 2.255e-02 mins
+Applying Time     : 6.842e-03 s
+------------------------------------------
+
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     64 |   64 |   5.72e-01 (s)
+  2 |     64 |   64 |   6.91e-01 (s)
+  3 |     57 |   64 |   6.28e-01 (s)
+  4 |     35 |   64 |   6.67e-01 (s)
+  5 |     23 |   62 |   6.35e-01 (s)
+  6 |     16 |   30 |   3.66e-01 (s)
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     64 |   64 |   6.14e-01 (s)

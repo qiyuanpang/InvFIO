@@ -143,7 +143,9 @@ switch num
         dl = sqrt(sum((rho2-rho1).^2));
         rho = [a.*cos(t) ; b.*sin(t)];
 end
-figure;plot(rho(1,:),rho(2,:),'.');
+fig = figure;
+h = plot(rho(1,:),rho(2,:),'.');
+saveas(fig, "generate_Z_" + string(num) + ".png");
 p = sum(dl);
 lambda = p/N*ppw;
 k = 2*pi/lambda;

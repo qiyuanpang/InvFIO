@@ -1,0 +1,38 @@
+
+
+------------------------------------------
+N:       1025 
+------------------------------------------
+N                 : 1024
+Max Rank          :   24
+Tolerance         : 1.000e-08
+Relative Error_2  : 8.524e-16
+Direct Time       : 2.472e-01 s
+Running Time      : 3.189e-03 mins
+Factorization Time: 3.172e-03 mins
+Applying Time     : 9.940e-04 s
+------------------------------------------
+
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     64 |   64 |   1.23e-01 (s)
+  2 |     64 |   64 |   1.18e-01 (s)
+  3 |     44 |   64 |   9.92e-02 (s)
+  4 |     25 |   62 |   1.14e-01 (s)
+  5 |     16 |   30 |   8.12e-02 (s)
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     64 |   64 |   1.23e-01 (s)
+  2 |     64 |   64 |   9.73e-02 (s)
+  3 |     43 |   64 |   1.22e-01 (s)
+  4 |     25 |   62 |   1.40e-01 (s)
+  5 |     15 |   30 |   8.63e-02 (s)
+time H_matrix construction 10e-6: 1.1556e+00 )
+mv: 9.9570e-02 
+time/rank HODLR-QR construction 2.5340e+00/192 
+mv: 1.0164e-01 time 6.3280e-03
+sv: 4.2652e-01 time 7.1770e-03
+CG with A* preconditioning: tol   1.00e-10,   time/#iter 3.8023e-01 /  100, relerr 5.2253e-03 
+CG with HQR preconditioning: tol   1.00e-10,   time/#iter 6.8913e-01 /   48, relerr 7.2698e-10 
+CG with A* preconditioning: tol   1.00e-14,   time/#iter 3.7529e-01 /  100, relerr 5.2253e-03 
+CG with HQR preconditioning: tol   1.00e-14,   time/#iter 8.8048e-01 /   36, relerr 6.0409e-14 

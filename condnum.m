@@ -20,7 +20,7 @@ maxit = 200;
 repeat_num = 1;
 
 %dims = 2.^[8 9 10]
-dims = 2.^[8 9 10]
+dims = 2.^[9 10 11 12]
 cases = length(dims);
 
 fileID = fopen('meaningless.txt','w');

@@ -1,0 +1,44 @@
+
+
+------------------------------------------
+N:        257 
+BF Fac err/time: 4.6057e-16/3.4341e-02 (s) 
+HODLR Fac err/time: 3.7864e-09/2.7234e-01 (s) 
+HQR Fac time/rank: 2.6162e-01/52 
+HQR mv err/time: 7.4449e-09/8.9140e-03 
+HQR sv err/time: 8.2623e-08/1.4937e-02 
+CG with A* preconditioning : tol   1.00e-10,   time/#iter 1.4872e-01 /  120, relerr 1.1235e-02 
+CG with HQR preconditioning: tol   1.00e-10,   time/#iter 2.3869e-02 /    2, relerr 5.7140e-14 
+CG with A* preconditioning : tol   1.00e-14,   time/#iter 1.2080e-01 /  120, relerr 1.1235e-02 
+CG with HQR preconditioning: tol   1.00e-14,   time/#iter 2.1093e-02 /    2, relerr 5.7140e-14 
+
+
+------------------------------------------
+N:        513 
+BF Fac err/time: 5.6181e-16/5.8981e-02 (s) 
+HODLR Fac err/time: 3.5587e-06/4.0309e-01 (s) 
+HQR Fac time/rank: 4.4533e-01/80 
+HQR mv err/time: 3.2604e-06/3.0360e-03 
+HQR sv err/time: 1.4896e-05/3.7880e-03 
+CG with A* preconditioning : tol   1.00e-10,   time/#iter 1.7454e-01 /  120, relerr 8.0933e-02 
+CG with HQR preconditioning: tol   1.00e-10,   time/#iter 3.1052e-02 /    3, relerr 6.0375e-14 
+CG with A* preconditioning : tol   1.00e-14,   time/#iter 1.7487e-01 /  120, relerr 8.0933e-02 
+CG with HQR preconditioning: tol   1.00e-14,   time/#iter 3.0365e-02 /    4, relerr 4.9375e-14 
+
+
+------------------------------------------
+N:       1025 
+BF Fac err/time: 8.8030e-16/2.0597e-01 (s) 
+HODLR Fac err/time: 1.0234e-01/1.4898e+00 (s) 
+HQR Fac time/rank: 2.3349e+00/202 
+HQR mv err/time: 9.2937e-02/6.1800e-03 
+HQR sv err/time: 4.6346e-01/6.5230e-03 
+CG with A* preconditioning : tol   1.00e-10,   time/#iter 4.5797e-01 /  120, relerr 1.1616e-01 
+CG with HQR preconditioning: tol   1.00e-10,   time/#iter 1.2450e+00 /  120, relerr 4.9554e-06 
+CG with A* preconditioning : tol   1.00e-14,   time/#iter 4.3300e-01 /  120, relerr 1.1616e-01 
+CG with HQR preconditioning: tol   1.00e-14,   time/#iter 1.3002e+00 /  120, relerr 4.9554e-06 
+
+
+------------------------------------------
+N:       2049 
+BF Fac err/time: 1.3558e-06/1.4513e+00 (s) 

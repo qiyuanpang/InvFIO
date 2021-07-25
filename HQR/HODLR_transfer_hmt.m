@@ -1,4 +1,4 @@
-function F = HODLR_transfer(H, maxlvl, lvl, root)
+function F = HODLR_transfer_hmt(H, maxlvl, lvl, root)
     if lvl > 0
         d = maxlvl - lvl;
         prev1 = 2^d - 1;
@@ -9,8 +9,8 @@ function F = HODLR_transfer(H, maxlvl, lvl, root)
         F.A12 = struct('Q', H(root).V, 'R', H(root).S'*H(root).U',  'lvl', lvl, 'm', size(H(root).V, 1), 'n', size(H(root).U, 1), 'r', size(H(root).V, 2));
         F.m = F.A21.m + F.A12.m;
         F.n = F.A21.n + F.A12.n;
-        F.A11 = HODLR_transfer(H, maxlvl, lvl-1, prev+1);
-        F.A22 = HODLR_transfer(H, maxlvl, lvl-1, prev+2);
+        F.A11 = HODLR_transfer_hmt(H, maxlvl, lvl-1, prev+1);
+        F.A22 = HODLR_transfer_hmt(H, maxlvl, lvl-1, prev+2);
         F.maxrk = max([F.A12.r F.A21.r F.A11.maxrk F.A22.maxrk]);
     else
         F = struct('A11', H(root).U, 'A12', [], 'A21', [], 'A22', [], 'lvl', lvl, 'm', size(H(root).U, 1), 'n', size(H(root).U,2), 'maxrk', 0);
