@@ -1,13 +1,19 @@
 
 
+kernel: fun_FIO_5 
+N: 512 
+condition number of A: 5.5894e+01 
+condition number of ATA: 3.1241e+03 
+N: 1024 
+condition number of A: 6.0144e+02 
+condition number of ATA: 3.6173e+05 
+N: 2048 
+condition number of A: 9.9970e+04 
+condition number of ATA: 9.9940e+09 
+
+
 kernel: fun_FIO_var4 
 N: 512 
 condition number of A: 2.9941e+02 
 condition number of ATA: 8.9647e+04 
 N: 1024 
-condition number of A: 3.3636e+02 
-condition number of ATA: 1.1314e+05 
-N: 2048 
-condition number of A: 3.6519e+02 
-condition number of ATA: 1.3337e+05 
-N: 4096 

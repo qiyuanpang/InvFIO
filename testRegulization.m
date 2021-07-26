@@ -9,7 +9,7 @@ end
 
 
 func_name = 'fun_FIO_var4';%'fun_FIO_var2';'fun_FIO';'fun_FIO_5';'fun_FIO_var4';
-OutPutFile = fopen(['comp_1d/Regularization_',func_name,'_L1.txt'],'w');
+OutPutFile = fopen(['comp_1d/Regularization_',func_name,'_TV-L1.txt'],'w');
 
 mR = 20;
 occ = 32;
@@ -20,13 +20,14 @@ maxit1 = 40;
 maxit2 = 20;
 repeat_num = 1;
 delta = 10;
-mu = 2;
-lambda = 2;
-regm = 'L1';
+mu = 32;
+lambda = 1E+4;
+regm = 'TV-L1';
+whichA = 3;
 
 
 %dims = 2.^[8 9 10]
-dims = 2.^[8 9 10 11 12 13 14 15 16 17 18]
+dims = 2.^[8 9 10 11 12 13 14 15]
 cases = length(dims);
 bftime = zeros(cases, 1);
 bferr = zeros(cases, 1);
@@ -87,7 +88,7 @@ for i = 1:cases
     factime_hodlr(i) = t;
     fprintf(fileID,'time H_matrix construction 10e-6: %10.4e )\n',t);
     lvls = floor(log2(length(HODLR))-1);
-    HODLR = HODLR_transfer(HODLR, lvls, lvls, 1); %% use another way to store HODLR
+    HODLR = HODLR_transfer_hmt(HODLR, lvls, lvls, 1); %% use another way to store HODLR
     % [e,niter] = snorm(N,@(x)(apply_bf_adj(Factor,apply_bf(Factor,x)) - hodlr_apply(HODLR,x)),[],[],32);
     % e = e/snorm(N,@(x)(apply_bf_adj(Factor,apply_bf(Factor,x))),[],[],1);
     v = randn(N,1) + 1i*randn(N,1);
@@ -210,11 +211,17 @@ for i = 1:cases
 
     % run CG 
     if strcmp(regm,'TV-L1')
-      Afun = @(x) mu*N*ifft(apply_bf_adj(Factor,apply_bf(Factor,fft(x)))) - lambda*laplacianp(x,1/N);
+      if whichA == 1
+        Afun = @(x) mu*N*ifft(apply_bf_adj(Factor,apply_bf(Factor,fft(x)))) + lambda*laplacianp(x,1/N);
+      elseif whichA == 2
+        Afun = @(x) mu*N*ifft(apply_bf_adj(Factor,apply_bf(Factor,fft(x)))) + lambda*sum(laplacianp(x,1/N));
+      elseif whichA == 3
+        Afun = @(x) mu*N*ifft(apply_bf_adj(Factor,apply_bf(Factor,fft(x)))) + lambda*gradientxpT(gradientxp(x,1/N),1/N);
+      end
       fprintf(fileID, 'Information for TV-L1 \n')
       [F_A,HODLR_A] = HODLR_construction_hmt( N, Afun, tol_peel, fileID, occ, 64,64);
       [G_A] = RSS_ldl(F_A,tol_RSS,fileID);
-      HODLR_A = HODLR_transfer(HODLR_A, lvls, lvls, 1);
+      HODLR_A = HODLR_transfer_hmt(HODLR_A, lvls, lvls, 1);
       fprintf('TV-L1: %10.4e / %10.4e \n', norm(Afun(f)-RSS_apply_lu(G_A,f))/norm(Afun(f)), norm(Afun(f)-hodlr_apply(HODLR_A,f))/norm(Afun(f)))
       [Y_A, YB_A, YC_A, T_A, R_A, rk_A] = hodlrqr(HODLR_A, [], [], [], lvls, 1, tol_RSS);
       b = apply_bf(Factor,fft(f));
@@ -223,7 +230,7 @@ for i = 1:cases
       fprintf(fileID, 'Information for L1 \n')
       [F_A,HODLR_A] = HODLR_construction_hmt( N, Afun, tol_peel, fileID, occ, 64,64);
       [G_A] = RSS_ldl(F_A,tol_RSS,fileID);
-      HODLR_A = HODLR_transfer(HODLR_A, lvls, lvls, 1);
+      HODLR_A = HODLR_transfer_hmt(HODLR_A, lvls, lvls, 1);
       fprintf('L1: %10.4e / %10.4e \n', norm(Afun(f)-RSS_apply_lu(G_A,f))/norm(Afun(f)), norm(Afun(f)-hodlr_apply(HODLR_A,f))/norm(Afun(f)))
       [Y_A, YB_A, YC_A, T_A, R_A, rk_A] = hodlrqr(HODLR_A, [], [], [], lvls, 1, tol_RSS);
       b = apply_bf(Factor, f);
@@ -246,7 +253,13 @@ for i = 1:cases
         % [x, iter] = LinearizedBregman(@(x)apply_bf_adj(Factor, x), @(x)apply_bf(Factor, x), b, delta, mu, tol, maxit, apply_bf(Factor, RSS_inv_lu(G, b)));
         % norm(apply_bf_adj(Factor, apply_bf(Factor, RSS_inv_lu(G, b)))-b)^2/norm(b)^2
         if strcmp(regm,'TV-L1')
-          [x, iter] = SplitBregman(regm, mu, lambda, 1/N, @(x)N*ifft(apply_bf_adj(Factor,x)), @(x)hodlr_apply(HODLR_A, x), b, @(x)gradientx(x, 1/N), maxit1, maxit2, tol, @(x)RSS_inv_lu(G_A, x), RSS_inv_lu(G, N*ifft(apply_bf_adj(Factor, b))), RSS_inv_lu(G, N*ifft(apply_bf_adj(Factor, b))), zeros(N,1));
+          if whichA == 1
+            [x, iter] = SplitBregman(regm, mu, lambda, 1/N, @(x)N*ifft(apply_bf_adj(Factor,x)), @(x)hodlr_apply(HODLR_A, x), b, @(x)gradientx(x, 1/N), maxit1, maxit2, tol, @(x)RSS_inv_lu(G_A, x), RSS_inv_lu(G, N*ifft(apply_bf_adj(Factor, b))), RSS_inv_lu(G, N*ifft(apply_bf_adj(Factor, b))), zeros(N,1));
+          elseif whichA == 2
+            [x, iter] = SplitBregman(regm, mu, lambda, 1/N, @(x)N*ifft(apply_bf_adj(Factor,x)), @(x)hodlr_apply(HODLR_A, x), b, @(x)gradientxpT(x, 1/N), maxit1, maxit2, tol, @(x)RSS_inv_lu(G_A, x), RSS_inv_lu(G, N*ifft(apply_bf_adj(Factor, b))), RSS_inv_lu(G, N*ifft(apply_bf_adj(Factor, b))), zeros(N,1));
+          elseif whichA == 3
+            [x, iter] = SplitBregman(regm, mu, lambda, 1/N, @(x)N*ifft(apply_bf_adj(Factor,x)), @(x)hodlr_apply(HODLR_A, x), b, @(x)gradientxpT(x, 1/N), maxit1, maxit2, tol, @(x)RSS_inv_lu(G_A, x), RSS_inv_lu(G, N*ifft(apply_bf_adj(Factor, b))), RSS_inv_lu(G, N*ifft(apply_bf_adj(Factor, b))), zeros(N,1));
+          end
         elseif strcmp(regm,'L1')
           [x, iter] = SplitBregman(regm, mu, lambda, 1/N, @(x)apply_bf_adj(Factor,x), @(x)hodlr_apply(HODLR_A, x), b, @(x)x, maxit1, maxit2, tol, @(x)RSS_inv_lu(G_A,x), RSS_inv_lu(G, apply_bf_adj(Factor, b)), RSS_inv_lu(G, apply_bf_adj(Factor, b)), zeros(N,1));
         end
@@ -262,7 +275,13 @@ for i = 1:cases
         % [x, iter] = LinearizedBregman(@(x)apply_bf_adj(Factor, x), @(x)apply_bf(Factor, x), b, delta, mu, tol, maxit, apply_bf(Factor, hodlrqr_inv(Y, T, R, b)));
         % [x, iter] = SplitBregman(@(x)apply_bf_adj(Factor, x), @(x)apply_bf(Factor, x), b, @(x)x, @(x)eye(N), lambda, tol, maxit, apply_bf(Factor, hodlrqr_inv(Y, T, R, b)), apply_bf(Factor, hodlrqr_inv(Y, T, R, b)));
         if strcmp(regm,'TV-L1')
-          [x, iter] = SplitBregman(regm, mu, lambda, 1/N, @(x)N*ifft(apply_bf_adj(Factor,x)), @(x)hodlr_apply(HODLR_A, x), b, @(x)gradientx(x, 1/N), maxit1, maxit2, tol, @(x)hodlrqr_inv(Y_A, T_A, R_A, x), hodlrqr_inv(Y, T, R, N*ifft(apply_bf_adj(Factor, b))), hodlrqr_inv(Y, T, R, N*ifft(apply_bf_adj(Factor, b))), zeros(N,1));
+          if whichA == 1
+            [x, iter] = SplitBregman(regm, mu, lambda, 1/N, @(x)N*ifft(apply_bf_adj(Factor,x)), @(x)hodlr_apply(HODLR_A, x), b, @(x)gradientx(x, 1/N), maxit1, maxit2, tol, @(x)hodlrqr_inv(Y_A, T_A, R_A, x), hodlrqr_inv(Y, T, R, N*ifft(apply_bf_adj(Factor, b))), hodlrqr_inv(Y, T, R, N*ifft(apply_bf_adj(Factor, b))), zeros(N,1));
+          elseif whichA == 2
+            [x, iter] = SplitBregman(regm, mu, lambda, 1/N, @(x)N*ifft(apply_bf_adj(Factor,x)), @(x)hodlr_apply(HODLR_A, x), b, @(x)gradientxpT(x, 1/N), maxit1, maxit2, tol, @(x)hodlrqr_inv(Y_A, T_A, R_A, x), hodlrqr_inv(Y, T, R, N*ifft(apply_bf_adj(Factor, b))), hodlrqr_inv(Y, T, R, N*ifft(apply_bf_adj(Factor, b))), zeros(N,1));
+          elseif whichA == 3
+            [x, iter] = SplitBregman(regm, mu, lambda, 1/N, @(x)N*ifft(apply_bf_adj(Factor,x)), @(x)hodlr_apply(HODLR_A, x), b, @(x)gradientxpT(x, 1/N), maxit1, maxit2, tol, @(x)hodlrqr_inv(Y_A, T_A, R_A, x), hodlrqr_inv(Y, T, R, N*ifft(apply_bf_adj(Factor, b))), hodlrqr_inv(Y, T, R, N*ifft(apply_bf_adj(Factor, b))), zeros(N,1));
+          end
         elseif strcmp(regm,'L1')
           [x, iter] = SplitBregman(regm, mu, lambda, 1/N, @(x)apply_bf_adj(Factor,x), @(x)hodlr_apply(HODLR_A, x), b, @(x)x, maxit1, maxit2, tol, @(x)hodlrqr_inv(Y_A, T_A, R_A, x), hodlrqr_inv(Y, T, R, apply_bf_adj(Factor, b)), hodlrqr_inv(Y, T, R, apply_bf_adj(Factor, b)), zeros(N,1));
         end
