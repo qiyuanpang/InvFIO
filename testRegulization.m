@@ -212,9 +212,9 @@ for i = 1:cases
     % run CG 
     if strcmp(regm,'TV-L1')
       if whichA == 1
-        Afun = @(x) mu*N*ifft(apply_bf_adj(Factor,apply_bf(Factor,fft(x)))) + lambda*laplacianp(x,1/N);
+        Afun = @(x) mu*N*ifft(apply_bf_adj(Factor,apply_bf(Factor,fft(x)))) + lambda*laplacianp(x,1/N^2);
       elseif whichA == 2
-        Afun = @(x) mu*N*ifft(apply_bf_adj(Factor,apply_bf(Factor,fft(x)))) + lambda*sum(laplacianp(x,1/N));
+        Afun = @(x) mu*N*ifft(apply_bf_adj(Factor,apply_bf(Factor,fft(x)))) + lambda*sum(laplacianp(x,1/N^2));
       elseif whichA == 3
         Afun = @(x) mu*N*ifft(apply_bf_adj(Factor,apply_bf(Factor,fft(x)))) + lambda*gradientxpT(gradientxp(x,1/N),1/N);
       end

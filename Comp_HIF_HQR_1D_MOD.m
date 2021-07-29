@@ -8,7 +8,7 @@ for s = dirs
 end
 
 
-func_name = '4';%'fun_FIO_var2';'fun_FIO';'fun_FIO_5';'fun_FIO_var4';
+func_name = '1';%'fun_FIO_var2';'fun_FIO';'fun_FIO_5';'fun_FIO_var4';
 OutPutFile = fopen(['comp_1d/Comp_HIFvsHQR_MOD_',func_name,'.txt'],'w');
 
 mR = 32;
@@ -20,8 +20,8 @@ maxit = 12;
 restart = 10;
 repeat_num = 1;
 
-% dims = 2.^[8 9 10]
-dims = 2.^[8 9 10 11 12 13 14 15 16 17]
+dims = 2.^[ 10]
+% dims = 2.^[8 9 10 11 12 13 14 15 16 17]
 cases = length(dims);
 bftime = zeros(cases, 1);
 bferr = zeros(cases, 1);
@@ -85,8 +85,8 @@ for i = 1:cases
     %% Construct HODLR factorization using peeling algorithm
     tStart=tic;
     for j = 1:repeat_num
-      [F_skew,HODLR_skew] = HODLR_construction_skew( N, Afun_skew, tol_peel, fileID, occ, 64,64);
-      [F_hmt,HODLR_hmt] = HODLR_construction_hmt( N, Afun_hmt, tol_peel, fileID, occ, 64,64);
+      [F_skew,HODLR_skew] = HODLR_construction_skew( N, Afun_skew, tol_peel, fileID, occ, 500,500);
+      [F_hmt,HODLR_hmt] = HODLR_construction_hmt( N, Afun_hmt, tol_peel, fileID, occ, 500,500);
     end
     t = toc(tStart)/repeat_num;
     factime_hodlr(i) = t;
