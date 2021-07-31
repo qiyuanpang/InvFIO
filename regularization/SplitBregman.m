@@ -23,11 +23,15 @@ function [u, iters] = SplitBregman(regm, mu, lambda, h, funAT, funH, f, opR, Phi
         % [L1, U1] = HODLR_laplacian(H, -lambda/mu/h/h);
         % HODLR_laplacian_modA11(L1, U1, -lambda/mu/h/h);
         % HODLR_laplacian_modA22(L1, U1, -lambda/mu/h/h);
+        % fprintf('cond %10.4e %10.4e \n', cond(funH(eye(N))), cond(funH(funM(eye(N)))))
+        
+
         iter1 = 0;
         for iter = 1:maxit1
             %[u, iter1] = GaussSeidel(@(x)1/mu*hodlr_tri2_sol(L,L1,x), @(x)mu*hodlr_apply(U,x)+mu*hodlr_apply(U1,x), mu*funAT(f)+lambda*opR(d0-b0), u0, maxit2, tol);
-            for k = 1:2
+            for k = 1:1
                 [u, flag, relres, iter2] = pcg(funH, mu*funAT(f)+lambda*opR(d0-b0), 1E-14, maxit2, funM, @(x)x, u0);
+                % norm(funH(u) - mu*funAT(f)-lambda*opR(d0-b0))/norm(mu*funAT(f)+lambda*opR(d0-b0))
                 iter1 = max(iter1, iter2);
                 % if norm(u-u0) < tol
                 %     break

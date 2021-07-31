@@ -1,17 +1,18 @@
 clear all;
-dims = [9];
+dims = [8];
 regm = 'L1';
-mus = [2^(-10) 2^(-7) 2^(-4) 2^0 2^4 2^(7) 2^(10)];
-lambdas = [1E-12 1E-10 1E-8 1E-6 1E-4 1E-2 1E0 1E2 1E4 1E6 1E8 1E10];
-% lambdas = [1E-13 1E-10]
+mus = [2^(-7) 2^(-4) 2^0 2^4 2^(7) ];
+lambdas = [1E-12 1E-10 1E-8 1E-6 1E-4 1E-2 1E0 1E2 1E4];
+% lambdas = [1E-2 1E2]
 tol = 1E-13;
 maxit1 = 50;
 maxit2 = 50;
 OutPutFile = fopen(['testSB.txt'],'w');
-soltype = 3;
+NoFIle = fopen(['less.txt'], 'w');
+soltype = 4;
 for i = dims
     N = 2^i;
-    M = N-20;
+    M = N-50;
     F = randn(M,N);
     % F = triu(F,3) + tril(F,3);
     if soltype == 1
@@ -22,8 +23,8 @@ for i = dims
         b = b(1:M);
     elseif soltype == 2        
         f = ones(N,1);
-        f(N/4+1:N/2) = 2;
-        M = N/2;
+        f(N/2+1:N) = 2;
+        M = N-20;
         b = fft(f);
         b = b(1:M);
     elseif soltype == 3
@@ -33,7 +34,8 @@ for i = dims
         % b = b(1:M);
     elseif soltype == 4
         f = ones(N,1);
-        f(N/4+1:N/2) = 2;
+        f(N/2+1:N) = 2;
+        % f(N/4+1:N/2) = 1.001;
         b = F*f;
     end
     % hf = @(x)x(1:M);
@@ -42,21 +44,32 @@ for i = dims
     ftM = [ones(M,1);zeros(N-M,1)];
     f0s = [f 2*f randn(N,1)];
     for mu = mus
-        lmus = [mu/16 mu/8 mu/4 mu/2 mu mu*2 mu*4 mu*8 mu*16]
-        for lambda = lmus
+        lmus = [mu/8 mu/4 mu/2 mu mu*2 mu*4 mu*8]
+        for lambda = lambdas
             data = [];
             for kk = 1:size(f0s,2)
                 f0 = f0s(:,kk);
                 Inv = [ones(M,1)/(mu*N+lambda);ones(N-M,1)/lambda];
+                InvF = [ones(M,1)/(mu*N-2*lambda);ones(N-M,1)/(-2*lambda)];
                 if soltype == 3
                     [L,~] = chol(mu*F'*F+lambda*eye(N));
+                elseif soltype == 2
+                    BB = mu*N*ifft(ftM.*fft(eye(N)))+lambda*laplacianp(eye(N), 1/N^2);
+                    img = imag(diag(BB));
+                    [L,D] = ldl(BB-1i*diag(img));
+                    % [Fac,HODLR] = HODLR_construction_hmt( N, @(x)mu*N*ifft(fft(x).*ftM)+lambda*laplacianp(x, 1/N^2), 1E-12, NoFIle, 32, 64,64);
+                    % [G] = RSS_ldl(Fac,1E-12,NoFIle);
+                elseif soltype == 4
+                    [L,D] = ldl(mu*F'*F+lambda*laplacianp(eye(N),1/N^2));
+                    % [Fac,HODLR] = HODLR_construction_hmt( N, @(x)mu*F'*F*x+lambda*laplacianp(x,1/N^2), 1E-12, NoFIle, 32, 64,64);
+                    % [G] = RSS_ldl(Fac,1E-12,NoFIle);
                 end
                 % [x, iter] = SplitBregman('L1', mu, lambda, 1/N, @(x)N*ifft(x), @(x)mu*N*ifft(fft(x))+lambda*x, b, @(x)x, @(x)x, maxit1, maxit2, tol, @(x)ifft(fft(x))/(N*mu+lambda), f0, f0, zeros(N,1));
                 % [x, iter] = SplitBregman('L1', mu, lambda, 1/N, @(x)N*ifft([x;zeros(N-M,1)]), @(x)mu*N*ifft(fft(x).*ftM)+lambda*x, b, @(x)x, @(x)x, maxit1, maxit2, tol, @(x)ifft(fft(x).*Inv), f0, f0, zeros(N,1));
-                [x, iter] = SplitBregman('L1', mu, lambda, 1/N, @(x)F'*x, @(x)mu*F'*F*x+lambda*x, b, @(x)x, @(x)x, maxit1, maxit2, tol, @(x)L\(L'\x), f0, f0, zeros(N,1));
+                % [x, iter] = SplitBregman('L1', mu, lambda, 1/N, @(x)F'*x, @(x)mu*F'*F*x+lambda*x, b, @(x)x, @(x)x, maxit1, maxit2, tol, @(x)L\(L'\x), f0, f0, zeros(N,1));
                 % [x, iter] = SplitBregman('TV-L1', mu, lambda, 1/N, @(x)N*ifft(x), @(x)mu*N*ifft(fft(x))+lambda*laplacianp(x, 1/N^2), b, @(x)gradientxp(x,1/N), @(x)x, maxit1, maxit2, tol, @(x)ifft(fft(x))/mu/N, f0, f0,zeros(N,1));
-                % [x, iter] = SplitBregman('TV-L1', mu, lambda, 1/N, @(x)N*ifft([x;zeros(N-M,1)]), @(x)mu*N*ifft(fft(x).*ftM)+lambda*laplacianp(x, 1/N^2), b, @(x)gradientxp(x,1/N), @(x)gradientxp(x,1/N), maxit1, maxit2, tol, @(x)x, f0, f0,zeros(N,1));
-                % [x, iter] = SplitBregman('TV-L1', mu, lambda, 1/N, @(x)F'*x, @(x)mu*F'*F*x+lambda*laplacianp(x,1/N^2).*ftM, b, @(x)[gradientxp(x,1/N);zeros(N-M,1)], @(x)hfM(gradientxp(x,1/N)), maxit1, maxit2, tol, @(x)x, f0, f0(1:M),zeros(M,1));
+                % [x, iter] = SplitBregman('TV-L1', mu, lambda, 1/N, @(x)N*ifft([x;zeros(N-M,1)]), @(x)mu*N*ifft(fft(x).*ftM)+lambda*laplacianp(x, 1/N^2), b, @(x)gradientxp(x,1/N), @(x)gradientxp(x,1/N), maxit1, maxit2, tol, @(x)L'\(D\(L\x)), f0, f0,zeros(N,1));
+                [x, iter] = SplitBregman('TV-L1', mu, lambda, 1/N, @(x)F'*x, @(x)mu*F'*F*x+lambda*laplacianp(x,1/N^2), b, @(x)gradientxp(x,1/N), @(x)gradientxp(x,1/N), maxit1, maxit2, tol, @(x)L'\(D\(L\x)), f0, f0,zeros(N,1));
                 
                 % [x, iter] = SplitBregman('TV-L1', mu, lambda, 1/N, @(x)N*ifft(x), @(x)mu*N*ifft(fft(x))+lambda*laplacianp(x, 1/N^2).*gradientxp(x,1/N), b, @(x)laplacianp(x,1/N^2), maxit1, maxit2, tol, @(x)ifft(fft(x))/mu/N, f, f,zeros(N,1));
                 % [x, iter] = SplitBregman('TV-L1', mu, lambda, 1/N, @(x)N*ifft(x), @(x)mu*N*ifft(fft(x))+lambda*sum(laplacianp(x, 1/N^2)), b, @(x)gradientxpT(x,1/N), maxit1, maxit2, tol, @(x)ifft(fft(x))/mu/N, f, f,zeros(N,1));
@@ -69,7 +82,7 @@ for i = dims
                     e1 = norm(b-y)/norm(b);
                 end
                 gx = gradientxp(x,1/N);
-                x(N/4-5:N/4+5)'
+                gx(N/4-5:N/4+5)'
                 e2 = norm(x-f)/norm(f);
                 % e = norm(f-x)/norm(f);
                 data = [data iter(1) iter(2) e1 e2];
