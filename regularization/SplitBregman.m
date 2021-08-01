@@ -4,8 +4,9 @@ function [u, iters] = SplitBregman(regm, mu, lambda, h, funAT, funH, f, opR, Phi
         iter1 = 0;
         for iter = 1:maxit1
             % [u, iter1] = GaussSeidel(@(x)1/mu*hodlr_tri_sol(L,x), @(x)mu*hodlr_apply(U,x), mu*funAT(f)+lambda*opR(d0-b0), u0, maxit, tol);
-            for k = 1:2
+            for k = 1:1
                 [u, flag, relres, iter2] = pcg(funH, mu*funAT(f)+lambda*opR(d0-b0), 1E-14, maxit2, funM, @(x)x, u0);
+                fprintf('pcg %10.4e / %d / %10.4e \n', norm(u-u0), flag, relres)
                 % norm(funH(u) - mu*funAT(f)+lambda*opR(d0-b0))/norm(mu*funAT(f)+lambda*opR(d0-b0))
                 iter1 = max(iter1, iter2);
                 % if norm(u-u0) < tol
@@ -32,6 +33,7 @@ function [u, iters] = SplitBregman(regm, mu, lambda, h, funAT, funH, f, opR, Phi
             for k = 1:1
                 [u, flag, relres, iter2] = pcg(funH, mu*funAT(f)+lambda*opR(d0-b0), 1E-14, maxit2, funM, @(x)x, u0);
                 % norm(funH(u) - mu*funAT(f)-lambda*opR(d0-b0))/norm(mu*funAT(f)+lambda*opR(d0-b0))
+                fprintf('pcg %10.4e / %d / %10.4e \n', norm(u-u0), flag, relres)
                 iter1 = max(iter1, iter2);
                 % if norm(u-u0) < tol
                 %     break

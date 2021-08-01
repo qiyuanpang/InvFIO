@@ -2,54 +2,54 @@
 N                 :  512
 Max Rank          :    8
 Tolerance         : 1.000e-12
-Relative Error_2  : 4.725e-09
-Direct Time       : 2.879e-02 s
-Running Time      : 1.694e-02 mins
-Factorization Time: 1.690e-02 mins
-Applying Time     : 2.141e-03 s
+Relative Error_2  : 1.326e-09
+Direct Time       : 7.320e-02 s
+Running Time      : 2.142e-02 mins
+Factorization Time: 2.139e-02 mins
+Applying Time     : 1.841e-03 s
 ------------------------------------------
 
 ------------------------------------------
 N                 : 1024
 Max Rank          :    8
 Tolerance         : 1.000e-12
-Relative Error_2  : 1.682e-11
-Direct Time       : 4.923e-02 s
-Running Time      : 5.287e-02 mins
-Factorization Time: 5.282e-02 mins
-Applying Time     : 3.140e-03 s
+Relative Error_2  : 6.681e-12
+Direct Time       : 1.316e-01 s
+Running Time      : 6.920e-02 mins
+Factorization Time: 6.913e-02 mins
+Applying Time     : 4.422e-03 s
 ------------------------------------------
 
 ------------------------------------------
 N                 : 2048
 Max Rank          :    8
 Tolerance         : 1.000e-12
-Relative Error_2  : 1.168e-08
-Direct Time       : 1.189e-01 s
-Running Time      : 1.054e-01 mins
-Factorization Time: 1.053e-01 mins
-Applying Time     : 8.809e-03 s
+Relative Error_2  : 3.719e-09
+Direct Time       : 5.044e-01 s
+Running Time      : 1.496e-01 mins
+Factorization Time: 1.494e-01 mins
+Applying Time     : 8.868e-03 s
 ------------------------------------------
 
 ------------------------------------------
 N                 :  512
 Max Rank          :    8
 Tolerance         : 1.000e-12
-Relative Error_2  : 2.086e-09
-Direct Time       : 6.425e-02 s
-Running Time      : 1.952e-02 mins
-Factorization Time: 1.949e-02 mins
-Applying Time     : 1.678e-03 s
+Relative Error_2  : 7.645e-09
+Direct Time       : 2.150e-02 s
+Running Time      : 1.540e-02 mins
+Factorization Time: 1.537e-02 mins
+Applying Time     : 1.559e-03 s
 ------------------------------------------
 
 ------------------------------------------
 N                 : 1024
 Max Rank          :    8
 Tolerance         : 1.000e-12
-Relative Error_2  : 9.952e-12
-Direct Time       : 1.351e-01 s
-Running Time      : 6.780e-02 mins
-Factorization Time: 6.774e-02 mins
-Applying Time     : 3.251e-03 s
+Relative Error_2  : 4.020e-11
+Direct Time       : 4.162e-02 s
+Running Time      : 5.288e-02 mins
+Factorization Time: 5.283e-02 mins
+Applying Time     : 2.720e-03 s
 ------------------------------------------
 
