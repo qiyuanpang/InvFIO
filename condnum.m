@@ -8,7 +8,7 @@ for s = dirs
 end
 
 
-func_names = ["fun_FIO_var2","fun_FIO_5","fun_FIO_var1","fun_FIO_var2","fun_FIO"];
+func_names = ["fun_FIO_var2","fun_FIO_5","fun_FIO_var4","fun_FIO_var1","fun_FIO"];
 OutPutFile = fopen(["condnum.txt"],'w');
 
 mR = 8;

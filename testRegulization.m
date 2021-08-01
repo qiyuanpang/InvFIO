@@ -7,11 +7,11 @@ for s = dirs
   addpath(sprintf('%s/%s/test',curpath,s{:}));
 end
 
-initf = 'rand'
-regm = 'L1'
+initf = 'randn'
+regm = 'TV-L1'
 whichlambda = 'lmus'
 
-func_name = 'fun_FIO_var2';%'fun_FIO_var2';'fun_FIO';'fun_FIO_5';'fun_FIO_var4';
+func_name = 'fun_FIO_5';%'fun_FIO_var2';'fun_FIO';'fun_FIO_5';'fun_FIO_var4';
 OutPutFile = fopen(['comp_1d/Regularization_',func_name,'_',regm,'_',initf,'_',whichlambda,'.txt'],'w');
 
 
@@ -20,7 +20,7 @@ occ = 32;
 tol_bf = 1E-13;
 tol_peel = 1E-11;
 tol_RSS = 1E-11;
-maxit1 = 40;
+maxit1 = 30;
 maxit2 = 20;
 repeat_num = 1;
 delta = 10;
@@ -29,7 +29,7 @@ lambdas = [2^(-16) 2^(-12) 2^(-8) 2^(-4) 2^0 2^4 2^(8) 2^(12) 2^(16)];
 
 
 
-dims = 2.^[13 14 15]
+dims = 2.^[12 13 14 15]
 % dims = 2.^[12 13 14]
 cases = length(dims);
 bftime = zeros(cases, 1);
@@ -82,9 +82,9 @@ for i = 1:cases
     tStart=tic;
     for j = 1:repeat_num
       if strcmp(regm, 'L1')
-        [F,HODLR] = HODLR_construction( N, @(x)apply_bf(Factor, x), @(x) apply_bf_adj(Factor,x), tol_peel, fileID, occ, 64,64);
+        [F,HODLR] = HODLR_construction( N, @(x)apply_bf(Factor, x), @(x) apply_bf_adj(Factor,x), tol_peel, fileID, occ, 100,100);
       elseif strcmp(regm, 'TV-L1')
-        [F,HODLR] = HODLR_construction( N, @(x)apply_bf(Factor, fft(x)), @(x) N*ifft(apply_bf_adj(Factor,x)), tol_peel, fileID, occ, 64,64);
+        [F,HODLR] = HODLR_construction( N, @(x)apply_bf(Factor, fft(x)), @(x) N*ifft(apply_bf_adj(Factor,x)), tol_peel, fileID, occ, 100,100);
       end
     end
     t = toc(tStart)/repeat_num;
@@ -212,7 +212,7 @@ for i = 1:cases
     % run SB
     fprintf(OutPutFile, 'regularizer: %s  init-scheme: %s \n', regm, initf)
     for mu = mus
-      lmus = [mu/16 mu/8 mu/4 mu/2 mu mu*2 mu*4 mu*8 mu*16];
+      lmus = [mu/32 mu/16 mu/4 mu/2 mu mu*2 mu*4 mu*16 mu*32];
       if strcmp(whichlambda,'ind')
         LAMBDAS = lambdas;
       elseif strcmp(whichlambda, 'lmus');
