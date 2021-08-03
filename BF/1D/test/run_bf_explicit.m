@@ -39,6 +39,20 @@ switch func_name
         fun = @(x,k)fun5(N,x,k);
     case 'fun_FIO_var4'
         fun = @(x,k)fun0var4(N,x,k);
+    case 'fun_FIO_var6'
+        fun = @(x,k)fun0var6(N,x,k);
+    case 'fun_FIO_var7'
+        fun = @(x,k)fun0var7(N,x,k);
+    case 'fun_FIO_var8'
+        fun = @(x,k)fun0var8(N,x,k);
+    case 'fun_FIO_var9'
+        fun = @(x,k)fun0var9(N,x,k);
+    case 'fun_FIO_var10'
+        fun = @(x,k)fun0var10(N,x,k);
+    case 'fun_FIO_var11'
+        fun = @(x,k)fun0var11(N,x,k);
+    case 'fun_FIO_var12'
+        fun = @(x,k)fun0var12(N,x,k);
 end
 
 f = randn(N,1) + 1i*randn(N,1);
