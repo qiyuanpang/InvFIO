@@ -60,3 +60,42 @@ HQR mv err/time: 1.4796e-12/2.2675e-01
 HQR sv err/time: 2.5673e-04/1.0221e-01 
 regularizer: TV-L1  init-scheme: sol 
 mu: 2^{   9}  lambda: 2^{   4} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.6702e+01 /   40 /    1, relerr 9.0106e-02 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.3853e+01 /   40 /    1, relerr 9.2727e-02 
+
+
+------------------------------------------
+N:       8192 
+BF Fac err/time: 6.0401e-13/5.3810e+02 (s) 
+HODLR Fac err/time: 2.9809e-12/2.0869e+03 (s) 
+RSS Fac time: 1.1310e+01 
+RSS mv err/time: 3.7240e-09/4.6973e-02 
+RSS sv err/time: 1.3884e-03/1.2807e-01 
+HQR Fac time/rank: 1.5583e+03/1872 
+HQR mv err/time: 3.1383e-12/5.5350e-01 
+HQR sv err/time: 4.7341e-04/2.6455e-01 
+regularizer: TV-L1  init-scheme: sol 
+mu: 2^{   9}  lambda: 2^{   4} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.4841e+02 /   40 /    2, relerr 5.0447e+61 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 3.5447e+01 /   40 /    1, relerr 5.0430e+61 
+
+
+------------------------------------------
+N:      16384 
+BF Fac err/time: 1.0566e-12/1.2256e+03 (s) 
+HODLR Fac err/time: 6.6931e-01/1.1834e+04 (s) 
+RSS Fac time: 5.7627e+01 
+RSS mv err/time: 6.3791e-01/1.3967e-01 
+RSS sv err/time: 1.9187e+02/2.3678e+00 
+HQR Fac time/rank: 9.3082e+03/2253 
+HQR mv err/time: 6.3791e-01/2.1599e+00 
+HQR sv err/time: 1.9186e+02/3.5314e-01 
+regularizer: TV-L1  init-scheme: sol 
+mu: 2^{   9}  lambda: 2^{   4} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 3.2342e+02 /   40 /    2, relerr 8.9188e+123 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.8963e+02 /   40 /    1, relerr 8.9188e+123 
+
+
+------------------------------------------
+N:      32768 
+BF Fac err/time: 3.4857e-12/1.7890e+03 (s) 

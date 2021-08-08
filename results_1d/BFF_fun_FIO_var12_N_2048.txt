@@ -6,55 +6,1855 @@ N:       2048
 N                 : 2048
 Max Rank          :   20
 Tolerance         : 1.000e-13
-Relative Error_2  : 1.621e-13
-Direct Time       : 4.347e-01 s
-Running Time      : 2.113e-01 mins
-Factorization Time: 2.111e-01 mins
-Applying Time     : 1.141e-02 s
+Relative Error_2  : 1.730e-13
+Direct Time       : 4.972e-01 s
+Running Time      : 3.298e-01 mins
+Factorization Time: 3.290e-01 mins
+Applying Time     : 4.491e-02 s
 ------------------------------------------
 
 ------------------HODLR construction-----------------
 level |  rank  | maxrank | time (s)
-  1 |     69 |  400 |   4.46e+01 (s)
-  2 |     37 |  400 |   3.73e+01 (s)
-  3 |     34 |  254 |   2.04e+01 (s)
-  4 |     44 |  126 |   9.14e+00 (s)
-  5 |     29 |   62 |   4.49e+00 (s)
-  6 |     23 |   30 |   2.18e+00 (s)
-time H_matrix construction 10e-6: 1.1898e+02 )
-mv: 4.9732e-13 
+  1 |     69 |  400 |   5.68e+01 (s)
+  2 |     37 |  400 |   5.64e+01 (s)
+  3 |     34 |  254 |   3.50e+01 (s)
+  4 |     43 |  126 |   1.76e+01 (s)
+  5 |     29 |   62 |   9.82e+00 (s)
+  6 |     23 |   30 |   4.62e+00 (s)
+time H_matrix construction 10e-6: 1.8211e+02 )
+mv: 3.6390e-13 
 --------------RSS contruction------------
 lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
-  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.74e-02 (s)
-  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.66e-02 (s)
-  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.83e-02 (s)
-  3 |   2048 |      995 |     1053 |     0.49 |     0.51 |   1.49e-01 (s)
-  2 |   1053 |      644 |      409 |     0.61 |     0.39 |   7.24e-02 (s)
-  1 |    409 |      271 |      138 |     0.66 |     0.34 |   2.13e-02 (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   9.05e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   9.16e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.91e-01 (s)
+  3 |   2048 |      993 |     1055 |     0.48 |     0.52 |   4.14e-01 (s)
+  2 |   1055 |      646 |      409 |     0.61 |     0.39 |   2.49e-01 (s)
+  1 |    409 |      271 |      138 |     0.66 |     0.34 |   7.85e-02 (s)
 -------------End RSS contruction-----------
-time HIF construction 4.3298e-01 
-mv: 5.1275e-05  time 6.4390e-03
-sv: 4.7885e+00 time 1.5833e-02
-time/rank HODLR-QR construction 1.7312e+01/318 
-mv: 6.0468e-13 time 2.0701e-02
-sv: 9.3856e-01 time 2.1253e-02
-Information for T-L1 
+time HIF construction 1.1182e+00 
+mv: 1.2784e+00  time 1.9028e-02
+sv: 1.0406e+00 time 2.9487e-02
+time/rank HODLR-QR construction 3.9113e+01/317 
+mv: 1.0230e-11 time 8.8552e-02
+sv: 1.2210e-01 time 2.9794e-02
+Information for TV-L1 
 ------------------HODLR construction-----------------
 level |  rank  | maxrank | time (s)
-  1 |     69 |  200 |   1.43e+01 (s)
-  2 |     37 |  200 |   1.43e+01 (s)
-  3 |     34 |  200 |   1.44e+01 (s)
-  4 |     45 |  126 |   9.41e+00 (s)
-  5 |     29 |   62 |   4.71e+00 (s)
-  6 |     24 |   30 |   2.82e+00 (s)
+  1 |     69 |  200 |   2.78e+01 (s)
+  2 |     37 |  200 |   2.83e+01 (s)
+  3 |     34 |  200 |   2.78e+01 (s)
+  4 |     38 |  126 |   1.70e+01 (s)
+  5 |     28 |   62 |   8.92e+00 (s)
+  6 |     23 |   30 |   4.49e+00 (s)
 --------------RSS contruction------------
 lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
-  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.62e-02 (s)
-  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.05e-02 (s)
-  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.64e-02 (s)
-  3 |   2048 |      973 |     1075 |     0.48 |     0.52 |   1.52e-01 (s)
-  2 |   1075 |      659 |      416 |     0.61 |     0.39 |   7.89e-02 (s)
-  1 |    416 |      278 |      138 |     0.67 |     0.33 |   2.60e-02 (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.40e-01 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.69e-01 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   2.59e-01 (s)
+  3 |   2048 |      975 |     1073 |     0.48 |     0.52 |   3.73e-01 (s)
+  2 |   1073 |      656 |      417 |     0.61 |     0.39 |   2.67e-01 (s)
+  1 |    417 |      279 |      138 |     0.67 |     0.33 |   5.59e-02 (s)
 -------------End RSS contruction-----------
-Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 3.4969e+00 /   40 /    2, relerr 1.4546e+02 
-Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 4.1701e+00 /   40 /    1, relerr 4.6269e-03 
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 5.7239e+01 /   50 /    2, relerr 1.0301e+128 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 4.1942e+01 /   50 /    2, relerr 9.7475e+127 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   2.82e+01 (s)
+  2 |     37 |  200 |   2.95e+01 (s)
+  3 |     34 |  200 |   2.95e+01 (s)
+  4 |     32 |  126 |   1.82e+01 (s)
+  5 |     27 |   62 |   9.26e+00 (s)
+  6 |     23 |   30 |   4.35e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.17e-01 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.00e-01 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   2.90e-01 (s)
+  3 |   2048 |      981 |     1067 |     0.48 |     0.52 |   3.25e-01 (s)
+  2 |   1067 |      652 |      415 |     0.61 |     0.39 |   1.92e-01 (s)
+  1 |    415 |      277 |      138 |     0.67 |     0.33 |   5.45e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 5.1957e+01 /   50 /    2, relerr 2.1781e+133 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 3.7494e+01 /   50 /    2, relerr 1.9815e+133 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   2.65e+01 (s)
+  2 |     37 |  200 |   2.71e+01 (s)
+  3 |     34 |  200 |   2.86e+01 (s)
+  4 |     30 |  126 |   1.77e+01 (s)
+  5 |     26 |   62 |   8.80e+00 (s)
+  6 |     22 |   30 |   4.38e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.87e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.46e-01 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   3.13e-01 (s)
+  3 |   2048 |      990 |     1058 |     0.48 |     0.52 |   2.79e-01 (s)
+  2 |   1058 |      640 |      418 |     0.60 |     0.40 |   2.19e-01 (s)
+  1 |    418 |      280 |      138 |     0.67 |     0.33 |   2.39e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 6.4896e+01 /   50 /    2, relerr 2.8060e+174 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 4.0458e+01 /   50 /    2, relerr 2.8059e+174 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   2.77e+01 (s)
+  2 |     37 |  200 |   2.83e+01 (s)
+  3 |     34 |  200 |   2.83e+01 (s)
+  4 |     29 |  126 |   1.85e+01 (s)
+  5 |     26 |   62 |   9.56e+00 (s)
+  6 |     22 |   30 |   4.82e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   8.99e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.26e-01 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   2.84e-01 (s)
+  3 |   2048 |      995 |     1053 |     0.49 |     0.51 |   4.29e-01 (s)
+  2 |   1053 |      639 |      414 |     0.61 |     0.39 |   2.18e-01 (s)
+  1 |    414 |      276 |      138 |     0.67 |     0.33 |   7.02e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 6.4101e+01 /   50 /    2, relerr 3.2634e+143 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 4.2149e+01 /   50 /    2, relerr 3.1581e+143 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   3.00e+01 (s)
+  2 |     37 |  200 |   2.90e+01 (s)
+  3 |     34 |  200 |   3.12e+01 (s)
+  4 |     27 |  126 |   1.99e+01 (s)
+  5 |     24 |   62 |   9.50e+00 (s)
+  6 |     21 |   30 |   4.71e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.43e-01 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   2.31e-01 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   2.89e-01 (s)
+  3 |   2048 |     1014 |     1034 |     0.50 |     0.50 |   3.01e-01 (s)
+  2 |   1034 |      622 |      412 |     0.60 |     0.40 |   1.67e-01 (s)
+  1 |    412 |      274 |      138 |     0.67 |     0.33 |   5.92e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 7.9966e+01 /   50 /    2, relerr 3.4519e+118 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 6.2468e+01 /   50 /    2, relerr 3.4519e+118 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   3.07e+01 (s)
+  2 |     37 |  200 |   3.19e+01 (s)
+  3 |     34 |  200 |   3.31e+01 (s)
+  4 |     27 |  126 |   2.06e+01 (s)
+  5 |     23 |   62 |   1.03e+01 (s)
+  6 |     20 |   30 |   5.01e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   2.17e-01 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   3.83e-01 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.75e-01 (s)
+  3 |   2048 |     1019 |     1029 |     0.50 |     0.50 |   3.81e-01 (s)
+  2 |   1029 |      620 |      409 |     0.60 |     0.40 |   3.38e-01 (s)
+  1 |    409 |      271 |      138 |     0.66 |     0.34 |   6.66e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 4.7225e+01 /   50 /    2, relerr 5.7716e+89 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 3.4013e+01 /   50 /    2, relerr 8.1662e+85 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     67 |  200 |   2.93e+01 (s)
+  2 |     36 |  200 |   3.07e+01 (s)
+  3 |     32 |  200 |   3.05e+01 (s)
+  4 |     26 |  126 |   1.95e+01 (s)
+  5 |     23 |   62 |   9.48e+00 (s)
+  6 |     19 |   30 |   4.62e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.42e-01 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   2.70e-01 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   3.55e-01 (s)
+  3 |   2048 |     1053 |      995 |     0.51 |     0.49 |   3.60e-01 (s)
+  2 |    995 |      599 |      396 |     0.60 |     0.40 |   2.52e-01 (s)
+  1 |    396 |      262 |      134 |     0.66 |     0.34 |   5.93e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 4.2414e+01 /   50 /    2, relerr 1.7764e+160 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 3.5758e+01 /   50 /    2, relerr 1.1430e+160 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     64 |  200 |   2.85e+01 (s)
+  2 |     34 |  200 |   2.96e+01 (s)
+  3 |     32 |  200 |   2.95e+01 (s)
+  4 |     25 |  126 |   1.94e+01 (s)
+  5 |     23 |   62 |   9.43e+00 (s)
+  6 |     19 |   30 |   4.67e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.34e-01 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   2.06e-01 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   2.54e-01 (s)
+  3 |   2048 |     1091 |      957 |     0.53 |     0.47 |   2.98e-01 (s)
+  2 |    957 |      577 |      380 |     0.60 |     0.40 |   1.66e-01 (s)
+  1 |    380 |      252 |      128 |     0.66 |     0.34 |   4.38e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 2.4891e+01 /   50 /    1, relerr 2.5170e+70 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 4.4305e+01 /   50 /    2, relerr 2.1513e+69 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     62 |  200 |   2.87e+01 (s)
+  2 |     34 |  200 |   2.89e+01 (s)
+  3 |     30 |  200 |   3.01e+01 (s)
+  4 |     25 |  126 |   1.66e+01 (s)
+  5 |     22 |   62 |   8.19e+00 (s)
+  6 |     19 |   30 |   3.70e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.14e-01 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.72e-01 (s)
+  4 |   2048 |        7 |     2041 |     0.00 |     1.00 |   3.61e-01 (s)
+  3 |   2041 |     1118 |      923 |     0.55 |     0.45 |   2.99e-01 (s)
+  2 |    923 |      555 |      368 |     0.60 |     0.40 |   1.62e-01 (s)
+  1 |    368 |      244 |      124 |     0.66 |     0.34 |   4.44e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.5674e+01 /   50 /    1, relerr 9.5737e+104 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.9581e+01 /   50 /    1, relerr 1.9516e+104 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     61 |  200 |   2.56e+01 (s)
+  2 |     33 |  200 |   2.74e+01 (s)
+  3 |     29 |  200 |   2.73e+01 (s)
+  4 |     24 |  126 |   1.95e+01 (s)
+  5 |     21 |   62 |   9.64e+00 (s)
+  6 |     19 |   30 |   4.50e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.41e-01 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   2.58e-01 (s)
+  4 |   2048 |       18 |     2030 |     0.01 |     0.99 |   3.40e-01 (s)
+  3 |   2030 |     1127 |      903 |     0.56 |     0.44 |   3.25e-01 (s)
+  2 |    903 |      543 |      360 |     0.60 |     0.40 |   1.87e-01 (s)
+  1 |    360 |      238 |      122 |     0.66 |     0.34 |   3.50e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 2.9197e+01 /   50 /    2, relerr 1.3842e+65 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 3.0421e+01 /   50 /    1, relerr 5.2391e+64 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     59 |  200 |   3.03e+01 (s)
+  2 |     31 |  200 |   3.12e+01 (s)
+  3 |     28 |  200 |   3.05e+01 (s)
+  4 |     23 |  126 |   1.92e+01 (s)
+  5 |     21 |   62 |   9.94e+00 (s)
+  6 |     19 |   30 |   4.94e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.42e-01 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   2.01e-01 (s)
+  4 |   2048 |       69 |     1979 |     0.03 |     0.97 |   4.05e-01 (s)
+  3 |   1979 |     1115 |      864 |     0.56 |     0.44 |   2.72e-01 (s)
+  2 |    864 |      519 |      345 |     0.60 |     0.40 |   6.94e-02 (s)
+  1 |    345 |      227 |      118 |     0.66 |     0.34 |   4.05e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 2.5111e+01 /   50 /    2, relerr 1.8468e+75 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 3.4484e+01 /   50 /    1, relerr 3.6470e+73 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     56 |  200 |   3.01e+01 (s)
+  2 |     30 |  200 |   3.05e+01 (s)
+  3 |     27 |  200 |   3.05e+01 (s)
+  4 |     22 |  126 |   2.03e+01 (s)
+  5 |     21 |   62 |   1.02e+01 (s)
+  6 |     18 |   30 |   4.89e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.17e-01 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   3.09e-01 (s)
+  4 |   2048 |      142 |     1906 |     0.07 |     0.93 |   3.50e-01 (s)
+  3 |   1906 |     1076 |      830 |     0.56 |     0.44 |   3.07e-01 (s)
+  2 |    830 |      498 |      332 |     0.60 |     0.40 |   1.21e-01 (s)
+  1 |    332 |      220 |      112 |     0.66 |     0.34 |   4.72e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 2.8365e+01 /   50 /    2, relerr 1.3746e+39 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 3.2022e+01 /   50 /    1, relerr 5.3100e+33 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     54 |  200 |   3.09e+01 (s)
+  2 |     29 |  200 |   3.07e+01 (s)
+  3 |     26 |  200 |   3.09e+01 (s)
+  4 |     22 |  126 |   1.73e+01 (s)
+  5 |     20 |   62 |   8.09e+00 (s)
+  6 |     17 |   30 |   3.74e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.15e-01 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   2.09e-01 (s)
+  4 |   2048 |      205 |     1843 |     0.10 |     0.90 |   2.32e-01 (s)
+  3 |   1843 |     1044 |      799 |     0.57 |     0.43 |   2.28e-01 (s)
+  2 |    799 |      479 |      320 |     0.60 |     0.40 |   8.72e-02 (s)
+  1 |    320 |      212 |      108 |     0.66 |     0.34 |   3.45e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 2.0101e+01 /   50 /    2, relerr 1.8618e+24 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 2.3252e+01 /   50 /    1, relerr 8.5786e+19 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   2.70e+01 (s)
+  2 |     37 |  200 |   2.79e+01 (s)
+  3 |     34 |  200 |   2.84e+01 (s)
+  4 |     39 |  126 |   1.87e+01 (s)
+  5 |     28 |   62 |   9.57e+00 (s)
+  6 |     23 |   30 |   4.99e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.60e-01 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   2.40e-01 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   3.02e-01 (s)
+  3 |   2048 |      976 |     1072 |     0.48 |     0.52 |   3.95e-01 (s)
+  2 |   1072 |      659 |      413 |     0.61 |     0.39 |   2.73e-01 (s)
+  1 |    413 |      275 |      138 |     0.67 |     0.33 |   8.60e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 3.8908e+01 /   50 /    2, relerr 9.8537e+127 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 4.1144e+01 /   50 /    2, relerr 9.3280e+127 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   3.00e+01 (s)
+  2 |     37 |  200 |   2.87e+01 (s)
+  3 |     34 |  200 |   2.83e+01 (s)
+  4 |     32 |  126 |   1.91e+01 (s)
+  5 |     28 |   62 |   9.67e+00 (s)
+  6 |     22 |   30 |   4.56e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.65e-01 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.96e-01 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   3.11e-01 (s)
+  3 |   2048 |      979 |     1069 |     0.48 |     0.52 |   3.12e-01 (s)
+  2 |   1069 |      655 |      414 |     0.61 |     0.39 |   1.77e-01 (s)
+  1 |    414 |      276 |      138 |     0.67 |     0.33 |   7.41e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 5.5379e+01 /   50 /    2, relerr 2.0143e+133 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 2.9695e+01 /   50 /    2, relerr 1.9329e+133 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   2.86e+01 (s)
+  2 |     37 |  200 |   2.93e+01 (s)
+  3 |     34 |  200 |   2.96e+01 (s)
+  4 |     30 |  126 |   1.94e+01 (s)
+  5 |     27 |   62 |   1.01e+01 (s)
+  6 |     23 |   30 |   4.47e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.46e-01 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.62e-01 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   2.31e-01 (s)
+  3 |   2048 |      989 |     1059 |     0.48 |     0.52 |   2.63e-01 (s)
+  2 |   1059 |      641 |      418 |     0.61 |     0.39 |   8.20e-02 (s)
+  1 |    418 |      280 |      138 |     0.67 |     0.33 |   6.82e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 4.3695e+01 /   50 /    2, relerr 3.2649e+174 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.9324e+01 /   50 /    1, relerr 3.2649e+174 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   2.68e+01 (s)
+  2 |     37 |  200 |   2.08e+01 (s)
+  3 |     34 |  200 |   1.87e+01 (s)
+  4 |     28 |  126 |   1.19e+01 (s)
+  5 |     25 |   62 |   6.11e+00 (s)
+  6 |     22 |   30 |   2.83e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   9.69e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   9.87e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.04e-01 (s)
+  3 |   2048 |      995 |     1053 |     0.49 |     0.51 |   1.33e-01 (s)
+  2 |   1053 |      637 |      416 |     0.60 |     0.40 |   9.42e-02 (s)
+  1 |    416 |      278 |      138 |     0.67 |     0.33 |   3.63e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 2.4364e+01 /   50 /    2, relerr 2.3452e+143 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.7674e+01 /   50 /    2, relerr 2.0568e+143 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.88e+01 (s)
+  2 |     37 |  200 |   2.19e+01 (s)
+  3 |     34 |  200 |   2.02e+01 (s)
+  4 |     27 |  126 |   1.18e+01 (s)
+  5 |     24 |   62 |   8.26e+00 (s)
+  6 |     21 |   30 |   4.79e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.34e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   9.95e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.36e-01 (s)
+  3 |   2048 |     1012 |     1036 |     0.49 |     0.51 |   1.78e-01 (s)
+  2 |   1036 |      625 |      411 |     0.60 |     0.40 |   9.20e-02 (s)
+  1 |    411 |      273 |      138 |     0.66 |     0.34 |   2.86e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.8661e+01 /   50 /    2, relerr 1.7079e+119 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.7897e+01 /   50 /    2, relerr 4.8238e+118 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.57e+01 (s)
+  2 |     37 |  200 |   1.76e+01 (s)
+  3 |     33 |  200 |   2.05e+01 (s)
+  4 |     27 |  126 |   1.17e+01 (s)
+  5 |     23 |   62 |   6.65e+00 (s)
+  6 |     21 |   30 |   2.83e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.72e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   9.68e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.24e-01 (s)
+  3 |   2048 |     1020 |     1028 |     0.50 |     0.50 |   1.64e-01 (s)
+  2 |   1028 |      617 |      411 |     0.60 |     0.40 |   6.57e-02 (s)
+  1 |    411 |      273 |      138 |     0.66 |     0.34 |   3.21e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.8624e+01 /   50 /    2, relerr 1.7025e+90 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.2847e+01 /   50 /    1, relerr 2.2641e+91 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     67 |  200 |   1.80e+01 (s)
+  2 |     36 |  200 |   1.99e+01 (s)
+  3 |     32 |  200 |   2.19e+01 (s)
+  4 |     26 |  126 |   1.28e+01 (s)
+  5 |     23 |   62 |   6.66e+00 (s)
+  6 |     19 |   30 |   2.96e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   8.34e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   9.19e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.35e-01 (s)
+  3 |   2048 |     1052 |      996 |     0.51 |     0.49 |   1.64e-01 (s)
+  2 |    996 |      600 |      396 |     0.60 |     0.40 |   1.16e-01 (s)
+  1 |    396 |      262 |      134 |     0.66 |     0.34 |   2.71e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.4577e+01 /   50 /    1, relerr 2.8596e+159 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.4665e+01 /   50 /    1, relerr 1.2980e+160 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     64 |  200 |   2.14e+01 (s)
+  2 |     34 |  200 |   2.78e+01 (s)
+  3 |     32 |  200 |   2.01e+01 (s)
+  4 |     25 |  126 |   1.20e+01 (s)
+  5 |     23 |   62 |   5.85e+00 (s)
+  6 |     19 |   30 |   2.90e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.82e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   9.78e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   1.18e-01 (s)
+  3 |   2048 |     1091 |      957 |     0.53 |     0.47 |   1.60e-01 (s)
+  2 |    957 |      578 |      379 |     0.60 |     0.40 |   8.25e-02 (s)
+  1 |    379 |      251 |      128 |     0.66 |     0.34 |   2.57e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.7179e+01 /   50 /    2, relerr 7.4939e+69 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.4942e+01 /   50 /    1, relerr 7.3204e+68 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     62 |  200 |   1.64e+01 (s)
+  2 |     34 |  200 |   1.29e+01 (s)
+  3 |     30 |  200 |   1.30e+01 (s)
+  4 |     25 |  126 |   8.26e+00 (s)
+  5 |     22 |   62 |   4.16e+00 (s)
+  6 |     19 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.58e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.46e-02 (s)
+  4 |   2048 |        6 |     2042 |     0.00 |     1.00 |   8.53e-02 (s)
+  3 |   2042 |     1119 |      923 |     0.55 |     0.45 |   9.80e-02 (s)
+  2 |    923 |      555 |      368 |     0.60 |     0.40 |   5.69e-02 (s)
+  1 |    368 |      244 |      124 |     0.66 |     0.34 |   1.74e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.0988e+01 /   50 /    2, relerr 2.0553e+104 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 8.8533e+00 /   50 /    1, relerr 1.0432e+104 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     61 |  200 |   1.30e+01 (s)
+  2 |     33 |  200 |   1.29e+01 (s)
+  3 |     29 |  200 |   1.30e+01 (s)
+  4 |     24 |  126 |   8.28e+00 (s)
+  5 |     21 |   62 |   4.15e+00 (s)
+  6 |     19 |   30 |   1.97e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.54e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.63e-02 (s)
+  4 |   2048 |       18 |     2030 |     0.01 |     0.99 |   7.61e-02 (s)
+  3 |   2030 |     1127 |      903 |     0.56 |     0.44 |   9.97e-02 (s)
+  2 |    903 |      543 |      360 |     0.60 |     0.40 |   6.19e-02 (s)
+  1 |    360 |      238 |      122 |     0.66 |     0.34 |   1.84e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 8.5333e+00 /   50 /    1, relerr 1.8843e+65 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.4253e+00 /   50 /    1, relerr 3.8565e+64 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     59 |  200 |   1.36e+01 (s)
+  2 |     31 |  200 |   1.28e+01 (s)
+  3 |     28 |  200 |   1.28e+01 (s)
+  4 |     23 |  126 |   8.18e+00 (s)
+  5 |     21 |   62 |   4.12e+00 (s)
+  6 |     19 |   30 |   1.96e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.92e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.23e-02 (s)
+  4 |   2048 |       77 |     1971 |     0.04 |     0.96 |   7.80e-02 (s)
+  3 |   1971 |     1104 |      867 |     0.56 |     0.44 |   9.18e-02 (s)
+  2 |    867 |      523 |      344 |     0.60 |     0.40 |   5.37e-02 (s)
+  1 |    344 |      226 |      118 |     0.66 |     0.34 |   1.72e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 9.8965e+00 /   50 /    2, relerr 2.9936e+74 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.0368e+01 /   50 /    1, relerr 3.3483e+73 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     56 |  200 |   1.28e+01 (s)
+  2 |     30 |  200 |   1.30e+01 (s)
+  3 |     27 |  200 |   1.31e+01 (s)
+  4 |     22 |  126 |   8.36e+00 (s)
+  5 |     21 |   62 |   4.20e+00 (s)
+  6 |     18 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.89e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.28e-02 (s)
+  4 |   2048 |      141 |     1907 |     0.07 |     0.93 |   7.71e-02 (s)
+  3 |   1907 |     1077 |      830 |     0.56 |     0.44 |   8.49e-02 (s)
+  2 |    830 |      499 |      331 |     0.60 |     0.40 |   4.90e-02 (s)
+  1 |    331 |      219 |      112 |     0.66 |     0.34 |   1.70e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 7.6379e+00 /   50 /    1, relerr 3.7380e+38 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.0356e+01 /   50 /    1, relerr 1.3547e+35 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     54 |  200 |   1.29e+01 (s)
+  2 |     30 |  200 |   1.30e+01 (s)
+  3 |     26 |  200 |   1.31e+01 (s)
+  4 |     22 |  126 |   8.33e+00 (s)
+  5 |     20 |   62 |   4.16e+00 (s)
+  6 |     17 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.25e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.24e-02 (s)
+  4 |   2048 |      198 |     1850 |     0.10 |     0.90 |   7.88e-02 (s)
+  3 |   1850 |     1049 |      801 |     0.57 |     0.43 |   8.01e-02 (s)
+  2 |    801 |      480 |      321 |     0.60 |     0.40 |   4.59e-02 (s)
+  1 |    321 |      213 |      108 |     0.66 |     0.34 |   1.63e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 6.9444e+00 /   50 /    1, relerr 3.9440e+23 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.0997e+00 /   50 /    1, relerr 4.9302e+20 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.28e+01 (s)
+  2 |     37 |  200 |   1.29e+01 (s)
+  3 |     34 |  200 |   1.29e+01 (s)
+  4 |     38 |  126 |   8.23e+00 (s)
+  5 |     28 |   62 |   4.13e+00 (s)
+  6 |     22 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.80e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.62e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.11e-02 (s)
+  3 |   2048 |      978 |     1070 |     0.48 |     0.52 |   1.03e-01 (s)
+  2 |   1070 |      655 |      415 |     0.61 |     0.39 |   4.91e-02 (s)
+  1 |    415 |      277 |      138 |     0.67 |     0.33 |   1.67e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.7442e+01 /   50 /    2, relerr 2.2936e+127 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.1119e+01 /   50 /    2, relerr 1.8585e+127 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.30e+01 (s)
+  2 |     37 |  200 |   1.28e+01 (s)
+  3 |     34 |  200 |   1.30e+01 (s)
+  4 |     32 |  126 |   8.27e+00 (s)
+  5 |     27 |   62 |   4.14e+00 (s)
+  6 |     23 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.97e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.06e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   8.38e-02 (s)
+  3 |   2048 |      980 |     1068 |     0.48 |     0.52 |   1.18e-01 (s)
+  2 |   1068 |      653 |      415 |     0.61 |     0.39 |   6.25e-02 (s)
+  1 |    415 |      277 |      138 |     0.67 |     0.33 |   2.12e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.8559e+01 /   50 /    2, relerr 2.0155e+133 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.5136e+00 /   50 /    1, relerr 1.1629e+133 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.29e+01 (s)
+  2 |     37 |  200 |   1.30e+01 (s)
+  3 |     34 |  200 |   1.32e+01 (s)
+  4 |     30 |  126 |   8.36e+00 (s)
+  5 |     27 |   62 |   4.17e+00 (s)
+  6 |     22 |   30 |   2.11e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.03e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.96e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.99e-02 (s)
+  3 |   2048 |      992 |     1056 |     0.48 |     0.52 |   1.13e-01 (s)
+  2 |   1056 |      641 |      415 |     0.61 |     0.39 |   6.56e-02 (s)
+  1 |    415 |      277 |      138 |     0.67 |     0.33 |   2.05e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.4701e+01 /   50 /    2, relerr 1.9373e+174 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.1499e+01 /   50 /    2, relerr 3.3223e+174 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.29e+01 (s)
+  2 |     37 |  200 |   1.29e+01 (s)
+  3 |     34 |  200 |   1.30e+01 (s)
+  4 |     29 |  126 |   8.25e+00 (s)
+  5 |     25 |   62 |   4.15e+00 (s)
+  6 |     22 |   30 |   1.97e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.85e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.67e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.30e-02 (s)
+  3 |   2048 |      996 |     1052 |     0.49 |     0.51 |   1.02e-01 (s)
+  2 |   1052 |      637 |      415 |     0.61 |     0.39 |   5.86e-02 (s)
+  1 |    415 |      277 |      138 |     0.67 |     0.33 |   1.92e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.3869e+01 /   50 /    2, relerr 1.9306e+142 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.2793e+00 /   50 /    1, relerr 3.3408e+143 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.34e+01 (s)
+  2 |     37 |  200 |   1.32e+01 (s)
+  3 |     34 |  200 |   1.31e+01 (s)
+  4 |     27 |  126 |   8.34e+00 (s)
+  5 |     24 |   62 |   4.18e+00 (s)
+  6 |     21 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.88e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.83e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.76e-02 (s)
+  3 |   2048 |     1012 |     1036 |     0.49 |     0.51 |   1.08e-01 (s)
+  2 |   1036 |      625 |      411 |     0.60 |     0.40 |   6.20e-02 (s)
+  1 |    411 |      273 |      138 |     0.66 |     0.34 |   2.01e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.1161e+01 /   50 /    2, relerr 1.1960e+119 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 8.6176e+00 /   50 /    1, relerr 1.6623e+118 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.31e+01 (s)
+  2 |     37 |  200 |   1.29e+01 (s)
+  3 |     33 |  200 |   1.30e+01 (s)
+  4 |     27 |  126 |   8.38e+00 (s)
+  5 |     23 |   62 |   4.20e+00 (s)
+  6 |     20 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.91e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.87e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.88e-02 (s)
+  3 |   2048 |     1018 |     1030 |     0.50 |     0.50 |   1.06e-01 (s)
+  2 |   1030 |      620 |      410 |     0.60 |     0.40 |   6.20e-02 (s)
+  1 |    410 |      272 |      138 |     0.66 |     0.34 |   2.03e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.0186e+01 /   50 /    2, relerr 6.7934e+93 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.5004e+00 /   50 /    1, relerr 1.6591e+86 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     67 |  200 |   1.37e+01 (s)
+  2 |     36 |  200 |   1.29e+01 (s)
+  3 |     32 |  200 |   1.30e+01 (s)
+  4 |     26 |  126 |   8.31e+00 (s)
+  5 |     23 |   62 |   4.20e+00 (s)
+  6 |     19 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.75e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.73e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.59e-02 (s)
+  3 |   2048 |     1052 |      996 |     0.51 |     0.49 |   1.16e-01 (s)
+  2 |    996 |      600 |      396 |     0.60 |     0.40 |   6.85e-02 (s)
+  1 |    396 |      262 |      134 |     0.66 |     0.34 |   2.19e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.0558e+01 /   50 /    2, relerr 1.5421e+160 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.2035e+00 /   50 /    1, relerr 1.0674e+160 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     64 |  200 |   1.29e+01 (s)
+  2 |     34 |  200 |   1.28e+01 (s)
+  3 |     32 |  200 |   1.29e+01 (s)
+  4 |     25 |  126 |   8.25e+00 (s)
+  5 |     23 |   62 |   4.16e+00 (s)
+  6 |     19 |   30 |   1.99e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.99e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.30e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.79e-02 (s)
+  3 |   2048 |     1091 |      957 |     0.53 |     0.47 |   1.07e-01 (s)
+  2 |    957 |      579 |      378 |     0.61 |     0.39 |   6.58e-02 (s)
+  1 |    378 |      250 |      128 |     0.66 |     0.34 |   2.16e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 7.8724e+00 /   50 /    1, relerr 2.4190e+69 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.9369e+00 /   50 /    1, relerr 2.1137e+69 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     62 |  200 |   1.37e+01 (s)
+  2 |     34 |  200 |   1.29e+01 (s)
+  3 |     30 |  200 |   1.31e+01 (s)
+  4 |     24 |  126 |   8.26e+00 (s)
+  5 |     22 |   62 |   4.17e+00 (s)
+  6 |     19 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.63e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.69e-02 (s)
+  4 |   2048 |        5 |     2043 |     0.00 |     1.00 |   9.15e-02 (s)
+  3 |   2043 |     1119 |      924 |     0.55 |     0.45 |   1.09e-01 (s)
+  2 |    924 |      556 |      368 |     0.60 |     0.40 |   7.02e-02 (s)
+  1 |    368 |      244 |      124 |     0.66 |     0.34 |   2.06e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 8.6114e+00 /   50 /    1, relerr 1.4433e+104 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.3004e+00 /   50 /    1, relerr 1.8532e+104 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     61 |  200 |   1.29e+01 (s)
+  2 |     33 |  200 |   1.29e+01 (s)
+  3 |     29 |  200 |   1.30e+01 (s)
+  4 |     24 |  126 |   8.61e+00 (s)
+  5 |     21 |   62 |   4.19e+00 (s)
+  6 |     19 |   30 |   1.97e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.07e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.19e-02 (s)
+  4 |   2048 |       17 |     2031 |     0.01 |     0.99 |   8.40e-02 (s)
+  3 |   2031 |     1128 |      903 |     0.56 |     0.44 |   1.22e-01 (s)
+  2 |    903 |      544 |      359 |     0.60 |     0.40 |   7.58e-02 (s)
+  1 |    359 |      237 |      122 |     0.66 |     0.34 |   1.73e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 8.3957e+00 /   50 /    1, relerr 5.2860e+64 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.0566e+01 /   50 /    1, relerr 6.2679e+62 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     59 |  200 |   1.29e+01 (s)
+  2 |     31 |  200 |   1.30e+01 (s)
+  3 |     28 |  200 |   1.32e+01 (s)
+  4 |     23 |  126 |   8.29e+00 (s)
+  5 |     21 |   62 |   4.15e+00 (s)
+  6 |     19 |   30 |   1.97e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.40e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.49e-02 (s)
+  4 |   2048 |       74 |     1974 |     0.04 |     0.96 |   9.35e-02 (s)
+  3 |   1974 |     1111 |      863 |     0.56 |     0.44 |   1.09e-01 (s)
+  2 |    863 |      520 |      343 |     0.60 |     0.40 |   5.91e-02 (s)
+  1 |    343 |      225 |      118 |     0.66 |     0.34 |   1.78e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 7.6037e+00 /   50 /    1, relerr 4.9121e+73 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.0538e+01 /   50 /    1, relerr 5.4398e+73 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     56 |  200 |   1.28e+01 (s)
+  2 |     30 |  200 |   1.29e+01 (s)
+  3 |     27 |  200 |   1.30e+01 (s)
+  4 |     22 |  126 |   8.26e+00 (s)
+  5 |     21 |   62 |   4.23e+00 (s)
+  6 |     18 |   30 |   2.00e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.44e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.65e-02 (s)
+  4 |   2048 |      141 |     1907 |     0.07 |     0.93 |   8.23e-02 (s)
+  3 |   1907 |     1077 |      830 |     0.56 |     0.44 |   9.26e-02 (s)
+  2 |    830 |      499 |      331 |     0.60 |     0.40 |   5.13e-02 (s)
+  1 |    331 |      219 |      112 |     0.66 |     0.34 |   1.78e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 8.6058e+00 /   50 /    2, relerr 8.7224e+37 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 8.8592e+00 /   50 /    1, relerr 2.1371e+37 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     54 |  200 |   1.31e+01 (s)
+  2 |     30 |  200 |   1.31e+01 (s)
+  3 |     26 |  200 |   1.30e+01 (s)
+  4 |     22 |  126 |   8.39e+00 (s)
+  5 |     20 |   62 |   4.20e+00 (s)
+  6 |     17 |   30 |   2.00e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.30e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.44e-02 (s)
+  4 |   2048 |      200 |     1848 |     0.10 |     0.90 |   8.50e-02 (s)
+  3 |   1848 |     1045 |      803 |     0.57 |     0.43 |   7.99e-02 (s)
+  2 |    803 |      482 |      321 |     0.60 |     0.40 |   4.36e-02 (s)
+  1 |    321 |      213 |      108 |     0.66 |     0.34 |   1.50e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 7.9149e+00 /   50 /    2, relerr 6.6216e+22 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 8.8614e+00 /   50 /    1, relerr 6.9440e+21 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.31e+01 (s)
+  2 |     37 |  200 |   1.30e+01 (s)
+  3 |     34 |  200 |   1.32e+01 (s)
+  4 |     39 |  126 |   8.45e+00 (s)
+  5 |     28 |   62 |   4.24e+00 (s)
+  6 |     23 |   30 |   2.01e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.82e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.84e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.70e-02 (s)
+  3 |   2048 |      973 |     1075 |     0.48 |     0.52 |   1.07e-01 (s)
+  2 |   1075 |      659 |      416 |     0.61 |     0.39 |   5.61e-02 (s)
+  1 |    416 |      278 |      138 |     0.67 |     0.33 |   2.02e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.8654e+01 /   50 /    2, relerr 6.0856e+127 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.0931e+01 /   50 /    2, relerr 1.0048e+128 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.30e+01 (s)
+  2 |     37 |  200 |   1.30e+01 (s)
+  3 |     34 |  200 |   1.31e+01 (s)
+  4 |     32 |  126 |   8.31e+00 (s)
+  5 |     27 |   62 |   4.16e+00 (s)
+  6 |     23 |   30 |   1.97e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.75e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.12e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.48e-02 (s)
+  3 |   2048 |      974 |     1074 |     0.48 |     0.52 |   1.07e-01 (s)
+  2 |   1074 |      658 |      416 |     0.61 |     0.39 |   5.49e-02 (s)
+  1 |    416 |      278 |      138 |     0.67 |     0.33 |   1.80e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.7615e+01 /   50 /    2, relerr 9.9997e+132 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.5805e+00 /   50 /    1, relerr 1.9876e+133 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.29e+01 (s)
+  2 |     37 |  200 |   1.29e+01 (s)
+  3 |     34 |  200 |   1.30e+01 (s)
+  4 |     30 |  126 |   8.31e+00 (s)
+  5 |     26 |   62 |   4.20e+00 (s)
+  6 |     23 |   30 |   1.99e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.95e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.05e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   8.66e-02 (s)
+  3 |   2048 |      993 |     1055 |     0.48 |     0.52 |   1.19e-01 (s)
+  2 |   1055 |      641 |      414 |     0.61 |     0.39 |   6.75e-02 (s)
+  1 |    414 |      276 |      138 |     0.67 |     0.33 |   2.08e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.3702e+01 /   50 /    2, relerr 1.7217e+174 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.6749e+00 /   50 /    1, relerr 2.0445e+173 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.33e+01 (s)
+  2 |     37 |  200 |   1.29e+01 (s)
+  3 |     34 |  200 |   1.29e+01 (s)
+  4 |     29 |  126 |   8.23e+00 (s)
+  5 |     25 |   62 |   4.14e+00 (s)
+  6 |     22 |   30 |   1.99e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.81e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.66e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.13e-02 (s)
+  3 |   2048 |      993 |     1055 |     0.48 |     0.52 |   1.02e-01 (s)
+  2 |   1055 |      641 |      414 |     0.61 |     0.39 |   5.82e-02 (s)
+  1 |    414 |      276 |      138 |     0.67 |     0.33 |   1.98e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.5868e+01 /   50 /    2, relerr 2.0753e+143 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.9189e+00 /   50 /    1, relerr 3.4959e+143 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.32e+01 (s)
+  2 |     37 |  200 |   1.32e+01 (s)
+  3 |     34 |  200 |   1.33e+01 (s)
+  4 |     27 |  126 |   8.39e+00 (s)
+  5 |     24 |   62 |   4.22e+00 (s)
+  6 |     21 |   30 |   1.99e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.30e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.10e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.89e-02 (s)
+  3 |   2048 |     1014 |     1034 |     0.50 |     0.50 |   1.05e-01 (s)
+  2 |   1034 |      624 |      410 |     0.60 |     0.40 |   6.06e-02 (s)
+  1 |    410 |      272 |      138 |     0.66 |     0.34 |   1.98e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.3411e+01 /   50 /    2, relerr 2.6529e+118 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.9003e+00 /   50 /    1, relerr 4.1319e+118 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.37e+01 (s)
+  2 |     37 |  200 |   1.30e+01 (s)
+  3 |     33 |  200 |   1.31e+01 (s)
+  4 |     27 |  126 |   8.29e+00 (s)
+  5 |     23 |   62 |   4.18e+00 (s)
+  6 |     20 |   30 |   1.99e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.28e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.31e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   8.38e-02 (s)
+  3 |   2048 |     1020 |     1028 |     0.50 |     0.50 |   1.14e-01 (s)
+  2 |   1028 |      618 |      410 |     0.60 |     0.40 |   6.83e-02 (s)
+  1 |    410 |      272 |      138 |     0.66 |     0.34 |   2.39e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.2859e+01 /   50 /    2, relerr 6.0219e+95 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.5670e+00 /   50 /    1, relerr 5.4673e+91 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     67 |  200 |   1.35e+01 (s)
+  2 |     36 |  200 |   1.31e+01 (s)
+  3 |     32 |  200 |   1.31e+01 (s)
+  4 |     26 |  126 |   8.36e+00 (s)
+  5 |     23 |   62 |   4.26e+00 (s)
+  6 |     19 |   30 |   2.02e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.13e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.09e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.80e-02 (s)
+  3 |   2048 |     1052 |      996 |     0.51 |     0.49 |   1.11e-01 (s)
+  2 |    996 |      600 |      396 |     0.60 |     0.40 |   6.91e-02 (s)
+  1 |    396 |      262 |      134 |     0.66 |     0.34 |   2.19e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.0680e+01 /   50 /    2, relerr 1.8328e+160 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.1043e+01 /   50 /    1, relerr 7.4784e+159 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     64 |  200 |   1.30e+01 (s)
+  2 |     34 |  200 |   1.30e+01 (s)
+  3 |     32 |  200 |   1.31e+01 (s)
+  4 |     25 |  126 |   8.38e+00 (s)
+  5 |     23 |   62 |   4.21e+00 (s)
+  6 |     19 |   30 |   2.01e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.03e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.37e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   8.22e-02 (s)
+  3 |   2048 |     1094 |      954 |     0.53 |     0.47 |   1.16e-01 (s)
+  2 |    954 |      574 |      380 |     0.60 |     0.40 |   6.60e-02 (s)
+  1 |    380 |      252 |      128 |     0.66 |     0.34 |   2.27e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 9.7276e+00 /   50 /    2, relerr 2.7680e+69 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.0324e+01 /   50 /    1, relerr 1.6387e+69 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     62 |  200 |   1.29e+01 (s)
+  2 |     34 |  200 |   1.30e+01 (s)
+  3 |     30 |  200 |   1.31e+01 (s)
+  4 |     25 |  126 |   8.34e+00 (s)
+  5 |     22 |   62 |   4.21e+00 (s)
+  6 |     19 |   30 |   2.00e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.69e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.65e-02 (s)
+  4 |   2048 |        5 |     2043 |     0.00 |     1.00 |   7.82e-02 (s)
+  3 |   2043 |     1121 |      922 |     0.55 |     0.45 |   9.84e-02 (s)
+  2 |    922 |      554 |      368 |     0.60 |     0.40 |   5.69e-02 (s)
+  1 |    368 |      244 |      124 |     0.66 |     0.34 |   1.91e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 9.1330e+00 /   50 /    1, relerr 2.0095e+104 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.7346e+00 /   50 /    1, relerr 1.4888e+103 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     61 |  200 |   1.29e+01 (s)
+  2 |     33 |  200 |   1.29e+01 (s)
+  3 |     29 |  200 |   1.30e+01 (s)
+  4 |     24 |  126 |   8.32e+00 (s)
+  5 |     21 |   62 |   4.14e+00 (s)
+  6 |     19 |   30 |   1.97e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.52e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.83e-02 (s)
+  4 |   2048 |       19 |     2029 |     0.01 |     0.99 |   1.15e-01 (s)
+  3 |   2029 |     1127 |      902 |     0.56 |     0.44 |   1.16e-01 (s)
+  2 |    902 |      542 |      360 |     0.60 |     0.40 |   6.42e-02 (s)
+  1 |    360 |      238 |      122 |     0.66 |     0.34 |   2.03e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 9.1415e+00 /   50 /    1, relerr 5.5445e+64 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.8375e+00 /   50 /    1, relerr 3.4136e+64 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     59 |  200 |   1.28e+01 (s)
+  2 |     31 |  200 |   1.28e+01 (s)
+  3 |     28 |  200 |   1.29e+01 (s)
+  4 |     23 |  126 |   8.28e+00 (s)
+  5 |     21 |   62 |   4.19e+00 (s)
+  6 |     19 |   30 |   2.04e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.03e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.14e-02 (s)
+  4 |   2048 |       73 |     1975 |     0.04 |     0.96 |   7.98e-02 (s)
+  3 |   1975 |     1111 |      864 |     0.56 |     0.44 |   8.85e-02 (s)
+  2 |    864 |      521 |      343 |     0.60 |     0.40 |   5.36e-02 (s)
+  1 |    343 |      225 |      118 |     0.66 |     0.34 |   1.85e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 7.3631e+00 /   50 /    1, relerr 7.3344e+73 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.0453e+01 /   50 /    1, relerr 2.1981e+73 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     56 |  200 |   1.28e+01 (s)
+  2 |     30 |  200 |   1.28e+01 (s)
+  3 |     27 |  200 |   1.30e+01 (s)
+  4 |     22 |  126 |   8.30e+00 (s)
+  5 |     21 |   62 |   4.14e+00 (s)
+  6 |     18 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.27e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.45e-02 (s)
+  4 |   2048 |      144 |     1904 |     0.07 |     0.93 |   8.10e-02 (s)
+  3 |   1904 |     1075 |      829 |     0.56 |     0.44 |   8.69e-02 (s)
+  2 |    829 |      497 |      332 |     0.60 |     0.40 |   5.20e-02 (s)
+  1 |    332 |      220 |      112 |     0.66 |     0.34 |   1.82e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 8.7578e+00 /   50 /    2, relerr 9.7848e+37 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.4481e+00 /   50 /    1, relerr 1.5991e+37 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     54 |  200 |   1.29e+01 (s)
+  2 |     29 |  200 |   1.30e+01 (s)
+  3 |     26 |  200 |   1.31e+01 (s)
+  4 |     22 |  126 |   8.71e+00 (s)
+  5 |     20 |   62 |   4.19e+00 (s)
+  6 |     17 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.32e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.29e-02 (s)
+  4 |   2048 |      206 |     1842 |     0.10 |     0.90 |   8.02e-02 (s)
+  3 |   1842 |     1045 |      797 |     0.57 |     0.43 |   9.08e-02 (s)
+  2 |    797 |      478 |      319 |     0.60 |     0.40 |   4.58e-02 (s)
+  1 |    319 |      211 |      108 |     0.66 |     0.34 |   1.59e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 7.8391e+00 /   50 /    1, relerr 1.3210e+23 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.6097e+00 /   50 /    1, relerr 6.0620e+22 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.31e+01 (s)
+  2 |     37 |  200 |   1.31e+01 (s)
+  3 |     34 |  200 |   1.29e+01 (s)
+  4 |     38 |  126 |   8.22e+00 (s)
+  5 |     28 |   62 |   4.13e+00 (s)
+  6 |     23 |   30 |   1.97e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.01e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.86e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.74e-02 (s)
+  3 |   2048 |      974 |     1074 |     0.48 |     0.52 |   1.11e-01 (s)
+  2 |   1074 |      657 |      417 |     0.61 |     0.39 |   5.65e-02 (s)
+  1 |    417 |      279 |      138 |     0.67 |     0.33 |   2.00e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.5502e+01 /   50 /    2, relerr 1.2257e+127 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.4857e+00 /   50 /    1, relerr 9.0523e+127 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.28e+01 (s)
+  2 |     37 |  200 |   1.28e+01 (s)
+  3 |     34 |  200 |   1.30e+01 (s)
+  4 |     32 |  126 |   8.33e+00 (s)
+  5 |     27 |   62 |   4.14e+00 (s)
+  6 |     22 |   30 |   1.96e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.80e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.84e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.30e-02 (s)
+  3 |   2048 |      978 |     1070 |     0.48 |     0.52 |   1.05e-01 (s)
+  2 |   1070 |      655 |      415 |     0.61 |     0.39 |   5.49e-02 (s)
+  1 |    415 |      277 |      138 |     0.67 |     0.33 |   1.85e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.4836e+01 /   50 /    2, relerr 2.2713e+132 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.3824e+00 /   50 /    1, relerr 1.8139e+133 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.28e+01 (s)
+  2 |     37 |  200 |   1.28e+01 (s)
+  3 |     34 |  200 |   1.29e+01 (s)
+  4 |     30 |  126 |   8.25e+00 (s)
+  5 |     27 |   62 |   4.15e+00 (s)
+  6 |     22 |   30 |   1.97e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.59e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.32e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.58e-02 (s)
+  3 |   2048 |      992 |     1056 |     0.48 |     0.52 |   1.03e-01 (s)
+  2 |   1056 |      641 |      415 |     0.61 |     0.39 |   6.09e-02 (s)
+  1 |    415 |      277 |      138 |     0.67 |     0.33 |   2.05e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.6707e+01 /   50 /    2, relerr 3.1220e+174 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.6219e+00 /   50 /    1, relerr 2.8660e+174 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.29e+01 (s)
+  2 |     37 |  200 |   1.30e+01 (s)
+  3 |     34 |  200 |   1.30e+01 (s)
+  4 |     28 |  126 |   8.33e+00 (s)
+  5 |     25 |   62 |   4.18e+00 (s)
+  6 |     22 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.25e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.00e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   8.40e-02 (s)
+  3 |   2048 |      994 |     1054 |     0.49 |     0.51 |   1.11e-01 (s)
+  2 |   1054 |      639 |      415 |     0.61 |     0.39 |   6.23e-02 (s)
+  1 |    415 |      277 |      138 |     0.67 |     0.33 |   2.02e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.4095e+01 /   50 /    2, relerr 3.4751e+143 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.2751e+00 /   50 /    1, relerr 1.4570e+143 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.28e+01 (s)
+  2 |     37 |  200 |   1.28e+01 (s)
+  3 |     34 |  200 |   1.29e+01 (s)
+  4 |     27 |  126 |   8.19e+00 (s)
+  5 |     24 |   62 |   4.13e+00 (s)
+  6 |     21 |   30 |   1.97e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.52e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.49e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.27e-02 (s)
+  3 |   2048 |     1011 |     1037 |     0.49 |     0.51 |   9.77e-02 (s)
+  2 |   1037 |      625 |      412 |     0.60 |     0.40 |   5.63e-02 (s)
+  1 |    412 |      274 |      138 |     0.67 |     0.33 |   1.92e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.3367e+01 /   50 /    2, relerr 4.7348e+118 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.1341e+01 /   50 /    1, relerr 4.7748e+118 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.30e+01 (s)
+  2 |     37 |  200 |   1.30e+01 (s)
+  3 |     33 |  200 |   1.30e+01 (s)
+  4 |     27 |  126 |   8.24e+00 (s)
+  5 |     23 |   62 |   4.16e+00 (s)
+  6 |     21 |   30 |   1.97e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.69e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.19e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.67e-02 (s)
+  3 |   2048 |     1018 |     1030 |     0.50 |     0.50 |   1.01e-01 (s)
+  2 |   1030 |      620 |      410 |     0.60 |     0.40 |   6.36e-02 (s)
+  1 |    410 |      272 |      138 |     0.66 |     0.34 |   2.19e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 9.7045e+00 /   50 /    2, relerr 9.4296e+94 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.0149e+01 /   50 /    1, relerr 2.3848e+88 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     67 |  200 |   1.28e+01 (s)
+  2 |     36 |  200 |   1.28e+01 (s)
+  3 |     32 |  200 |   1.30e+01 (s)
+  4 |     26 |  126 |   8.52e+00 (s)
+  5 |     23 |   62 |   4.36e+00 (s)
+  6 |     19 |   30 |   2.05e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.82e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.83e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.96e-02 (s)
+  3 |   2048 |     1051 |      997 |     0.51 |     0.49 |   1.07e-01 (s)
+  2 |    997 |      602 |      395 |     0.60 |     0.40 |   6.87e-02 (s)
+  1 |    395 |      261 |      134 |     0.66 |     0.34 |   2.16e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 9.7987e+00 /   50 /    2, relerr 1.9143e+160 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.0986e+01 /   50 /    1, relerr 1.2461e+160 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     64 |  200 |   1.28e+01 (s)
+  2 |     34 |  200 |   1.29e+01 (s)
+  3 |     32 |  200 |   1.33e+01 (s)
+  4 |     25 |  126 |   8.59e+00 (s)
+  5 |     23 |   62 |   4.30e+00 (s)
+  6 |     19 |   30 |   1.99e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.57e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.59e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.36e-02 (s)
+  3 |   2048 |     1093 |      955 |     0.53 |     0.47 |   9.69e-02 (s)
+  2 |    955 |      577 |      378 |     0.60 |     0.40 |   5.99e-02 (s)
+  1 |    378 |      250 |      128 |     0.66 |     0.34 |   2.04e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 9.9276e+00 /   50 /    2, relerr 3.0490e+69 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.2836e+00 /   50 /    1, relerr 1.8894e+68 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     62 |  200 |   1.29e+01 (s)
+  2 |     34 |  200 |   1.29e+01 (s)
+  3 |     30 |  200 |   1.30e+01 (s)
+  4 |     24 |  126 |   8.27e+00 (s)
+  5 |     22 |   62 |   4.16e+00 (s)
+  6 |     19 |   30 |   2.01e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.65e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.65e-02 (s)
+  4 |   2048 |        3 |     2045 |     0.00 |     1.00 |   8.59e-02 (s)
+  3 |   2045 |     1121 |      924 |     0.55 |     0.45 |   1.01e-01 (s)
+  2 |    924 |      555 |      369 |     0.60 |     0.40 |   5.73e-02 (s)
+  1 |    369 |      245 |      124 |     0.66 |     0.34 |   1.91e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 9.0688e+00 /   50 /    1, relerr 2.0754e+104 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.9381e+00 /   50 /    1, relerr 1.6665e+104 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     61 |  200 |   1.30e+01 (s)
+  2 |     33 |  200 |   1.29e+01 (s)
+  3 |     29 |  200 |   1.30e+01 (s)
+  4 |     24 |  126 |   8.25e+00 (s)
+  5 |     21 |   62 |   4.16e+00 (s)
+  6 |     19 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.77e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.39e-02 (s)
+  4 |   2048 |       15 |     2033 |     0.01 |     0.99 |   7.37e-02 (s)
+  3 |   2033 |     1130 |      903 |     0.56 |     0.44 |   8.64e-02 (s)
+  2 |    903 |      542 |      361 |     0.60 |     0.40 |   5.61e-02 (s)
+  1 |    361 |      239 |      122 |     0.66 |     0.34 |   1.67e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 8.0941e+00 /   50 /    1, relerr 5.4269e+64 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.0669e+01 /   50 /    1, relerr 3.6849e+64 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     59 |  200 |   1.29e+01 (s)
+  2 |     31 |  200 |   1.29e+01 (s)
+  3 |     28 |  200 |   1.32e+01 (s)
+  4 |     23 |  126 |   8.33e+00 (s)
+  5 |     21 |   62 |   4.16e+00 (s)
+  6 |     19 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.73e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.55e-02 (s)
+  4 |   2048 |       73 |     1975 |     0.04 |     0.96 |   8.00e-02 (s)
+  3 |   1975 |     1110 |      865 |     0.56 |     0.44 |   8.60e-02 (s)
+  2 |    865 |      519 |      346 |     0.60 |     0.40 |   4.98e-02 (s)
+  1 |    346 |      228 |      118 |     0.66 |     0.34 |   1.73e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 8.4459e+00 /   50 /    2, relerr 8.0139e+73 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 8.8970e+00 /   50 /    1, relerr 7.5926e+73 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     56 |  200 |   1.29e+01 (s)
+  2 |     30 |  200 |   1.29e+01 (s)
+  3 |     27 |  200 |   1.30e+01 (s)
+  4 |     22 |  126 |   8.27e+00 (s)
+  5 |     21 |   62 |   4.13e+00 (s)
+  6 |     18 |   30 |   1.97e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.02e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.46e-02 (s)
+  4 |   2048 |      141 |     1907 |     0.07 |     0.93 |   7.33e-02 (s)
+  3 |   1907 |     1079 |      828 |     0.57 |     0.43 |   8.18e-02 (s)
+  2 |    828 |      498 |      330 |     0.60 |     0.40 |   5.11e-02 (s)
+  1 |    330 |      218 |      112 |     0.66 |     0.34 |   1.75e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 8.8390e+00 /   50 /    2, relerr 1.0944e+38 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.5356e+00 /   50 /    1, relerr 1.0346e+38 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     54 |  200 |   1.29e+01 (s)
+  2 |     29 |  200 |   1.30e+01 (s)
+  3 |     26 |  200 |   1.30e+01 (s)
+  4 |     22 |  126 |   8.28e+00 (s)
+  5 |     20 |   62 |   4.18e+00 (s)
+  6 |     17 |   30 |   1.99e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.67e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.90e-02 (s)
+  4 |   2048 |      202 |     1846 |     0.10 |     0.90 |   9.17e-02 (s)
+  3 |   1846 |     1047 |      799 |     0.57 |     0.43 |   9.30e-02 (s)
+  2 |    799 |      480 |      319 |     0.60 |     0.40 |   4.96e-02 (s)
+  1 |    319 |      211 |      108 |     0.66 |     0.34 |   1.74e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 9.1148e+00 /   50 /    2, relerr 1.5322e+23 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.2241e+01 /   50 /    1, relerr 1.5183e+23 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.28e+01 (s)
+  2 |     37 |  200 |   1.29e+01 (s)
+  3 |     34 |  200 |   1.31e+01 (s)
+  4 |     38 |  126 |   8.30e+00 (s)
+  5 |     28 |   62 |   4.17e+00 (s)
+  6 |     22 |   30 |   2.00e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.41e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.37e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   8.80e-02 (s)
+  3 |   2048 |      978 |     1070 |     0.48 |     0.52 |   1.33e-01 (s)
+  2 |   1070 |      656 |      414 |     0.61 |     0.39 |   6.47e-02 (s)
+  1 |    414 |      276 |      138 |     0.67 |     0.33 |   2.11e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.7439e+01 /   50 /    2, relerr 8.5333e+127 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.0299e+01 /   50 /    1, relerr 3.6739e+127 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.32e+01 (s)
+  2 |     37 |  200 |   1.31e+01 (s)
+  3 |     34 |  200 |   1.32e+01 (s)
+  4 |     32 |  126 |   8.79e+00 (s)
+  5 |     27 |   62 |   4.40e+00 (s)
+  6 |     22 |   30 |   2.16e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.02e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.07e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   8.67e-02 (s)
+  3 |   2048 |      977 |     1071 |     0.48 |     0.52 |   1.25e-01 (s)
+  2 |   1071 |      655 |      416 |     0.61 |     0.39 |   6.50e-02 (s)
+  1 |    416 |      278 |      138 |     0.67 |     0.33 |   2.15e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.5761e+01 /   50 /    2, relerr 1.9814e+133 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.0402e+01 /   50 /    1, relerr 1.3099e+133 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.28e+01 (s)
+  2 |     37 |  200 |   1.30e+01 (s)
+  3 |     34 |  200 |   1.29e+01 (s)
+  4 |     31 |  126 |   8.28e+00 (s)
+  5 |     26 |   62 |   4.18e+00 (s)
+  6 |     22 |   30 |   1.99e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.89e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.96e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   8.47e-02 (s)
+  3 |   2048 |      989 |     1059 |     0.48 |     0.52 |   1.16e-01 (s)
+  2 |   1059 |      643 |      416 |     0.61 |     0.39 |   6.71e-02 (s)
+  1 |    416 |      278 |      138 |     0.67 |     0.33 |   2.07e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.4058e+01 /   50 /    2, relerr 3.3021e+174 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.6442e+00 /   50 /    1, relerr 3.2700e+174 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.28e+01 (s)
+  2 |     37 |  200 |   1.28e+01 (s)
+  3 |     34 |  200 |   1.29e+01 (s)
+  4 |     29 |  126 |   8.18e+00 (s)
+  5 |     26 |   62 |   4.10e+00 (s)
+  6 |     22 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.09e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.74e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.40e-02 (s)
+  3 |   2048 |      996 |     1052 |     0.49 |     0.51 |   1.12e-01 (s)
+  2 |   1052 |      637 |      415 |     0.61 |     0.39 |   5.92e-02 (s)
+  1 |    415 |      277 |      138 |     0.67 |     0.33 |   1.80e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.3357e+01 /   50 /    2, relerr 3.7626e+143 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.3207e+00 /   50 /    1, relerr 3.2626e+143 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.29e+01 (s)
+  2 |     37 |  200 |   1.28e+01 (s)
+  3 |     34 |  200 |   1.30e+01 (s)
+  4 |     27 |  126 |   8.28e+00 (s)
+  5 |     24 |   62 |   4.17e+00 (s)
+  6 |     21 |   30 |   1.97e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.43e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.93e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.39e-02 (s)
+  3 |   2048 |     1013 |     1035 |     0.49 |     0.51 |   1.04e-01 (s)
+  2 |   1035 |      624 |      411 |     0.60 |     0.40 |   5.76e-02 (s)
+  1 |    411 |      273 |      138 |     0.66 |     0.34 |   1.78e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.0724e+01 /   50 /    2, relerr 5.0449e+118 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.3646e+00 /   50 /    1, relerr 1.4099e+118 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.28e+01 (s)
+  2 |     37 |  200 |   1.30e+01 (s)
+  3 |     33 |  200 |   1.30e+01 (s)
+  4 |     27 |  126 |   8.31e+00 (s)
+  5 |     23 |   62 |   4.18e+00 (s)
+  6 |     21 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.81e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.90e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   8.24e-02 (s)
+  3 |   2048 |     1022 |     1026 |     0.50 |     0.50 |   1.11e-01 (s)
+  2 |   1026 |      617 |      409 |     0.60 |     0.40 |   6.76e-02 (s)
+  1 |    409 |      271 |      138 |     0.66 |     0.34 |   2.23e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 8.5115e+00 /   50 /    1, relerr 1.2438e+94 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.2843e+00 /   50 /    1, relerr 9.1314e+91 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     67 |  200 |   1.28e+01 (s)
+  2 |     36 |  200 |   1.28e+01 (s)
+  3 |     32 |  200 |   1.29e+01 (s)
+  4 |     26 |  126 |   8.25e+00 (s)
+  5 |     23 |   62 |   4.14e+00 (s)
+  6 |     19 |   30 |   1.97e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.46e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.69e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.84e-02 (s)
+  3 |   2048 |     1052 |      996 |     0.51 |     0.49 |   1.13e-01 (s)
+  2 |    996 |      602 |      394 |     0.60 |     0.40 |   7.05e-02 (s)
+  1 |    394 |      260 |      134 |     0.66 |     0.34 |   2.18e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.1265e+01 /   50 /    2, relerr 1.9260e+160 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.2426e+00 /   50 /    1, relerr 1.3127e+160 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     64 |  200 |   1.29e+01 (s)
+  2 |     34 |  200 |   1.29e+01 (s)
+  3 |     32 |  200 |   1.30e+01 (s)
+  4 |     25 |  126 |   8.28e+00 (s)
+  5 |     23 |   62 |   4.17e+00 (s)
+  6 |     19 |   30 |   1.99e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.62e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.63e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.15e-02 (s)
+  3 |   2048 |     1092 |      956 |     0.53 |     0.47 |   1.09e-01 (s)
+  2 |    956 |      577 |      379 |     0.60 |     0.40 |   6.28e-02 (s)
+  1 |    379 |      251 |      128 |     0.66 |     0.34 |   2.06e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 9.1226e+00 /   50 /    1, relerr 3.0307e+69 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.2626e+00 /   50 /    1, relerr 2.1774e+69 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     62 |  200 |   1.28e+01 (s)
+  2 |     34 |  200 |   1.30e+01 (s)
+  3 |     30 |  200 |   1.31e+01 (s)
+  4 |     25 |  126 |   8.36e+00 (s)
+  5 |     22 |   62 |   4.19e+00 (s)
+  6 |     19 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.29e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.75e-02 (s)
+  4 |   2048 |        5 |     2043 |     0.00 |     1.00 |   7.77e-02 (s)
+  3 |   2043 |     1118 |      925 |     0.55 |     0.45 |   9.64e-02 (s)
+  2 |    925 |      556 |      369 |     0.60 |     0.40 |   5.40e-02 (s)
+  1 |    369 |      245 |      124 |     0.66 |     0.34 |   1.81e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 9.6557e+00 /   50 /    2, relerr 2.0799e+104 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.1897e+00 /   50 /    1, relerr 1.9319e+104 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     61 |  200 |   1.31e+01 (s)
+  2 |     33 |  200 |   1.30e+01 (s)
+  3 |     29 |  200 |   1.31e+01 (s)
+  4 |     24 |  126 |   8.31e+00 (s)
+  5 |     21 |   62 |   4.17e+00 (s)
+  6 |     19 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.33e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.52e-02 (s)
+  4 |   2048 |       18 |     2030 |     0.01 |     0.99 |   8.05e-02 (s)
+  3 |   2030 |     1127 |      903 |     0.56 |     0.44 |   1.16e-01 (s)
+  2 |    903 |      544 |      359 |     0.60 |     0.40 |   6.24e-02 (s)
+  1 |    359 |      237 |      122 |     0.66 |     0.34 |   1.99e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 9.3418e+00 /   50 /    1, relerr 5.3797e+64 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.1983e+01 /   50 /    1, relerr 5.1982e+64 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     59 |  200 |   1.29e+01 (s)
+  2 |     31 |  200 |   1.30e+01 (s)
+  3 |     28 |  200 |   1.31e+01 (s)
+  4 |     23 |  126 |   8.33e+00 (s)
+  5 |     21 |   62 |   4.16e+00 (s)
+  6 |     19 |   30 |   1.99e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.92e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.28e-02 (s)
+  4 |   2048 |       76 |     1972 |     0.04 |     0.96 |   8.08e-02 (s)
+  3 |   1972 |     1105 |      867 |     0.56 |     0.44 |   1.02e-01 (s)
+  2 |    867 |      523 |      344 |     0.60 |     0.40 |   5.88e-02 (s)
+  1 |    344 |      226 |      118 |     0.66 |     0.34 |   1.90e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 9.6994e+00 /   50 /    2, relerr 8.1059e+73 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.2161e+01 /   50 /    1, relerr 8.3056e+73 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     56 |  200 |   1.30e+01 (s)
+  2 |     30 |  200 |   1.29e+01 (s)
+  3 |     27 |  200 |   1.30e+01 (s)
+  4 |     22 |  126 |   8.25e+00 (s)
+  5 |     21 |   62 |   4.14e+00 (s)
+  6 |     18 |   30 |   1.97e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.40e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.61e-02 (s)
+  4 |   2048 |      140 |     1908 |     0.07 |     0.93 |   8.99e-02 (s)
+  3 |   1908 |     1078 |      830 |     0.56 |     0.44 |   1.07e-01 (s)
+  2 |    830 |      500 |      330 |     0.60 |     0.40 |   5.55e-02 (s)
+  1 |    330 |      218 |      112 |     0.66 |     0.34 |   1.85e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 8.1245e+00 /   50 /    2, relerr 1.1088e+38 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.1158e+01 /   50 /    1, relerr 1.1463e+38 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     54 |  200 |   1.29e+01 (s)
+  2 |     29 |  200 |   1.29e+01 (s)
+  3 |     26 |  200 |   1.30e+01 (s)
+  4 |     22 |  126 |   8.33e+00 (s)
+  5 |     20 |   62 |   4.16e+00 (s)
+  6 |     17 |   30 |   1.97e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   3.57e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.40e-02 (s)
+  4 |   2048 |      209 |     1839 |     0.10 |     0.90 |   8.08e-02 (s)
+  3 |   1839 |     1040 |      799 |     0.57 |     0.43 |   8.46e-02 (s)
+  2 |    799 |      480 |      319 |     0.60 |     0.40 |   4.65e-02 (s)
+  1 |    319 |      211 |      108 |     0.66 |     0.34 |   1.57e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 7.5184e+00 /   50 /    2, relerr 1.5579e+23 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.1017e+01 /   50 /    1, relerr 1.6280e+23 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.28e+01 (s)
+  2 |     37 |  200 |   1.29e+01 (s)
+  3 |     34 |  200 |   1.30e+01 (s)
+  4 |     39 |  126 |   8.25e+00 (s)
+  5 |     28 |   62 |   4.15e+00 (s)
+  6 |     23 |   30 |   2.00e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.10e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.11e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   8.55e-02 (s)
+  3 |   2048 |      977 |     1071 |     0.48 |     0.52 |   1.22e-01 (s)
+  2 |   1071 |      655 |      416 |     0.61 |     0.39 |   6.28e-02 (s)
+  1 |    416 |      278 |      138 |     0.67 |     0.33 |   2.08e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.8981e+01 /   50 /    2, relerr 1.1371e+128 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.0987e+01 /   50 /    1, relerr 1.0251e+128 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.29e+01 (s)
+  2 |     37 |  200 |   1.29e+01 (s)
+  3 |     34 |  200 |   1.30e+01 (s)
+  4 |     32 |  126 |   8.38e+00 (s)
+  5 |     27 |   62 |   4.21e+00 (s)
+  6 |     23 |   30 |   1.99e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.33e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.38e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   8.98e-02 (s)
+  3 |   2048 |      977 |     1071 |     0.48 |     0.52 |   1.27e-01 (s)
+  2 |   1071 |      654 |      417 |     0.61 |     0.39 |   6.67e-02 (s)
+  1 |    417 |      279 |      138 |     0.67 |     0.33 |   2.21e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.9182e+01 /   50 /    2, relerr 2.2526e+133 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.2519e+01 /   50 /    1, relerr 1.9957e+133 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.30e+01 (s)
+  2 |     37 |  200 |   1.29e+01 (s)
+  3 |     34 |  200 |   1.29e+01 (s)
+  4 |     31 |  126 |   8.33e+00 (s)
+  5 |     27 |   62 |   4.21e+00 (s)
+  6 |     23 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.92e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.98e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   8.25e-02 (s)
+  3 |   2048 |      986 |     1062 |     0.48 |     0.52 |   1.17e-01 (s)
+  2 |   1062 |      646 |      416 |     0.61 |     0.39 |   6.74e-02 (s)
+  1 |    416 |      278 |      138 |     0.67 |     0.33 |   2.08e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.7560e+01 /   50 /    2, relerr 3.3246e+174 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.0593e+01 /   50 /    1, relerr 3.3205e+174 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.31e+01 (s)
+  2 |     37 |  200 |   1.30e+01 (s)
+  3 |     34 |  200 |   1.32e+01 (s)
+  4 |     29 |  126 |   8.29e+00 (s)
+  5 |     26 |   62 |   4.19e+00 (s)
+  6 |     22 |   30 |   2.00e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.13e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.10e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.57e-02 (s)
+  3 |   2048 |      996 |     1052 |     0.49 |     0.51 |   1.05e-01 (s)
+  2 |   1052 |      637 |      415 |     0.61 |     0.39 |   7.23e-02 (s)
+  1 |    415 |      277 |      138 |     0.67 |     0.33 |   2.25e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.5236e+01 /   50 /    2, relerr 3.8098e+143 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.2295e+01 /   50 /    1, relerr 3.5098e+143 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.30e+01 (s)
+  2 |     37 |  200 |   1.29e+01 (s)
+  3 |     34 |  200 |   1.30e+01 (s)
+  4 |     27 |  126 |   8.29e+00 (s)
+  5 |     24 |   62 |   4.16e+00 (s)
+  6 |     21 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.03e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.20e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.77e-02 (s)
+  3 |   2048 |     1013 |     1035 |     0.49 |     0.51 |   1.06e-01 (s)
+  2 |   1035 |      626 |      409 |     0.60 |     0.40 |   6.01e-02 (s)
+  1 |    409 |      271 |      138 |     0.66 |     0.34 |   1.86e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.3803e+01 /   50 /    2, relerr 5.0839e+118 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.2062e+01 /   50 /    1, relerr 4.6244e+118 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     69 |  200 |   1.30e+01 (s)
+  2 |     37 |  200 |   1.30e+01 (s)
+  3 |     33 |  200 |   1.30e+01 (s)
+  4 |     27 |  126 |   8.24e+00 (s)
+  5 |     23 |   62 |   4.15e+00 (s)
+  6 |     20 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.90e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.54e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.03e-02 (s)
+  3 |   2048 |     1019 |     1029 |     0.50 |     0.50 |   9.49e-02 (s)
+  2 |   1029 |      620 |      409 |     0.60 |     0.40 |   6.00e-02 (s)
+  1 |    409 |      271 |      138 |     0.66 |     0.34 |   2.09e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 1.0656e+01 /   50 /    2, relerr 1.5639e+93 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 9.1190e+00 /   50 /    1, relerr 1.3883e+91 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     67 |  200 |   1.28e+01 (s)
+  2 |     36 |  200 |   1.30e+01 (s)
+  3 |     32 |  200 |   1.31e+01 (s)
+  4 |     26 |  126 |   8.31e+00 (s)
+  5 |     23 |   62 |   4.15e+00 (s)
+  6 |     19 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.79e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.10e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   7.13e-02 (s)
+  3 |   2048 |     1051 |      997 |     0.51 |     0.49 |   1.04e-01 (s)
+  2 |    997 |      601 |      396 |     0.60 |     0.40 |   6.46e-02 (s)
+  1 |    396 |      262 |      134 |     0.66 |     0.34 |   2.00e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 9.1626e+00 /   50 /    1, relerr 1.9275e+160 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.2867e+01 /   50 /    1, relerr 1.3210e+160 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     64 |  200 |   1.30e+01 (s)
+  2 |     34 |  200 |   1.30e+01 (s)
+  3 |     32 |  200 |   1.32e+01 (s)
+  4 |     25 |  126 |   8.35e+00 (s)
+  5 |     23 |   62 |   4.19e+00 (s)
+  6 |     19 |   30 |   1.99e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.17e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.68e-02 (s)
+  4 |   2048 |        0 |     2048 |     0.00 |     1.00 |   6.61e-02 (s)
+  3 |   2048 |     1092 |      956 |     0.53 |     0.47 |   1.01e-01 (s)
+  2 |    956 |      578 |      378 |     0.60 |     0.40 |   5.95e-02 (s)
+  1 |    378 |      250 |      128 |     0.66 |     0.34 |   2.02e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 8.2407e+00 /   50 /    1, relerr 3.0283e+69 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.2457e+01 /   50 /    1, relerr 2.4752e+69 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     62 |  200 |   1.30e+01 (s)
+  2 |     34 |  200 |   1.33e+01 (s)
+  3 |     30 |  200 |   1.34e+01 (s)
+  4 |     25 |  126 |   8.35e+00 (s)
+  5 |     22 |   62 |   4.18e+00 (s)
+  6 |     19 |   30 |   2.00e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.17e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   5.48e-02 (s)
+  4 |   2048 |        6 |     2042 |     0.00 |     1.00 |   8.12e-02 (s)
+  3 |   2042 |     1117 |      925 |     0.55 |     0.45 |   1.24e-01 (s)
+  2 |    925 |      558 |      367 |     0.60 |     0.40 |   6.68e-02 (s)
+  1 |    367 |      243 |      124 |     0.66 |     0.34 |   2.23e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 9.9690e+00 /   50 /    2, relerr 2.0804e+104 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.1370e+01 /   50 /    1, relerr 1.9663e+104 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     61 |  200 |   1.29e+01 (s)
+  2 |     33 |  200 |   1.30e+01 (s)
+  3 |     29 |  200 |   1.31e+01 (s)
+  4 |     24 |  126 |   8.29e+00 (s)
+  5 |     21 |   62 |   4.18e+00 (s)
+  6 |     19 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.26e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.87e-02 (s)
+  4 |   2048 |       18 |     2030 |     0.01 |     0.99 |   7.41e-02 (s)
+  3 |   2030 |     1126 |      904 |     0.55 |     0.45 |   1.03e-01 (s)
+  2 |    904 |      544 |      360 |     0.60 |     0.40 |   6.91e-02 (s)
+  1 |    360 |      238 |      122 |     0.66 |     0.34 |   1.93e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 7.3398e+00 /   50 /    1, relerr 5.3738e+64 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.1138e+01 /   50 /    1, relerr 5.3985e+64 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     59 |  200 |   1.31e+01 (s)
+  2 |     31 |  200 |   1.30e+01 (s)
+  3 |     28 |  200 |   1.35e+01 (s)
+  4 |     23 |  126 |   8.35e+00 (s)
+  5 |     21 |   62 |   4.15e+00 (s)
+  6 |     19 |   30 |   1.98e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   3.92e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.39e-02 (s)
+  4 |   2048 |       75 |     1973 |     0.04 |     0.96 |   7.52e-02 (s)
+  3 |   1973 |     1108 |      865 |     0.56 |     0.44 |   9.35e-02 (s)
+  2 |    865 |      520 |      345 |     0.60 |     0.40 |   5.38e-02 (s)
+  1 |    345 |      227 |      118 |     0.66 |     0.34 |   1.71e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 6.9642e+00 /   50 /    1, relerr 8.1175e+73 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.1237e+01 /   50 /    1, relerr 8.3909e+73 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     56 |  200 |   1.29e+01 (s)
+  2 |     30 |  200 |   1.29e+01 (s)
+  3 |     27 |  200 |   1.30e+01 (s)
+  4 |     22 |  126 |   8.28e+00 (s)
+  5 |     21 |   62 |   4.14e+00 (s)
+  6 |     18 |   30 |   1.97e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   3.64e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.23e-02 (s)
+  4 |   2048 |      142 |     1906 |     0.07 |     0.93 |   7.34e-02 (s)
+  3 |   1906 |     1078 |      828 |     0.57 |     0.43 |   8.51e-02 (s)
+  2 |    828 |      497 |      331 |     0.60 |     0.40 |   4.87e-02 (s)
+  1 |    331 |      219 |      112 |     0.66 |     0.34 |   1.65e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 9.3285e+00 /   50 /    2, relerr 1.1106e+38 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.1201e+01 /   50 /    1, relerr 1.1606e+38 
+Information for TV-L1 
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |     54 |  200 |   1.28e+01 (s)
+  2 |     29 |  200 |   1.30e+01 (s)
+  3 |     26 |  200 |   1.30e+01 (s)
+  4 |     22 |  126 |   8.26e+00 (s)
+  5 |     20 |   62 |   4.13e+00 (s)
+  6 |     17 |   30 |   1.97e+00 (s)
+--------------RSS contruction------------
+lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
+  6 |   2048 |        0 |     2048 |     0.00 |     1.00 |   3.88e-02 (s)
+  5 |   2048 |        0 |     2048 |     0.00 |     1.00 |   4.74e-02 (s)
+  4 |   2048 |      206 |     1842 |     0.10 |     0.90 |   7.78e-02 (s)
+  3 |   1842 |     1042 |      800 |     0.57 |     0.43 |   8.43e-02 (s)
+  2 |    800 |      481 |      319 |     0.60 |     0.40 |   4.58e-02 (s)
+  1 |    319 |      211 |      108 |     0.66 |     0.34 |   1.60e-02 (s)
+-------------End RSS contruction-----------
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 7.1966e+00 /   50 /    1, relerr 1.5611e+23 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.1919e+01 /   50 /    1, relerr 1.6421e+23 
