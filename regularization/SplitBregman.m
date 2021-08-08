@@ -6,7 +6,7 @@ function [u, iters] = SplitBregman(regm, mu, lambda, h, funAT, funH, f, opR, Phi
             % [u, iter1] = GaussSeidel(@(x)1/mu*hodlr_tri_sol(L,x), @(x)mu*hodlr_apply(U,x), mu*funAT(f)+lambda*opR(d0-b0), u0, maxit, tol);
             for k = 1:1
                 [u, flag, relres, iter2] = pcg(funH, mu*funAT(f)+lambda*opR(d0-b0), 1E-14, maxit2, funM, @(x)x, u0);
-                fprintf('pcg %10.4e / %d / %10.4e \n', norm(u-u0), flag, relres)
+                % fprintf('pcg %10.4e / %d / %10.4e \n', norm(u-u0), flag, relres)
                 % norm(funH(u) - mu*funAT(f)+lambda*opR(d0-b0))/norm(mu*funAT(f)+lambda*opR(d0-b0))
                 iter1 = max(iter1, iter2);
                 % if norm(u-u0) < tol
@@ -18,7 +18,7 @@ function [u, iters] = SplitBregman(regm, mu, lambda, h, funAT, funH, f, opR, Phi
             b0 = b0 + Phi(u0) - d0;
         end
         iters = [iter, iter1];
-    else if strcmp(regm, 'TV-L1')
+    else
         N = size(f,1);
         % [L, U] = HODLR_ldu(H, 0);
         % [L1, U1] = HODLR_laplacian(H, -lambda/mu/h/h);
@@ -31,9 +31,12 @@ function [u, iters] = SplitBregman(regm, mu, lambda, h, funAT, funH, f, opR, Phi
         for iter = 1:maxit1
             %[u, iter1] = GaussSeidel(@(x)1/mu*hodlr_tri2_sol(L,L1,x), @(x)mu*hodlr_apply(U,x)+mu*hodlr_apply(U1,x), mu*funAT(f)+lambda*opR(d0-b0), u0, maxit2, tol);
             for k = 1:1
-                [u, flag, relres, iter2] = pcg(funH, mu*funAT(f)+lambda*opR(d0-b0), 1E-14, maxit2, funM, @(x)x, u0);
+                % [u, flag, relres, iter2] = pcg(funH, mu*funAT(f)+lambda*opR(d0-b0), 1E-14, maxit2, funM, @(x)x, u0);
+                [u, flag, relres, iter2] = gmres(funH, mu*funAT(f)+lambda*opR(d0-b0), 5, 1E-13, maxit2, funM, @(x)x, u0);
                 % norm(funH(u) - mu*funAT(f)-lambda*opR(d0-b0))/norm(mu*funAT(f)+lambda*opR(d0-b0))
-                fprintf('pcg %10.4e / %d / %10.4e \n', norm(u-u0), flag, relres)
+                % cond(funM(funH(eye(N))))
+                % max(max(abs(u)))
+                % fprintf('pcg %10.4e / %d / %10.4e \n', norm(u-u0), flag, relres)
                 iter1 = max(iter1, iter2);
                 % if norm(u-u0) < tol
                 %     break

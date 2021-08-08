@@ -1,0 +1,62 @@
+
+
+------------------------------------------
+N:        512 
+BF Fac err/time: 1.5070e-15/1.4903e+00 (s) 
+HODLR Fac err/time: 2.3939e-13/1.1672e+01 (s) 
+RSS Fac time: 1.4629e-01 
+RSS mv err/time: 1.4956e-13/1.7341e-02 
+RSS sv err/time: 1.7331e-02/1.7134e-02 
+HQR Fac time/rank: 1.4496e+00/256 
+HQR mv err/time: 3.1291e-13/1.2625e-02 
+HQR sv err/time: 1.6623e-02/1.7654e-02 
+regularizer: F-L1  init-scheme: sol 
+mu: 2^{   9}  lambda: 2^{   7} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 7.8860e-01 /   40 /    1, relerr 6.9160e-06 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 7.2062e-01 /   40 /    1, relerr 7.0581e-06 
+
+
+------------------------------------------
+N:       1024 
+BF Fac err/time: 1.9294e-15/3.9238e+00 (s) 
+HODLR Fac err/time: 3.1454e-13/7.1847e+01 (s) 
+RSS Fac time: 2.5659e-01 
+RSS mv err/time: 2.3666e-13/3.4360e-03 
+RSS sv err/time: 1.3731e-01/1.3759e-02 
+HQR Fac time/rank: 8.2361e+00/369 
+HQR mv err/time: 7.4019e-13/2.2732e-02 
+HQR sv err/time: 1.2000e-01/1.2418e-02 
+regularizer: F-L1  init-scheme: sol 
+mu: 2^{   9}  lambda: 2^{   7} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.3293e+00 /   40 /    1, relerr 8.1747e-06 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.9251e+00 /   40 /    1, relerr 3.6331e-06 
+
+
+------------------------------------------
+N:       2048 
+BF Fac err/time: 1.4580e-13/1.1302e+01 (s) 
+HODLR Fac err/time: 2.5434e-13/1.1899e+02 (s) 
+RSS Fac time: 2.9294e+00 
+RSS mv err/time: 1.7945e-10/1.9039e-02 
+RSS sv err/time: 1.7538e-01/7.8456e-02 
+HQR Fac time/rank: 6.8557e+01/512 
+HQR mv err/time: 8.6056e-13/5.1235e-02 
+HQR sv err/time: 1.6952e-01/3.2576e-02 
+regularizer: F-L1  init-scheme: sol 
+mu: 2^{   9}  lambda: 2^{   7} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 3.1186e+00 /   40 /    1, relerr 3.4575e-05 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 3.7841e+00 /   40 /    1, relerr 2.0218e-06 
+
+
+------------------------------------------
+N:       4096 
+BF Fac err/time: 1.7683e-13/4.3237e+01 (s) 
+HODLR Fac err/time: 7.3970e-13/6.2351e+02 (s) 
+RSS Fac time: 5.0175e+00 
+RSS mv err/time: 2.7686e-10/3.3817e-02 
+RSS sv err/time: 1.5576e+00/1.3664e-01 
+HQR Fac time/rank: 3.1197e+02/1024 
+HQR mv err/time: 1.6872e-12/2.2019e-01 
+HQR sv err/time: 1.8185e-01/1.0060e-01 
+regularizer: F-L1  init-scheme: sol 
+mu: 2^{   9}  lambda: 2^{   7} 

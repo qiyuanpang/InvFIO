@@ -10194,3 +10194,1857 @@ ans =
     52
 
 L1: 1.8715e-11 / 1.6990e-11 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.619667e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegulization (line 270)
+] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 3.1575e-01 / 3 / 2.2116e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.2441e+01 / 3 / 2.3485e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1218e+01 / 3 / 2.4442e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1215e+01 / 3 / 2.3703e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1213e+01 / 3 / 2.1808e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1210e+01 / 3 / 2.1601e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1208e+01 / 3 / 2.1431e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1207e+01 / 3 / 2.0478e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1205e+01 / 3 / 2.0163e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1204e+01 / 3 / 2.1327e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1202e+01 / 3 / 2.0602e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1201e+01 / 3 / 2.2366e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1199e+01 / 3 / 2.1475e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1198e+01 / 3 / 2.1885e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1197e+01 / 3 / 2.2678e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1196e+01 / 3 / 2.0650e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1195e+01 / 3 / 2.0575e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1194e+01 / 3 / 2.1483e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1193e+01 / 3 / 2.4815e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1191e+01 / 3 / 2.3212e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1190e+01 / 3 / 2.3727e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1189e+01 / 3 / 2.2302e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1188e+01 / 3 / 2.2626e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1187e+01 / 3 / 2.3123e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1186e+01 / 3 / 2.2261e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1185e+01 / 3 / 2.1899e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1184e+01 / 3 / 2.3485e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1184e+01 / 3 / 1.8381e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1183e+01 / 3 / 2.0138e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1182e+01 / 3 / 2.1335e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1181e+01 / 3 / 2.0906e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1180e+01 / 3 / 2.3217e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1179e+01 / 3 / 2.3564e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1179e+01 / 3 / 2.4046e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1178e+01 / 3 / 2.1098e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1177e+01 / 3 / 2.0500e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1176e+01 / 3 / 2.0330e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1175e+01 / 3 / 2.1603e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1174e+01 / 3 / 2.2780e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1173e+01 / 3 / 1.9707e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1172e+01 / 3 / 2.0148e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1171e+01 / 3 / 2.3698e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1170e+01 / 3 / 2.1966e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1169e+01 / 3 / 2.2227e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1168e+01 / 3 / 2.2569e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1167e+01 / 3 / 2.7700e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1167e+01 / 3 / 2.1517e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1166e+01 / 3 / 2.1528e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1165e+01 / 3 / 2.0771e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1164e+01 / 3 / 2.2047e-12 
+pcg 2.2405e-06 / 0 / 3.4735e-15 
+pcg 1.1964e+01 / 0 / 3.3591e-15 
+pcg 5.6799e+00 / 0 / 2.2223e-15 
+pcg 5.2278e+00 / 0 / 1.6611e-15 
+pcg 4.7889e+00 / 0 / 1.3137e-15 
+pcg 4.3141e+00 / 0 / 9.7570e-16 
+pcg 3.8389e+00 / 0 / 7.4148e-16 
+pcg 3.3641e+00 / 0 / 5.4638e-16 
+pcg 2.9858e+00 / 0 / 4.8190e-16 
+pcg 2.6125e+00 / 0 / 3.8515e-16 
+pcg 2.3205e+00 / 0 / 8.1423e-15 
+pcg 2.0596e+00 / 0 / 5.3428e-15 
+pcg 1.8226e+00 / 0 / 3.1409e-15 
+pcg 1.6367e+00 / 0 / 2.0774e-15 
+pcg 1.4616e+00 / 0 / 1.7585e-15 
+pcg 1.3084e+00 / 0 / 1.5303e-15 
+pcg 1.1721e+00 / 0 / 1.3452e-15 
+pcg 1.0818e+00 / 0 / 6.3993e-16 
+pcg 9.9031e-01 / 0 / 7.1294e-16 
+pcg 8.8193e-01 / 0 / 2.7431e-16 
+pcg 8.0722e-01 / 0 / 2.7249e-16 
+pcg 7.2062e-01 / 0 / 3.1864e-16 
+pcg 6.5317e-01 / 0 / 3.1184e-16 
+pcg 5.6141e-01 / 0 / 2.4904e-16 
+pcg 5.0747e-01 / 0 / 2.7183e-16 
+pcg 4.5207e-01 / 0 / 2.4058e-16 
+pcg 3.4169e-01 / 0 / 2.3201e-16 
+pcg 2.9915e-01 / 0 / 2.6861e-16 
+pcg 2.0716e-01 / 0 / 2.6663e-16 
+pcg 1.8157e-01 / 0 / 1.9934e-16 
+pcg 1.5534e-01 / 0 / 3.3463e-16 
+pcg 1.4746e-01 / 0 / 2.4293e-16 
+pcg 1.1277e-01 / 0 / 2.2181e-16 
+pcg 1.1697e-01 / 0 / 1.9761e-16 
+pcg 9.3998e-02 / 0 / 2.8571e-16 
+pcg 3.5095e-02 / 0 / 2.5558e-16 
+pcg 3.2106e-02 / 0 / 2.4310e-16 
+pcg 2.1243e-03 / 0 / 2.2465e-16 
+pcg 1.6123e-03 / 0 / 3.3900e-16 
+pcg 1.3544e-03 / 0 / 2.8632e-16 
+pcg 1.1654e-03 / 0 / 2.3366e-16 
+pcg 1.0183e-03 / 0 / 2.6473e-16 
+pcg 9.0093e-04 / 0 / 2.9371e-16 
+pcg 8.0538e-04 / 0 / 2.3844e-16 
+pcg 7.2635e-04 / 0 / 2.4466e-16 
+pcg 6.6004e-04 / 0 / 2.6621e-16 
+pcg 6.0370e-04 / 0 / 2.1336e-16 
+pcg 5.5529e-04 / 0 / 2.3707e-16 
+pcg 5.1326e-04 / 0 / 2.4521e-16 
+pcg 4.7644e-04 / 0 / 2.4790e-16 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 1.3288e-11 / 1.2716e-11 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.619667e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegulization (line 270)
+] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.9771e-01 / 3 / 1.1688e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.1226e+01 / 3 / 9.6466e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6128e+00 / 3 / 9.8294e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6112e+00 / 3 / 1.0220e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6100e+00 / 3 / 1.0727e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6090e+00 / 3 / 1.0763e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6082e+00 / 3 / 1.0153e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6075e+00 / 3 / 1.0701e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6068e+00 / 3 / 1.0900e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6062e+00 / 3 / 9.2979e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6056e+00 / 3 / 1.0750e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6051e+00 / 3 / 1.0434e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6046e+00 / 3 / 1.0391e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6041e+00 / 3 / 1.0106e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6037e+00 / 3 / 9.9196e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6033e+00 / 3 / 1.0235e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6029e+00 / 3 / 1.0174e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6025e+00 / 3 / 9.8693e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6021e+00 / 3 / 1.0393e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6017e+00 / 3 / 1.0697e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6014e+00 / 3 / 1.0668e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6010e+00 / 3 / 9.8310e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6006e+00 / 3 / 1.0216e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6003e+00 / 3 / 1.0201e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5999e+00 / 3 / 1.0232e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5995e+00 / 3 / 9.7148e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5992e+00 / 3 / 9.7475e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5989e+00 / 3 / 9.6348e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5986e+00 / 3 / 1.0307e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5983e+00 / 3 / 1.0422e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5980e+00 / 3 / 1.1374e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5977e+00 / 3 / 1.0264e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5975e+00 / 3 / 1.0253e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5972e+00 / 3 / 9.4437e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5970e+00 / 3 / 9.5120e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5967e+00 / 3 / 1.0050e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5964e+00 / 3 / 9.8357e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5962e+00 / 3 / 1.0633e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5958e+00 / 3 / 1.0332e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5955e+00 / 3 / 1.0119e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5953e+00 / 3 / 1.0315e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5950e+00 / 3 / 1.0814e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5947e+00 / 3 / 1.0410e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5945e+00 / 3 / 9.6467e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5943e+00 / 3 / 1.0122e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5940e+00 / 3 / 1.0462e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5938e+00 / 3 / 9.5464e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5935e+00 / 3 / 1.0256e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5933e+00 / 3 / 1.0290e-12 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.5931e+00 / 3 / 1.0331e-12 
+pcg 1.1197e-06 / 0 / 3.5825e-15 
+pcg 6.2257e+00 / 0 / 3.6795e-15 
+pcg 3.0342e+00 / 0 / 2.8234e-15 
+pcg 2.8598e+00 / 0 / 2.5243e-15 
+pcg 2.7718e+00 / 0 / 2.3233e-15 
+pcg 2.6719e+00 / 0 / 1.9515e-15 
+pcg 2.5552e+00 / 0 / 1.7147e-15 
+pcg 2.4425e+00 / 0 / 1.4485e-15 
+pcg 2.3155e+00 / 0 / 1.2369e-15 
+pcg 2.1991e+00 / 0 / 1.0539e-15 
+pcg 2.0684e+00 / 0 / 9.0285e-16 
+pcg 1.9524e+00 / 0 / 7.6714e-16 
+pcg 1.8323e+00 / 0 / 6.5627e-16 
+pcg 1.7213e+00 / 0 / 5.5829e-16 
+pcg 1.6186e+00 / 0 / 4.4583e-16 
+pcg 1.5110e+00 / 0 / 4.9320e-16 
+pcg 1.4163e+00 / 0 / 7.9213e-15 
+pcg 1.3333e+00 / 0 / 5.5601e-15 
+pcg 1.2501e+00 / 0 / 4.5046e-15 
+pcg 1.1732e+00 / 0 / 3.4733e-15 
+pcg 1.1029e+00 / 0 / 2.8079e-15 
+pcg 1.0423e+00 / 0 / 2.1435e-15 
+pcg 9.8151e-01 / 0 / 1.7660e-15 
+pcg 9.3312e-01 / 0 / 1.3477e-15 
+pcg 8.8122e-01 / 0 / 1.1718e-15 
+pcg 8.2714e-01 / 0 / 9.8054e-16 
+pcg 7.8516e-01 / 0 / 9.0103e-16 
+pcg 7.4214e-01 / 0 / 8.1525e-16 
+pcg 7.0095e-01 / 0 / 7.1523e-16 
+pcg 6.6233e-01 / 0 / 6.8356e-16 
+pcg 6.3451e-01 / 0 / 6.3058e-16 
+pcg 5.9738e-01 / 0 / 6.6747e-16 
+pcg 5.7640e-01 / 0 / 5.9021e-16 
+pcg 5.4742e-01 / 0 / 4.6437e-16 
+pcg 5.2816e-01 / 0 / 4.8304e-16 
+pcg 5.0425e-01 / 0 / 2.5646e-16 
+pcg 4.8284e-01 / 0 / 2.5693e-16 
+pcg 4.5474e-01 / 0 / 2.2672e-16 
+pcg 4.2723e-01 / 0 / 2.8972e-16 
+pcg 4.0795e-01 / 0 / 3.1793e-16 
+pcg 3.8170e-01 / 0 / 3.1252e-16 
+pcg 3.6737e-01 / 0 / 1.6343e-16 
+pcg 3.4389e-01 / 0 / 2.3342e-16 
+pcg 3.3291e-01 / 0 / 2.8508e-16 
+pcg 3.1315e-01 / 0 / 2.9128e-16 
+pcg 2.9711e-01 / 0 / 2.4697e-16 
+pcg 2.7870e-01 / 0 / 2.5070e-16 
+pcg 2.5901e-01 / 0 / 2.4288e-16 
+pcg 2.3487e-01 / 0 / 2.4093e-16 
+pcg 2.1872e-01 / 0 / 3.6385e-16 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 1.4033e-11 / 1.3555e-11 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.619667e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegulization (line 270)
+] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.2811e-01 / 3 / 5.6515e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6155e+00 / 3 / 5.0087e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8080e+00 / 3 / 5.2091e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8073e+00 / 3 / 5.6767e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8067e+00 / 3 / 5.2965e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8063e+00 / 3 / 5.3840e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8059e+00 / 3 / 5.1272e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8056e+00 / 3 / 5.6039e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8053e+00 / 3 / 5.3774e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8050e+00 / 3 / 5.2956e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8048e+00 / 3 / 4.9664e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8045e+00 / 3 / 5.2269e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8043e+00 / 3 / 5.0486e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8041e+00 / 3 / 5.3098e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8039e+00 / 3 / 5.0905e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8037e+00 / 3 / 5.2832e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8036e+00 / 3 / 5.3877e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8034e+00 / 3 / 5.1099e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8032e+00 / 3 / 5.4910e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8031e+00 / 3 / 5.4946e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8030e+00 / 3 / 5.3908e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8028e+00 / 3 / 5.2062e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8027e+00 / 3 / 5.9432e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8026e+00 / 3 / 5.3887e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8024e+00 / 3 / 5.1925e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8023e+00 / 3 / 5.0906e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8022e+00 / 3 / 5.4056e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8021e+00 / 3 / 5.1940e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8020e+00 / 3 / 5.1625e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8018e+00 / 3 / 5.5545e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8017e+00 / 3 / 5.5005e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8016e+00 / 3 / 5.1790e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8015e+00 / 3 / 4.9915e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8014e+00 / 3 / 5.5541e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8013e+00 / 3 / 5.1381e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8012e+00 / 3 / 5.6091e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8011e+00 / 3 / 4.6685e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8011e+00 / 3 / 4.6450e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8010e+00 / 3 / 5.3391e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8009e+00 / 3 / 5.1430e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8008e+00 / 3 / 5.0663e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8007e+00 / 3 / 5.1571e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8006e+00 / 3 / 5.4048e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8005e+00 / 3 / 5.6498e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8004e+00 / 3 / 5.2092e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8003e+00 / 3 / 5.0297e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8002e+00 / 3 / 5.4114e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8001e+00 / 3 / 5.3272e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8000e+00 / 3 / 5.2576e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.7999e+00 / 3 / 5.2875e-13 
+pcg 5.8511e-07 / 0 / 3.6196e-15 
+pcg 3.2417e+00 / 0 / 3.7671e-15 
+pcg 1.5759e+00 / 0 / 3.3466e-15 
+pcg 1.5017e+00 / 0 / 3.2001e-15 
+pcg 1.4647e+00 / 0 / 2.9702e-15 
+pcg 1.4425e+00 / 0 / 2.7896e-15 
+pcg 1.4183e+00 / 0 / 2.6860e-15 
+pcg 1.3954e+00 / 0 / 2.5729e-15 
+pcg 1.3705e+00 / 0 / 2.3340e-15 
+pcg 1.3481e+00 / 0 / 2.1611e-15 
+pcg 1.3223e+00 / 0 / 2.0518e-15 
+pcg 1.2938e+00 / 0 / 1.8921e-15 
+pcg 1.2622e+00 / 0 / 1.6920e-15 
+pcg 1.2330e+00 / 0 / 1.5945e-15 
+pcg 1.2000e+00 / 0 / 1.4897e-15 
+pcg 1.1701e+00 / 0 / 1.4021e-15 
+pcg 1.1403e+00 / 0 / 1.2338e-15 
+pcg 1.1103e+00 / 0 / 1.1710e-15 
+pcg 1.0819e+00 / 0 / 1.0567e-15 
+pcg 1.0500e+00 / 0 / 1.0268e-15 
+pcg 1.0201e+00 / 0 / 9.3898e-16 
+pcg 9.8635e-01 / 0 / 8.7204e-16 
+pcg 9.5587e-01 / 0 / 9.9426e-15 
+pcg 9.2653e-01 / 0 / 9.3691e-15 
+pcg 8.9863e-01 / 0 / 8.6929e-15 
+pcg 8.7268e-01 / 0 / 8.0468e-15 
+pcg 8.4393e-01 / 0 / 6.6937e-15 
+pcg 8.1609e-01 / 0 / 6.2873e-15 
+pcg 7.8773e-01 / 0 / 5.5749e-15 
+pcg 7.6457e-01 / 0 / 5.1294e-15 
+pcg 7.4075e-01 / 0 / 4.7391e-15 
+pcg 7.1902e-01 / 0 / 4.4280e-15 
+pcg 6.9606e-01 / 0 / 3.8298e-15 
+pcg 6.7477e-01 / 0 / 3.1871e-15 
+pcg 6.5410e-01 / 0 / 2.9083e-15 
+pcg 6.3144e-01 / 0 / 2.3469e-15 
+pcg 6.1327e-01 / 0 / 2.3791e-15 
+pcg 5.9247e-01 / 0 / 1.9714e-15 
+pcg 5.7565e-01 / 0 / 1.8250e-15 
+pcg 5.5951e-01 / 0 / 1.6334e-15 
+pcg 5.4049e-01 / 0 / 1.3734e-15 
+pcg 5.2500e-01 / 0 / 1.2474e-15 
+pcg 5.0995e-01 / 0 / 1.1194e-15 
+pcg 4.9707e-01 / 0 / 9.4783e-16 
+pcg 4.8278e-01 / 0 / 7.5219e-16 
+pcg 4.7237e-01 / 0 / 7.6580e-16 
+pcg 4.5951e-01 / 0 / 6.8515e-16 
+pcg 4.4479e-01 / 0 / 5.7720e-16 
+pcg 4.3325e-01 / 0 / 5.6872e-16 
+pcg 4.1972e-01 / 0 / 5.6400e-16 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 1.6051e-11 / 1.5629e-11 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.619667e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegulization (line 270)
+] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 8.4821e-02 / 3 / 3.0659e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 2.8090e+00 / 3 / 2.7205e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4049e+00 / 3 / 3.8337e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4045e+00 / 3 / 3.5562e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4042e+00 / 3 / 3.4862e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4039e+00 / 3 / 3.7603e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4038e+00 / 3 / 3.6339e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4036e+00 / 3 / 3.5593e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4035e+00 / 3 / 3.5084e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4034e+00 / 3 / 3.6875e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4032e+00 / 3 / 3.7913e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4031e+00 / 3 / 3.7637e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4030e+00 / 3 / 3.8534e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4029e+00 / 3 / 3.6190e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4029e+00 / 3 / 3.4350e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4028e+00 / 3 / 3.6921e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4027e+00 / 3 / 3.7561e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4026e+00 / 3 / 3.7834e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4026e+00 / 3 / 3.6431e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4025e+00 / 3 / 3.5591e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4024e+00 / 3 / 3.7194e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4024e+00 / 3 / 3.7640e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4023e+00 / 3 / 3.7315e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4022e+00 / 3 / 3.7696e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4022e+00 / 3 / 3.6408e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4021e+00 / 3 / 3.6538e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4021e+00 / 3 / 3.7625e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4020e+00 / 3 / 3.4638e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4020e+00 / 3 / 3.6484e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4019e+00 / 3 / 3.5612e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4019e+00 / 3 / 3.8119e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4019e+00 / 3 / 3.5881e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4018e+00 / 3 / 3.6441e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4018e+00 / 3 / 3.8648e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4017e+00 / 3 / 3.7255e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4017e+00 / 3 / 3.8050e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4017e+00 / 3 / 2.4826e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4016e+00 / 3 / 3.6860e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4016e+00 / 3 / 2.4877e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4015e+00 / 3 / 3.6507e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4015e+00 / 3 / 3.7596e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4015e+00 / 3 / 3.7165e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4014e+00 / 3 / 3.8178e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4014e+00 / 3 / 3.9419e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4014e+00 / 3 / 3.7308e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4013e+00 / 3 / 3.6890e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4013e+00 / 3 / 3.6199e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4013e+00 / 3 / 3.6517e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4012e+00 / 3 / 3.4534e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4012e+00 / 3 / 3.5949e-13 
+pcg 2.9550e-07 / 0 / 3.5965e-15 
+pcg 1.7000e+00 / 0 / 3.8548e-15 
+pcg 8.2903e-01 / 0 / 3.5320e-15 
+pcg 7.8010e-01 / 0 / 3.5079e-15 
+pcg 7.6203e-01 / 0 / 3.5045e-15 
+pcg 7.4994e-01 / 0 / 3.4562e-15 
+pcg 7.4060e-01 / 0 / 3.2759e-15 
+pcg 7.3410e-01 / 0 / 3.0748e-15 
+pcg 7.2897e-01 / 0 / 2.9998e-15 
+pcg 7.2378e-01 / 0 / 2.9607e-15 
+pcg 7.1915e-01 / 0 / 2.8060e-15 
+pcg 7.1288e-01 / 0 / 2.6841e-15 
+pcg 7.0650e-01 / 0 / 2.6474e-15 
+pcg 7.0007e-01 / 0 / 2.5713e-15 
+pcg 6.9430e-01 / 0 / 2.5142e-15 
+pcg 6.8823e-01 / 0 / 2.4426e-15 
+pcg 6.8152e-01 / 0 / 2.3518e-15 
+pcg 6.7645e-01 / 0 / 2.2761e-15 
+pcg 6.7080e-01 / 0 / 2.1617e-15 
+pcg 6.6466e-01 / 0 / 9.9103e-15 
+pcg 6.5828e-01 / 0 / 9.6941e-15 
+pcg 6.5121e-01 / 0 / 9.5402e-15 
+pcg 6.4297e-01 / 0 / 9.2711e-15 
+pcg 6.3472e-01 / 0 / 8.9831e-15 
+pcg 6.2745e-01 / 0 / 8.8096e-15 
+pcg 6.1938e-01 / 0 / 8.5483e-15 
+pcg 6.1248e-01 / 0 / 8.2774e-15 
+pcg 6.0454e-01 / 0 / 7.9587e-15 
+pcg 5.9605e-01 / 0 / 7.5795e-15 
+pcg 5.8884e-01 / 0 / 7.3424e-15 
+pcg 5.8028e-01 / 0 / 7.0234e-15 
+pcg 5.7296e-01 / 0 / 6.6995e-15 
+pcg 5.6667e-01 / 0 / 6.5762e-15 
+pcg 5.5910e-01 / 0 / 6.3374e-15 
+pcg 5.5189e-01 / 0 / 6.2065e-15 
+pcg 5.4439e-01 / 0 / 6.0803e-15 
+pcg 5.3737e-01 / 0 / 5.8619e-15 
+pcg 5.2984e-01 / 0 / 5.5078e-15 
+pcg 5.2181e-01 / 0 / 5.1700e-15 
+pcg 5.1335e-01 / 0 / 4.9836e-15 
+pcg 5.0506e-01 / 0 / 4.8759e-15 
+pcg 4.9681e-01 / 0 / 4.7052e-15 
+pcg 4.8885e-01 / 0 / 4.5868e-15 
+pcg 4.8173e-01 / 0 / 4.5163e-15 
+pcg 4.7350e-01 / 0 / 4.3784e-15 
+pcg 4.6626e-01 / 0 / 4.2721e-15 
+pcg 4.6002e-01 / 0 / 4.1363e-15 
+pcg 4.5280e-01 / 0 / 3.9994e-15 
+pcg 4.4529e-01 / 0 / 3.8775e-15 
+pcg 4.3924e-01 / 0 / 3.8077e-15 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 1.7638e-11 / 1.7028e-11 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.619667e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegulization (line 270)
+] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 5.6272e-02 / 3 / 1.3923e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 1.4052e+00 / 3 / 1.5751e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0297e-01 / 3 / 1.3033e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0270e-01 / 3 / 1.3115e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0253e-01 / 3 / 1.4067e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0240e-01 / 3 / 1.3751e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0229e-01 / 3 / 1.3024e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0220e-01 / 3 / 1.4141e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0213e-01 / 3 / 1.3459e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0207e-01 / 3 / 1.4119e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0201e-01 / 3 / 1.2322e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0196e-01 / 3 / 1.4155e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0191e-01 / 3 / 1.5713e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0187e-01 / 3 / 1.3415e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0183e-01 / 3 / 1.4824e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0179e-01 / 3 / 1.4256e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0176e-01 / 3 / 1.3653e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0173e-01 / 3 / 1.2724e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0170e-01 / 3 / 1.2940e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0167e-01 / 3 / 1.3513e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0164e-01 / 3 / 1.4300e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0161e-01 / 3 / 1.6434e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0159e-01 / 3 / 1.3207e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0156e-01 / 3 / 1.3010e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0153e-01 / 3 / 1.3460e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0151e-01 / 3 / 1.4765e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0149e-01 / 3 / 1.4393e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0146e-01 / 3 / 1.4432e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0144e-01 / 3 / 1.3828e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0142e-01 / 3 / 1.3700e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0140e-01 / 3 / 1.4553e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0138e-01 / 3 / 1.3167e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0136e-01 / 3 / 1.3644e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0134e-01 / 3 / 1.2920e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0132e-01 / 3 / 1.2876e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0131e-01 / 3 / 1.3447e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0129e-01 / 3 / 1.5274e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0127e-01 / 3 / 1.2799e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0126e-01 / 3 / 1.5285e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0124e-01 / 3 / 1.3587e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0122e-01 / 3 / 1.3986e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0121e-01 / 3 / 1.3190e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0119e-01 / 3 / 1.3169e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0118e-01 / 3 / 1.3679e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0116e-01 / 3 / 1.4359e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0115e-01 / 3 / 1.4529e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0113e-01 / 3 / 1.5217e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0112e-01 / 3 / 1.5252e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0111e-01 / 3 / 1.3396e-13 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRegulization (line 276)] 
+pcg 7.0109e-01 / 3 / 1.3432e-13 
+pcg 1.4659e-07 / 0 / 3.6010e-15 
+pcg 9.0187e-01 / 0 / 3.6803e-15 
+pcg 4.3546e-01 / 0 / 3.6315e-15 
+pcg 4.0713e-01 / 0 / 6.8083e-15 
+pcg 3.9664e-01 / 0 / 6.7625e-15 
+pcg 3.9058e-01 / 0 / 6.7270e-15 
+pcg 3.8590e-01 / 0 / 6.7379e-15 
+pcg 3.8223e-01 / 0 / 6.3777e-15 
+pcg 3.7846e-01 / 0 / 6.4687e-15 
+pcg 3.7530e-01 / 0 / 6.3871e-15 
+pcg 3.7291e-01 / 0 / 6.2659e-15 
+pcg 3.7092e-01 / 0 / 6.2616e-15 
+pcg 3.6946e-01 / 0 / 6.2200e-15 
+pcg 3.6774e-01 / 0 / 6.1043e-15 
+pcg 3.6642e-01 / 0 / 6.1324e-15 
+pcg 3.6488e-01 / 0 / 6.1130e-15 
+pcg 3.6371e-01 / 0 / 6.0594e-15 
+pcg 3.6255e-01 / 0 / 6.0373e-15 
+pcg 3.6157e-01 / 0 / 5.9759e-15 
+pcg 3.6040e-01 / 0 / 5.9184e-15 
+pcg 3.5890e-01 / 0 / 5.9181e-15 
+pcg 3.5734e-01 / 0 / 5.9473e-15 
+pcg 3.5570e-01 / 0 / 5.8523e-15 
+pcg 3.5414e-01 / 0 / 5.8540e-15 
+pcg 3.5277e-01 / 0 / 5.8095e-15 
+pcg 3.5074e-01 / 0 / 5.7802e-15 
+pcg 3.4931e-01 / 0 / 5.7037e-15 
+pcg 3.4783e-01 / 0 / 5.6955e-15 
+pcg 3.4638e-01 / 0 / 5.5901e-15 
+pcg 3.4480e-01 / 0 / 5.5829e-15 
+pcg 3.4329e-01 / 0 / 5.5996e-15 
+pcg 3.4171e-01 / 0 / 5.4818e-15 
+pcg 3.4015e-01 / 0 / 5.4851e-15 
+pcg 3.3874e-01 / 0 / 5.4126e-15 
+pcg 3.3758e-01 / 0 / 5.3695e-15 
+pcg 3.3632e-01 / 0 / 5.3544e-15 
+pcg 3.3492e-01 / 0 / 5.2110e-15 
+pcg 3.3331e-01 / 0 / 5.1647e-15 
+pcg 3.3183e-01 / 0 / 5.2272e-15 
+pcg 3.3024e-01 / 0 / 5.1038e-15 
+pcg 3.2846e-01 / 0 / 5.0606e-15 
+pcg 3.2656e-01 / 0 / 5.0642e-15 
+pcg 3.2463e-01 / 0 / 4.9729e-15 
+pcg 3.2237e-01 / 0 / 4.9092e-15 
+pcg 3.2046e-01 / 0 / 4.8728e-15 
+pcg 3.1859e-01 / 0 / 4.7408e-15 
+pcg 3.1673e-01 / 0 / 4.7070e-15 
+pcg 3.1457e-01 / 0 / 4.6854e-15 
+pcg 3.1255e-01 / 0 / 4.4871e-15 
+pcg 3.1064e-01 / 0 / 4.5616e-15 
+Butterfly Factorization explicit version started...
+
+Space  Frequence
+  npx    npk
+  512    512
+
+Compression levels: 2
+Preallocated sparse matrix size: 209715200, about 25.00 GB
+Compress U block: (   1/ 512)(   2/ 512)(   3/ 512)(   4/ 512)(   5/ 512)(   6/ 512)(   7/ 512)(   8/ 512)(   9/ 512)(  10/ 512)(  11/ 512)(  12/ 512)(  13/ 512)(  14/ 512)(  15/ 512)(  16/ 512)(  17/ 512)(  18/ 512)(  19/ 512)(  20/ 512)(  21/ 512)(  22/ 512)(  23/ 512)(  24/ 512)(  25/ 512)(  26/ 512)(  27/ 512)(  28/ 512)(  29/ 512)(  30/ 512)(  31/ 512)(  32/ 512)(  33/ 512)(  34/ 512)(  35/ 512)(  36/ 512)(  37/ 512)(  38/ 512)(  39/ 512)(  40/ 512)(  41/ 512)(  42/ 512)(  43/ 512)(  44/ 512)(  45/ 512)(  46/ 512)(  47/ 512)(  48/ 512)(  49/ 512)(  50/ 512)(  51/ 512)(  52/ 512)(  53/ 512)(  54/ 512)(  55/ 512)(  56/ 512)(  57/ 512)(  58/ 512)(  59/ 512)(  60/ 512)(  61/ 512)(  62/ 512)(  63/ 512)(  64/ 512)(  65/ 512)(  66/ 512)(  67/ 512)(  68/ 512)(  69/ 512)(  70/ 512)(  71/ 512)(  72/ 512)(  73/ 512)(  74/ 512)(  75/ 512)(  76/ 512)(  77/ 512)(  78/ 512)(  79/ 512)(  80/ 512)(  81/ 512)(  82/ 512)(  83/ 512)(  84/ 512)(  85/ 512)(  86/ 512)(  87/ 512)(  88/ 512)(  89/ 512)(  90/ 512)(  91/ 512)(  92/ 512)(  93/ 512)(  94/ 512)(  95/ 512)(  96/ 512)(  97/ 512)(  98/ 512)(  99/ 512)( 100/ 512)( 101/ 512)( 102/ 512)( 103/ 512)( 104/ 512)( 105/ 512)( 106/ 512)( 107/ 512)( 108/ 512)( 109/ 512)( 110/ 512)( 111/ 512)( 112/ 512)( 113/ 512)( 114/ 512)( 115/ 512)( 116/ 512)( 117/ 512)( 118/ 512)( 119/ 512)( 120/ 512)( 121/ 512)( 122/ 512)( 123/ 512)( 124/ 512)( 125/ 512)( 126/ 512)( 127/ 512)( 128/ 512)( 129/ 512)( 130/ 512)( 131/ 512)( 132/ 512)( 133/ 512)( 134/ 512)( 135/ 512)( 136/ 512)( 137/ 512)( 138/ 512)( 139/ 512)( 140/ 512)( 141/ 512)( 142/ 512)( 143/ 512)( 144/ 512)( 145/ 512)( 146/ 512)( 147/ 512)( 148/ 512)( 149/ 512)( 150/ 512)( 151/ 512)( 152/ 512)( 153/ 512)( 154/ 512)( 155/ 512)( 156/ 512)( 157/ 512)( 158/ 512)( 159/ 512)( 160/ 512)( 161/ 512)( 162/ 512)( 163/ 512)( 164/ 512)( 165/ 512)( 166/ 512)( 167/ 512)( 168/ 512)( 169/ 512)( 170/ 512)( 171/ 512)( 172/ 512)( 173/ 512)( 174/ 512)( 175/ 512)( 176/ 512)( 177/ 512)( 178/ 512)( 179/ 512)( 180/ 512)( 181/ 512)( 182/ 512)( 183/ 512)( 184/ 512)( 185/ 512)( 186/ 512)( 187/ 512)( 188/ 512)( 189/ 512)( 190/ 512)( 191/ 512)( 192/ 512)( 193/ 512)( 194/ 512)( 195/ 512)( 196/ 512)( 197/ 512)( 198/ 512)( 199/ 512)( 200/ 512)( 201/ 512)( 202/ 512)( 203/ 512)( 204/ 512)( 205/ 512)( 206/ 512)( 207/ 512)( 208/ 512)( 209/ 512)( 210/ 512)( 211/ 512)( 212/ 512)( 213/ 512)( 214/ 512)( 215/ 512)( 216/ 512)( 217/ 512)( 218/ 512)( 219/ 512)( 220/ 512)( 221/ 512)( 222/ 512)( 223/ 512)( 224/ 512)( 225/ 512)( 226/ 512)( 227/ 512)( 228/ 512)( 229/ 512)( 230/ 512)( 231/ 512)( 232/ 512)( 233/ 512)( 234/ 512)( 235/ 512)( 236/ 512)( 237/ 512)( 238/ 512)( 239/ 512)( 240/ 512)( 241/ 512)( 242/ 512)( 243/ 512)( 244/ 512)( 245/ 512)( 246/ 512)( 247/ 512)( 248/ 512)( 249/ 512)( 250/ 512)( 251/ 512)( 252/ 512)( 253/ 512)( 254/ 512)( 255/ 512)( 256/ 512)( 257/ 512)( 258/ 512)( 259/ 512)( 260/ 512)( 261/ 512)( 262/ 512)( 263/ 512)( 264/ 512)( 265/ 512)( 266/ 512)( 267/ 512)( 268/ 512)( 269/ 512)( 270/ 512)( 271/ 512)( 272/ 512)( 273/ 512)( 274/ 512)( 275/ 512)( 276/ 512)( 277/ 512)( 278/ 512)( 279/ 512)( 280/ 512)( 281/ 512)( 282/ 512)( 283/ 512)( 284/ 512)( 285/ 512)( 286/ 512)( 287/ 512)( 288/ 512)( 289/ 512)( 290/ 512)( 291/ 512)( 292/ 512)( 293/ 512)( 294/ 512)( 295/ 512)( 296/ 512)( 297/ 512)( 298/ 512)( 299/ 512)( 300/ 512)( 301/ 512)( 302/ 512)( 303/ 512)( 304/ 512)( 305/ 512)( 306/ 512)( 307/ 512)( 308/ 512)( 309/ 512)( 310/ 512)( 311/ 512)( 312/ 512)( 313/ 512)( 314/ 512)( 315/ 512)( 316/ 512)( 317/ 512)( 318/ 512)( 319/ 512)( 320/ 512)( 321/ 512)( 322/ 512)( 323/ 512)( 324/ 512)( 325/ 512)( 326/ 512)( 327/ 512)( 328/ 512)( 329/ 512)( 330/ 512)( 331/ 512)( 332/ 512)( 333/ 512)( 334/ 512)( 335/ 512)( 336/ 512)( 337/ 512)( 338/ 512)( 339/ 512)( 340/ 512)( 341/ 512)( 342/ 512)( 343/ 512)( 344/ 512)( 345/ 512)( 346/ 512)( 347/ 512)( 348/ 512)( 349/ 512)( 350/ 512)( 351/ 512)( 352/ 512)( 353/ 512)( 354/ 512)( 355/ 512)( 356/ 512)( 357/ 512)( 358/ 512)( 359/ 512)( 360/ 512)( 361/ 512)( 362/ 512)( 363/ 512)( 364/ 512)( 365/ 512)( 366/ 512)( 367/ 512)( 368/ 512)( 369/ 512)( 370/ 512)( 371/ 512)( 372/ 512)( 373/ 512)( 374/ 512)( 375/ 512)( 376/ 512)( 377/ 512)( 378/ 512)( 379/ 512)( 380/ 512)( 381/ 512)( 382/ 512)( 383/ 512)( 384/ 512)( 385/ 512)( 386/ 512)( 387/ 512)( 388/ 512)( 389/ 512)( 390/ 512)( 391/ 512)( 392/ 512)( 393/ 512)( 394/ 512)( 395/ 512)( 396/ 512)( 397/ 512)( 398/ 512)( 399/ 512)( 400/ 512)( 401/ 512)( 402/ 512)( 403/ 512)( 404/ 512)( 405/ 512)( 406/ 512)( 407/ 512)( 408/ 512)( 409/ 512)( 410/ 512)( 411/ 512)( 412/ 512)( 413/ 512)( 414/ 512)( 415/ 512)( 416/ 512)( 417/ 512)( 418/ 512)( 419/ 512)( 420/ 512)( 421/ 512)( 422/ 512)( 423/ 512)( 424/ 512)( 425/ 512)( 426/ 512)( 427/ 512)( 428/ 512)( 429/ 512)( 430/ 512)( 431/ 512)( 432/ 512)( 433/ 512)( 434/ 512)( 435/ 512)( 436/ 512)( 437/ 512)( 438/ 512)( 439/ 512)( 440/ 512)( 441/ 512)( 442/ 512)( 443/ 512)( 444/ 512)( 445/ 512)( 446/ 512)( 447/ 512)( 448/ 512)( 449/ 512)( 450/ 512)( 451/ 512)( 452/ 512)( 453/ 512)( 454/ 512)( 455/ 512)( 456/ 512)( 457/ 512)( 458/ 512)( 459/ 512)( 460/ 512)( 461/ 512)( 462/ 512)( 463/ 512)( 464/ 512)( 465/ 512)( 466/ 512)( 467/ 512)( 468/ 512)( 469/ 512)( 470/ 512)( 471/ 512)( 472/ 512)( 473/ 512)( 474/ 512)( 475/ 512)( 476/ 512)( 477/ 512)( 478/ 512)( 479/ 512)( 480/ 512)( 481/ 512)( 482/ 512)( 483/ 512)( 484/ 512)( 485/ 512)( 486/ 512)( 487/ 512)( 488/ 512)( 489/ 512)( 490/ 512)( 491/ 512)( 492/ 512)( 493/ 512)( 494/ 512)( 495/ 512)( 496/ 512)( 497/ 512)( 498/ 512)( 499/ 512)( 500/ 512)( 501/ 512)( 502/ 512)( 503/ 512)( 504/ 512)( 505/ 512)( 506/ 512)( 507/ 512)( 508/ 512)( 509/ 512)( 510/ 512)( 511/ 512)( 512/ 512)
+Compressed U Memory: 3.57 GB
+Compressed A Memory: 8.82 GB
+Compress V block: (   1/ 512)(   2/ 512)(   3/ 512)(   4/ 512)(   5/ 512)(   6/ 512)(   7/ 512)(   8/ 512)(   9/ 512)(  10/ 512)(  11/ 512)(  12/ 512)(  13/ 512)(  14/ 512)(  15/ 512)(  16/ 512)(  17/ 512)(  18/ 512)(  19/ 512)(  20/ 512)(  21/ 512)(  22/ 512)(  23/ 512)(  24/ 512)(  25/ 512)(  26/ 512)(  27/ 512)(  28/ 512)(  29/ 512)(  30/ 512)(  31/ 512)(  32/ 512)(  33/ 512)(  34/ 512)(  35/ 512)(  36/ 512)(  37/ 512)(  38/ 512)(  39/ 512)(  40/ 512)(  41/ 512)(  42/ 512)(  43/ 512)(  44/ 512)(  45/ 512)(  46/ 512)(  47/ 512)(  48/ 512)(  49/ 512)(  50/ 512)(  51/ 512)(  52/ 512)(  53/ 512)(  54/ 512)(  55/ 512)(  56/ 512)(  57/ 512)(  58/ 512)(  59/ 512)(  60/ 512)(  61/ 512)(  62/ 512)(  63/ 512)(  64/ 512)(  65/ 512)(  66/ 512)(  67/ 512)(  68/ 512)(  69/ 512)(  70/ 512)(  71/ 512)(  72/ 512)(  73/ 512)(  74/ 512)(  75/ 512)(  76/ 512)(  77/ 512)(  78/ 512)(  79/ 512)(  80/ 512)(  81/ 512)(  82/ 512)(  83/ 512)(  84/ 512)(  85/ 512)(  86/ 512)(  87/ 512)(  88/ 512)(  89/ 512)(  90/ 512)(  91/ 512)(  92/ 512)(  93/ 512)(  94/ 512)(  95/ 512)(  96/ 512)(  97/ 512)(  98/ 512)(  99/ 512)( 100/ 512)( 101/ 512)( 102/ 512)( 103/ 512)( 104/ 512)( 105/ 512)( 106/ 512)( 107/ 512)( 108/ 512)( 109/ 512)( 110/ 512)( 111/ 512)( 112/ 512)( 113/ 512)( 114/ 512)( 115/ 512)( 116/ 512)( 117/ 512)( 118/ 512)( 119/ 512)( 120/ 512)( 121/ 512)( 122/ 512)( 123/ 512)( 124/ 512)( 125/ 512)( 126/ 512)( 127/ 512)( 128/ 512)( 129/ 512)( 130/ 512)( 131/ 512)( 132/ 512)( 133/ 512)( 134/ 512)( 135/ 512)( 136/ 512)( 137/ 512)( 138/ 512)( 139/ 512)( 140/ 512)( 141/ 512)( 142/ 512)( 143/ 512)( 144/ 512)( 145/ 512)( 146/ 512)( 147/ 512)( 148/ 512)( 149/ 512)( 150/ 512)( 151/ 512)( 152/ 512)( 153/ 512)( 154/ 512)( 155/ 512)( 156/ 512)( 157/ 512)( 158/ 512)( 159/ 512)( 160/ 512)( 161/ 512)( 162/ 512)( 163/ 512)( 164/ 512)( 165/ 512)( 166/ 512)( 167/ 512)( 168/ 512)( 169/ 512)( 170/ 512)( 171/ 512)( 172/ 512)( 173/ 512)( 174/ 512)( 175/ 512)( 176/ 512)( 177/ 512)( 178/ 512)( 179/ 512)( 180/ 512)( 181/ 512)( 182/ 512)( 183/ 512)( 184/ 512)( 185/ 512)( 186/ 512)( 187/ 512)( 188/ 512)( 189/ 512)( 190/ 512)( 191/ 512)( 192/ 512)( 193/ 512)( 194/ 512)( 195/ 512)( 196/ 512)( 197/ 512)( 198/ 512)( 199/ 512)( 200/ 512)( 201/ 512)( 202/ 512)( 203/ 512)( 204/ 512)( 205/ 512)( 206/ 512)( 207/ 512)( 208/ 512)( 209/ 512)( 210/ 512)( 211/ 512)( 212/ 512)( 213/ 512)( 214/ 512)( 215/ 512)( 216/ 512)( 217/ 512)( 218/ 512)( 219/ 512)( 220/ 512)( 221/ 512)( 222/ 512)( 223/ 512)( 224/ 512)( 225/ 512)( 226/ 512)( 227/ 512)( 228/ 512)( 229/ 512)( 230/ 512)( 231/ 512)( 232/ 512)( 233/ 512)( 234/ 512)( 235/ 512)( 236/ 512)( 237/ 512)( 238/ 512)( 239/ 512)( 240/ 512)( 241/ 512)( 242/ 512)( 243/ 512)( 244/ 512)( 245/ 512)( 246/ 512)( 247/ 512)( 248/ 512)( 249/ 512)( 250/ 512)( 251/ 512)( 252/ 512)( 253/ 512)( 254/ 512)( 255/ 512)( 256/ 512)( 257/ 512)( 258/ 512)( 259/ 512)( 260/ 512)( 261/ 512)( 262/ 512)( 263/ 512)( 264/ 512)( 265/ 512)( 266/ 512)( 267/ 512)( 268/ 512)( 269/ 512)( 270/ 512)( 271/ 512)( 272/ 512)( 273/ 512)( 274/ 512)( 275/ 512)( 276/ 512)( 277/ 512)( 278/ 512)( 279/ 512)( 280/ 512)( 281/ 512)( 282/ 512)( 283/ 512)( 284/ 512)( 285/ 512)( 286/ 512)( 287/ 512)( 288/ 512)( 289/ 512)( 290/ 512)( 291/ 512)( 292/ 512)( 293/ 512)( 294/ 512)( 295/ 512)( 296/ 512)( 297/ 512)( 298/ 512)( 299/ 512)( 300/ 512)( 301/ 512)( 302/ 512)( 303/ 512)( 304/ 512)( 305/ 512)( 306/ 512)( 307/ 512)( 308/ 512)( 309/ 512)( 310/ 512)( 311/ 512)( 312/ 512)( 313/ 512)( 314/ 512)( 315/ 512)( 316/ 512)( 317/ 512)( 318/ 512)( 319/ 512)( 320/ 512)( 321/ 512)( 322/ 512)( 323/ 512)( 324/ 512)( 325/ 512)( 326/ 512)( 327/ 512)( 328/ 512)( 329/ 512)( 330/ 512)( 331/ 512)( 332/ 512)( 333/ 512)( 334/ 512)( 335/ 512)( 336/ 512)( 337/ 512)( 338/ 512)( 339/ 512)( 340/ 512)( 341/ 512)( 342/ 512)( 343/ 512)( 344/ 512)( 345/ 512)( 346/ 512)( 347/ 512)( 348/ 512)( 349/ 512)( 350/ 512)( 351/ 512)( 352/ 512)( 353/ 512)( 354/ 512)( 355/ 512)( 356/ 512)( 357/ 512)( 358/ 512)( 359/ 512)( 360/ 512)( 361/ 512)( 362/ 512)( 363/ 512)( 364/ 512)( 365/ 512)( 366/ 512)( 367/ 512)( 368/ 512)( 369/ 512)( 370/ 512)( 371/ 512)( 372/ 512)( 373/ 512)( 374/ 512)( 375/ 512)( 376/ 512)( 377/ 512)( 378/ 512)( 379/ 512)( 380/ 512)( 381/ 512)( 382/ 512)( 383/ 512)( 384/ 512)( 385/ 512)( 386/ 512)( 387/ 512)( 388/ 512)( 389/ 512)( 390/ 512)( 391/ 512)( 392/ 512)( 393/ 512)( 394/ 512)( 395/ 512)( 396/ 512)( 397/ 512)( 398/ 512)( 399/ 512)( 400/ 512)( 401/ 512)( 402/ 512)( 403/ 512)( 404/ 512)( 405/ 512)( 406/ 512)( 407/ 512)( 408/ 512)( 409/ 512)( 410/ 512)( 411/ 512)( 412/ 512)( 413/ 512)( 414/ 512)( 415/ 512)( 416/ 512)( 417/ 512)( 418/ 512)( 419/ 512)( 420/ 512)( 421/ 512)( 422/ 512)( 423/ 512)( 424/ 512)( 425/ 512)( 426/ 512)( 427/ 512)( 428/ 512)( 429/ 512)( 430/ 512)( 431/ 512)( 432/ 512)( 433/ 512)( 434/ 512)( 435/ 512)( 436/ 512)( 437/ 512)( 438/ 512)( 439/ 512)( 440/ 512)( 441/ 512)( 442/ 512)( 443/ 512)( 444/ 512)( 445/ 512)( 446/ 512)( 447/ 512)( 448/ 512)( 449/ 512)( 450/ 512)( 451/ 512)( 452/ 512)( 453/ 512)( 454/ 512)( 455/ 512)( 456/ 512)( 457/ 512)( 458/ 512)( 459/ 512)( 460/ 512)( 461/ 512)( 462/ 512)( 463/ 512)( 464/ 512)( 465/ 512)( 466/ 512)( 467/ 512)( 468/ 512)( 469/ 512)( 470/ 512)( 471/ 512)( 472/ 512)( 473/ 512)( 474/ 512)( 475/ 512)( 476/ 512)( 477/ 512)( 478/ 512)( 479/ 512)( 480/ 512)( 481/ 512)( 482/ 512)( 483/ 512)( 484/ 512)( 485/ 512)( 486/ 512)( 487/ 512)( 488/ 512)( 489/ 512)( 490/ 512)( 491/ 512)( 492/ 512)( 493/ 512)( 494/ 512)( 495/ 512)( 496/ 512)( 497/ 512)( 498/ 512)( 499/ 512)( 500/ 512)( 501/ 512)( 502/ 512)( 503/ 512)( 504/ 512)( 505/ 512)( 506/ 512)( 507/ 512)( 508/ 512)( 509/ 512)( 510/ 512)( 511/ 512)( 512/ 512)
+Compressed V Memory: 3.58 GB
+Compressed B Memory: 8.83 GB
+Compressed M Memory: 0.11 GB

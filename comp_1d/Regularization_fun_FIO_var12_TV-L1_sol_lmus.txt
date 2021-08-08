@@ -1,0 +1,336 @@
+
+
+------------------------------------------
+N:        512 
+BF Fac err/time: 1.4716e-15/1.8059e+00 (s) 
+HODLR Fac err/time: 4.5817e-13/1.0744e+01 (s) 
+RSS Fac time: 1.2867e-01 
+RSS mv err/time: 7.9263e-06/2.5961e-02 
+RSS sv err/time: 2.9020e-01/2.0548e-02 
+HQR Fac time/rank: 1.1269e+00/177 
+HQR mv err/time: 6.0781e-12/1.8682e-02 
+HQR sv err/time: 2.7219e-02/2.1913e-02 
+regularizer: TV-L1  init-scheme: sol 
+mu: 2^{  -6}  lambda: 2^{ -12} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.2755e+00 /   50 /    1, relerr 2.0732e+73 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.8813e+00 /   50 /    2, relerr 2.0685e+73 
+mu: 2^{  -6}  lambda: 2^{ -11} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.0131e+00 /   50 /    1, relerr 2.4447e+79 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.3809e+00 /   50 /    2, relerr 2.4446e+79 
+mu: 2^{  -6}  lambda: 2^{ -10} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.1275e+00 /   50 /    1, relerr 2.7111e+95 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.5254e+00 /   50 /    2, relerr 2.7111e+95 
+mu: 2^{  -6}  lambda: 2^{  -9} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.4700e+00 /   50 /    1, relerr 3.2236e+69 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.0703e+00 /   50 /    1, relerr 3.2244e+69 
+mu: 2^{  -6}  lambda: 2^{  -8} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.0520e+00 /   50 /    1, relerr 9.3460e+90 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.3923e+00 /   50 /    1, relerr 9.3460e+90 
+mu: 2^{  -6}  lambda: 2^{  -7} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 9.7757e-01 /   50 /    1, relerr 1.0505e+45 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.0893e+00 /   50 /    1, relerr 1.0995e+45 
+mu: 2^{  -6}  lambda: 2^{  -6} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.6273e+00 /   50 /    1, relerr 3.4067e+75 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.3978e+00 /   50 /    1, relerr 6.3119e+75 
+mu: 2^{  -6}  lambda: 2^{  -5} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.4132e+00 /   50 /    1, relerr 9.8909e+97 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.0116e+00 /   50 /    1, relerr 9.6979e+97 
+mu: 2^{  -6}  lambda: 2^{  -4} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.9344e+00 /   50 /    1, relerr 2.1793e+59 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.9843e+00 /   50 /    1, relerr 2.0218e+59 
+mu: 2^{  -6}  lambda: 2^{  -3} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.5681e+00 /   50 /    1, relerr 1.0113e+58 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.4834e+00 /   50 /    1, relerr 1.1450e+58 
+mu: 2^{  -6}  lambda: 2^{  -2} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.3911e+00 /   50 /    1, relerr 3.0025e+88 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.4811e+00 /   50 /    1, relerr 2.7794e+88 
+mu: 2^{  -6}  lambda: 2^{  -1} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.2618e+00 /   50 /    1, relerr 1.8849e+01 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.8961e+00 /   50 /    1, relerr 1.7782e+01 
+mu: 2^{  -6}  lambda: 2^{   0} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.2625e+00 /   50 /    1, relerr 1.4373e+01 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.2881e+00 /   50 /    1, relerr 2.9704e+01 
+mu: 2^{  -3}  lambda: 2^{  -9} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.0881e+00 /   50 /    1, relerr 1.3068e+73 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.8207e+00 /   50 /    2, relerr 1.3005e+73 
+mu: 2^{  -3}  lambda: 2^{  -8} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.3359e+00 /   50 /    1, relerr 4.2341e+78 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.6702e+00 /   50 /    1, relerr 4.2327e+78 
+mu: 2^{  -3}  lambda: 2^{  -7} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.5632e+00 /   50 /    1, relerr 6.8395e+95 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.8338e+00 /   50 /    2, relerr 6.8395e+95 
+mu: 2^{  -3}  lambda: 2^{  -6} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.0754e+00 /   50 /    1, relerr 1.3882e+69 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 9.5493e-01 /   50 /    1, relerr 1.3882e+69 
+mu: 2^{  -3}  lambda: 2^{  -5} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.8365e+00 /   50 /    1, relerr 1.3755e+91 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.0934e+00 /   50 /    1, relerr 1.3755e+91 
+mu: 2^{  -3}  lambda: 2^{  -4} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.0756e+00 /   50 /    1, relerr 1.9592e+44 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.2053e+00 /   50 /    1, relerr 2.3917e+44 
+mu: 2^{  -3}  lambda: 2^{  -3} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.7861e+00 /   50 /    1, relerr 8.7566e+76 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.2589e+00 /   50 /    1, relerr 7.8849e+76 
+mu: 2^{  -3}  lambda: 2^{  -2} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.7261e+00 /   50 /    1, relerr 7.2780e+97 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.5563e+00 /   50 /    1, relerr 6.5746e+97 
+mu: 2^{  -3}  lambda: 2^{  -1} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.4657e+00 /   50 /    1, relerr 1.7050e+59 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.1745e+00 /   50 /    1, relerr 1.5296e+59 
+mu: 2^{  -3}  lambda: 2^{   0} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.6657e+00 /   50 /    1, relerr 2.2902e+58 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.5935e+00 /   50 /    1, relerr 2.8931e+58 
+mu: 2^{  -3}  lambda: 2^{   1} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.5991e+00 /   50 /    1, relerr 2.3612e+88 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.4721e+00 /   50 /    1, relerr 6.7796e+88 
+mu: 2^{  -3}  lambda: 2^{   2} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.4619e+00 /   50 /    1, relerr 1.7294e+00 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.0487e+00 /   50 /    1, relerr 1.4962e+00 
+mu: 2^{  -3}  lambda: 2^{   3} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.4395e+00 /   50 /    1, relerr 8.1475e+00 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.2967e+00 /   50 /    1, relerr 4.6170e+00 
+mu: 2^{   0}  lambda: 2^{  -6} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.2449e+00 /   50 /    1, relerr 5.2754e+72 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.7587e+00 /   50 /    1, relerr 5.3668e+72 
+mu: 2^{   0}  lambda: 2^{  -5} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.4184e+00 /   50 /    1, relerr 2.5291e+79 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.5685e+00 /   50 /    1, relerr 2.5290e+79 
+mu: 2^{   0}  lambda: 2^{  -4} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.4161e+00 /   50 /    1, relerr 5.5611e+94 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.9223e+00 /   50 /    1, relerr 5.5613e+94 
+mu: 2^{   0}  lambda: 2^{  -3} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.4185e+00 /   50 /    1, relerr 5.1095e+69 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.0172e+00 /   50 /    1, relerr 5.1097e+69 
+mu: 2^{   0}  lambda: 2^{  -2} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 3.0117e+00 /   50 /    1, relerr 8.5506e+90 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.7654e+00 /   50 /    1, relerr 8.5506e+90 
+mu: 2^{   0}  lambda: 2^{  -1} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.7519e+00 /   50 /    1, relerr 1.2467e+45 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.0803e+00 /   50 /    1, relerr 1.6445e+45 
+mu: 2^{   0}  lambda: 2^{   0} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.7989e+00 /   50 /    1, relerr 2.6993e+75 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.4933e+00 /   50 /    1, relerr 5.9873e+75 
+mu: 2^{   0}  lambda: 2^{   1} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.7410e+00 /   50 /    1, relerr 2.6779e+97 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.5259e+00 /   50 /    1, relerr 1.0428e+98 
+mu: 2^{   0}  lambda: 2^{   2} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.5814e+00 /   50 /    1, relerr 1.2182e+59 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.5022e+00 /   50 /    1, relerr 4.1764e+58 
+mu: 2^{   0}  lambda: 2^{   3} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.3956e+00 /   50 /    1, relerr 2.8359e+58 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.4990e+00 /   50 /    1, relerr 2.1168e+58 
+mu: 2^{   0}  lambda: 2^{   4} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.3918e+00 /   50 /    1, relerr 5.9252e+88 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.5045e+00 /   50 /    1, relerr 2.4150e+88 
+mu: 2^{   0}  lambda: 2^{   5} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.5682e+00 /   50 /    1, relerr 9.1637e+13 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 3.0701e+00 /   50 /    1, relerr 3.9727e+12 
+mu: 2^{   0}  lambda: 2^{   6} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.0026e+00 /   50 /    1, relerr 6.0416e+04 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.9006e+00 /   50 /    1, relerr 1.1200e+03 
+mu: 2^{   3}  lambda: 2^{  -3} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.1324e+00 /   50 /    1, relerr 1.7820e+73 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.1247e+00 /   50 /    1, relerr 1.7760e+73 
+mu: 2^{   3}  lambda: 2^{  -2} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.2592e+00 /   50 /    1, relerr 1.1313e+79 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.8514e+00 /   50 /    1, relerr 1.1311e+79 
+mu: 2^{   3}  lambda: 2^{  -1} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 5.3373e+00 /   50 /    1, relerr 6.4815e+95 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 7.0748e+00 /   50 /    1, relerr 6.4815e+95 
+mu: 2^{   3}  lambda: 2^{   0} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.9030e+00 /   50 /    1, relerr 3.9046e+69 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 8.1637e-01 /   50 /    1, relerr 3.9015e+69 
+mu: 2^{   3}  lambda: 2^{   1} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.0627e+00 /   50 /    1, relerr 1.1629e+91 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.3291e+00 /   50 /    1, relerr 1.3815e+91 
+mu: 2^{   3}  lambda: 2^{   2} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 7.8800e-01 /   50 /    1, relerr 8.8573e+44 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 9.1081e-01 /   50 /    1, relerr 8.7817e+44 
+mu: 2^{   3}  lambda: 2^{   3} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.0534e+00 /   50 /    1, relerr 5.6288e+76 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.6034e+00 /   50 /    1, relerr 3.3612e+75 
+mu: 2^{   3}  lambda: 2^{   4} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.7092e+00 /   50 /    1, relerr 9.5035e+97 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.5744e+00 /   50 /    1, relerr 5.1888e+97 
+mu: 2^{   3}  lambda: 2^{   5} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.4910e+00 /   50 /    1, relerr 3.4955e+59 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.4426e+00 /   50 /    1, relerr 9.1953e+57 
+mu: 2^{   3}  lambda: 2^{   6} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 4.4766e+00 /   50 /    1, relerr 5.1559e+58 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 8.7052e+00 /   50 /    1, relerr 2.1430e+58 
+mu: 2^{   3}  lambda: 2^{   7} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 4.3215e+00 /   50 /    1, relerr 7.3222e+88 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 5.1068e+00 /   50 /    1, relerr 6.4623e+88 
+mu: 2^{   3}  lambda: 2^{   8} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.6850e+00 /   50 /    1, relerr 1.1293e+14 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 3.2999e+00 /   50 /    1, relerr 6.8487e+13 
+mu: 2^{   3}  lambda: 2^{   9} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.5264e+00 /   50 /    1, relerr 1.0298e+05 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 3.3031e+00 /   50 /    1, relerr 6.6045e+04 
+mu: 2^{   6}  lambda: 2^{   0} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.4409e+00 /   50 /    1, relerr 5.4412e+72 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.7553e+00 /   50 /    1, relerr 5.3827e+72 
+mu: 2^{   6}  lambda: 2^{   1} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.1000e+00 /   50 /    1, relerr 1.9264e+79 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.3942e+00 /   50 /    1, relerr 2.4205e+79 
+mu: 2^{   6}  lambda: 2^{   2} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.0917e+00 /   50 /    1, relerr 2.6598e+93 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.4466e+00 /   50 /    1, relerr 1.1778e+95 
+mu: 2^{   6}  lambda: 2^{   3} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.0232e+00 /   50 /    1, relerr 1.2324e+70 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 9.4598e-01 /   50 /    1, relerr 1.8375e+70 
+mu: 2^{   6}  lambda: 2^{   4} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.0957e+00 /   50 /    1, relerr 9.7138e+90 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.2384e+00 /   50 /    1, relerr 8.1596e+90 
+mu: 2^{   6}  lambda: 2^{   5} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 8.5727e-01 /   50 /    1, relerr 2.2170e+48 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.0159e+00 /   50 /    1, relerr 1.1874e+45 
+mu: 2^{   6}  lambda: 2^{   6} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.8936e+00 /   50 /    1, relerr 4.0931e+79 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.2885e+00 /   50 /    1, relerr 4.5405e+75 
+mu: 2^{   6}  lambda: 2^{   7} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.9217e+00 /   50 /    1, relerr 1.1770e+98 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.6361e+00 /   50 /    1, relerr 1.0404e+98 
+mu: 2^{   6}  lambda: 2^{   8} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.7416e+00 /   50 /    1, relerr 4.0369e+59 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 3.5848e+00 /   50 /    1, relerr 3.2372e+59 
+mu: 2^{   6}  lambda: 2^{   9} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.9734e+00 /   50 /    1, relerr 5.6347e+58 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.7918e+00 /   50 /    1, relerr 4.9941e+58 
+mu: 2^{   6}  lambda: 2^{  10} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.7448e+00 /   50 /    1, relerr 7.6386e+88 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 3.5686e+00 /   50 /    1, relerr 7.2969e+88 
+mu: 2^{   6}  lambda: 2^{  11} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.2411e+00 /   50 /    1, relerr 1.1390e+14 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.3703e+00 /   50 /    1, relerr 1.0537e+14 
+mu: 2^{   6}  lambda: 2^{  12} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.4606e+00 /   50 /    1, relerr 1.0650e+05 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 3.4500e+00 /   50 /    1, relerr 9.8680e+04 
+mu: 2^{   9}  lambda: 2^{   3} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.0861e+00 /   50 /    1, relerr 6.8124e+72 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.4382e+00 /   50 /    1, relerr 8.0524e+72 
+mu: 2^{   9}  lambda: 2^{   4} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.1110e+00 /   50 /    1, relerr 1.7305e+79 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.4104e+00 /   50 /    1, relerr 1.5513e+79 
+mu: 2^{   9}  lambda: 2^{   5} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.0837e+00 /   50 /    1, relerr 6.1649e+95 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.4617e+00 /   50 /    1, relerr 5.8748e+95 
+mu: 2^{   9}  lambda: 2^{   6} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.0234e+00 /   50 /    1, relerr 2.6028e+69 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 9.7848e-01 /   50 /    1, relerr 1.8077e+69 
+mu: 2^{   9}  lambda: 2^{   7} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.0069e+00 /   50 /    1, relerr 1.4483e+91 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.2380e+00 /   50 /    1, relerr 1.4276e+91 
+mu: 2^{   9}  lambda: 2^{   8} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.1191e+00 /   50 /    1, relerr 5.9814e+47 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.1149e+00 /   50 /    1, relerr 2.7678e+46 
+mu: 2^{   9}  lambda: 2^{   9} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.7881e+00 /   50 /    1, relerr 3.2965e+78 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.2185e+00 /   50 /    1, relerr 3.6812e+78 
+mu: 2^{   9}  lambda: 2^{  10} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.4918e+00 /   50 /    1, relerr 1.2191e+98 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.4666e+00 /   50 /    1, relerr 1.1337e+98 
+mu: 2^{   9}  lambda: 2^{  11} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.4246e+00 /   50 /    1, relerr 4.1195e+59 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.5173e+00 /   50 /    1, relerr 3.8261e+59 
+mu: 2^{   9}  lambda: 2^{  12} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.3692e+00 /   50 /    1, relerr 5.7002e+58 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.5846e+00 /   50 /    1, relerr 5.4026e+58 
+mu: 2^{   9}  lambda: 2^{  13} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.5193e+00 /   50 /    1, relerr 7.6781e+88 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.7388e+00 /   50 /    1, relerr 7.4014e+88 
+mu: 2^{   9}  lambda: 2^{  14} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.4334e+00 /   50 /    1, relerr 1.1367e+14 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.7684e+00 /   50 /    1, relerr 1.0913e+14 
+mu: 2^{   9}  lambda: 2^{  15} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.1188e+00 /   50 /    1, relerr 1.0603e+05 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.7250e+00 /   50 /    1, relerr 1.0184e+05 
+mu: 2^{  12}  lambda: 2^{   6} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.0937e+00 /   50 /    1, relerr 1.4922e+73 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.4297e+00 /   50 /    1, relerr 1.4494e+73 
+mu: 2^{  12}  lambda: 2^{   7} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.0395e+00 /   50 /    1, relerr 2.4821e+79 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.4238e+00 /   50 /    1, relerr 2.4592e+79 
+mu: 2^{  12}  lambda: 2^{   8} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.0803e+00 /   50 /    1, relerr 7.0110e+95 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.4537e+00 /   50 /    1, relerr 6.9746e+95 
+mu: 2^{  12}  lambda: 2^{   9} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.0110e+00 /   50 /    1, relerr 4.9613e+69 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 9.8320e-01 /   50 /    1, relerr 4.8543e+69 
+mu: 2^{  12}  lambda: 2^{  10} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.8327e+00 /   50 /    1, relerr 1.5081e+91 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.4067e+00 /   50 /    1, relerr 1.5055e+91 
+mu: 2^{  12}  lambda: 2^{  11} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 9.1289e-01 /   50 /    1, relerr 7.9805e+46 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.1918e+00 /   50 /    1, relerr 2.4900e+46 
+mu: 2^{  12}  lambda: 2^{  12} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.6795e+00 /   50 /    1, relerr 4.2452e+77 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.3832e+00 /   50 /    1, relerr 4.8951e+77 
+mu: 2^{  12}  lambda: 2^{  13} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.6081e+00 /   50 /    1, relerr 1.2244e+98 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.5666e+00 /   50 /    1, relerr 1.1453e+98 
+mu: 2^{  12}  lambda: 2^{  14} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.2661e+00 /   50 /    1, relerr 4.1295e+59 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.2378e+00 /   50 /    1, relerr 3.9006e+59 
+mu: 2^{  12}  lambda: 2^{  15} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.5675e+00 /   50 /    1, relerr 5.7083e+58 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.7071e+00 /   50 /    1, relerr 5.4534e+58 
+mu: 2^{  12}  lambda: 2^{  16} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.4190e+00 /   50 /    1, relerr 7.6830e+88 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.7459e+00 /   50 /    1, relerr 7.4144e+88 
+mu: 2^{  12}  lambda: 2^{  17} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.3238e+00 /   50 /    1, relerr 1.1362e+14 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.1352e+00 /   50 /    1, relerr 1.0959e+14 
+mu: 2^{  12}  lambda: 2^{  18} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.1175e+00 /   50 /    1, relerr 1.0594e+05 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.6666e+00 /   50 /    1, relerr 1.0219e+05 
+
+
+------------------------------------------
+N:       1024 
+BF Fac err/time: 1.5265e-15/4.7719e+00 (s) 
+HODLR Fac err/time: 3.7695e-13/5.1923e+01 (s) 
+RSS Fac time: 1.7061e-01 
+RSS mv err/time: 1.0862e-03/3.5320e-03 
+RSS sv err/time: 7.4292e+02/1.0032e-02 
+HQR Fac time/rank: 3.7903e+00/256 
+HQR mv err/time: 6.8741e-12/8.1840e-03 
+HQR sv err/time: 1.7232e-01/1.0451e-02 
+regularizer: TV-L1  init-scheme: sol 
+mu: 2^{  -6}  lambda: 2^{ -12} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.1313e+01 /   50 /    2, relerr 5.1082e+119 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 7.3556e+00 /   50 /    2, relerr 2.1575e+118 
+mu: 2^{  -6}  lambda: 2^{ -11} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.1294e+01 /   50 /    2, relerr 8.7377e+116 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 7.4279e+00 /   50 /    2, relerr 1.9453e+116 
+mu: 2^{  -6}  lambda: 2^{ -10} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 9.5522e+00 /   50 /    2, relerr 2.2592e+111 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 7.0371e+00 /   50 /    1, relerr 3.0272e+109 
+mu: 2^{  -6}  lambda: 2^{  -9} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 7.9508e+00 /   50 /    1, relerr 7.8683e+103 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 5.9829e+00 /   50 /    2, relerr 1.5334e+99 
+mu: 2^{  -6}  lambda: 2^{  -8} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 8.4491e+00 /   50 /    1, relerr 1.7481e+106 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.1418e+01 /   50 /    2, relerr 2.9435e+105 
+mu: 2^{  -6}  lambda: 2^{  -7} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.1939e+01 /   50 /    1, relerr 6.6046e+70 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 6.8952e+00 /   50 /    2, relerr 6.6922e+62 
+mu: 2^{  -6}  lambda: 2^{  -6} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 4.5298e+00 /   50 /    1, relerr 2.4129e+71 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 3.8325e+00 /   50 /    2, relerr 3.4137e+58 
+mu: 2^{  -6}  lambda: 2^{  -5} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 8.3348e+00 /   50 /    1, relerr 1.2716e+87 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.6034e+01 /   50 /    1, relerr 5.2336e+84 
+mu: 2^{  -6}  lambda: 2^{  -4} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 3.3145e+00 /   50 /    1, relerr 2.3046e+96 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 5.1045e+00 /   50 /    1, relerr 1.0297e+94 
+mu: 2^{  -6}  lambda: 2^{  -3} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 2.9655e+00 /   50 /    1, relerr 2.3417e+92 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 5.2275e+00 /   50 /    1, relerr 1.1825e+90 
+mu: 2^{  -6}  lambda: 2^{  -2} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 3.5318e+00 /   50 /    1, relerr 2.9796e+39 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 6.4151e+00 /   50 /    1, relerr 6.5039e+36 
+mu: 2^{  -6}  lambda: 2^{  -1} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 3.2340e+00 /   50 /    1, relerr 1.7774e+37 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 5.8576e+00 /   50 /    1, relerr 3.4126e+15 
+mu: 2^{  -6}  lambda: 2^{   0} 

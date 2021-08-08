@@ -1,0 +1,4418 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+             R2021a Update 3 (9.10.0.1684407) 64-bit (glnxa64)
+                                May 27, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+initf =
+
+    'sol'
+
+
+regm =
+
+    'TV-L1'
+
+
+whichlambda =
+
+    'lmus'
+
+
+dims =
+
+         512        1024        2048
+
+Butterfly Factorization explicit version started...
+
+Space  Frequence
+  npx    npk
+   32     32
+
+Compression levels: 0
+Preallocated sparse matrix size: 819200, about 0.05 GB
+Compress U block: (   1/  32)(   2/  32)(   3/  32)(   4/  32)(   5/  32)(   6/  32)(   7/  32)(   8/  32)(   9/  32)(  10/  32)(  11/  32)(  12/  32)(  13/  32)(  14/  32)(  15/  32)(  16/  32)(  17/  32)(  18/  32)(  19/  32)(  20/  32)(  21/  32)(  22/  32)(  23/  32)(  24/  32)(  25/  32)(  26/  32)(  27/  32)(  28/  32)(  29/  32)(  30/  32)(  31/  32)(  32/  32)
+Compressed U Memory: 0.01 GB
+Compressed A Memory: 0.00 GB
+Compress V block: (   1/  32)(   2/  32)(   3/  32)(   4/  32)(   5/  32)(   6/  32)(   7/  32)(   8/  32)(   9/  32)(  10/  32)(  11/  32)(  12/  32)(  13/  32)(  14/  32)(  15/  32)(  16/  32)(  17/  32)(  18/  32)(  19/  32)(  20/  32)(  21/  32)(  22/  32)(  23/  32)(  24/  32)(  25/  32)(  26/  32)(  27/  32)(  28/  32)(  29/  32)(  30/  32)(  31/  32)(  32/  32)
+Compressed V Memory: 0.01 GB
+Compressed B Memory: 0.00 GB
+Compressed M Memory: 0.00 GB
+
+ans =
+
+    52
+
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_ldl (line 76)
+In testRegularization (line 128)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 156)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 167)
+] 
+
+ans =
+
+    38
+
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.4580e-11 / 4.3214e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 4.6886e-12 / 4.0778e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 4.8837e-12 / 4.6910e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 3.9640e-12 / 3.7599e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.9690e-12 / 2.7848e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.7374e-12 / 2.5549e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 1.8393e-12 / 1.7752e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 1.9482e-12 / 1.8766e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.4059e-12 / 2.3143e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.5997e-12 / 2.5562e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.7594e-12 / 2.6397e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.1509e-12 / 2.1052e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.4008e-12 / 2.3334e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 7.1646e-12 / 4.7009e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 5.0766e-12 / 4.3874e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 4.5748e-12 / 4.4898e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 3.8052e-12 / 3.6593e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 3.5888e-12 / 2.8813e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.5400e-12 / 2.4524e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.3438e-12 / 1.9245e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 1.8149e-12 / 1.7330e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.3655e-12 / 2.3021e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.5778e-12 / 2.5303e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.6767e-12 / 2.5916e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.2204e-12 / 2.0967e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.3583e-12 / 2.2806e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 9.0369e-12 / 4.2713e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 9.9999e-12 / 4.2255e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 4.7793e-12 / 4.4514e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 4.1720e-12 / 3.8507e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 3.0174e-12 / 2.8301e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.9337e-12 / 2.8826e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.1566e-12 / 1.9728e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 1.7678e-12 / 1.6983e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.4297e-12 / 2.3192e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.3974e-12 / 2.3304e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.7564e-12 / 2.6583e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.1527e-12 / 2.0889e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.3256e-12 / 2.2670e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 8.1814e-12 / 4.4371e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 4.4122e-12 / 4.0716e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 4.7772e-12 / 4.4176e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 4.2209e-12 / 4.1201e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 3.0889e-12 / 2.8901e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.7978e-12 / 2.6989e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 1.9650e-12 / 1.8636e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 1.8073e-12 / 1.7313e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.4143e-12 / 2.3853e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.5904e-12 / 2.5081e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.6097e-12 / 2.5409e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.2471e-12 / 2.2333e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.4400e-12 / 2.3333e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 6.7444e-12 / 4.1197e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 7.2303e-12 / 4.6562e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 4.6734e-12 / 4.5547e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 4.1039e-12 / 3.8106e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 3.0364e-12 / 2.8826e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.5502e-12 / 2.5147e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.0071e-12 / 1.8251e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 1.8985e-12 / 1.8156e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.4281e-12 / 2.3113e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.4456e-12 / 2.4171e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.9006e-12 / 2.7994e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.2446e-12 / 2.1826e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.1225e-12 / 2.0645e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 1.3344e-11 / 4.0907e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 4.6316e-12 / 4.2862e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 4.2064e-12 / 3.9929e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 5.0011e-12 / 4.0732e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.8838e-12 / 2.6706e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.5642e-12 / 2.5269e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 1.9599e-12 / 1.9079e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 1.9203e-12 / 1.8538e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.4466e-12 / 2.4087e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.3450e-12 / 2.3181e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.7730e-12 / 2.7156e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.2415e-12 / 2.1928e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.3493e-12 / 2.2398e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 5.3985e-12 / 4.2213e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 5.0195e-12 / 4.8652e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 4.6363e-12 / 4.1580e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 4.1557e-12 / 3.9409e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 3.2068e-12 / 2.9403e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.4985e-12 / 2.3396e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.0821e-12 / 2.0003e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 1.9969e-12 / 1.9106e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.3501e-12 / 2.2307e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.3587e-12 / 2.3304e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.5308e-12 / 2.4875e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.0616e-12 / 1.9548e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.3272e-12 / 2.2353e-12 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.031376e-16.] 
+[> In RSS_inv_lu (line 10)
+In testRegularization (line 291)
+] 
+Butterfly Factorization explicit version started...
+
+Space  Frequence
+  npx    npk
+   64     64
+
+Compression levels: 0
+Preallocated sparse matrix size: 3276800, about 0.20 GB
+Compress U block: (   1/  64)(   2/  64)(   3/  64)(   4/  64)(   5/  64)(   6/  64)(   7/  64)(   8/  64)(   9/  64)(  10/  64)(  11/  64)(  12/  64)(  13/  64)(  14/  64)(  15/  64)(  16/  64)(  17/  64)(  18/  64)(  19/  64)(  20/  64)(  21/  64)(  22/  64)(  23/  64)(  24/  64)(  25/  64)(  26/  64)(  27/  64)(  28/  64)(  29/  64)(  30/  64)(  31/  64)(  32/  64)(  33/  64)(  34/  64)(  35/  64)(  36/  64)(  37/  64)(  38/  64)(  39/  64)(  40/  64)(  41/  64)(  42/  64)(  43/  64)(  44/  64)(  45/  64)(  46/  64)(  47/  64)(  48/  64)(  49/  64)(  50/  64)(  51/  64)(  52/  64)(  53/  64)(  54/  64)(  55/  64)(  56/  64)(  57/  64)(  58/  64)(  59/  64)(  60/  64)(  61/  64)(  62/  64)(  63/  64)(  64/  64)
+Compressed U Memory: 0.02 GB
+Compressed A Memory: 0.00 GB
+Compress V block: (   1/  64)(   2/  64)(   3/  64)(   4/  64)(   5/  64)(   6/  64)(   7/  64)(   8/  64)(   9/  64)(  10/  64)(  11/  64)(  12/  64)(  13/  64)(  14/  64)(  15/  64)(  16/  64)(  17/  64)(  18/  64)(  19/  64)(  20/  64)(  21/  64)(  22/  64)(  23/  64)(  24/  64)(  25/  64)(  26/  64)(  27/  64)(  28/  64)(  29/  64)(  30/  64)(  31/  64)(  32/  64)(  33/  64)(  34/  64)(  35/  64)(  36/  64)(  37/  64)(  38/  64)(  39/  64)(  40/  64)(  41/  64)(  42/  64)(  43/  64)(  44/  64)(  45/  64)(  46/  64)(  47/  64)(  48/  64)(  49/  64)(  50/  64)(  51/  64)(  52/  64)(  53/  64)(  54/  64)(  55/  64)(  56/  64)(  57/  64)(  58/  64)(  59/  64)(  60/  64)(  61/  64)(  62/  64)(  63/  64)(  64/  64)
+Compressed V Memory: 0.02 GB
+Compressed B Memory: 0.00 GB
+Compressed M Memory: 0.00 GB
+
+ans =
+
+    52
+
+
+ans =
+
+    38
+
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.5560e-09 / 6.4904e-12 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 5.7997e-10 / 6.2934e-12 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 2.3030e-10 / 6.3585e-12 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 297)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 6.2945e-11 / 6.3667e-12 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 3.7521e-11 / 5.0149e-12 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 1.7239e-11 / 3.0367e-12 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 5.2162e-12 / 3.8952e-12 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+[Warning: Input tol may not be achievable by GMRES.
+ Try to use a bigger tolerance.] 
+[> In gmres (line 463)
+In SplitBregman (line 35)
+In testRegularization (line 337)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 4.6312e-12 / 3.4791e-12 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 5.1309e-12 / 3.7918e-12 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 1.6188e-11 / 3.8417e-12 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 4.4258e-12 / 3.8029e-12 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+
+
+ans =
+
+    52
+
+TV-L1: 7.0111e-12 / 4.2722e-12 
+
+ans =
+
+    32
+
+
+ans =
+
+    23
+

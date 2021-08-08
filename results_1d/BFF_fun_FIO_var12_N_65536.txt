@@ -1,0 +1,20 @@
+
+
+------------------------------------------
+N:      65536 
+------------------------------------------
+N                 : 65536
+Max Rank          :   20
+Tolerance         : 1.000e-13
+Relative Error_2  : 7.415e-12
+Direct Time       : 1.334e+02 s
+Running Time      : 1.193e+02 mins
+Factorization Time: 1.192e+02 mins
+Applying Time     : 6.006e+00 s
+------------------------------------------
+
+------------------HODLR construction-----------------
+level |  rank  | maxrank | time (s)
+  1 |    170 |  400 |   1.05e+04 (s)
+  2 |    366 |  400 |   1.04e+04 (s)
+  3 |    182 |  400 |   1.08e+04 (s)
