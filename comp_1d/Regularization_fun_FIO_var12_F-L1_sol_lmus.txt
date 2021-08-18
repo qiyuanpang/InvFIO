@@ -99,3 +99,35 @@ Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 6.8829e
 ------------------------------------------
 N:      32768 
 BF Fac err/time: 3.4513e-12/2.0437e+03 (s) 
+HODLR Fac err/time: 6.7597e-12/2.3731e+04 (s) 
+RSS Fac time: 1.0476e+02 
+RSS mv err/time: 2.0285e-02/1.9423e-01 
+RSS sv err/time: 2.3796e+00/8.8783e-01 
+HQR Fac time/rank: 1.6760e+04/2631 
+HQR mv err/time: 5.5551e-12/3.5804e+00 
+HQR sv err/time: 2.0796e+00/6.8233e-01 
+regularizer: F-L1  init-scheme: sol 
+mu: 2^{   6}  lambda: 2^{   2} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 3.6151e+02 /   40 /    3, relerr 3.9209e-03 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.4627e+02 /   40 /    1, relerr 2.6080e-03 
+
+
+------------------------------------------
+N:      65536 
+BF Fac err/time: 6.6807e-12/8.3136e+03 (s) 
+HODLR Fac err/time: 1.6495e-11/1.2729e+05 (s) 
+RSS Fac time: 5.5178e+02 
+RSS mv err/time: 1.4187e-01/2.1428e+00 
+RSS sv err/time: 3.8776e+00/3.8887e+00 
+HQR Fac time/rank: 8.7516e+04/4096 
+HQR mv err/time: 1.3205e-11/7.6693e+00 
+HQR sv err/time: 8.1811e+00/1.8120e+00 
+regularizer: F-L1  init-scheme: sol 
+mu: 2^{   6}  lambda: 2^{   2} 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 8.0938e+03 /   40 /   20, relerr 3.3659e+01 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 4.2685e+02 /   40 /    1, relerr 2.1882e-03 
+
+
+------------------------------------------
+N:     131072 
+BF Fac err/time: 1.8487e-11/1.5107e+04 (s) 

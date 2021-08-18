@@ -6,60 +6,32 @@ N:       4096
 N                 : 4096
 Max Rank          :   20
 Tolerance         : 1.000e-13
-Relative Error_2  : 1.768e-13
-Direct Time       : 5.014e-01 s
-Running Time      : 7.213e-01 mins
-Factorization Time: 7.206e-01 mins
-Applying Time     : 3.870e-02 s
+Relative Error_2  : 1.674e-13
+Direct Time       : 7.303e-01 s
+Running Time      : 7.753e-01 mins
+Factorization Time: 7.740e-01 mins
+Applying Time     : 8.040e-02 s
 ------------------------------------------
 
-------------------HODLR construction-----------------
-level |  rank  | maxrank | time (s)
-  1 |    243 |  400 |   1.41e+02 (s)
-  2 |    110 |  400 |   1.37e+02 (s)
-  3 |     46 |  400 |   1.34e+02 (s)
-  4 |     59 |  254 |   1.09e+02 (s)
-  5 |     62 |  126 |   5.55e+01 (s)
-  6 |     43 |   62 |   2.88e+01 (s)
-  7 |     27 |   30 |   1.27e+01 (s)
-time H_matrix construction 10e-6: 6.2351e+02 )
-mv: 7.3970e-13 
---------------RSS contruction------------
-lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
-  7 |   4096 |        0 |     4096 |     0.00 |     1.00 |   5.17e-01 (s)
-  6 |   4096 |        0 |     4096 |     0.00 |     1.00 |   7.02e-01 (s)
-  5 |   4096 |        0 |     4096 |     0.00 |     1.00 |   7.49e-01 (s)
-  4 |   4096 |        0 |     4096 |     0.00 |     1.00 |   9.20e-01 (s)
-  3 |   4096 |      835 |     3261 |     0.20 |     0.80 |   1.07e+00 (s)
-  2 |   3261 |     1922 |     1339 |     0.59 |     0.41 |   7.54e-01 (s)
-  1 |   1339 |      853 |      486 |     0.64 |     0.36 |   2.99e-01 (s)
--------------End RSS contruction-----------
-time HIF construction 5.0175e+00 
-mv: 2.7686e-10  time 3.3817e-02
-sv: 1.5576e+00 time 1.3664e-01
-time/rank HODLR-QR construction 3.1197e+02/1024 
-mv: 1.6872e-12 time 2.2019e-01
-sv: 1.8185e-01 time 1.0060e-01
 Information for T-L1 
 ------------------HODLR construction-----------------
-level |  rank  | maxrank | time (s)
-  1 |    200 |  200 |   9.90e+01 (s)
-  2 |    148 |  200 |   9.02e+01 (s)
-  3 |    106 |  200 |   9.73e+01 (s)
-  4 |     69 |  200 |   1.07e+02 (s)
-  5 |     70 |  126 |   5.60e+01 (s)
-  6 |     49 |   62 |   3.04e+01 (s)
-  7 |     30 |   30 |   1.97e+01 (s)
+level |  rank  | maxrank | time (s    1 |    243 | 2000 |   6.89e+02 (s)
+  2 |    105 | 1022 |   4.30e+02 (s)
+  3 |     46 |  510 |   2.44e+02 (s)
+  4 |     59 |  254 |   7.24e+01 (s)
+  5 |     56 |  126 |   3.68e+01 (s)
+  6 |     40 |   62 |   1.84e+01 (s)
+  7 |     26 |   30 |   9.31e+00 (s)
 --------------RSS contruction------------
 lvl | DOFS | rd | sk | rd/DOFS | sk/DOFS | time (s)
-  7 |   4096 |        0 |     4096 |     0.00 |     1.00 |   4.83e-01 (s)
-  6 |   4096 |        0 |     4096 |     0.00 |     1.00 |   7.64e-01 (s)
-  5 |   4096 |        0 |     4096 |     0.00 |     1.00 |   7.21e-01 (s)
-  4 |   4096 |        0 |     4096 |     0.00 |     1.00 |   1.10e+00 (s)
-  3 |   4096 |     1039 |     3057 |     0.25 |     0.75 |   1.18e+00 (s)
-  2 |   3057 |     1855 |     1202 |     0.61 |     0.39 |   7.03e-01 (s)
-  1 |   1202 |      802 |      400 |     0.67 |     0.33 |   5.37e-01 (s)
+  7 |   4096 |        0 |     4096 |     0.00 |     1.00 |   2.99e-01 (s)
+  6 |   4096 |        0 |     4096 |     0.00 |     1.00 |   2.33e-01 (s)
+  5 |   4096 |        0 |     4096 |     0.00 |     1.00 |   2.71e-01 (s)
+  4 |   4096 |        0 |     4096 |     0.00 |     1.00 |   3.27e-01 (s)
+  3 |   4096 |      878 |     3218 |     0.21 |     0.79 |   4.99e-01 (s)
+  2 |   3218 |     1782 |     1436 |     0.55 |     0.45 |   5.11e-01 (s)
+  1 |   1436 |      950 |      486 |     0.66 |     0.34 |   4.61e-01 (s)
 -------------End RSS contruction-----------
-Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 2.2368e+01 /   40 /    2, relerr 4.8512e+00 
-Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 2.5784e+01 /   40 /    1, relerr 1.8311e-06 
+Split Bregman with HIF guess           : tol   1.00e-10,   time/#iter1/#iter2 8.6747e+00 /   40 /    2, relerr 3.6353e-04 
+Split Bregman with HQR guess           : tol   1.00e-10,   time/#iter1/#iter2 1.3098e+01 /   40 /    2, relerr 2.7473e-04 
 

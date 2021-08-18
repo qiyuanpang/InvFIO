@@ -1,0 +1,7 @@
+
+
+------------------------------------------
+N:      32768 
+BF Fac err/time: 3.0276e-12/1.7210e+03 (s) 
+regularizer: F-L1  init-scheme: randn 
+mu: 2^{   9}  lambda: 2^{   7} 

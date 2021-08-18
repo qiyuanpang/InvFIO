@@ -1,0 +1,27 @@
+
+
+------------------------------------------
+N:       4096 
+BF Fac err/time: 1.6736e-13/6.4227e+01 (s) 
+regularizer: TV-L1  init-scheme: randn 
+mu: 2^{   8}  lambda: 2^{   2} 
+TV-L1: 1.3676e-12 / 2.5685e-13 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.1609e+01 /   40 /    1, relerr 6.0167e-03 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 9.4662e+00 /   40 /    1, relerr 5.9459e-03 
+
+
+------------------------------------------
+N:       8192 
+BF Fac err/time: 5.6997e-13/2.8699e+02 (s) 
+regularizer: TV-L1  init-scheme: randn 
+mu: 2^{   8}  lambda: 2^{   2} 
+TV-L1: 3.0454e-11 / 4.2505e-13 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 5.1171e+01 /   40 /    1, relerr 5.8806e-03 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 3.4058e+01 /   40 /    1, relerr 5.9001e-03 
+
+
+------------------------------------------
+N:      16384 
+BF Fac err/time: 1.0390e-12/1.2878e+03 (s) 
+regularizer: TV-L1  init-scheme: randn 
+mu: 2^{   8}  lambda: 2^{   2} 
