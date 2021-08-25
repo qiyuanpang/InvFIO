@@ -8,7 +8,7 @@ for s = dirs
 end
 
 initf = 'randn'
-regm = 'L1'
+regm = 'F-L1'
 whichlambda = 'lmus'
 
 func_name = 'fun_FIO_5';%'fun_FIO_var2';'fun_FIO';'fun_FIO_5';'fun_FIO_var4';
@@ -32,7 +32,7 @@ lambdas = [2^(-16) 2^(-12) 2^(-8) 2^(-4) 2^0 2^4 2^(8) 2^(12) 2^(16)];
 
 
 %dims = 2.^[8 9 10]
-dims = 2.^[14 15 16 17]
+dims = 2.^[15 16 17]
 cases = length(dims);
 bftime = zeros(cases, 1);
 bferr = zeros(cases, 1);
@@ -99,7 +99,7 @@ for i = 1:cases
     fprintf(OutPutFile, 'regularizer: %s  init-scheme: %s \n', regm, initf)
     for mu = mus
       %lmus = [mu/512 mu/256 mu/128 mu/64 mu/32 mu/16 mu/8 mu/4 mu/2 mu mu*2 mu*4 mu*8 mu*16 mu*32 mu*64];
-      lmus = [mu/128];
+      lmus = [mu/64];
       if strcmp(whichlambda,'ind')
         LAMBDAS = lambdas;
       elseif strcmp(whichlambda, 'lmus');

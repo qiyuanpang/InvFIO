@@ -65,7 +65,7 @@ end
 % Note: for asymptotic efficiency, nLevel should be O(log N)
 nLevel = T.nlvl;
 if nargin < 5 || length(maxRank) ~= nLevel
-    maxRank = 20*ones(nLevel,1);
+    maxRank = 1200*ones(nLevel,1);
 end
 
 

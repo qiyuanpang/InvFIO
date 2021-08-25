@@ -1,0 +1,692 @@
+
+
+------------------------------------------
+N:         32 
+BF Fac err/time: 0.0000e+00/5.8179e+00 (s) 
+time peeling_strong: 5.7675e+01 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+HIF Fac time: 2.0713e+00 
+HIF mv err/time: 3.4238e-15/4.8323e-02 
+HIF sv err/time: 7.6788e-11/8.7552e-02 
+regularizer: F-L1  init-scheme: randn 
+mu: 2^{ -12}  lambda: 2^{ -18} 
+SB F-L1: 3.4664e-15 / 2.0820e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.7972e+00 /   40 /    6, relerr 1.7284e-01 
+mu: 2^{ -12}  lambda: 2^{ -17} 
+SB F-L1: 3.2574e-15 / 1.2327e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.1646e+00 /   40 /    2, relerr 1.9058e-01 
+mu: 2^{ -12}  lambda: 2^{ -16} 
+SB F-L1: 3.3839e-15 / 7.6356e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.0587e+00 /   40 /    5, relerr 2.1331e-01 
+mu: 2^{ -12}  lambda: 2^{ -15} 
+SB F-L1: 3.4646e-15 / 4.1495e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0376e+00 /   40 /    6, relerr 2.4550e-01 
+mu: 2^{ -12}  lambda: 2^{ -14} 
+SB F-L1: 3.3218e-15 / 2.4390e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.7700e+00 /   40 /    5, relerr 2.8533e-01 
+mu: 2^{ -12}  lambda: 2^{ -13} 
+SB F-L1: 3.3858e-15 / 1.3348e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.1867e+00 /   40 /    5, relerr 3.3018e-01 
+mu: 2^{ -12}  lambda: 2^{ -12} 
+SB F-L1: 3.2840e-15 / 7.4655e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.2925e+00 /   40 /    6, relerr 3.8070e-01 
+mu: 2^{ -12}  lambda: 2^{ -11} 
+SB F-L1: 3.3676e-15 / 4.0458e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.9228e+00 /   40 /    6, relerr 4.4243e-01 
+mu: 2^{ -12}  lambda: 2^{ -10} 
+SB F-L1: 3.3054e-15 / 2.2585e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0545e+00 /   40 /    6, relerr 5.1964e-01 
+mu: 2^{ -12}  lambda: 2^{  -9} 
+SB F-L1: 3.3897e-15 / 1.3633e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.6916e+00 /   40 /    5, relerr 6.0929e-01 
+mu: 2^{ -12}  lambda: 2^{  -8} 
+SB F-L1: 3.3280e-15 / 7.7783e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  3.2047e+00 /   40 /    6, relerr 7.0505e-01 
+mu: 2^{ -12}  lambda: 2^{  -7} 
+SB F-L1: 3.3585e-15 / 4.5256e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.5279e+00 /   40 /    5, relerr 8.0218e-01 
+mu: 2^{ -12}  lambda: 2^{  -6} 
+SB F-L1: 3.3209e-15 / 2.6646e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.1212e+00 /   40 /    6, relerr 8.9386e-01 
+mu: 2^{ -10}  lambda: 2^{ -16} 
+SB F-L1: 3.4924e-15 / 2.1498e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.4151e+00 /   40 /    6, relerr 1.7292e-01 
+mu: 2^{ -10}  lambda: 2^{ -15} 
+SB F-L1: 3.3917e-15 / 1.2428e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.0555e+00 /   40 /    6, relerr 1.9051e-01 
+mu: 2^{ -10}  lambda: 2^{ -14} 
+SB F-L1: 3.3235e-15 / 7.6568e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.8259e-01 /   40 /    2, relerr 2.1348e-01 
+mu: 2^{ -10}  lambda: 2^{ -13} 
+SB F-L1: 3.5304e-15 / 4.3920e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.6502e+00 /   40 /    5, relerr 2.4542e-01 
+mu: 2^{ -10}  lambda: 2^{ -12} 
+SB F-L1: 3.4301e-15 / 2.3564e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.5381e+00 /   40 /    5, relerr 2.8550e-01 
+mu: 2^{ -10}  lambda: 2^{ -11} 
+SB F-L1: 3.3850e-15 / 1.3582e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.9376e+00 /   40 /    6, relerr 3.3020e-01 
+mu: 2^{ -10}  lambda: 2^{ -10} 
+SB F-L1: 3.4373e-15 / 7.2251e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.9298e+00 /   40 /    5, relerr 3.8060e-01 
+mu: 2^{ -10}  lambda: 2^{  -9} 
+SB F-L1: 3.4194e-15 / 4.1639e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.8760e+00 /   40 /    6, relerr 4.4250e-01 
+mu: 2^{ -10}  lambda: 2^{  -8} 
+SB F-L1: 3.4387e-15 / 2.2999e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.2954e+00 /   40 /    6, relerr 5.1972e-01 
+mu: 2^{ -10}  lambda: 2^{  -7} 
+SB F-L1: 3.3957e-15 / 1.3062e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.4630e+00 /   40 /    5, relerr 6.0932e-01 
+mu: 2^{ -10}  lambda: 2^{  -6} 
+SB F-L1: 3.2698e-15 / 7.5669e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.4153e+00 /   40 /    5, relerr 7.0450e-01 
+mu: 2^{ -10}  lambda: 2^{  -5} 
+SB F-L1: 3.3241e-15 / 4.5524e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.9160e+00 /   40 /    6, relerr 8.0245e-01 
+mu: 2^{ -10}  lambda: 2^{  -4} 
+SB F-L1: 3.4019e-15 / 2.7153e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.9040e+00 /   40 /    6, relerr 8.9396e-01 
+mu: 2^{  -8}  lambda: 2^{ -14} 
+SB F-L1: 3.2183e-15 / 2.0635e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.2904e+00 /   40 /    2, relerr 1.7290e-01 
+mu: 2^{  -8}  lambda: 2^{ -13} 
+SB F-L1: 3.3880e-15 / 1.2605e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.8718e+00 /   40 /    6, relerr 1.9058e-01 
+mu: 2^{  -8}  lambda: 2^{ -12} 
+SB F-L1: 3.3332e-15 / 7.5096e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.0345e+00 /   40 /    2, relerr 2.1344e-01 
+mu: 2^{  -8}  lambda: 2^{ -11} 
+SB F-L1: 3.4241e-15 / 4.4680e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.2186e+00 /   40 /    2, relerr 2.4528e-01 
+mu: 2^{  -8}  lambda: 2^{ -10} 
+SB F-L1: 3.2333e-15 / 2.4018e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.0794e+00 /   40 /    6, relerr 2.8536e-01 
+mu: 2^{  -8}  lambda: 2^{  -9} 
+SB F-L1: 3.3459e-15 / 1.3680e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.7733e+00 /   40 /    6, relerr 3.2995e-01 
+mu: 2^{  -8}  lambda: 2^{  -8} 
+SB F-L1: 3.4524e-15 / 7.5114e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.3840e+00 /   40 /    6, relerr 3.8053e-01 
+mu: 2^{  -8}  lambda: 2^{  -7} 
+SB F-L1: 3.3281e-15 / 4.2420e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.4461e-01 /   40 /    5, relerr 4.4223e-01 
+mu: 2^{  -8}  lambda: 2^{  -6} 
+SB F-L1: 3.4508e-15 / 2.4176e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.8909e+00 /   40 /    6, relerr 5.1982e-01 
+mu: 2^{  -8}  lambda: 2^{  -5} 
+SB F-L1: 3.3588e-15 / 1.3675e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.8413e+00 /   40 /    5, relerr 6.0939e-01 
+mu: 2^{  -8}  lambda: 2^{  -4} 
+SB F-L1: 3.4877e-15 / 7.6969e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.3164e+00 /   40 /    6, relerr 4.0562e-01 
+mu: 2^{  -8}  lambda: 2^{  -3} 
+SB F-L1: 3.2253e-15 / 4.3638e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.6639e+00 /   40 /    6, relerr 3.0803e-01 
+mu: 2^{  -8}  lambda: 2^{  -2} 
+SB F-L1: 3.3918e-15 / 2.5559e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.1532e+00 /   40 /    6, relerr 2.7319e-01 
+mu: 2^{  -6}  lambda: 2^{ -12} 
+SB F-L1: 3.3627e-15 / 2.1532e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.2889e+00 /   40 /    5, relerr 1.7282e-01 
+mu: 2^{  -6}  lambda: 2^{ -11} 
+SB F-L1: 3.4231e-15 / 1.2847e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.5456e+00 /   40 /    6, relerr 1.9061e-01 
+mu: 2^{  -6}  lambda: 2^{ -10} 
+SB F-L1: 3.4079e-15 / 7.5232e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.5275e+00 /   40 /    5, relerr 2.1331e-01 
+mu: 2^{  -6}  lambda: 2^{  -9} 
+SB F-L1: 3.4516e-15 / 4.4950e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.1937e+00 /   40 /    6, relerr 2.4518e-01 
+mu: 2^{  -6}  lambda: 2^{  -8} 
+SB F-L1: 3.3304e-15 / 2.4270e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.1510e+00 /   40 /    5, relerr 2.8550e-01 
+mu: 2^{  -6}  lambda: 2^{  -7} 
+SB F-L1: 3.3579e-15 / 1.3446e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.9179e+00 /   40 /    6, relerr 3.3022e-01 
+mu: 2^{  -6}  lambda: 2^{  -6} 
+SB F-L1: 3.3776e-15 / 7.6491e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.4688e+00 /   40 /    5, relerr 3.8047e-01 
+mu: 2^{  -6}  lambda: 2^{  -5} 
+SB F-L1: 3.4154e-15 / 4.0286e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.5373e+00 /   40 /    6, relerr 4.4240e-01 
+mu: 2^{  -6}  lambda: 2^{  -4} 
+SB F-L1: 3.3545e-15 / 2.3922e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.2507e+00 /   40 /    6, relerr 1.7800e-01 
+mu: 2^{  -6}  lambda: 2^{  -3} 
+SB F-L1: 3.3467e-15 / 1.3417e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0565e+00 /   40 /    6, relerr 1.2355e-01 
+mu: 2^{  -6}  lambda: 2^{  -2} 
+SB F-L1: 3.3725e-15 / 7.8153e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.5496e+00 /   40 /    6, relerr 9.7686e-02 
+mu: 2^{  -6}  lambda: 2^{  -1} 
+SB F-L1: 3.3865e-15 / 4.4661e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.1564e+00 /   40 /    6, relerr 8.7167e-02 
+mu: 2^{  -6}  lambda: 2^{   0} 
+SB F-L1: 3.2199e-15 / 2.5995e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.1288e+00 /   40 /    6, relerr 8.3687e-02 
+mu: 2^{  -4}  lambda: 2^{ -10} 
+SB F-L1: 3.3802e-15 / 2.0989e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.2168e+00 /   40 /    2, relerr 1.7278e-01 
+mu: 2^{  -4}  lambda: 2^{  -9} 
+SB F-L1: 3.4101e-15 / 1.2476e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.2005e+00 /   40 /    6, relerr 1.9036e-01 
+mu: 2^{  -4}  lambda: 2^{  -8} 
+SB F-L1: 3.4504e-15 / 7.4545e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.1791e+00 /   40 /    5, relerr 2.1366e-01 
+mu: 2^{  -4}  lambda: 2^{  -7} 
+SB F-L1: 3.3807e-15 / 4.3290e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.0200e+00 /   40 /    2, relerr 2.4527e-01 
+mu: 2^{  -4}  lambda: 2^{  -6} 
+SB F-L1: 3.3262e-15 / 2.4051e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.4456e+00 /   40 /    5, relerr 2.8557e-01 
+mu: 2^{  -4}  lambda: 2^{  -5} 
+SB F-L1: 3.2526e-15 / 1.3390e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0779e+00 /   40 /    6, relerr 2.0920e-01 
+mu: 2^{  -4}  lambda: 2^{  -4} 
+SB F-L1: 3.3523e-15 / 7.5469e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.8373e+00 /   40 /    6, relerr 9.2496e-02 
+mu: 2^{  -4}  lambda: 2^{  -3} 
+SB F-L1: 3.3590e-15 / 4.0251e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.4141e+00 /   40 /    5, relerr 6.1619e-02 
+mu: 2^{  -4}  lambda: 2^{  -2} 
+SB F-L1: 3.3254e-15 / 2.3217e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.3569e+00 /   40 /    5, relerr 4.8815e-02 
+mu: 2^{  -4}  lambda: 2^{  -1} 
+SB F-L1: 3.4789e-15 / 1.3816e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.9237e+00 /   40 /    6, relerr 4.4414e-02 
+mu: 2^{  -4}  lambda: 2^{   0} 
+SB F-L1: 3.3286e-15 / 8.0342e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.2689e+00 /   40 /    2, relerr 4.5570e-02 
+mu: 2^{  -4}  lambda: 2^{   1} 
+SB F-L1: 3.2905e-15 / 4.4411e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.5979e+00 /   40 /    5, relerr 4.6828e-02 
+mu: 2^{  -4}  lambda: 2^{   2} 
+SB F-L1: 3.2161e-15 / 2.6504e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0732e+00 /   40 /    6, relerr 4.5074e-02 
+mu: 2^{  -2}  lambda: 2^{  -8} 
+SB F-L1: 3.4327e-15 / 2.1009e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.8278e+00 /   40 /    5, relerr 1.7278e-01 
+mu: 2^{  -2}  lambda: 2^{  -7} 
+SB F-L1: 3.3537e-15 / 1.2952e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0911e+00 /   40 /    2, relerr 1.9053e-01 
+mu: 2^{  -2}  lambda: 2^{  -6} 
+SB F-L1: 3.4908e-15 / 7.4681e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.6139e+00 /   40 /    2, relerr 2.1349e-01 
+mu: 2^{  -2}  lambda: 2^{  -5} 
+SB F-L1: 3.2650e-15 / 4.1175e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.4735e+00 /   40 /    5, relerr 1.2946e-01 
+mu: 2^{  -2}  lambda: 2^{  -4} 
+SB F-L1: 3.1784e-15 / 2.5079e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.4544e+00 /   40 /    6, relerr 6.0799e-02 
+mu: 2^{  -2}  lambda: 2^{  -3} 
+SB F-L1: 3.4514e-15 / 1.3187e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0465e+00 /   40 /    6, relerr 3.6498e-02 
+mu: 2^{  -2}  lambda: 2^{  -2} 
+SB F-L1: 3.3681e-15 / 7.4092e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0152e+00 /   40 /    5, relerr 2.7950e-02 
+mu: 2^{  -2}  lambda: 2^{  -1} 
+SB F-L1: 3.3699e-15 / 4.1643e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.6441e+00 /   40 /    5, relerr 2.7516e-02 
+mu: 2^{  -2}  lambda: 2^{   0} 
+SB F-L1: 3.3502e-15 / 2.3524e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.7370e+00 /   40 /    6, relerr 3.0404e-02 
+mu: 2^{  -2}  lambda: 2^{   1} 
+SB F-L1: 3.4650e-15 / 1.3841e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.8510e-01 /   40 /    2, relerr 2.5018e-02 
+mu: 2^{  -2}  lambda: 2^{   2} 
+SB F-L1: 3.3792e-15 / 7.4888e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0983e+00 /   40 /    6, relerr 2.4913e-02 
+mu: 2^{  -2}  lambda: 2^{   3} 
+SB F-L1: 3.2803e-15 / 4.4573e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.3526e+00 /   40 /    6, relerr 2.5043e-02 
+mu: 2^{  -2}  lambda: 2^{   4} 
+SB F-L1: 3.3230e-15 / 2.6585e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.7227e-01 /   40 /    6, relerr 2.1925e-02 
+mu: 2^{   0}  lambda: 2^{  -6} 
+SB F-L1: 3.3365e-15 / 2.0285e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.1695e+00 /   40 /    6, relerr 1.7285e-01 
+mu: 2^{   0}  lambda: 2^{  -5} 
+SB F-L1: 3.4265e-15 / 1.2583e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.7878e+00 /   40 /    6, relerr 8.1818e-02 
+mu: 2^{   0}  lambda: 2^{  -4} 
+SB F-L1: 3.4499e-15 / 7.5953e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0651e+00 /   40 /    6, relerr 3.9585e-02 
+mu: 2^{   0}  lambda: 2^{  -3} 
+SB F-L1: 3.4378e-15 / 4.3812e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0956e+00 /   40 /    5, relerr 2.5788e-02 
+mu: 2^{   0}  lambda: 2^{  -2} 
+SB F-L1: 3.2525e-15 / 2.3761e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0672e+00 /   40 /    6, relerr 1.9787e-02 
+mu: 2^{   0}  lambda: 2^{  -1} 
+SB F-L1: 3.3323e-15 / 1.3824e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.3252e+00 /   40 /    5, relerr 1.8283e-02 
+mu: 2^{   0}  lambda: 2^{   0} 
+SB F-L1: 3.4934e-15 / 7.3690e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.4975e+00 /   40 /    5, relerr 1.6555e-02 
+mu: 2^{   0}  lambda: 2^{   1} 
+SB F-L1: 3.4267e-15 / 4.1512e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.4916e+00 /   40 /    5, relerr 1.5645e-02 
+mu: 2^{   0}  lambda: 2^{   2} 
+SB F-L1: 3.3345e-15 / 2.3243e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.4285e+00 /   40 /    6, relerr 1.4357e-02 
+mu: 2^{   0}  lambda: 2^{   3} 
+SB F-L1: 3.3505e-15 / 1.2746e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0280e+00 /   40 /    6, relerr 1.4828e-02 
+mu: 2^{   0}  lambda: 2^{   4} 
+SB F-L1: 3.4600e-15 / 7.7127e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.6720e+00 /   40 /    6, relerr 1.1453e-02 
+mu: 2^{   0}  lambda: 2^{   5} 
+SB F-L1: 3.3806e-15 / 4.5222e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.2188e+00 /   40 /    6, relerr 8.1832e-03 
+mu: 2^{   0}  lambda: 2^{   6} 
+SB F-L1: 3.2907e-15 / 2.6535e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.4998e+00 /   40 /    6, relerr 7.1057e-03 
+mu: 2^{   2}  lambda: 2^{  -4} 
+SB F-L1: 3.3358e-15 / 2.0787e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.4455e-01 /   40 /    2, relerr 2.7184e-02 
+mu: 2^{   2}  lambda: 2^{  -3} 
+SB F-L1: 3.2841e-15 / 1.2994e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.8825e+00 /   40 /    6, relerr 1.7025e-02 
+mu: 2^{   2}  lambda: 2^{  -2} 
+SB F-L1: 3.3353e-15 / 7.3513e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.6193e+00 /   40 /    5, relerr 1.4211e-02 
+mu: 2^{   2}  lambda: 2^{  -1} 
+SB F-L1: 3.3394e-15 / 4.3174e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0785e+00 /   40 /    5, relerr 1.4120e-02 
+mu: 2^{   2}  lambda: 2^{   0} 
+SB F-L1: 3.2856e-15 / 2.3878e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.7272e-01 /   40 /    5, relerr 1.0856e-02 
+mu: 2^{   2}  lambda: 2^{   1} 
+SB F-L1: 3.2940e-15 / 1.3290e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.4085e+00 /   40 /    5, relerr 9.3847e-03 
+mu: 2^{   2}  lambda: 2^{   2} 
+SB F-L1: 3.4067e-15 / 7.4983e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.7665e+00 /   40 /    2, relerr 8.9699e-03 
+mu: 2^{   2}  lambda: 2^{   3} 
+SB F-L1: 3.4051e-15 / 4.2400e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.0047e+00 /   40 /    6, relerr 8.7381e-03 
+mu: 2^{   2}  lambda: 2^{   4} 
+SB F-L1: 3.3821e-15 / 2.3510e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.1633e+00 /   40 /    5, relerr 5.9350e-03 
+mu: 2^{   2}  lambda: 2^{   5} 
+SB F-L1: 3.3414e-15 / 1.3515e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0459e+00 /   40 /    6, relerr 4.0934e-03 
+mu: 2^{   2}  lambda: 2^{   6} 
+SB F-L1: 3.3241e-15 / 7.7799e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.1139e+00 /   40 /    5, relerr 3.0361e-03 
+mu: 2^{   2}  lambda: 2^{   7} 
+SB F-L1: 3.4744e-15 / 4.6775e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.9663e-01 /   40 /    6, relerr 2.7214e-03 
+mu: 2^{   2}  lambda: 2^{   8} 
+SB F-L1: 3.1939e-15 / 2.6122e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.0045e+00 /   40 /    6, relerr 4.8752e-01 
+mu: 2^{   4}  lambda: 2^{  -2} 
+SB F-L1: 3.3911e-15 / 2.0864e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  3.2571e+00 /   40 /    2, relerr 1.0338e-02 
+mu: 2^{   4}  lambda: 2^{  -1} 
+SB F-L1: 3.3221e-15 / 1.2321e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.9276e+00 /   40 /    6, relerr 1.0367e-02 
+mu: 2^{   4}  lambda: 2^{   0} 
+SB F-L1: 3.4552e-15 / 7.9069e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.2597e+00 /   40 /    5, relerr 8.1596e-03 
+mu: 2^{   4}  lambda: 2^{   1} 
+SB F-L1: 3.3353e-15 / 4.3695e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.9269e+00 /   40 /    5, relerr 6.4585e-03 
+mu: 2^{   4}  lambda: 2^{   2} 
+SB F-L1: 3.3784e-15 / 2.3049e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.6719e-01 /   40 /    2, relerr 5.5750e-03 
+mu: 2^{   4}  lambda: 2^{   3} 
+SB F-L1: 3.3833e-15 / 1.3025e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.0011e+00 /   40 /    5, relerr 4.9335e-03 
+mu: 2^{   4}  lambda: 2^{   4} 
+SB F-L1: 3.3875e-15 / 7.4760e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.3608e+00 /   40 /    6, relerr 3.6399e-03 
+mu: 2^{   4}  lambda: 2^{   5} 
+SB F-L1: 3.4388e-15 / 4.0995e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.5210e+00 /   40 /    6, relerr 2.4270e-03 
+mu: 2^{   4}  lambda: 2^{   6} 
+SB F-L1: 3.3770e-15 / 2.3810e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.7983e-01 /   40 /    6, relerr 1.7048e-03 
+mu: 2^{   4}  lambda: 2^{   7} 
+SB F-L1: 3.3751e-15 / 1.3270e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.2077e+00 /   40 /    6, relerr 1.2575e-03 
+mu: 2^{   4}  lambda: 2^{   8} 
+SB F-L1: 3.3495e-15 / 7.7806e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.3787e+00 /   40 /    5, relerr 2.0544e-03 
+mu: 2^{   4}  lambda: 2^{   9} 
+SB F-L1: 3.2503e-15 / 4.5427e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.0000e+00 /   40 /    6, relerr 1.3718e+00 
+mu: 2^{   4}  lambda: 2^{  10} 
+SB F-L1: 3.3209e-15 / 2.6530e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.8247e+00 /   40 /    6, relerr 3.1272e+00 
+mu: 2^{   6}  lambda: 2^{   0} 
+SB F-L1: 3.4702e-15 / 2.1241e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.8192e-01 /   40 /    2, relerr 5.8486e-03 
+mu: 2^{   6}  lambda: 2^{   1} 
+SB F-L1: 3.2202e-15 / 1.2832e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.5672e+00 /   40 /    6, relerr 4.7226e-03 
+mu: 2^{   6}  lambda: 2^{   2} 
+SB F-L1: 3.4584e-15 / 7.5382e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.7577e-01 /   40 /    5, relerr 4.0514e-03 
+mu: 2^{   6}  lambda: 2^{   3} 
+SB F-L1: 3.5071e-15 / 4.3296e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0146e+00 /   40 /    6, relerr 3.4344e-03 
+mu: 2^{   6}  lambda: 2^{   4} 
+SB F-L1: 3.4881e-15 / 2.4699e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.3178e-01 /   40 /    6, relerr 2.3226e-03 
+mu: 2^{   6}  lambda: 2^{   5} 
+SB F-L1: 3.4016e-15 / 1.3901e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.5821e+00 /   40 /    6, relerr 1.6352e-03 
+mu: 2^{   6}  lambda: 2^{   6} 
+SB F-L1: 3.3557e-15 / 7.3854e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.4120e+00 /   40 /    6, relerr 1.0456e-03 
+mu: 2^{   6}  lambda: 2^{   7} 
+SB F-L1: 3.3459e-15 / 4.2432e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0056e+00 /   40 /    5, relerr 8.2200e-04 
+mu: 2^{   6}  lambda: 2^{   8} 
+SB F-L1: 3.3279e-15 / 2.2957e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.9064e-01 /   40 /    6, relerr 6.3158e-04 
+mu: 2^{   6}  lambda: 2^{   9} 
+SB F-L1: 3.2868e-15 / 1.3443e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.4911e+00 /   40 /    5, relerr 1.0510e+00 
+mu: 2^{   6}  lambda: 2^{  10} 
+SB F-L1: 3.3401e-15 / 7.6825e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.5042e-01 /   40 /    6, relerr 2.2603e+00 
+mu: 2^{   6}  lambda: 2^{  11} 
+SB F-L1: 3.1843e-15 / 4.4010e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  3.1526e+00 /   40 /    6, relerr 3.3292e+00 
+mu: 2^{   6}  lambda: 2^{  12} 
+SB F-L1: 3.2404e-15 / 2.5663e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.4361e+00 /   40 /    6, relerr 3.9378e+00 
+mu: 2^{   8}  lambda: 2^{   2} 
+SB F-L1: 3.4418e-15 / 2.1527e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0990e+00 /   40 /    5, relerr 3.0860e-03 
+mu: 2^{   8}  lambda: 2^{   3} 
+SB F-L1: 3.4215e-15 / 1.2643e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0448e+00 /   40 /    6, relerr 2.2041e-03 
+mu: 2^{   8}  lambda: 2^{   4} 
+SB F-L1: 3.4882e-15 / 7.4473e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.4673e+00 /   40 /    6, relerr 1.4401e-03 
+mu: 2^{   8}  lambda: 2^{   5} 
+SB F-L1: 3.3038e-15 / 4.2078e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.1936e+00 /   40 /    6, relerr 1.0811e-03 
+mu: 2^{   8}  lambda: 2^{   6} 
+SB F-L1: 3.3901e-15 / 2.5437e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.7827e+00 /   40 /    5, relerr 7.0051e-04 
+mu: 2^{   8}  lambda: 2^{   7} 
+SB F-L1: 3.4537e-15 / 1.3977e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.9865e+00 /   40 /    6, relerr 5.0989e-04 
+mu: 2^{   8}  lambda: 2^{   8} 
+SB F-L1: 3.4292e-15 / 7.6511e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.1921e+00 /   40 /    5, relerr 3.6317e-04 
+mu: 2^{   8}  lambda: 2^{   9} 
+SB F-L1: 3.3028e-15 / 4.2520e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.1421e+00 /   40 /    5, relerr 3.2321e-02 
+mu: 2^{   8}  lambda: 2^{  10} 
+SB F-L1: 3.2563e-15 / 2.2481e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.1037e+00 /   40 /    6, relerr 1.0824e+00 
+mu: 2^{   8}  lambda: 2^{  11} 
+SB F-L1: 3.2933e-15 / 1.3263e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.0859e+00 /   40 /    5, relerr 1.3498e+00 
+mu: 2^{   8}  lambda: 2^{  12} 
+SB F-L1: 3.3798e-15 / 7.6705e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.5714e+00 /   40 /    5, relerr 2.5030e+00 
+mu: 2^{   8}  lambda: 2^{  13} 
+SB F-L1: 3.3965e-15 / 4.7557e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.2379e+00 /   40 /    6, relerr 3.2944e+00 
+mu: 2^{   8}  lambda: 2^{  14} 
+SB F-L1: 3.2645e-15 / 2.6970e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.1119e+00 /   40 /    6, relerr 4.0782e+00 
+mu: 2^{  10}  lambda: 2^{   4} 
+SB F-L1: 3.2837e-15 / 2.1120e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.6699e-01 /   40 /    2, relerr 1.1330e-03 
+mu: 2^{  10}  lambda: 2^{   5} 
+SB F-L1: 3.3937e-15 / 1.2920e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.0612e+00 /   40 /    2, relerr 8.9543e-04 
+mu: 2^{  10}  lambda: 2^{   6} 
+SB F-L1: 3.3213e-15 / 7.5298e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.5904e+00 /   40 /    6, relerr 5.5740e-04 
+mu: 2^{  10}  lambda: 2^{   7} 
+SB F-L1: 3.3252e-15 / 4.2398e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.4051e-01 /   40 /    5, relerr 2.9690e-04 
+mu: 2^{  10}  lambda: 2^{   8} 
+SB F-L1: 3.3668e-15 / 2.4790e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.6837e+00 /   40 /    5, relerr 2.0078e-04 
+mu: 2^{  10}  lambda: 2^{   9} 
+SB F-L1: 3.4085e-15 / 1.3139e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0740e+00 /   40 /    6, relerr 5.4567e-04 
+mu: 2^{  10}  lambda: 2^{  10} 
+SB F-L1: 3.3342e-15 / 7.2604e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.1520e+00 /   40 /    5, relerr 4.9409e-01 
+mu: 2^{  10}  lambda: 2^{  11} 
+SB F-L1: 3.4046e-15 / 4.0869e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.5519e-01 /   40 /    6, relerr 1.6807e+00 
+mu: 2^{  10}  lambda: 2^{  12} 
+SB F-L1: 3.3428e-15 / 2.2888e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  3.4910e+00 /   40 /    6, relerr 1.3393e+00 
+mu: 2^{  10}  lambda: 2^{  13} 
+SB F-L1: 3.2715e-15 / 1.2627e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.6529e-01 /   40 /    5, relerr 1.8267e+00 
+mu: 2^{  10}  lambda: 2^{  14} 
+SB F-L1: 3.2587e-15 / 7.6989e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.1892e+00 /   40 /    6, relerr 2.7967e+00 
+mu: 2^{  10}  lambda: 2^{  15} 
+SB F-L1: 3.2753e-15 / 4.4806e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.5926e+00 /   40 /    6, relerr 4.0007e+00 
+mu: 2^{  10}  lambda: 2^{  16} 
+SB F-L1: 3.3069e-15 / 2.7584e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.7930e-01 /   40 /    6, relerr 3.6837e+00 
+mu: 2^{  12}  lambda: 2^{   6} 
+SB F-L1: 3.4005e-15 / 2.0230e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.0794e+00 /   40 /    5, relerr 6.8566e-04 
+mu: 2^{  12}  lambda: 2^{   7} 
+SB F-L1: 3.4205e-15 / 1.2531e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.3394e+00 /   40 /    2, relerr 2.2111e-04 
+mu: 2^{  12}  lambda: 2^{   8} 
+SB F-L1: 3.3339e-15 / 7.4979e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.8628e-01 /   40 /    6, relerr 1.2828e-04 
+mu: 2^{  12}  lambda: 2^{   9} 
+SB F-L1: 3.3483e-15 / 4.2042e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.3569e-01 /   40 /    6, relerr 1.0395e-04 
+mu: 2^{  12}  lambda: 2^{  10} 
+SB F-L1: 3.3165e-15 / 2.4780e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.1461e+00 /   40 /    6, relerr 7.4536e-03 
+mu: 2^{  12}  lambda: 2^{  11} 
+SB F-L1: 3.3306e-15 / 1.2978e-12 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.0994e+00 /   40 /    2, relerr 4.8418e-01 
+mu: 2^{  12}  lambda: 2^{  12} 
+SB F-L1: 3.3372e-15 / 7.1932e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.8051e-01 /   40 /    5, relerr 9.1342e-01 
+mu: 2^{  12}  lambda: 2^{  13} 
+SB F-L1: 3.3276e-15 / 4.0715e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.8786e-01 /   40 /    6, relerr 1.2301e+00 
+mu: 2^{  12}  lambda: 2^{  14} 
+SB F-L1: 3.4768e-15 / 2.4068e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.6421e+00 /   40 /    6, relerr 1.4008e+00 
+mu: 2^{  12}  lambda: 2^{  15} 
+SB F-L1: 3.3443e-15 / 1.3421e-13 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.2764e+00 /   40 /    6, relerr 2.5191e+00 
+mu: 2^{  12}  lambda: 2^{  16} 
+SB F-L1: 3.3093e-15 / 7.5569e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0286e+00 /   40 /    6, relerr 3.5752e+00 
+mu: 2^{  12}  lambda: 2^{  17} 
+SB F-L1: 3.3651e-15 / 4.6042e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0022e+00 /   40 /    6, relerr 3.8848e+00 
+mu: 2^{  12}  lambda: 2^{  18} 
+SB F-L1: 3.2411e-15 / 2.6011e-14 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0120e+00 /   40 /    6, relerr 4.4358e+00 
+
+
+------------------------------------------
+N:         40 
+BF Fac err/time: 0.0000e+00/6.8393e+00 (s) 

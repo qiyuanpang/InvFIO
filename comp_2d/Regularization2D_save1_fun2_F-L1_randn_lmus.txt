@@ -1,0 +1,12 @@
+
+
+------------------------------------------
+N:        128 
+BF Fac err/time: 0.0000e+00/2.7191e+02 (s) 
+time peeling_strong: 1.4713e+05 
+observedMaxRanks:      0 /      0 /      0 /      0 /     64 / 
+HIF Fac time: 8.7221e+02 
+HIF mv err/time: 1.3550e+00/1.1821e+00 
+HIF sv err/time: 2.4130e+01/1.1442e+02 
+regularizer: F-L1  init-scheme: randn 
+mu: 2^{   8}  lambda: 2^{   3} 

@@ -1,0 +1,60 @@
+
+
+------------------------------------------
+N:         32 
+BF Fac err/time: 0.0000e+00/2.7590e+00 (s) 
+time peeling_strong: 1.0873e+02 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+HIF Fac time: 2.5844e+00 
+HIF mv err/time: 1.3870e-15/6.3227e-02 
+HIF sv err/time: 1.3426e+01/2.2579e-01 
+regularizer: TV-L1  init-scheme: randn 
+mu: 2^{   4}  lambda: 2^{   5} 
+SB TV-L1: 2.1029e-15 / 5.0303e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  4.4421e+00 /   40 /    1, relerr 2.0485e-01 
+
+
+------------------------------------------
+N:         64 
+BF Fac err/time: 0.0000e+00/1.6771e+01 (s) 
+time peeling_strong: 7.2346e+02 
+observedMaxRanks:      0 /      0 /      0 /     64 / 
+HIF Fac time: 1.3654e+01 
+HIF mv err/time: 1.4601e-14/3.2129e-02 
+HIF sv err/time: 2.4081e+01/2.0679e+00 
+regularizer: TV-L1  init-scheme: randn 
+mu: 2^{   4}  lambda: 2^{   5} 
+SB TV-L1: 2.3699e-14 / 8.2973e-09 
+observedMaxRanks:      0 /      0 /      0 /     64 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.1581e+02 /   40 /    2, relerr 3.4273e-01 
+
+
+------------------------------------------
+N:        128 
+BF Fac err/time: 0.0000e+00/2.5428e+02 (s) 
+time peeling_strong: 9.6547e+03 
+observedMaxRanks:      0 /      0 /      0 /      0 /     64 / 
+HIF Fac time: 1.9419e+02 
+HIF mv err/time: 4.3893e-01/5.5229e-01 
+HIF sv err/time: 2.2141e+02/2.5276e+01 
+regularizer: TV-L1  init-scheme: randn 
+mu: 2^{   4}  lambda: 2^{   5} 
+SB TV-L1: 4.4002e-01 / 6.9808e+01 
+observedMaxRanks:      0 /      0 /      0 /      0 /     64 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.9303e+03 /   40 /    0, relerr 1.1825e+00 
+
+
+------------------------------------------
+N:        256 
+BF Fac err/time: 0.0000e+00/2.6819e+03 (s) 
+time peeling_strong: 5.0788e+04 
+observedMaxRanks:      0 /      0 /      0 /      0 /      0 /     64 / 
+HIF Fac time: 4.1546e+03 
+HIF mv err/time: 5.0378e-01/6.4032e+00 
+HIF sv err/time: 9.7095e+01/2.6937e+02 
+regularizer: TV-L1  init-scheme: randn 
+mu: 2^{   4}  lambda: 2^{   5} 
+SB TV-L1: 5.0526e-01 / 7.9966e+01 
+observedMaxRanks:      0 /      0 /      0 /      0 /      0 /     64 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.3105e+04 /   40 /    1, relerr 2.6401e+02 

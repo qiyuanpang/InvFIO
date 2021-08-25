@@ -16,3 +16,13 @@ BF Fac err/time: 3.3343e-12/2.1279e+03 (s)
 regularizer: L1  init-scheme: randn 
 mu: 2^{   6}  lambda: 2^{  -1} 
 L1: 5.1709e-12 / 4.6642e-12 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.4589e+02 /   40 /    4, relerr 3.5620e-04 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.8168e+02 /   40 /    4, relerr 4.4830e-04 
+
+
+------------------------------------------
+N:      65536 
+BF Fac err/time: 6.3682e-12/1.1354e+04 (s) 
+regularizer: L1  init-scheme: randn 
+mu: 2^{   6}  lambda: 2^{  -1} 
+L1: 9.2196e-01 / 9.2187e-01 

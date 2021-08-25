@@ -1,18 +1,17 @@
 
 
 ------------------------------------------
-N:      16384 
-BF Fac err/time: 1.1100e-12/1.4600e+03 (s) 
+N:      32768 
+BF Fac err/time: 3.0276e-12/1.6238e+03 (s) 
 regularizer: F-L1  init-scheme: randn 
-mu: 2^{   9}  lambda: 2^{   7} 
-F-L1: 1.2902e-12 / 1.1085e-12 
-Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.2604e+02 /   40 /    2, relerr 8.7277e+00 
-Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.3106e+02 /   40 /    2, relerr 8.4196e+00 
+mu: 2^{   6}  lambda: 2^{   0} 
+F-L1: 2.8406e-12 / 2.7509e-12 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.6076e+02 /   40 /    7, relerr 6.9773e-04 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 1.4167e+02 /   40 /    7, relerr 3.9985e-04 
 
 
 ------------------------------------------
-N:      32768 
-BF Fac err/time: 3.2316e-12/1.5664e+03 (s) 
+N:      65536 
+BF Fac err/time: 6.5999e-12/8.0022e+03 (s) 
 regularizer: F-L1  init-scheme: randn 
-mu: 2^{   9}  lambda: 2^{   7} 
-F-L1: 2.8386e-12 / 2.7579e-12 
+mu: 2^{   6}  lambda: 2^{   0} 

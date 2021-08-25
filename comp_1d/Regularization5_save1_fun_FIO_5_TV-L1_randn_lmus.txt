@@ -16,3 +16,13 @@ BF Fac err/time: 3.4121e-12/1.7830e+03 (s)
 regularizer: TV-L1  init-scheme: randn 
 mu: 2^{   8}  lambda: 2^{   2} 
 TV-L1: 3.3849e-11 / 3.3786e-12 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2 1.0753e+03 /   40 /    1, relerr 5.9755e-03 
+Split Bregman with HQR guess      : tol   1.00e-10,   time/#iter1/#iter2 2.1983e+02 /   40 /    1, relerr 5.9691e-03 
+
+
+------------------------------------------
+N:      65536 
+BF Fac err/time: 6.1148e-12/7.2431e+03 (s) 
+regularizer: TV-L1  init-scheme: randn 
+mu: 2^{   8}  lambda: 2^{   2} 
+TV-L1: 2.9838e-09 / 2.7759e-09 
