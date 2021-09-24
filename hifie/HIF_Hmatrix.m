@@ -139,7 +139,8 @@ function [F,t] = HIF_Hmatrix(H_matrix,x,rank_or_tol,t,opts,fileID)
   fprintf(fileID,'nlvl: %6d \n', t.nlvl);
   % loop over tree levels
   
-  lvl_thrshold = max(t.nlvl-1,3);
+  % lvl_thrshold = max(t.nlvl-1,3);
+  lvl_thrshold = 3;
   for lvl = t.nlvl:-1:1
     l = t.lrt/2^(lvl - 1);
     nbox = t.lvp(lvl+1) - t.lvp(lvl);

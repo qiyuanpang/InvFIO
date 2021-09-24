@@ -14,7 +14,8 @@ nLevel = T.nlvl;
 
 % Initialize with zeros before we tack things on
 F = zeros(N,m);
-iLevel_threshold = max(T.nlvl,4);
+% iLevel_threshold = max(T.nlvl,4);
+iLevel_threshold = 4;
 for iPrev = iLevel_threshold:nLevel
     n_nodes = T.lvp(iPrev+1) - T.lvp(iPrev);
 

@@ -65,7 +65,7 @@ end
 % Note: for asymptotic efficiency, nLevel should be O(log N)
 nLevel = T.nlvl;
 if nargin < 5 || length(maxRank) ~= nLevel
-    maxRank = 1200*ones(nLevel,1);
+    maxRank = 30*ones(nLevel,1);
 end
 
 
@@ -85,7 +85,9 @@ end
 
 GHat = cell(nLevel,1);
 ranks = cell(nLevel,1);
-iLevel_threshold = max(nLevel,4);
+% iLevel_threshold = max(nLevel,4); % this might be a bug
+iLevel_threshold = 4;
+% nLevel, iLevel_threshold
 for iLevel = iLevel_threshold:nLevel
     n_nodes = T.lvp(iLevel+1) - T.lvp(iLevel);
     % Note: always store information for tuple (I,J) at
@@ -253,8 +255,15 @@ while iLevel <= nLevel
                Ntol = Ntol/16;
             end
             r = max([find(S1 < max(Ntol,twiddle_tol),1), find(S2 < max(Ntol,twiddle_tol),1)]);
-            
+            % r = max(length(find(S1 > twiddle_tol*S1(1))), length(find(S2 > twiddle_tol*S2(1))));
             % check this
+            % maxsize = min(length(xi),length(xj));
+            % if r >= maxsize
+            %     r = maxsize;
+            % else
+            %     redo_flag = 1;
+            %     break;
+            % end
             if isempty(r)
                 maxsize = min(length(xi),length(xj));
                 if length(S1) >= maxsize && length(S2) >= maxsize
@@ -286,6 +295,7 @@ while iLevel <= nLevel
             
             if norm(M/N)>tol
                 r = max([find(S1 < max(Ntol,twiddle_tol),1), find(S2 < max(Ntol,twiddle_tol),1)]);
+                % r = max(length(find(S1 > twiddle_tol*S1(1))), length(find(S2 > twiddle_tol*S2(1))));
                 ranks{iLevel}{J,I} = [size(U1,2),r];
                 ranks{iLevel}{I,J} = [size(U1,2),r];
             end
@@ -383,6 +393,7 @@ for jGroup = 1:16
     end 
 end
 
+% maxRanksObserved
 
 % Optionally return the observed ranks
 nout = max(nargout,1) - 1;

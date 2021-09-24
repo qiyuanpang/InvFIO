@@ -1,12 +1,15 @@
 
 
 ------------------------------------------
-N:        128 
-BF Fac err/time: 0.0000e+00/2.7191e+02 (s) 
-time peeling_strong: 1.4713e+05 
-observedMaxRanks:      0 /      0 /      0 /      0 /     64 / 
-HIF Fac time: 8.7221e+02 
-HIF mv err/time: 1.3550e+00/1.1821e+00 
-HIF sv err/time: 2.4130e+01/1.1442e+02 
+N:         32 
+BF Fac err/time: 0.0000e+00/2.0963e+00 (s) 
+time peeling_strong: 2.8512e+01 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+HIF Fac time: 1.0410e+00 
+HIF mv err/time: 2.9774e-15/7.3310e-03 
+HIF sv err/time: 2.3917e-01/9.3272e-02 
 regularizer: F-L1  init-scheme: randn 
 mu: 2^{   8}  lambda: 2^{   3} 
+SB F-L1: 3.1770e-15 / 2.8057e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.4656e+00 /   40 /    6, relerr 7.8802e-03 

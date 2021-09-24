@@ -2,17 +2,6 @@
 
 kernel: fun2 
 N: 1024 
-condition number of A: 6.2064e+16 
-condition number of ATA: 2.8771e+18 
+condition number of A: 1.1188e+17 
+condition number of ATA: 8.3569e+18 
 N: 4096 
-condition number of A: 1.0339e+17 
-condition number of ATA: 3.7131e+18 
-
-
-kernel: fun0_2d_decay 
-N: 1024 
-condition number of A: 7.8304e+02 
-condition number of ATA: 6.1316e+05 
-N: 4096 
-condition number of A: 2.0913e+05 
-condition number of ATA: 4.3734e+10 

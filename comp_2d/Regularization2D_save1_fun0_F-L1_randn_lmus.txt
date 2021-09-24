@@ -1,0 +1,15 @@
+
+
+------------------------------------------
+N:         32 
+BF Fac err/time: 0.0000e+00/2.4584e+00 (s) 
+time peeling_strong: 4.4715e+01 
+observedMaxRanks:      0 /      0 /      0 /     16 /      4 / 
+HIF Fac time: 1.7507e+00 
+HIF mv err/time: 2.5644e-15/5.9370e-03 
+HIF sv err/time: 3.7466e-15/1.0535e-02 
+regularizer: F-L1  init-scheme: randn 
+mu: 2^{   8}  lambda: 2^{   3} 
+SB F-L1: 2.7588e-15 / 3.8401e-15 
+observedMaxRanks:      0 /      0 /      0 /     16 /      4 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0056e+00 /   40 /    6, relerr 2.4681e-05 

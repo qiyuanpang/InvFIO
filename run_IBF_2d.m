@@ -2,6 +2,14 @@ clear all
 startup; 
 
 curpath = pwd;
+
+addpath(sprintf('%s/%s',curpath,'BF/2D/MBF/src'))
+dirs = {'BF/2D/MBF'};
+for s = dirs
+  addpath(sprintf('%s/%s/src',curpath,s{:}))
+  addpath(sprintf('%s/%s/test',curpath,s{:}))
+end
+
 addpath(sprintf('%s/%s',curpath,'BF/2D/GBF/src'))
 dirs = {'BF/2D/GBF'};
 for s = dirs
@@ -15,14 +23,14 @@ func_name = 'fun0';
 
 
 
-occ = 8*8;
+occ = 2*2;
 mR = 32;
-tol_BFF = 10^(-6);
+tol_BFF = 10^(-4);
 tol_peel = 10^(-4);
-tol_HIF = 10^(-3);
+tol_HIF = 10^(-4);
 maxRank = [18,18];
 
-for kN=[1]
+for kN=[0]
     
     N = 32*(2^kN);
     fileID = fopen(['results_2d/MBF_',num2str(N),'.txt'],'w');

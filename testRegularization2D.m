@@ -26,9 +26,9 @@ OutPutFile = fopen(['comp_2d/Regularization2D_save1_',func_name,'_',regm,'_',ini
 
 mR = 20;
 %maxRank=[10 10 10];
-mRk = 130;
+mRk = 6;
 %occ = 4*4;
-tol_bf = 1E-13;
+tol_bf = 1E-12;
 tol_peel = 1E-12;
 tol_HIF = 1E-12;
 maxit1 = 40;
@@ -42,7 +42,7 @@ lambdas = [2^(-16) 2^(-12) 2^(-8) 2^(-4) 2^0 2^4 2^(8) 2^(12) 2^(16)];
 
 
 %dims = 2.^[14 15 16 17 18]
-dims = [128 256]
+dims = [32 64 128 256 512]
 cases = length(dims);
 bftime = zeros(cases, 1);
 bferr = zeros(cases, 1);
@@ -81,7 +81,7 @@ for i = 1:cases
        occ = 8*8;
     end
     nlvl = floor(log2(N/sqrt(occ))) + 1;
-    maxRank = floor(ones(nlvl)*mRk*kN);
+    maxRank = floor(ones(1)*mRk*kN);
     fileID = fopen(['results_2d/MBF_',num2str(N),'.txt'],'w');
 
     Hr = 75*(2^kN);
