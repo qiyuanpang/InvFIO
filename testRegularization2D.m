@@ -16,7 +16,7 @@ for s = dirs
 end
 
 initf = 'randn'
-regm = 'F-L1'
+regm = 'L1'
 whichlambda = 'lmus'
 
 fun = @fun2;
@@ -36,7 +36,7 @@ maxit2 = 20;
 repeat_num = 1;
 delta = 10;
 %mus = [2^(-12) 2^(-10) 2^(-8) 2^(-6) 2^(-4) 2^(-2) 2^0 2^2 2^4 2^6 2^8 2^(10) 2^(12)];
-mus = [2^8];
+mus = [2^6];
 lambdas = [2^(-16) 2^(-12) 2^(-8) 2^(-4) 2^0 2^4 2^(8) 2^(12) 2^(16)];
 
 
@@ -211,7 +211,7 @@ for i = 1:cases
     fprintf(OutPutFile, 'regularizer: %s  init-scheme: %s \n', regm, initf)
     for mu = mus
       %lmus = [mu/128 mu/64 mu/32 mu/16 mu/8 mu/4 mu/2 mu mu*2 mu*4 mu*8 mu*16 mu*32 mu*64 mu*128];
-      lmus = [mu/32];
+      lmus = [mu/64];
       if strcmp(whichlambda,'ind')
         LAMBDAS = lambdas;
       elseif strcmp(whichlambda, 'lmus');

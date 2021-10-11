@@ -2,14 +2,56 @@
 
 ------------------------------------------
 N:         32 
-BF Fac err/time: 0.0000e+00/2.0963e+00 (s) 
-time peeling_strong: 2.8512e+01 
+BF Fac err/time: 0.0000e+00/3.0613e+00 (s) 
+time peeling_strong: 5.8666e+01 
 observedMaxRanks:      0 /      0 /      0 /     16 / 
-HIF Fac time: 1.0410e+00 
-HIF mv err/time: 2.9774e-15/7.3310e-03 
-HIF sv err/time: 2.3917e-01/9.3272e-02 
+HIF Fac time: 1.5871e+00 
+HIF mv err/time: 3.0865e-15/4.3657e-02 
+HIF sv err/time: 2.1593e-02/1.5515e-01 
 regularizer: F-L1  init-scheme: randn 
 mu: 2^{   8}  lambda: 2^{   3} 
-SB F-L1: 3.1770e-15 / 2.8057e-11 
+SB F-L1: 3.1363e-15 / 2.7240e-11 
 observedMaxRanks:      0 /      0 /      0 /     16 / 
-Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.4656e+00 /   40 /    6, relerr 7.8802e-03 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.9541e+00 /   40 /    6, relerr 7.5023e-03 
+
+
+------------------------------------------
+N:         64 
+BF Fac err/time: 0.0000e+00/1.8073e+01 (s) 
+time peeling_strong: 8.6857e+02 
+observedMaxRanks:      0 /      0 /      0 /     64 / 
+HIF Fac time: 1.5503e+01 
+HIF mv err/time: 9.6373e-15/4.7079e-02 
+HIF sv err/time: 9.2904e-03/2.2553e+00 
+regularizer: F-L1  init-scheme: randn 
+mu: 2^{   8}  lambda: 2^{   3} 
+SB F-L1: 1.0500e-14 / 5.9629e-10 
+observedMaxRanks:      0 /      0 /      0 /     64 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  4.7172e+01 /   40 /    5, relerr 1.2715e-02 
+
+
+------------------------------------------
+N:        128 
+BF Fac err/time: 0.0000e+00/2.9578e+02 (s) 
+time peeling_strong: 4.1424e+04 
+observedMaxRanks:      0 /      0 /      0 /    256 /     64 / 
+HIF Fac time: 4.5160e+02 
+HIF mv err/time: 4.1220e-14/5.0903e-01 
+HIF sv err/time: 1.8302e+00/4.3233e+01 
+regularizer: F-L1  init-scheme: randn 
+mu: 2^{   8}  lambda: 2^{   3} 
+SB F-L1: 3.9802e-14 / 1.1854e-08 
+observedMaxRanks:      0 /      0 /      0 /    256 /     64 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  9.2582e+02 /   40 /    2, relerr 2.2358e-02 
+
+
+------------------------------------------
+N:        256 
+BF Fac err/time: 0.0000e+00/1.4802e+03 (s) 
+time peeling_strong: 6.2816e+05 
+observedMaxRanks:      0 /      0 /      0 /   1024 /    256 /     64 / 
+HIF Fac time: 1.8406e+04 
+HIF mv err/time: 5.2068e-14/3.0447e+00 
+HIF sv err/time: 4.2790e-02/1.8988e+03 
+regularizer: F-L1  init-scheme: randn 
+mu: 2^{   8}  lambda: 2^{   3} 

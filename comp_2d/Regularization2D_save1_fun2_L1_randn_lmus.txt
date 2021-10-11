@@ -1,0 +1,57 @@
+
+
+------------------------------------------
+N:         32 
+BF Fac err/time: 0.0000e+00/2.8560e+00 (s) 
+time peeling_strong: 4.9947e+01 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+HIF Fac time: 1.8774e+00 
+HIF mv err/time: 1.0776e-13/4.8906e-02 
+HIF sv err/time: 1.5463e-01/3.0143e-01 
+regularizer: L1  init-scheme: randn 
+mu: 2^{   6}  lambda: 2^{   0} 
+SB L1: 1.0292e-13 / 1.5019e-09 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  2.5121e+00 /   40 /    2, relerr 3.7219e-03 
+
+
+------------------------------------------
+N:         64 
+BF Fac err/time: 0.0000e+00/1.8988e+01 (s) 
+time peeling_strong: 6.4610e+02 
+observedMaxRanks:      0 /      0 /      0 /     64 / 
+HIF Fac time: 1.8983e+01 
+HIF mv err/time: 4.7723e-11/5.1809e-02 
+HIF sv err/time: 1.0266e+00/2.3726e+00 
+regularizer: L1  init-scheme: randn 
+mu: 2^{   6}  lambda: 2^{   0} 
+SB L1: 6.2010e-11 / 4.1848e-07 
+observedMaxRanks:      0 /      0 /      0 /     64 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  4.2962e+01 /   40 /    2, relerr 5.9262e-03 
+
+
+------------------------------------------
+N:        128 
+BF Fac err/time: 0.0000e+00/2.8935e+02 (s) 
+time peeling_strong: 3.3267e+04 
+observedMaxRanks:      0 /      0 /      0 /    256 /     64 / 
+HIF Fac time: 5.1986e+02 
+HIF mv err/time: 2.1479e-10/5.5898e-01 
+HIF sv err/time: 1.8701e+01/4.6177e+01 
+regularizer: L1  init-scheme: randn 
+mu: 2^{   6}  lambda: 2^{   0} 
+SB L1: 5.2494e-10 / 1.6292e-05 
+observedMaxRanks:      0 /      0 /      0 /    256 /     64 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  4.9490e+02 /   40 /    2, relerr 1.0049e-02 
+
+
+------------------------------------------
+N:        256 
+BF Fac err/time: 0.0000e+00/1.4130e+03 (s) 
+time peeling_strong: 5.0569e+05 
+observedMaxRanks:      0 /      0 /      0 /   1024 /    256 /     64 / 
+HIF Fac time: 1.6974e+04 
+HIF mv err/time: 5.7530e-09/3.5849e+00 
+HIF sv err/time: 2.9710e+00/1.4608e+03 
+regularizer: L1  init-scheme: randn 
+mu: 2^{   6}  lambda: 2^{   0} 

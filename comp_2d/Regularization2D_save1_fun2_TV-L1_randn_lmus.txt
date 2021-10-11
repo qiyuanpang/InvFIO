@@ -1,12 +1,57 @@
 
 
 ------------------------------------------
+N:         32 
+BF Fac err/time: 0.0000e+00/2.9870e+00 (s) 
+time peeling_strong: 6.5644e+01 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+HIF Fac time: 1.5178e+00 
+HIF mv err/time: 1.4211e-15/4.3377e-02 
+HIF sv err/time: 3.8673e+00/1.4429e-01 
+regularizer: TV-L1  init-scheme: randn 
+mu: 2^{   4}  lambda: 2^{   5} 
+SB TV-L1: 2.3006e-15 / 3.8933e-11 
+observedMaxRanks:      0 /      0 /      0 /     16 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  3.8974e+00 /   40 /    1, relerr 2.0525e-01 
+
+
+------------------------------------------
+N:         64 
+BF Fac err/time: 0.0000e+00/1.7810e+01 (s) 
+time peeling_strong: 8.1726e+02 
+observedMaxRanks:      0 /      0 /      0 /     64 / 
+HIF Fac time: 1.4674e+01 
+HIF mv err/time: 2.9285e-15/4.1914e-02 
+HIF sv err/time: 9.1096e+00/2.1696e+00 
+regularizer: TV-L1  init-scheme: randn 
+mu: 2^{   4}  lambda: 2^{   5} 
+SB TV-L1: 8.0405e-15 / 2.3836e-09 
+observedMaxRanks:      0 /      0 /      0 /     64 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0225e+02 /   40 /    1, relerr 3.6044e-01 
+
+
+------------------------------------------
 N:        128 
-BF Fac err/time: 0.0000e+00/2.9450e+02 (s) 
-time peeling_strong: 1.4700e+05 
-observedMaxRanks:      0 /      0 /      0 /      0 /     64 / 
-HIF Fac time: 8.5709e+02 
-HIF mv err/time: 3.8950e-01/8.4013e-01 
-HIF sv err/time: 4.4573e+01/1.4809e+02 
+BF Fac err/time: 0.0000e+00/2.7188e+02 (s) 
+time peeling_strong: 4.0281e+04 
+observedMaxRanks:      0 /      0 /      0 /    256 /     64 / 
+HIF Fac time: 4.5631e+02 
+HIF mv err/time: 9.5424e-15/5.6280e-01 
+HIF sv err/time: 1.3547e+02/4.6162e+01 
+regularizer: TV-L1  init-scheme: randn 
+mu: 2^{   4}  lambda: 2^{   5} 
+SB TV-L1: 3.0789e-14 / 1.2128e-07 
+observedMaxRanks:      0 /      0 /      0 /    256 /     64 / 
+Split Bregman with HIF guess      : tol   1.00e-10,   time/#iter1/#iter2  1.0806e+04 /   40 /    2, relerr 5.0705e+92 
+
+
+------------------------------------------
+N:        256 
+BF Fac err/time: 0.0000e+00/1.4868e+03 (s) 
+time peeling_strong: 6.2122e+05 
+observedMaxRanks:      0 /      0 /      0 /   1024 /    256 /     64 / 
+HIF Fac time: 1.8931e+04 
+HIF mv err/time: 1.2749e-14/3.1508e+00 
+HIF sv err/time: 1.6448e+02/1.9914e+03 
 regularizer: TV-L1  init-scheme: randn 
 mu: 2^{   4}  lambda: 2^{   5} 

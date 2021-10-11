@@ -23,17 +23,17 @@ func_name = 'fun0';
 
 
 
-occ = 2*2;
+occ = 8*8;
 mR = 32;
-tol_BFF = 10^(-4);
+tol_BFF = 10^(-6);
 tol_peel = 10^(-4);
 tol_HIF = 10^(-4);
 maxRank = [18,18];
 
-for kN=[0]
+for kN=[1, 2, 3, 4]
     
     N = 32*(2^kN);
-    fileID = fopen(['results_2d/MBF_',num2str(N),'.txt'],'w');
+    fileID = fopen(['results_2D/MBF_',num2str(N),'.txt'],'w');
 
     Hr = 75*(2^kN);
     
@@ -62,7 +62,9 @@ for kN=[0]
     t = toc(peel_time);
     fprintf(fileID,'Peeling time: %10.4e (s)\n',t);
     fprintf(fileID,['-'*ones(1,80) '\n']);
-    
+    for ii = 1:length(varargout)
+        fprintf(fileID, '%6d / ', varargout(ii))
+    end    
     
     % Invert Hierarchical matrix
     opts = struct('skip',1,'symm','h','verb',1);

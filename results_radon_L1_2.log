@@ -1,0 +1,1666 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+             R2021a Update 3 (9.10.0.1684407) 64-bit (glnxa64)
+                                May 27, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+initf =
+
+    'rand'
+
+
+regm =
+
+    'L1'
+
+
+whichlambda =
+
+    'lmus'
+
+
+dims =
+
+         256         512        1024        2048        4096        8192
+
+
+ans =
+
+    52
+
+
+ans =
+
+    36
+
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 3.9486e-08 / 3.9486e-08 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 3.6120e-08 / 3.6120e-08 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 3.4621e-08 / 3.4621e-08 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 3.3145e-08 / 3.3145e-08 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 3.3964e-08 / 3.3964e-08 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 3.5990e-08 / 3.5990e-08 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    52
+
+
+ans =
+
+    36
+
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 2.9183e-09 / 2.9183e-09 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 2.8499e-09 / 2.8499e-09 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 3.2178e-09 / 3.2178e-09 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 2.3643e-09 / 2.3643e-09 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 2.3427e-09 / 2.3427e-09 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 2.6511e-09 / 2.6511e-09 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    52
+
+
+ans =
+
+    36
+
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 1.0593e-09 / 1.0593e-09 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 8.5815e-10 / 8.5815e-10 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 1.1447e-09 / 1.1447e-09 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 8.2508e-10 / 8.2508e-10 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 9.4047e-10 / 9.4047e-10 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 1.1536e-09 / 1.1536e-09 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    52
+
+
+ans =
+
+    36
+
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 1.1328e-10 / 1.1328e-10 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 1.0577e-10 / 1.0577e-10 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 1.1584e-10 / 1.1584e-10 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 1.2147e-10 / 1.2147e-10 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 1.3230e-10 / 1.3230e-10 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 1.2400e-10 / 1.2400e-10 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    52
+
+
+ans =
+
+    36
+
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 2.5900e-10 / 2.5900e-10 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 3.1507e-10 / 3.1507e-10 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 2.9497e-10 / 2.9497e-10 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 3.0622e-10 / 3.0622e-10 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 3.1094e-10 / 3.1094e-10 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 3.1325e-10 / 3.1325e-10 
+
+ans =
+
+    52
+
+
+ans =
+
+    36
+
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 4.8046e-09 / 4.8046e-09 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 383)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 4.7162e-09 / 4.7162e-09 
+[Warning: Input tol may not be achievable by PCG
+         Try to use a bigger tolerance] 
+[> In pcg (line 268)
+In SplitBregman (line 8)
+In testRadon (line 336)] 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 4.8907e-09 / 4.8907e-09 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 4.9500e-09 / 4.9500e-09 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 4.3415e-09 / 4.3415e-09 
+
+ans =
+
+    32
+
+
+ans =
+
+    20
+
+
+ans =
+
+    52
+
+L1: 4.0740e-09 / 4.0740e-09 
